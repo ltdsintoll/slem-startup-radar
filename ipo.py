@@ -24,10 +24,20 @@ STAGE_RANK = {"Filed": 0, "Amending": 1, "Priced/IPO": 2}
 IPO_STATE_FILE = "state/ipo_seen.json"
 IPO_NEW_TODAY_FILE = "public/ipo_new_today.json"
 
+COVER_PAGE_CHARS = 20_000  # цена IPO всегда указана на обложке проспекта
+NUM = r"\d+(?:\.\d+)?"  # без [\d.]+ — тот жрёт хвостовую точку конца предложения ("$15.00." -> 15.00.)
+# необязательный хвост диапазона "... to $Y" / "...-$Y" — если есть, берём верхнюю границу (group 2)
+RANGE_SUFFIX = r"(?:\s*(?:to|-|–)\s*\$?\s?(" + NUM + r"))?"
+# между "...price" и "$" реальные проспекты вставляют оговорки ("for each share of Common
+# Stock is $X", "of each share ... and accompanying Warrants is $X") — допускаем разрыв в GAP
+# символов, не требуя жёстко идущих подряд "is "/"of "
+GAP = 90
+TRAP_WORDS = ["bid price", "conversion", "exercise", "par value", "minimum", "convert"]
+
+# (confidence, pattern, require_offering_word)
 PRICE_PATTERNS = [
-    re.compile(r"initial public offering price (?:is|of)?\s*\$?([\d,]+\.\d{2})\s*per share", re.I),
-    re.compile(r"public offering price of \$([\d.]+)", re.I),
-    re.compile(r"\$\s?([\d,]+\.\d{2})\s*per share", re.I),
+    ("high", re.compile(r"(?:initial )?public offering price[^$]{0," + str(GAP) + r"}?\$\s?(" + NUM + r")" + RANGE_SUFFIX, re.I), False),
+    ("med", re.compile(r"\$\s?(" + NUM + r")" + RANGE_SUFFIX + r"\s*per share", re.I), True),
 ]
 
 
@@ -64,16 +74,30 @@ def cik_candidates(display_name, accession, ciks_field):
 
 
 def extract_offer_price(text):
-    for pat in PRICE_PATTERNS:
-        for m in pat.finditer(text):
-            raw = m.group(1).replace(",", "")
+    """Только обложка проспекта (первые COVER_PAGE_CHARS символов), только с IPO-контекстом:
+    совпадение отбрасывается, если в ±60 символах есть слово-ловушка (bid price, conversion,
+    exercise, par value, minimum, convert) — лучше пусто, чем неверная цена."""
+    cover = text[:COVER_PAGE_CHARS]
+    for confidence, pat, require_offering in PRICE_PATTERNS:
+        for m in pat.finditer(cover):
+            # окно вокруг САМОЙ цены (group 2, если диапазон, иначе group 1), а не вокруг всего
+            # совпадения — иначе почти всегда ловит "par value ... per share" из предыдущего
+            # предложения (стандартная формулировка обложки прямо перед ценой IPO)
+            gstart, gend = m.span(2) if m.group(2) else m.span(1)
+            start, end = max(0, gstart - 60), min(len(cover), gend + 60)
+            window = cover[start:end].lower()
+            if any(trap in window for trap in TRAP_WORDS):
+                continue
+            if require_offering and "offering" not in window:
+                continue
+            raw = (m.group(2) or m.group(1)).replace(",", "")  # верхняя граница диапазона, если есть
             try:
                 val = float(raw)
             except ValueError:
                 continue
-            if 1 <= val <= 1000:
-                return val
-    return None
+            if 0.10 <= val <= 1000:
+                return val, confidence
+    return None, "none"
 
 
 def fetch_offer_price(candidates, accession, filename):
@@ -86,7 +110,7 @@ def fetch_offer_price(candidates, accession, filename):
             continue
         text = html.unescape(re.sub(r"<[^>]+>", " ", raw.decode("utf-8", errors="replace")))
         return extract_offer_price(text)
-    return None
+    return None, "none"
 
 
 def search_form(form_type, startdt, enddt):
@@ -162,21 +186,20 @@ def group_by_company(filings):
         else:
             stage = "Filed"
 
-        offer_price, price_note = "", ""
+        offer_price, price_confidence = "", "none"
         if stage == "Priced/IPO":
             priced_count += 1
             b4_filings = [flt for flt in c["filings"] if flt["form"] == "424B4"]
             b4 = max(b4_filings, key=lambda flt: flt["date"])
             print(f"  [{priced_count}] цена IPO: {name}...", file=sys.stderr, end=" ")
             try:
-                price = fetch_offer_price(b4["cik_candidates"], b4["accession"], b4["filename"])
+                price, price_confidence = fetch_offer_price(b4["cik_candidates"], b4["accession"], b4["filename"])
             except Exception as ex:
                 print(f"ошибка ({ex})", file=sys.stderr)
-                price = None
+                price, price_confidence = None, "none"
             else:
-                print(f"${price}" if price is not None else "не найдена", file=sys.stderr)
+                print(f"${price} ({price_confidence})" if price is not None else "не найдена", file=sys.stderr)
             offer_price = price if price is not None else ""
-            price_note = "found" if price is not None else "not found"
             time.sleep(0.2)
 
         rows.append({
@@ -188,7 +211,7 @@ def group_by_company(filings):
             "forms_seen": ",".join(forms_seen),
             "sec_url": f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={c['cik']}&type=&dateb=&owner=include&count=40",
             "offer_price": offer_price,
-            "price_note": price_note,
+            "price_confidence": price_confidence,
         })
     return rows
 
@@ -321,7 +344,9 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   <div class="meta">Обновлено: __GENERATED_AT__</div>
   <div class="disclaimer">
     IPO-пайплайн по публичным филингам SEC; подача S-1 не гарантирует и не датирует IPO.
-    Цена IPO — best-effort парсинг текста 424B4, не официальный источник котировок.
+    Цена IPO — best-effort парсинг обложки проспекта 424B4, не официальный источник котировок;
+    «≈ не подтверждён» — совпадение по менее строгому паттерну, «—» — цена не найдена
+    (лучше пусто, чем неверно).
   </div>
   <div class="counts">
     <span>Всего: <b>__TOTAL__</b></span>
@@ -440,9 +465,15 @@ function render() {
     tr.appendChild(tdForms);
 
     const tdPrice = document.createElement("td");
-    if (row.stage === "Priced/IPO" && typeof row.offer_price === "number") {
+    if (typeof row.offer_price === "number" && row.price_confidence === "high") {
       tdPrice.textContent = "$" + row.offer_price.toFixed(2);
-      tdPrice.title = "Best-effort из текста 424B4";
+      tdPrice.title = "Найдено в явном IPO-контексте на обложке проспекта";
+    } else if (typeof row.offer_price === "number" && row.price_confidence === "med") {
+      const span = document.createElement("span");
+      span.textContent = "$" + row.offer_price.toFixed(2) + " ≈ не подтверждён";
+      span.title = "Совпадение по менее строгому паттерну — возможна ошибка";
+      span.style.color = "var(--muted)";
+      tdPrice.appendChild(span);
     } else {
       tdPrice.textContent = "—";
     }
@@ -535,7 +566,7 @@ def main():
     print(f"[i] IPO-событий: {len(events)}", file=sys.stderr)
 
     cols = ["company", "cik", "stage", "first_filed", "latest_filed", "forms_seen", "sec_url",
-            "offer_price", "price_note"]
+            "offer_price", "price_confidence"]
     with open(a.out, "w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=cols)
         w.writeheader()
