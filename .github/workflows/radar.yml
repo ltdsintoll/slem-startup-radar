@@ -41,6 +41,9 @@ jobs:
       - name: Fetch IPO pipeline
         run: python3 ipo.py --days 30
 
+      - name: Fetch IPO fundamentals
+        run: python3 fundamentals.py
+
       - name: Commit updated seen state
         run: |
           git config user.name "github-actions[bot]"
