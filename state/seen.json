@@ -24,6 +24,11 @@
     "name": "Brimstone Grill Inc.",
     "source": "Form D"
   },
+  "formd:000210964326000003": {
+    "first_seen": "2026-07-24",
+    "name": "Embold Therapeutics, Inc.",
+    "source": "Form D"
+  },
   "formd:000213551826000001": {
     "first_seen": "2026-07-24",
     "name": "Elixir Technology Holdings Inc.",
@@ -42,6 +47,11 @@
   "formd:000214429026000001": {
     "first_seen": "2026-07-24",
     "name": "Datifact Inc.",
+    "source": "Form D"
+  },
+  "formd:000214433026000001": {
+    "first_seen": "2026-07-24",
+    "name": "Azora, Inc.",
     "source": "Form D"
   },
   "formd:000214442026000001": {
