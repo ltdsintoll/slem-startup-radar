@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """ipo.py — трекер IPO-пайплайна SEC EDGAR: кто подаёт S-1/F-1 и кто уже прайсит 424B4."""
-import sys, os, time, csv, json, re, argparse, datetime as dt
+import sys, os, time, csv, json, re, html, argparse, datetime as dt
 import urllib.parse
 
 HEADERS = {"User-Agent": "Slem Invest Research (ltdsintoll@gmail.com)"}
@@ -16,8 +16,19 @@ except Exception:
         with urllib.request.urlopen(req, timeout=30) as resp: return resp.read()
 
 EFTS = "https://efts.sec.gov/LATEST/search-index"
+ARCH = "https://www.sec.gov/Archives/edgar/data"
 FORM_TYPES = ["S-1", "S-1/A", "424B4", "F-1", "F-1/A"]
 MAX_PER_FORM = 500  # защита от бесконечной пагинации, реальный объём на 30 дней намного меньше
+
+STAGE_RANK = {"Filed": 0, "Amending": 1, "Priced/IPO": 2}
+IPO_STATE_FILE = "state/ipo_seen.json"
+IPO_NEW_TODAY_FILE = "public/ipo_new_today.json"
+
+PRICE_PATTERNS = [
+    re.compile(r"initial public offering price (?:is|of)?\s*\$?([\d,]+\.\d{2})\s*per share", re.I),
+    re.compile(r"public offering price of \$([\d.]+)", re.I),
+    re.compile(r"\$\s?([\d,]+\.\d{2})\s*per share", re.I),
+]
 
 
 def daterange(days):
@@ -31,6 +42,51 @@ def extract_name(display_name):
     if m and m.group(1).strip():
         name = m.group(1).strip()
     return name
+
+
+def cik_candidates(display_name, accession, ciks_field):
+    """Порядок как в form_d.py: CIK из display_names → префикс accession → _source.ciks."""
+    cands = []
+    m = re.search(r"\(CIK\s*(\d+)\)", display_name or "")
+    if m:
+        cands.append(str(int(m.group(1))))
+    try:
+        cands.append(str(int(accession.split("-")[0])))
+    except Exception:
+        pass
+    for x in ciks_field or []:
+        try:
+            cands.append(str(int(x)))
+        except Exception:
+            pass
+    seen = set()
+    return [c for c in cands if not (c in seen or seen.add(c))]
+
+
+def extract_offer_price(text):
+    for pat in PRICE_PATTERNS:
+        for m in pat.finditer(text):
+            raw = m.group(1).replace(",", "")
+            try:
+                val = float(raw)
+            except ValueError:
+                continue
+            if 1 <= val <= 1000:
+                return val
+    return None
+
+
+def fetch_offer_price(candidates, accession, filename):
+    accession_nodash = accession.replace("-", "")
+    for cik in candidates:
+        url = f"{ARCH}/{cik}/{accession_nodash}/{filename}"
+        try:
+            raw = _get(url)
+        except Exception:
+            continue
+        text = html.unescape(re.sub(r"<[^>]+>", " ", raw.decode("utf-8", errors="replace")))
+        return extract_offer_price(text)
+    return None
 
 
 def search_form(form_type, startdt, enddt):
@@ -68,11 +124,16 @@ def collect_filings(days):
             ciks = src.get("ciks") or []
             if not ciks:
                 continue
+            display_name = (src.get("display_names") or [""])[0]
+            accession, _, filename = hid.partition(":")
             filings.append({
                 "cik": str(int(ciks[0])),
-                "name": extract_name((src.get("display_names") or [""])[0]),
+                "name": extract_name(display_name),
                 "form": src.get("form", form_type),
                 "date": src.get("file_date", ""),
+                "accession": accession,
+                "filename": filename or "primary_doc.htm",
+                "cik_candidates": cik_candidates(display_name, accession, ciks),
             })
             added += 1
         print(f"  -> {len(hits)} филингов, {added} новых", file=sys.stderr)
@@ -83,9 +144,10 @@ def group_by_company(filings):
     companies = {}
     for f in filings:
         c = companies.setdefault(f["cik"], {"cik": f["cik"], "filings": []})
-        c["filings"].append({"date": f["date"], "form": f["form"], "name": f["name"]})
+        c["filings"].append(f)
 
     rows = []
+    priced_count = 0
     for c in companies.values():
         dates = [flt["date"] for flt in c["filings"] if flt["date"]]
         forms_seen = sorted({flt["form"] for flt in c["filings"]})
@@ -100,6 +162,23 @@ def group_by_company(filings):
         else:
             stage = "Filed"
 
+        offer_price, price_note = "", ""
+        if stage == "Priced/IPO":
+            priced_count += 1
+            b4_filings = [flt for flt in c["filings"] if flt["form"] == "424B4"]
+            b4 = max(b4_filings, key=lambda flt: flt["date"])
+            print(f"  [{priced_count}] цена IPO: {name}...", file=sys.stderr, end=" ")
+            try:
+                price = fetch_offer_price(b4["cik_candidates"], b4["accession"], b4["filename"])
+            except Exception as ex:
+                print(f"ошибка ({ex})", file=sys.stderr)
+                price = None
+            else:
+                print(f"${price}" if price is not None else "не найдена", file=sys.stderr)
+            offer_price = price if price is not None else ""
+            price_note = "found" if price is not None else "not found"
+            time.sleep(0.2)
+
         rows.append({
             "company": name,
             "cik": c["cik"],
@@ -108,8 +187,63 @@ def group_by_company(filings):
             "latest_filed": latest_filed,
             "forms_seen": ",".join(forms_seen),
             "sec_url": f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={c['cik']}&type=&dateb=&owner=include&count=40",
+            "offer_price": offer_price,
+            "price_note": price_note,
         })
     return rows
+
+
+def load_state(path):
+    if not os.path.exists(path):
+        return {}
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return {}
+
+
+def apply_ipo_tracking(rows, state_path):
+    """cik → {first_seen, stage, name} в state_path. Baseline (пусто/нет файла) — просто
+    фиксируем всё как seen, событий не порождаем. Иначе: новый cik = "filed", рост стадии =
+    "advanced" (или "priced", если новая стадия — Priced/IPO). Без изменений — нет события."""
+    old_state = load_state(state_path)
+    is_baseline = len(old_state) == 0
+    today = dt.date.today().isoformat()
+    new_state = dict(old_state)
+    events = []
+
+    for row in rows:
+        cik = row["cik"]
+        stage = row["stage"]
+
+        if cik not in old_state:
+            new_state[cik] = {"first_seen": today, "stage": stage, "name": row["company"]}
+            if not is_baseline:
+                events.append({
+                    "cik": cik, "company": row["company"], "event": "filed", "stage": stage,
+                    "offer_price": row["offer_price"], "url": row["sec_url"], "date": today,
+                })
+            continue
+
+        old_entry = old_state[cik]
+        old_rank = STAGE_RANK.get(old_entry.get("stage"), -1)
+        new_rank = STAGE_RANK.get(stage, -1)
+        if new_rank > old_rank:
+            event = "priced" if stage == "Priced/IPO" else "advanced"
+            events.append({
+                "cik": cik, "company": row["company"], "event": event, "stage": stage,
+                "offer_price": row["offer_price"], "url": row["sec_url"], "date": today,
+            })
+            new_state[cik] = {"first_seen": old_entry["first_seen"], "stage": stage, "name": row["company"]}
+        else:
+            new_state[cik] = old_entry
+
+    os.makedirs(os.path.dirname(state_path), exist_ok=True)
+    with open(state_path, "w", encoding="utf-8") as f:
+        json.dump(new_state, f, ensure_ascii=False, indent=2, sort_keys=True)
+
+    return is_baseline, events
 
 
 HTML_TEMPLATE = """<!DOCTYPE html>
@@ -187,6 +321,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   <div class="meta">Обновлено: __GENERATED_AT__</div>
   <div class="disclaimer">
     IPO-пайплайн по публичным филингам SEC; подача S-1 не гарантирует и не датирует IPO.
+    Цена IPO — best-effort парсинг текста 424B4, не официальный источник котировок.
   </div>
   <div class="counts">
     <span>Всего: <b>__TOTAL__</b></span>
@@ -212,6 +347,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
           <th data-key="first_filed">Первый филинг</th>
           <th data-key="latest_filed">Последний филинг</th>
           <th data-key="forms_seen">Формы</th>
+          <th data-key="offer_price" title="Best-effort из текста 424B4">Цена IPO</th>
           <th>Ссылки</th>
         </tr>
       </thead>
@@ -268,7 +404,7 @@ function render() {
   if (rows.length === 0) {
     const tr = document.createElement("tr");
     const td = document.createElement("td");
-    td.colSpan = 6;
+    td.colSpan = 7;
     td.className = "empty";
     td.textContent = "Ничего не найдено";
     tr.appendChild(td);
@@ -302,6 +438,15 @@ function render() {
     const tdForms = document.createElement("td");
     tdForms.textContent = row.forms_seen || "";
     tr.appendChild(tdForms);
+
+    const tdPrice = document.createElement("td");
+    if (row.stage === "Priced/IPO" && typeof row.offer_price === "number") {
+      tdPrice.textContent = "$" + row.offer_price.toFixed(2);
+      tdPrice.title = "Best-effort из текста 424B4";
+    } else {
+      tdPrice.textContent = "—";
+    }
+    tr.appendChild(tdPrice);
 
     const tdLinks = document.createElement("td");
     tdLinks.className = "links";
@@ -381,7 +526,16 @@ def main():
     rows.sort(key=lambda r: r["latest_filed"], reverse=True)
     print(f"[i] Компаний в пайплайне: {len(rows)}", file=sys.stderr)
 
-    cols = ["company", "cik", "stage", "first_filed", "latest_filed", "forms_seen", "sec_url"]
+    is_baseline, events = apply_ipo_tracking(rows, IPO_STATE_FILE)
+    os.makedirs(os.path.dirname(IPO_NEW_TODAY_FILE), exist_ok=True)
+    with open(IPO_NEW_TODAY_FILE, "w", encoding="utf-8") as f:
+        json.dump(events, f, ensure_ascii=False, indent=2)
+    if is_baseline:
+        print("[i] ipo_seen.json был пуст — это baseline, ipo_new_today.json пустой", file=sys.stderr)
+    print(f"[i] IPO-событий: {len(events)}", file=sys.stderr)
+
+    cols = ["company", "cik", "stage", "first_filed", "latest_filed", "forms_seen", "sec_url",
+            "offer_price", "price_note"]
     with open(a.out, "w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=cols)
         w.writeheader()
