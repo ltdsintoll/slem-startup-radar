@@ -9,6 +9,10 @@ FORMD_ENRICHED_CSV = "startups_enriched.csv"
 FORMD_PLAIN_CSV = "startups.csv"
 YC_CSV = "yc.csv"
 OUT_HTML = "public/index.html"
+STATE_FILE = "state/seen.json"
+NEW_TODAY_FILE = "public/new_today.json"
+
+ACCESSION_RE = re.compile(r"/data/\d+/(\d+)/")
 
 # --- скоринг: веса компонентов (сумма = 1.0) ---
 W_PEDIGREE = 0.30
@@ -72,6 +76,52 @@ def score_of(p, t, f, c):
     return round(W_PEDIGREE * p + W_TRACTION * t + W_FRESHNESS * f + W_COMPLETENESS * c)
 
 
+def formd_id(sec_url):
+    m = ACCESSION_RE.search(sec_url or "")
+    return f"formd:{m.group(1)}" if m else f"formd:{sec_url}"
+
+
+def yc_id(yc_url):
+    slug = (yc_url or "").rstrip("/").split("/")[-1]
+    return f"yc:{slug}" if slug else f"yc:{yc_url}"
+
+
+def load_state(path):
+    if not os.path.exists(path):
+        return {}
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return {}
+
+
+def apply_new_tracking(rows, state_path):
+    """Помечает каждую строку is_new/first_seen на основе state/seen.json.
+    Первый запуск (пустой/отсутствующий seen.json) — baseline: все строки помечаются
+    seen, но is_new=False для всех (нет истории, значит нет и "нового")."""
+    old_state = load_state(state_path)
+    is_baseline = len(old_state) == 0
+    today = date.today().isoformat()
+    new_state = dict(old_state)
+
+    for row in rows:
+        rid = row["id"]
+        if rid in old_state:
+            row["is_new"] = False
+            row["first_seen"] = old_state[rid]["first_seen"]
+        else:
+            row["first_seen"] = today
+            row["is_new"] = not is_baseline
+            new_state[rid] = {"first_seen": today, "name": row["name"], "source": row["source"]}
+
+    os.makedirs(os.path.dirname(state_path), exist_ok=True)
+    with open(state_path, "w", encoding="utf-8") as f:
+        json.dump(new_state, f, ensure_ascii=False, indent=2, sort_keys=True)
+
+    return is_baseline
+
+
 def load_formd():
     path = FORMD_ENRICHED_CSV if os.path.exists(FORMD_ENRICHED_CSV) else FORMD_PLAIN_CSV
     if not os.path.exists(path):
@@ -109,8 +159,10 @@ def load_formd():
             completeness = {"high": 100, "medium": 50}.get(confidence, 0)
 
             p, t, fr, c = round(pedigree), round(traction), round(freshness), completeness
+            sec_url = r.get("url", "")
 
             rows.append({
+                "id": formd_id(sec_url),
                 "source": "Form D",
                 "name": r.get("entity", ""),
                 "description": enriched_desc or industry,
@@ -122,7 +174,7 @@ def load_formd():
                 "website": "",
                 "guessed_website": guessed_website,
                 "confidence": confidence,
-                "sec_url": r.get("url", ""),
+                "sec_url": sec_url,
                 "yc_url": "",
                 "score": score_of(p, t, fr, c),
                 "score_p": p, "score_t": t, "score_f": fr, "score_c": c,
@@ -171,8 +223,10 @@ def load_yc(path):
         completeness = 100 if website else 0
 
         p, t, fr, c = round(pedigree), round(traction), round(freshness), completeness
+        yc_url = r.get("yc_url", "")
 
         rows.append({
+            "id": yc_id(yc_url),
             "source": "YC",
             "name": r.get("name", ""),
             "description": r.get("one_liner", ""),
@@ -185,7 +239,7 @@ def load_yc(path):
             "guessed_website": "",
             "confidence": "",
             "sec_url": "",
-            "yc_url": r.get("yc_url", ""),
+            "yc_url": yc_url,
             "score": score_of(p, t, fr, c),
             "score_p": p, "score_t": t, "score_f": fr, "score_c": c,
         })
@@ -231,6 +285,21 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     padding: 7px 10px; margin-bottom: 12px; max-width: 720px;
   }
   .score-disclaimer b { color: #16161a; }
+  .new-panel {
+    font-size: 13px; background: #fff7ed; border: 1px solid #fed7aa;
+    border-radius: 6px; padding: 8px 10px; margin-bottom: 12px; max-width: 720px;
+  }
+  .new-panel b { color: #9a3412; }
+  .new-list { margin-top: 4px; display: flex; flex-wrap: wrap; gap: 6px; }
+  .new-chip {
+    display: inline-block; padding: 2px 8px; border-radius: 10px;
+    font-size: 11px; background: #fff; border: 1px solid #fed7aa; color: #9a3412;
+  }
+  .new-badge {
+    display: inline-block; padding: 1px 6px; border-radius: 8px;
+    font-size: 10px; font-weight: 700; color: #fff; background: #dc2626;
+    margin-left: 6px; vertical-align: middle;
+  }
   .counts { display: flex; gap: 16px; flex-wrap: wrap; font-size: 13px; margin-bottom: 14px; }
   .counts b { font-size: 16px; }
   .controls {
@@ -318,6 +387,10 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 <header>
   <h1>Startup Radar</h1>
   <div class="meta">Обновлено: __GENERATED_AT__</div>
+  <div class="new-panel" id="newPanel">
+    <b>🆕 Новое со вчера (<span id="newCount">0</span>)</b>
+    <div class="new-list" id="newList"></div>
+  </div>
   <div class="score-disclaimer">
     <b>Score</b> — эвристика для приоритизации, НЕ прогноз успеха; веса настраиваемые
     (P __W_P__ · T __W_T__ · F __W_F__ · C __W_C__). Наведи на балл — раскладка по компонентам.
@@ -332,6 +405,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     <button class="filter-btn active" data-source="all">Все</button>
     <button class="filter-btn" data-source="Form D">Form D</button>
     <button class="filter-btn" data-source="YC">YC</button>
+    <button class="filter-btn" id="newOnlyBtn">🆕 Только новые</button>
   </div>
 </header>
 <main>
@@ -360,6 +434,7 @@ let sortKey = "score";
 let sortDir = -1;
 let sourceFilter = "all";
 let searchTerm = "";
+let onlyNew = false;
 
 function searchUrl(base, name) {
   return base + encodeURIComponent(name);
@@ -381,6 +456,7 @@ function render() {
   tbody.innerHTML = "";
 
   let rows = DATA.filter(r => sourceFilter === "all" || r.source === sourceFilter);
+  if (onlyNew) rows = rows.filter(r => r.is_new);
   if (searchTerm) {
     const t = searchTerm.toLowerCase();
     rows = rows.filter(r =>
@@ -428,7 +504,13 @@ function render() {
     const tdName = document.createElement("td");
     const nameDiv = document.createElement("div");
     nameDiv.className = "company-name";
-    nameDiv.textContent = row.name;
+    nameDiv.appendChild(document.createTextNode(row.name));
+    if (row.is_new) {
+      const newBadge = document.createElement("span");
+      newBadge.className = "new-badge";
+      newBadge.textContent = "NEW";
+      nameDiv.appendChild(newBadge);
+    }
     tdName.appendChild(nameDiv);
     if (row.extra) {
       const sub = document.createElement("div");
@@ -516,13 +598,19 @@ document.querySelectorAll("thead th[data-key]").forEach(th => {
   });
 });
 
-document.querySelectorAll(".filter-btn").forEach(btn => {
+document.querySelectorAll(".filter-btn[data-source]").forEach(btn => {
   btn.addEventListener("click", () => {
-    document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+    document.querySelectorAll(".filter-btn[data-source]").forEach(b => b.classList.remove("active"));
     btn.classList.add("active");
     sourceFilter = btn.dataset.source;
     render();
   });
+});
+
+document.getElementById("newOnlyBtn").addEventListener("click", (e) => {
+  onlyNew = !onlyNew;
+  e.target.classList.toggle("active", onlyNew);
+  render();
 });
 
 document.getElementById("search").addEventListener("input", (e) => {
@@ -530,6 +618,24 @@ document.getElementById("search").addEventListener("input", (e) => {
   render();
 });
 
+function renderNewPanel() {
+  const newItems = DATA.filter(r => r.is_new);
+  document.getElementById("newCount").textContent = newItems.length;
+  const list = document.getElementById("newList");
+  list.innerHTML = "";
+  if (newItems.length === 0) {
+    list.textContent = "новых нет";
+    return;
+  }
+  for (const r of newItems) {
+    const chip = document.createElement("span");
+    chip.className = "new-chip";
+    chip.textContent = `${r.name} (${r.source})`;
+    list.appendChild(chip);
+  }
+}
+
+renderNewPanel();
 render();
 </script>
 </body>
@@ -541,6 +647,23 @@ def main():
     formd_rows = load_formd()
     yc_rows = load_yc(YC_CSV)
     data = formd_rows + yc_rows
+
+    is_baseline = apply_new_tracking(data, STATE_FILE)
+    new_items = [r for r in data if r["is_new"]]
+
+    new_today = [{
+        "id": r["id"], "name": r["name"], "source": r["source"], "score": r["score"],
+        "industry": r["industry"], "description": r["description"],
+        "url": r["sec_url"] or r["yc_url"], "first_seen": r["first_seen"],
+    } for r in new_items]
+
+    os.makedirs(os.path.dirname(NEW_TODAY_FILE), exist_ok=True)
+    with open(NEW_TODAY_FILE, "w", encoding="utf-8") as f:
+        json.dump(new_today, f, ensure_ascii=False, indent=2)
+
+    if is_baseline:
+        print("[i] seen.json был пуст — это baseline, new_today.json пустой", file=sys.stderr)
+    print(f"[i] Новых со вчера: {len(new_today)}", file=sys.stderr)
 
     data_json = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
     html = (HTML_TEMPLATE

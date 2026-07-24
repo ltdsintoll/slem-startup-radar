@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -37,6 +37,14 @@ jobs:
 
       - name: Build dashboard
         run: python3 dashboard.py
+
+      - name: Commit updated seen state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add state/seen.json
+          git commit -m "update seen state [skip ci]" || echo "no changes to commit"
+          git push
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
