@@ -59,6 +59,11 @@
     "name": "Sugar Plum Street Ltd Liability Co",
     "source": "Form D"
   },
+  "formd:000214572826000001": {
+    "first_seen": "2026-07-24",
+    "name": "EchoIQ Ltd",
+    "source": "Form D"
+  },
   "formd:000214584526000001": {
     "first_seen": "2026-07-24",
     "name": "Polk Street Bakeshop Partners LLC",
@@ -77,6 +82,11 @@
   "formd:000214684326000001": {
     "first_seen": "2026-07-24",
     "name": "Doc Watson Technologies, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214699726000001": {
+    "first_seen": "2026-07-24",
+    "name": "Crafton Equities Inc.",
     "source": "Form D"
   },
   "formd:000214718826000001": {
