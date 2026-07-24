@@ -38,6 +38,9 @@ jobs:
       - name: Build dashboard
         run: python3 dashboard.py
 
+      - name: Fetch IPO pipeline
+        run: python3 ipo.py --days 30
+
       - name: Commit updated seen state
         run: |
           git config user.name "github-actions[bot]"

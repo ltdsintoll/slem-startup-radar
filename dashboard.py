@@ -277,6 +277,11 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     background: var(--bg);
     border-bottom: 1px solid var(--border);
   }
+  nav.pages { margin-bottom: 10px; font-size: 13px; }
+  nav.pages a {
+    color: var(--muted); text-decoration: none; margin-right: 14px; padding-bottom: 2px;
+  }
+  nav.pages a.active { color: var(--accent); font-weight: 600; border-bottom: 2px solid var(--accent); }
   h1 { margin: 0 0 4px; font-size: 22px; }
   .meta { color: var(--muted); font-size: 13px; margin-bottom: 8px; }
   .score-disclaimer {
@@ -385,6 +390,10 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 </head>
 <body>
 <header>
+  <nav class="pages">
+    <a href="index.html" class="active">Стартапы</a>
+    <a href="ipo.html">IPO Pipeline</a>
+  </nav>
   <h1>Startup Radar</h1>
   <div class="meta">Обновлено: __GENERATED_AT__</div>
   <div class="new-panel" id="newPanel">
