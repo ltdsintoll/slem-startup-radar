@@ -34,6 +34,9 @@ W_PROFIT = 0.30
 W_BALANCE = 0.25
 W_DATA = 0.10
 
+MULT_HIGH = 1.0
+MULT_MED = 0.85
+
 GROWTH_ANCHORS = [(-0.20, 0), (0.0, 40), (0.30, 80), (1.00, 100)]
 PROFIT_ANCHORS = [(-0.5, 0), (0.0, 50), (0.20, 100)]
 BALANCE_ANCHORS = [(0.3, 100), (0.6, 60), (0.9, 20)]  # леверидж, чем выше — тем ниже баллы
@@ -188,16 +191,22 @@ def build_row(ipo_row, facts):
     net_margin = (net_income / latest_rev) if (net_income is not None and latest_rev) else None
     leverage = (liabilities / assets) if (liabilities is not None and assets) else None
 
-    data_found = sum(x is not None for x in (latest_rev, net_income, leverage))
-    score, growth_score, profit_score, balance_score, data_score = compute_score(
-        rev_growth, net_margin, leverage, data_found)
+    # ядро P&L (выручка + чистая прибыль) обязательно — компанию без него не скорим,
+    # даже если известен баланс: иначе SPAC без выручки может обогнать компанию с реальными
+    # цифрами только за счёт низкого левериджа
+    has_core = latest_rev is not None and net_income is not None
 
-    if data_found == 3:
-        confidence = "high"
-    elif data_found == 0:
+    if not has_core:
+        score = ""
         confidence = "low"
+        growth_score = profit_score = balance_score = data_score = None
     else:
-        confidence = "med"
+        data_found = 3 if leverage is not None else 2
+        confidence = "high" if leverage is not None else "med"
+        base_score, growth_score, profit_score, balance_score, data_score = compute_score(
+            rev_growth, net_margin, leverage, data_found)
+        mult = MULT_HIGH if confidence == "high" else MULT_MED
+        score = round(base_score * mult)
 
     try:
         offer_price = float(ipo_row.get("offer_price") or "")
@@ -271,6 +280,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   tbody tr:hover { background: var(--bg-alt); }
   .company-name { font-weight: 600; }
   .score-cell { cursor: help; font-weight: 700; }
+  .score-na { color: var(--muted); font-style: italic; white-space: nowrap; }
   .pos { color: var(--green); }
   .neg { color: var(--red); }
   .badge {
@@ -295,7 +305,8 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   <div class="meta">Обновлено: __GENERATED_AT__</div>
   <div class="disclaimer">
     Фундаментальный снимок из XBRL SEC. НЕ рекомендация к покупке; свежие IPO часто убыточны
-    by design — смотри на цифры, не только на балл.
+    by design — смотри на цифры, не только на балл. Компании без раскрытой выручки/прибыли
+    (часто SPAC и до-выручные) не скорятся — показаны отдельно внизу.
   </div>
   <div class="counts">
     <span>Всего: <b>__TOTAL__</b></span>
@@ -347,6 +358,19 @@ function fmtRatio(v) {
   return v.toFixed(2);
 }
 
+function sortRows(rows) {
+  if (!sortKey) return rows;
+  return rows.slice().sort((a, b) => {
+    let av = a[sortKey], bv = b[sortKey];
+    if (typeof av === "number" && typeof bv === "number") return (av - bv) * sortDir;
+    av = (av || "").toString().toLowerCase();
+    bv = (bv || "").toString().toLowerCase();
+    if (av < bv) return -1 * sortDir;
+    if (av > bv) return 1 * sortDir;
+    return 0;
+  });
+}
+
 function render() {
   const tbody = document.getElementById("rows");
   tbody.innerHTML = "";
@@ -357,19 +381,11 @@ function render() {
     rows = rows.filter(r => (r.company || "").toLowerCase().includes(t));
   }
 
-  if (sortKey) {
-    rows = rows.slice().sort((a, b) => {
-      let av = a[sortKey], bv = b[sortKey];
-      const aNum = typeof av === "number", bNum = typeof bv === "number";
-      if (aNum && bNum) return (av - bv) * sortDir;
-      if (aNum !== bNum) return (aNum ? -1 : 1) * sortDir; // числа выше пустых при убыв. сортировке
-      av = (av || "").toString().toLowerCase();
-      bv = (bv || "").toString().toLowerCase();
-      if (av < bv) return -1 * sortDir;
-      if (av > bv) return 1 * sortDir;
-      return 0;
-    });
-  }
+  // скоренные (реальный score) — всегда сверху, без ядра P&L — отдельно внизу,
+  // независимо от того, какая колонка сейчас активна для сортировки
+  const scored = sortRows(rows.filter(r => typeof r.score === "number"));
+  const unscored = sortRows(rows.filter(r => typeof r.score !== "number"));
+  rows = scored.concat(unscored);
 
   if (rows.length === 0) {
     const tr = document.createElement("tr");
@@ -418,9 +434,14 @@ function render() {
     tr.appendChild(tdLev);
 
     const tdScore = document.createElement("td");
-    tdScore.className = "score-cell";
-    tdScore.textContent = row.score;
-    tdScore.title = `Growth ${row.score_growth ?? "—"} · Profit ${row.score_profit ?? "—"} · Balance ${row.score_balance} · Data ${row.score_data}`;
+    if (typeof row.score === "number") {
+      tdScore.className = "score-cell";
+      tdScore.textContent = row.score;
+      tdScore.title = `Growth ${row.score_growth ?? "—"} · Profit ${row.score_profit ?? "—"} · Balance ${row.score_balance} · Data ${row.score_data}`;
+    } else {
+      tdScore.className = "score-na";
+      tdScore.textContent = "н/д (нет финансов)";
+    }
     tr.appendChild(tdScore);
 
     const tdConf = document.createElement("td");
@@ -495,7 +516,11 @@ def main():
         rows.append(row)
         time.sleep(0.2)
 
-    rows.sort(key=lambda r: r["score"], reverse=True)
+    # скоренные (реальный score) — сверху по убыванию; без ядра P&L — отдельно внизу
+    scored = sorted((r for r in rows if isinstance(r["score"], int)), key=lambda r: r["score"], reverse=True)
+    unscored = sorted((r for r in rows if not isinstance(r["score"], int)), key=lambda r: r["company"])
+    rows = scored + unscored
+    print(f"[i] Скоренных: {len(scored)}, без ядра P&L (н/д): {len(unscored)}", file=sys.stderr)
 
     cols = ["company", "cik", "latest_rev", "rev_growth", "net_income", "net_margin",
             "leverage", "cash", "score", "data_confidence"]
