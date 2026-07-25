@@ -26,8 +26,12 @@ except Exception:
             raise
 
 XBRL = "https://data.sec.gov/api/xbrl/companyfacts/CIK{cik}.json"
+TICKERS_URL = "https://www.sec.gov/files/company_tickers.json"
 REVENUE_CONCEPTS = ["RevenueFromContractWithCustomerExcludingAssessedTax", "Revenues", "SalesRevenueNet"]
 ANNUAL_FORMS = {"10-K", "20-F"}
+
+WATCHLIST_FILE = "watchlist.txt"
+WATCHLIST_DEFAULT = ["AAPL", "NVDA", "MSFT", "PLTR"]
 
 W_GROWTH = 0.35
 W_PROFIT = 0.30
@@ -82,6 +86,70 @@ def fetch_companyfacts(cik):
     return json.loads(raw)
 
 
+def load_ticker_maps():
+    """ticker->CIK, ticker->title, CIK->ticker (первый тикер на CIK — основной листинг)."""
+    data = json.loads(_get(TICKERS_URL))
+    ticker_to_cik, ticker_to_title, cik_to_ticker = {}, {}, {}
+    for entry in data.values():
+        ticker = entry["ticker"].upper()
+        cik = str(int(entry["cik_str"]))
+        ticker_to_cik[ticker] = cik
+        ticker_to_title[ticker] = entry["title"]
+        cik_to_ticker.setdefault(cik, ticker)
+    return ticker_to_cik, ticker_to_title, cik_to_ticker
+
+
+def load_watchlist(path):
+    if not os.path.exists(path):
+        with open(path, "w", encoding="utf-8") as f:
+            f.write("# по одному тикеру на строку; строки с # — комментарии\n")
+            for t in WATCHLIST_DEFAULT:
+                f.write(t + "\n")
+        print(f"[i] {path} не найден — создан с примерами: {', '.join(WATCHLIST_DEFAULT)}", file=sys.stderr)
+
+    tickers = []
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith("#"):
+                continue
+            tickers.append(line.upper())
+    return tickers
+
+
+def build_universe(ipo_companies, watchlist_tickers, ticker_to_cik, ticker_to_title, cik_to_ticker):
+    """Priced/IPO ∪ watchlist, дедуп по CIK; universe = {"IPO","Watchlist"} (может быть оба)."""
+    universe = {}
+
+    for ipo_row in ipo_companies:
+        cik = ipo_row["cik"]
+        entry = universe.setdefault(cik, {
+            "company": ipo_row["company"], "cik": cik,
+            "ticker": cik_to_ticker.get(cik, ""),
+            "universe": set(),
+            "offer_price": ipo_row.get("offer_price", ""),
+            "price_confidence": ipo_row.get("price_confidence", ""),
+        })
+        entry["universe"].add("IPO")
+
+    for ticker in watchlist_tickers:
+        cik = ticker_to_cik.get(ticker)
+        if not cik:
+            print(f"[!] тикер не найден в SEC company_tickers: {ticker}", file=sys.stderr)
+            continue
+        entry = universe.setdefault(cik, {
+            "company": ticker_to_title.get(ticker, ticker), "cik": cik,
+            "ticker": ticker,
+            "universe": set(),
+            "offer_price": "", "price_confidence": "",
+        })
+        entry["universe"].add("Watchlist")
+        if not entry["ticker"]:
+            entry["ticker"] = ticker
+
+    return list(universe.values())
+
+
 def _duration_days(entry):
     try:
         start = date.fromisoformat(entry["start"])
@@ -119,16 +187,23 @@ def latest_instant(entries):
 def extract_metrics(facts):
     gaap = (facts or {}).get("facts", {}).get("us-gaap", {})
 
-    latest_rev = prev_rev = None
+    # мерджим все концепты выручки, а не берём первый попавшийся: компании (напр. NVDA)
+    # мигрируют с одного us-gaap тега на другой между годами, и "первый концепт, у
+    # которого хоть что-то нашлось" может оказаться тем, что забросили 3 года назад
+    rev_periods_by_end = {}
     for concept in REVENUE_CONCEPTS:
         units = gaap.get(concept, {}).get("units", {}).get("USD")
         if not units:
             continue
-        periods = annual_periods(units)
-        if periods:
-            latest_rev = periods[0]["val"]
-            prev_rev = periods[1]["val"] if len(periods) > 1 else None
-            break
+        for p in annual_periods(units):
+            end = p["end"]
+            prev = rev_periods_by_end.get(end)
+            if prev is None or p.get("filed", "") > prev.get("filed", ""):
+                rev_periods_by_end[end] = p
+    rev_periods = sorted(rev_periods_by_end.values(), key=lambda e: e["end"], reverse=True)
+
+    latest_rev = rev_periods[0]["val"] if rev_periods else None
+    prev_rev = rev_periods[1]["val"] if len(rev_periods) > 1 else None
 
     net_income = None
     ni_units = gaap.get("NetIncomeLoss", {}).get("units", {}).get("USD")
@@ -217,6 +292,8 @@ def build_row(ipo_row, facts):
     return {
         "company": ipo_row["company"],
         "cik": ipo_row["cik"],
+        "ticker": ipo_row.get("ticker", ""),
+        "universe": ",".join(sorted(ipo_row.get("universe", ()))),
         "latest_rev": latest_rev if latest_rev is not None else "",
         "rev_growth": rev_growth if rev_growth is not None else "",
         "net_income": net_income if net_income is not None else "",
@@ -239,7 +316,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Фундаментал IPO</title>
+<title>Фундаментал акций</title>
 <style>
   :root {
     --border: #e2e2e7; --muted: #6b6b76; --bg: #ffffff; --bg-alt: #f8f8fa;
@@ -290,6 +367,12 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   .badge.high { background: var(--green); }
   .badge.med { background: #d97706; }
   .badge.low { background: var(--gray); }
+  .ticker { color: var(--muted); font-size: 12px; }
+  .filter-btn {
+    padding: 7px 12px; border: 1px solid var(--border); background: var(--bg);
+    border-radius: 6px; cursor: pointer; font-size: 13px;
+  }
+  .filter-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
   .empty { text-align: center; color: var(--muted); padding: 30px !important; }
   @media (max-width: 640px) { h1 { font-size: 19px; } .counts { gap: 10px; } }
 </style>
@@ -299,9 +382,9 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   <nav class="pages">
     <a href="index.html">Стартапы</a>
     <a href="ipo.html">IPO Pipeline</a>
-    <a href="fundamentals.html" class="active">Фундаментал IPO</a>
+    <a href="fundamentals.html" class="active">Фундаментал</a>
   </nav>
-  <h1>Свежие IPO — фундаментал</h1>
+  <h1>Фундаментал акций</h1>
   <div class="meta">Обновлено: __GENERATED_AT__</div>
   <div class="disclaimer">
     Фундаментальный снимок из XBRL SEC. НЕ рекомендация к покупке; свежие IPO часто убыточны
@@ -315,7 +398,10 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     <span>low: <b>__LOW_COUNT__</b></span>
   </div>
   <div class="controls">
-    <input id="search" type="text" placeholder="Поиск по названию...">
+    <input id="search" type="text" placeholder="Поиск по названию или тикеру...">
+    <button class="filter-btn active" data-universe="all">Все</button>
+    <button class="filter-btn" data-universe="IPO">Свежие IPO</button>
+    <button class="filter-btn" data-universe="Watchlist">Мой список</button>
   </div>
 </header>
 <main>
@@ -324,6 +410,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
       <thead>
         <tr>
           <th data-key="company">Компания</th>
+          <th data-key="ticker">Тикер</th>
           <th data-key="offer_price">Цена IPO</th>
           <th data-key="latest_rev">Выручка</th>
           <th data-key="rev_growth">Рост выручки %</th>
@@ -344,6 +431,7 @@ const DATA = __DATA_JSON__;
 let sortKey = "score";
 let sortDir = -1;
 let searchTerm = "";
+let universeFilter = "all";
 
 function fmtUsd(v) {
   if (typeof v !== "number") return "—";
@@ -375,10 +463,11 @@ function render() {
   const tbody = document.getElementById("rows");
   tbody.innerHTML = "";
 
-  let rows = DATA;
+  let rows = DATA.filter(r => universeFilter === "all" || (r.universe || "").includes(universeFilter));
   if (searchTerm) {
     const t = searchTerm.toLowerCase();
-    rows = rows.filter(r => (r.company || "").toLowerCase().includes(t));
+    rows = rows.filter(r =>
+      (r.company || "").toLowerCase().includes(t) || (r.ticker || "").toLowerCase().includes(t));
   }
 
   // скоренные (реальный score) — всегда сверху, без ядра P&L — отдельно внизу,
@@ -390,7 +479,7 @@ function render() {
   if (rows.length === 0) {
     const tr = document.createElement("tr");
     const td = document.createElement("td");
-    td.colSpan = 9;
+    td.colSpan = 10;
     td.className = "empty";
     td.textContent = "Ничего не найдено";
     tr.appendChild(td);
@@ -405,6 +494,11 @@ function render() {
     tdCompany.className = "company-name";
     tdCompany.textContent = row.company;
     tr.appendChild(tdCompany);
+
+    const tdTicker = document.createElement("td");
+    tdTicker.className = "ticker";
+    tdTicker.textContent = row.ticker || "—";
+    tr.appendChild(tdTicker);
 
     const tdPrice = document.createElement("td");
     tdPrice.textContent = typeof row.offer_price === "number" ? "$" + row.offer_price.toFixed(2) : "—";
@@ -468,6 +562,15 @@ document.getElementById("search").addEventListener("input", (e) => {
   render();
 });
 
+document.querySelectorAll(".filter-btn[data-universe]").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".filter-btn[data-universe]").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    universeFilter = btn.dataset.universe;
+    render();
+  });
+});
+
 render();
 </script>
 </body>
@@ -493,25 +596,35 @@ def build_html(rows):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--ipo-csv", default="ipo.csv")
+    ap.add_argument("--watchlist", default=WATCHLIST_FILE)
     ap.add_argument("--out", default="fundamentals.csv")
     ap.add_argument("--html-out", default="public/fundamentals.html")
     a = ap.parse_args()
 
-    companies = load_priced_companies(a.ipo_csv)
-    print(f"[i] Priced/IPO компаний с CIK: {len(companies)}", file=sys.stderr)
+    ipo_companies = load_priced_companies(a.ipo_csv)
+    print(f"[i] Priced/IPO компаний с CIK: {len(ipo_companies)}", file=sys.stderr)
+
+    watchlist_tickers = load_watchlist(a.watchlist)
+    print(f"[i] Watchlist: {len(watchlist_tickers)} тикеров ({', '.join(watchlist_tickers)})", file=sys.stderr)
+
+    ticker_to_cik, ticker_to_title, cik_to_ticker = load_ticker_maps()
+    universe_entries = build_universe(ipo_companies, watchlist_tickers, ticker_to_cik, ticker_to_title, cik_to_ticker)
+    watchlist_only = sum(1 for e in universe_entries if "Watchlist" in e["universe"])
+    print(f"[i] Универсум: {len(universe_entries)} компаний (из них Watchlist: {watchlist_only})", file=sys.stderr)
 
     rows = []
-    for i, ipo_row in enumerate(companies, 1):
-        name, cik = ipo_row["company"], ipo_row["cik"]
+    for i, entry in enumerate(universe_entries, 1):
+        name = entry.get("ticker") or entry["company"]
+        cik = entry["cik"]
         try:
             facts = fetch_companyfacts(cik)
         except Exception as ex:
-            print(f"[{i}/{len(companies)}] {name}: ошибка ({ex})", file=sys.stderr)
+            print(f"[{i}/{len(universe_entries)}] {name}: ошибка ({ex})", file=sys.stderr)
             facts = None
         if facts is None:
-            print(f"[{i}/{len(companies)}] {name} -> no-data", file=sys.stderr)
-        row = build_row(ipo_row, facts)
-        print(f"[{i}/{len(companies)}] {name} -> score={row['score']} ({row['data_confidence']})",
+            print(f"[{i}/{len(universe_entries)}] {name} -> no-data", file=sys.stderr)
+        row = build_row(entry, facts)
+        print(f"[{i}/{len(universe_entries)}] {name} -> score={row['score']} ({row['data_confidence']})",
               file=sys.stderr)
         rows.append(row)
         time.sleep(0.2)
@@ -522,8 +635,8 @@ def main():
     rows = scored + unscored
     print(f"[i] Скоренных: {len(scored)}, без ядра P&L (н/д): {len(unscored)}", file=sys.stderr)
 
-    cols = ["company", "cik", "latest_rev", "rev_growth", "net_income", "net_margin",
-            "leverage", "cash", "score", "data_confidence"]
+    cols = ["company", "ticker", "cik", "universe", "latest_rev", "rev_growth", "net_income",
+            "net_margin", "leverage", "cash", "score", "data_confidence"]
     with open(a.out, "w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=cols)
         w.writeheader()
