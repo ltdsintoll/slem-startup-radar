@@ -34,6 +34,16 @@
     "name": "Elixir Technology Holdings Inc.",
     "source": "Form D"
   },
+  "formd:000213949526000002": {
+    "first_seen": "2026-07-25",
+    "name": "Urologic Design, LLC",
+    "source": "Form D"
+  },
+  "formd:000213990626000001": {
+    "first_seen": "2026-07-25",
+    "name": "Way Way West, LLC",
+    "source": "Form D"
+  },
   "formd:000214391326000001": {
     "first_seen": "2026-07-24",
     "name": "Social Value Inc.",
@@ -59,6 +69,11 @@
     "name": "Sugar Plum Street Ltd Liability Co",
     "source": "Form D"
   },
+  "formd:000214523126000001": {
+    "first_seen": "2026-07-25",
+    "name": "Elanor Labs Inc.",
+    "source": "Form D"
+  },
   "formd:000214572826000001": {
     "first_seen": "2026-07-24",
     "name": "EchoIQ Ltd",
@@ -77,6 +92,11 @@
   "formd:000214623926000001": {
     "first_seen": "2026-07-24",
     "name": "Forever Home Theatrical Co LLC",
+    "source": "Form D"
+  },
+  "formd:000214658326000001": {
+    "first_seen": "2026-07-25",
+    "name": "Software Velocity Corp.",
     "source": "Form D"
   },
   "formd:000214684326000001": {
@@ -122,6 +142,11 @@
   "yc:advanced-metal-research": {
     "first_seen": "2026-07-24",
     "name": "Advanced Metal Research",
+    "source": "YC"
+  },
+  "yc:agency-tool-company": {
+    "first_seen": "2026-07-25",
+    "name": "Agency Tool Company",
     "source": "YC"
   },
   "yc:agentcard": {
@@ -1374,6 +1399,11 @@
     "name": "Robocurve",
     "source": "YC"
   },
+  "yc:ronanrx-inc": {
+    "first_seen": "2026-07-25",
+    "name": "RonanRx Inc.",
+    "source": "YC"
+  },
   "yc:rudus": {
     "first_seen": "2026-07-24",
     "name": "Rudus",
@@ -1682,6 +1712,11 @@
   "yc:voquill": {
     "first_seen": "2026-07-24",
     "name": "Voquill",
+    "source": "YC"
+  },
+  "yc:waddle-labs": {
+    "first_seen": "2026-07-25",
+    "name": "Waddle Labs",
     "source": "YC"
   },
   "yc:walter": {
