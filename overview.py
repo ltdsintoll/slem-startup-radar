@@ -11,6 +11,7 @@ IPO_CSV = "ipo.csv"
 FUNDAMENTALS_CSV = "fundamentals.csv"
 EVENTS_CSV = "events.csv"
 NEWS_CSV = "news.csv"
+MACRO_JSON = "macro.json"
 OUT_HTML = "public/index.html"
 
 
@@ -106,6 +107,11 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   h1 { margin: 0 0 4px; font-size: 22px; }
   .meta { color: var(--muted); font-size: 13px; margin-bottom: 8px; }
   main { padding: 16px; max-width: 1100px; margin: 0 auto; }
+  .macro-banner {
+    font-size: 13px; background: var(--bg); border: 1px solid var(--border); border-radius: 8px;
+    padding: 8px 14px; margin-bottom: 16px;
+  }
+  .macro-banner .inversion { color: #dc2626; font-weight: 700; }
   .kpi-row {
     display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     gap: 12px; margin-bottom: 24px;
@@ -162,6 +168,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   <div class="meta">Обновлено: __GENERATED_AT__</div>
 </header>
 <main>
+__MACRO_BANNER__
   <div class="kpi-row">
 __KPI_TILES__
   </div>
@@ -174,6 +181,23 @@ __TOP_BLOCKS__
 """
 
 
+def build_macro_banner():
+    macro = load_json(MACRO_JSON, None)
+    if not macro:
+        return ""
+    try:
+        y3m, y2, y10 = float(macro["y3m"]), float(macro["y2"]), float(macro["y10"])
+        spread = float(macro["spread_2s10s"])
+        date_str = macro["date"]
+    except (KeyError, TypeError, ValueError):
+        return ""
+
+    inversion = ' <span class="inversion">(инверсия)</span>' if spread < 0 else ""
+    text = (f"Ставки США (Treasury, {esc(date_str)}): "
+            f"3М {y3m:.2f}% · 2Y {y2:.2f}% · 10Y {y10:.2f}% · 2s10s {spread:+.2f}%{inversion}")
+    return f'<div class="macro-banner">{text}</div>'
+
+
 def main():
     startups_data = load_json(STARTUPS_JSON, [])
     new_today = load_json(NEW_TODAY_JSON, [])
@@ -182,6 +206,7 @@ def main():
     fund_rows = load_csv(FUNDAMENTALS_CSV)
     events_rows = load_csv(EVENTS_CSV)
     news_rows = load_csv(NEWS_CSV)
+    macro_banner = build_macro_banner()
 
     # --- KPI ---
     startups_total = len(startups_data)
@@ -269,6 +294,7 @@ def main():
 
     html_out = (HTML_TEMPLATE
                 .replace("__GENERATED_AT__", datetime.now().strftime("%Y-%m-%d %H:%M"))
+                .replace("__MACRO_BANNER__", macro_banner)
                 .replace("__KPI_TILES__", "\n".join(kpi_tiles))
                 .replace("__TOP_BLOCKS__", "\n".join(top_blocks)))
 
