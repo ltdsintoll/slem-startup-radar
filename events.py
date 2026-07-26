@@ -169,6 +169,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     <a href="ipo.html">IPO Pipeline</a>
     <a href="fundamentals.html">Фундаментал</a>
     <a href="events.html" class="active">События</a>
+    <a href="news.html">Новости</a>
   </nav>
   <h1>События (8-K)</h1>
   <div class="meta">Обновлено: __GENERATED_AT__</div>

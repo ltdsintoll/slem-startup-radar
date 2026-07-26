@@ -47,6 +47,9 @@ jobs:
       - name: Fetch 8-K events
         run: python3 events.py
 
+      - name: Fetch news feed
+        run: python3 news.py
+
       - name: Commit updated seen state
         run: |
           git config user.name "github-actions[bot]"
