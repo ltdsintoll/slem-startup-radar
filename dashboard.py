@@ -8,7 +8,8 @@ from datetime import date, datetime
 FORMD_ENRICHED_CSV = "startups_enriched.csv"
 FORMD_PLAIN_CSV = "startups.csv"
 YC_CSV = "yc.csv"
-OUT_HTML = "public/index.html"
+OUT_HTML = "public/startups.html"
+STARTUPS_DATA_JSON = "public/startups_data.json"
 STATE_FILE = "state/seen.json"
 NEW_TODAY_FILE = "public/new_today.json"
 
@@ -391,7 +392,8 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 <body>
 <header>
   <nav class="pages">
-    <a href="index.html" class="active">Стартапы</a>
+    <a href="index.html">Обзор</a>
+    <a href="startups.html" class="active">Стартапы</a>
     <a href="ipo.html">IPO Pipeline</a>
     <a href="fundamentals.html">Фундаментал</a>
     <a href="events.html">События</a>
@@ -692,6 +694,15 @@ def main():
     os.makedirs(os.path.dirname(OUT_HTML), exist_ok=True)
     with open(OUT_HTML, "w", encoding="utf-8") as f:
         f.write(html)
+
+    startups_data = [{
+        "name": r["name"], "source": r["source"], "score": r["score"],
+        "industry": r["industry"], "description": r["description"],
+        "url": r["sec_url"] or r["yc_url"], "is_new": r["is_new"], "first_seen": r["first_seen"],
+    } for r in data]
+    os.makedirs(os.path.dirname(STARTUPS_DATA_JSON), exist_ok=True)
+    with open(STARTUPS_DATA_JSON, "w", encoding="utf-8") as f:
+        json.dump(startups_data, f, ensure_ascii=False)
 
     print(f"[OK] {len(data)} строк ({len(formd_rows)} Form D + {len(yc_rows)} YC) -> {OUT_HTML}", file=sys.stderr)
 

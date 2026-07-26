@@ -380,7 +380,8 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 <body>
 <header>
   <nav class="pages">
-    <a href="index.html">Стартапы</a>
+    <a href="index.html">Обзор</a>
+    <a href="startups.html">Стартапы</a>
     <a href="ipo.html">IPO Pipeline</a>
     <a href="fundamentals.html" class="active">Фундаментал</a>
     <a href="events.html">События</a>
