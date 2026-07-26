@@ -26,6 +26,9 @@ except Exception:
 
 SUBMISSIONS = "https://data.sec.gov/submissions/CIK{cik}.json"
 EVENT_FORMS = {"8-K", "6-K"}
+STATE_FILE = "state/events_seen.json"
+NEW_TODAY_FILE = "public/events_new_today.json"
+SIGNIFICANT_CODES = {"1.01", "1.05", "2.01", "2.02", "4.02", "5.02"}
 
 ITEM_LABELS = {
     "1.01": "Существенное соглашение",
@@ -100,6 +103,7 @@ def extract_events(entry, submissions, cutoff_date):
         url = f"https://www.sec.gov/Archives/edgar/data/{int(entry['cik'])}/{accession_nodash}/{primary_doc}"
 
         events.append({
+            "accession": accession,
             "date": filing_date,
             "company": entry["company"],
             "ticker": entry["ticker"],
@@ -109,6 +113,41 @@ def extract_events(entry, submissions, cutoff_date):
             "url": url,
         })
     return events
+
+
+def load_state(path):
+    if not os.path.exists(path):
+        return {}
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return {}
+
+
+def apply_new_tracking(events, state_path):
+    """id события = accessionNumber. Baseline (пусто/нет файла) — фиксируем всё как seen,
+    is_new не ставим никому. Иначе: новый accession -> is_new=true, first_seen=сегодня."""
+    old_state = load_state(state_path)
+    is_baseline = len(old_state) == 0
+    today = dt.date.today().isoformat()
+    new_state = dict(old_state)
+
+    for e in events:
+        accession = e["accession"]
+        if accession in old_state:
+            e["is_new"] = False
+            e["first_seen"] = old_state[accession]["first_seen"]
+        else:
+            e["first_seen"] = today
+            e["is_new"] = not is_baseline
+            new_state[accession] = {"first_seen": today}
+
+    os.makedirs(os.path.dirname(state_path), exist_ok=True)
+    with open(state_path, "w", encoding="utf-8") as f:
+        json.dump(new_state, f, ensure_ascii=False, indent=2, sort_keys=True)
+
+    return is_baseline
 
 
 HTML_TEMPLATE = """<!DOCTYPE html>
@@ -159,6 +198,21 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   .links a { font-size: 12px; color: var(--accent); text-decoration: none; white-space: nowrap; }
   .links a:hover { text-decoration: underline; }
   .empty { text-align: center; color: var(--muted); padding: 30px !important; }
+  .new-panel {
+    font-size: 13px; background: #fff7ed; border: 1px solid #fed7aa;
+    border-radius: 6px; padding: 8px 10px; margin-bottom: 12px; max-width: 720px;
+  }
+  .new-panel b { color: #9a3412; }
+  .new-badge {
+    display: inline-block; padding: 1px 6px; border-radius: 8px;
+    font-size: 10px; font-weight: 700; color: #fff; background: #dc2626;
+    margin-left: 6px; vertical-align: middle;
+  }
+  .filter-btn {
+    padding: 7px 12px; border: 1px solid var(--border); background: var(--bg);
+    border-radius: 6px; cursor: pointer; font-size: 13px;
+  }
+  .filter-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
   @media (max-width: 640px) { h1 { font-size: 19px; } .counts { gap: 10px; } }
 </style>
 </head>
@@ -174,6 +228,9 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   </nav>
   <h1>События (8-K)</h1>
   <div class="meta">Обновлено: __GENERATED_AT__</div>
+  <div class="new-panel" id="newPanel">
+    <b>🆕 Новые события (<span id="newCount">0</span>)</b>
+  </div>
   <div class="disclaimer">
     Материальные корпоративные события из 8-K SEC по отслеживаемым компаниям;
     коды 7.01/9.01 часто технические.
@@ -183,6 +240,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   </div>
   <div class="controls">
     <input id="search" type="text" placeholder="Поиск по компании, тикеру, событию...">
+    <button class="filter-btn" id="newOnlyBtn">🆕 Только новые</button>
   </div>
 </header>
 <main>
@@ -207,12 +265,14 @@ const DATA = __DATA_JSON__;
 let sortKey = "date";
 let sortDir = -1;
 let searchTerm = "";
+let onlyNew = false;
 
 function render() {
   const tbody = document.getElementById("rows");
   tbody.innerHTML = "";
 
   let rows = DATA;
+  if (onlyNew) rows = rows.filter(r => r.is_new);
   if (searchTerm) {
     const t = searchTerm.toLowerCase();
     rows = rows.filter(r =>
@@ -254,7 +314,13 @@ function render() {
 
     const tdCompany = document.createElement("td");
     tdCompany.className = "company-name";
-    tdCompany.textContent = row.company;
+    tdCompany.appendChild(document.createTextNode(row.company));
+    if (row.is_new) {
+      const badge = document.createElement("span");
+      badge.className = "new-badge";
+      badge.textContent = "NEW";
+      tdCompany.appendChild(badge);
+    }
     tr.appendChild(tdCompany);
 
     const tdTicker = document.createElement("td");
@@ -293,6 +359,21 @@ document.getElementById("search").addEventListener("input", (e) => {
   render();
 });
 
+document.getElementById("newOnlyBtn").addEventListener("click", (e) => {
+  onlyNew = !onlyNew;
+  e.target.classList.toggle("active", onlyNew);
+  render();
+});
+
+function renderNewPanel() {
+  const newCount = DATA.filter(r => r.is_new).length;
+  document.getElementById("newCount").textContent = newCount;
+  if (newCount === 0) {
+    document.getElementById("newPanel").innerHTML = "<b>🆕 Новые события (0)</b> — новых нет";
+  }
+}
+
+renderNewPanel();
 render();
 </script>
 </body>
@@ -339,6 +420,25 @@ def main():
 
     events.sort(key=lambda e: e["date"], reverse=True)
     print(f"[i] Всего событий за {a.days} дней: {len(events)}", file=sys.stderr)
+
+    is_baseline = apply_new_tracking(events, STATE_FILE)
+    new_events = [e for e in events if e["is_new"]]
+    significant_new = [
+        e for e in new_events
+        if e["ticker"] or set(e["item_codes"].split(",")) & SIGNIFICANT_CODES
+    ]
+    new_today = [{
+        "date": e["date"], "company": e["company"], "ticker": e["ticker"],
+        "item_labels": e["item_labels"], "url": e["url"],
+    } for e in significant_new]
+
+    os.makedirs(os.path.dirname(NEW_TODAY_FILE), exist_ok=True)
+    with open(NEW_TODAY_FILE, "w", encoding="utf-8") as f:
+        json.dump(new_today, f, ensure_ascii=False, indent=2)
+
+    if is_baseline:
+        print("[i] events_seen.json был пуст — это baseline, events_new_today.json пустой", file=sys.stderr)
+    print(f"[i] Новых событий: {len(new_events)} (значимых: {len(new_today)})", file=sys.stderr)
 
     cols = ["date", "company", "ticker", "cik", "item_codes", "item_labels", "url"]
     with open(a.out, "w", newline="", encoding="utf-8") as fh:
