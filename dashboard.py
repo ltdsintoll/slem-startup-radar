@@ -16,14 +16,28 @@ NEW_TODAY_FILE = "public/new_today.json"
 ACCESSION_RE = re.compile(r"/data/\d+/(\d+)/")
 
 # --- скоринг: веса компонентов (сумма = 1.0) ---
-W_PEDIGREE = 0.30
-W_TRACTION = 0.30
-W_FRESHNESS = 0.25
+W_TRACTION = 0.40
+W_PEDIGREE = 0.25
+W_FRESHNESS = 0.20
 W_COMPLETENESS = 0.15
 
-FORMD_TRACTION_ANCHORS = [(math.log10(50_000), 20), (math.log10(1_000_000), 60), (math.log10(50_000_000), 100)]
-YC_TRACTION_ANCHORS = [(0, 20), (1, 60), (2, 100)]  # log10(team_size): 1,10,100
-FORMD_PEDIGREE_ANCHORS = [(0, 30), (5, 60), (20, 100)]  # num_investors
+# масштаб раунда решает: $250k->30, $2M->55, $20M->80, >=$200M->100
+FORMD_TRACTION_ANCHORS = [
+    (math.log10(250_000), 30), (math.log10(2_000_000), 55),
+    (math.log10(20_000_000), 80), (math.log10(200_000_000), 100),
+]
+# log10(team_size): 1->25, 10->55, 50->80, >=200->100
+YC_TRACTION_ANCHORS = [
+    (math.log10(1), 25), (math.log10(10), 55), (math.log10(50), 80), (math.log10(200), 100),
+]
+# num_investors: 0->30, 3->50, 10->75, >=25->95 (плюс бонус за total_offering ниже)
+FORMD_PEDIGREE_ANCHORS = [(0, 30), (3, 50), (10, 75), (25, 95)]
+FORMD_PEDIGREE_MEGA_ROUND_BONUS = 15  # +15 если total_offering >= порога ниже
+FORMD_PEDIGREE_MEGA_ROUND_THRESHOLD = 50_000_000
+
+YC_PEDIGREE_BASE = 70
+YC_PEDIGREE_ACTIVE_BONUS = 25
+YC_PEDIGREE_INACTIVE_PENALTY = 40
 
 SEASON_RANK = {"winter": 0, "spring": 1, "summer": 2, "fall": 3}
 BATCH_RE = re.compile(r"^(Winter|Spring|Summer|Fall)\s+(\d{4})$", re.IGNORECASE)
@@ -152,11 +166,11 @@ def load_formd():
             traction = 0.0
             if amount_raw > 0:
                 traction = interp_clamped(math.log10(amount_raw), FORMD_TRACTION_ANCHORS)
-            if num_investors >= 10:
-                traction += 10
-            traction = max(0.0, min(100.0, traction))
 
             pedigree = interp_clamped(num_investors, FORMD_PEDIGREE_ANCHORS)
+            if amount_raw >= FORMD_PEDIGREE_MEGA_ROUND_THRESHOLD:
+                pedigree += FORMD_PEDIGREE_MEGA_ROUND_BONUS
+            pedigree = max(0.0, min(100.0, pedigree))
             completeness = {"high": 100, "medium": 50}.get(confidence, 0)
 
             p, t, fr, c = round(pedigree), round(traction), round(freshness), completeness
@@ -214,11 +228,11 @@ def load_yc(path):
 
         traction = interp_clamped(math.log10(team), YC_TRACTION_ANCHORS) if team > 0 else 0.0
 
-        pedigree = 80
+        pedigree = YC_PEDIGREE_BASE
         if status == "Active":
-            pedigree += 20
+            pedigree += YC_PEDIGREE_ACTIVE_BONUS
         elif status == "Inactive":
-            pedigree -= 30
+            pedigree -= YC_PEDIGREE_INACTIVE_PENALTY
         pedigree = max(0, min(100, pedigree))
 
         completeness = 100 if website else 0
