@@ -319,6 +319,11 @@
     "name": "Atlas Discovery",
     "source": "YC"
   },
+  "yc:atomarine": {
+    "first_seen": "2026-07-26",
+    "name": "Atomarine",
+    "source": "YC"
+  },
   "yc:atrisa": {
     "first_seen": "2026-07-24",
     "name": "Atrisa",
@@ -984,6 +989,11 @@
     "name": "Locke",
     "source": "YC"
   },
+  "yc:lumeria": {
+    "first_seen": "2026-07-26",
+    "name": "Lumeria",
+    "source": "YC"
+  },
   "yc:lumius": {
     "first_seen": "2026-07-24",
     "name": "Lumius",
@@ -1257,6 +1267,11 @@
   "yc:ploy": {
     "first_seen": "2026-07-24",
     "name": "Ploy",
+    "source": "YC"
+  },
+  "yc:pokerclubhub": {
+    "first_seen": "2026-07-26",
+    "name": "PokerClubHub",
     "source": "YC"
   },
   "yc:pops": {
@@ -1622,6 +1637,11 @@
   "yc:touchmark": {
     "first_seen": "2026-07-24",
     "name": "Touchmark",
+    "source": "YC"
+  },
+  "yc:traceforce": {
+    "first_seen": "2026-07-26",
+    "name": "Traceforce",
     "source": "YC"
   },
   "yc:transload": {
