@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """formc.py — краудфандинг Reg CF (Form C/C-A): стартапы, куда может вложиться кто угодно."""
-import sys, os, time, csv, json, re, argparse, datetime as dt
+import sys, os, time, csv, html, json, re, argparse, datetime as dt
 import urllib.parse
 from xml.etree import ElementTree as ET
 
@@ -30,6 +30,17 @@ EFTS = "https://efts.sec.gov/LATEST/search-index"
 ARCH = "https://www.sec.gov/Archives/edgar/data"
 FORM_TYPES = ["C", "C/A"]
 MAX_PER_FORM = 1000
+SOON_DAYS = 7
+
+STATE_FILE = "state/formc_seen.json"
+NEW_TODAY_FILE = "public/crowdfunding_new_today.json"
+
+TOP_PLATFORM_SHORT_NAMES = {
+    "Wefunder Portal LLC": "Wefunder",
+    "StartEngine Primary, LLC": "StartEngine",
+    "Honeycomb Portal LLC": "Honeycomb",
+    "DEALMAKER SECURITIES LLC": "DealMaker",
+}
 
 
 def daterange(days):
@@ -169,6 +180,53 @@ def parse_deadline(raw):
         return ""
 
 
+def load_state(path):
+    if not os.path.exists(path):
+        return {}
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return {}
+
+
+def apply_new_tracking(rows, state_path):
+    """id = CIK. Baseline (пусто/нет файла) — всё seen, is_new никому не ставим."""
+    old_state = load_state(state_path)
+    is_baseline = len(old_state) == 0
+    today = dt.date.today().isoformat()
+    new_state = dict(old_state)
+
+    for r in rows:
+        cik = r["cik"]
+        if cik in old_state:
+            r["is_new"] = False
+            r["first_seen"] = old_state[cik]["first_seen"]
+        else:
+            r["first_seen"] = today
+            r["is_new"] = not is_baseline
+            new_state[cik] = {"first_seen": today}
+
+    os.makedirs(os.path.dirname(state_path), exist_ok=True)
+    with open(state_path, "w", encoding="utf-8") as f:
+        json.dump(new_state, f, ensure_ascii=False, indent=2, sort_keys=True)
+
+    return is_baseline
+
+
+def top_platforms(rows, n=4):
+    from collections import Counter
+    counts = Counter(r["platform"] for r in rows if r["platform"])
+    return [p for p, _ in counts.most_common(n)]
+
+
+def platform_short_name(platform):
+    if platform in TOP_PLATFORM_SHORT_NAMES:
+        return TOP_PLATFORM_SHORT_NAMES[platform]
+    first_word = platform.split()[0] if platform.split() else platform
+    return first_word.strip(",").title()
+
+
 HTML_TEMPLATE = """<!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -213,6 +271,25 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   .company-name a:hover { color: var(--accent); text-decoration: underline; }
   .platform { color: var(--muted); }
   .expired-tag { color: #dc2626; font-size: 11px; font-weight: 600; margin-left: 6px; }
+  .soon-tag {
+    display: inline-block; padding: 1px 6px; border-radius: 8px; margin-left: 6px;
+    font-size: 10px; font-weight: 700; color: #fff; background: #d97706;
+  }
+  .new-badge {
+    display: inline-block; padding: 1px 6px; border-radius: 8px;
+    font-size: 10px; font-weight: 700; color: #fff; background: #dc2626;
+    margin-left: 6px; vertical-align: middle;
+  }
+  .new-panel {
+    font-size: 13px; background: #fff7ed; border: 1px solid #fed7aa;
+    border-radius: 6px; padding: 8px 10px; margin-bottom: 12px; max-width: 720px;
+  }
+  .new-panel b { color: #9a3412; }
+  .filter-btn {
+    padding: 7px 12px; border: 1px solid var(--border); background: var(--bg);
+    border-radius: 6px; cursor: pointer; font-size: 13px;
+  }
+  .filter-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
   .links a { font-size: 12px; color: var(--accent); text-decoration: none; white-space: nowrap; }
   .links a:hover { text-decoration: underline; }
   .empty { text-align: center; color: var(--muted); padding: 30px !important; }
@@ -236,12 +313,18 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     дедлайн — докуда открыт раунд.
   </div>
   <div class="meta">Обновлено: __GENERATED_AT__</div>
+  <div class="new-panel" id="newPanel">
+    <b>🆕 Новые раунды (<span id="newCount">0</span>)</b>
+  </div>
   <div class="counts">
     <span>Всего: <b>__TOTAL__</b></span>
     <span>Активных: <b>__ACTIVE_COUNT__</b></span>
   </div>
   <div class="controls">
     <input id="search" type="text" placeholder="Поиск по компании, площадке, бумаге...">
+__PLATFORM_BUTTONS__
+    <button class="filter-btn" id="soonBtn">⏰ Скоро закрытие (7д)</button>
+    <button class="filter-btn" id="newOnlyBtn">🆕 Только новые</button>
   </div>
 </header>
 <main>
@@ -264,10 +347,14 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 </main>
 <script>
 const DATA = __DATA_JSON__;
+const TOP_PLATFORMS = __TOP_PLATFORMS_JSON__;
 
 let sortKey = "deadline";
 let sortDir = 1;
 let searchTerm = "";
+let platformFilter = "all";
+let onlySoon = false;
+let onlyNew = false;
 
 function fmtUsd(v) {
   if (typeof v !== "number") return "—";
@@ -292,6 +379,13 @@ function render() {
   tbody.innerHTML = "";
 
   let rows = DATA;
+  if (platformFilter === "__other__") {
+    rows = rows.filter(r => r.platform && !TOP_PLATFORMS.includes(r.platform));
+  } else if (platformFilter !== "all") {
+    rows = rows.filter(r => r.platform === platformFilter);
+  }
+  if (onlySoon) rows = rows.filter(r => r.is_soon);
+  if (onlyNew) rows = rows.filter(r => r.is_new);
   if (searchTerm) {
     const t = searchTerm.toLowerCase();
     rows = rows.filter(r =>
@@ -330,7 +424,13 @@ function render() {
       a.textContent = row.company;
       tdCompany.appendChild(a);
     } else {
-      tdCompany.textContent = row.company;
+      tdCompany.appendChild(document.createTextNode(row.company));
+    }
+    if (row.is_new) {
+      const badge = document.createElement("span");
+      badge.className = "new-badge";
+      badge.textContent = "NEW";
+      tdCompany.appendChild(badge);
     }
     tr.appendChild(tdCompany);
 
@@ -353,6 +453,11 @@ function render() {
       const tag = document.createElement("span");
       tag.className = "expired-tag";
       tag.textContent = "истёк";
+      tdDeadline.appendChild(tag);
+    } else if (row.is_soon) {
+      const tag = document.createElement("span");
+      tag.className = "soon-tag";
+      tag.textContent = "⏰ скоро";
       tdDeadline.appendChild(tag);
     }
     tr.appendChild(tdDeadline);
@@ -388,6 +493,36 @@ document.getElementById("search").addEventListener("input", (e) => {
   render();
 });
 
+document.querySelectorAll(".filter-btn[data-platform]").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".filter-btn[data-platform]").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    platformFilter = btn.dataset.platform;
+    render();
+  });
+});
+
+document.getElementById("soonBtn").addEventListener("click", (e) => {
+  onlySoon = !onlySoon;
+  e.target.classList.toggle("active", onlySoon);
+  render();
+});
+
+document.getElementById("newOnlyBtn").addEventListener("click", (e) => {
+  onlyNew = !onlyNew;
+  e.target.classList.toggle("active", onlyNew);
+  render();
+});
+
+function renderNewPanel() {
+  const newCount = DATA.filter(r => r.is_new).length;
+  document.getElementById("newCount").textContent = newCount;
+  if (newCount === 0) {
+    document.getElementById("newPanel").innerHTML = "<b>🆕 Новые раунды (0)</b> — новых нет";
+  }
+}
+
+renderNewPanel();
 render();
 </script>
 </body>
@@ -397,11 +532,24 @@ render();
 
 def build_html(rows):
     active_count = sum(1 for r in rows if not r["is_expired"])
+
+    top = top_platforms(rows)
+    buttons = ['    <button class="filter-btn active" data-platform="all">Все</button>']
+    for platform in top:
+        safe_platform = html.escape(platform, quote=True)
+        buttons.append(f'    <button class="filter-btn" data-platform="{safe_platform}">{html.escape(platform_short_name(platform))}</button>')
+    buttons.append('    <button class="filter-btn" data-platform="__other__">Прочие</button>')
+    platform_buttons_html = "\n".join(buttons)
+
     data_json = json.dumps(rows, ensure_ascii=False).replace("</", "<\\/")
+    top_platforms_json = json.dumps(top, ensure_ascii=False)
+
     return (HTML_TEMPLATE
             .replace("__GENERATED_AT__", dt.datetime.now().strftime("%Y-%m-%d %H:%M"))
             .replace("__TOTAL__", str(len(rows)))
             .replace("__ACTIVE_COUNT__", str(active_count))
+            .replace("__PLATFORM_BUTTONS__", platform_buttons_html)
+            .replace("__TOP_PLATFORMS_JSON__", top_platforms_json)
             .replace("__DATA_JSON__", data_json))
 
 
@@ -428,7 +576,8 @@ def main():
         if prev is None or f["date"] > prev["date"]:
             latest_by_cik[cik] = f
 
-    today = dt.date.today().isoformat()
+    today_date = dt.date.today()
+    today = today_date.isoformat()
     rows = []
     for i, f in enumerate(latest_by_cik.values(), 1):
         parsed, used_cik = fetch_and_parse(f["cik_candidates"], f["accession"], f["filename"])
@@ -447,6 +596,15 @@ def main():
         except (TypeError, ValueError):
             max_amount = None
 
+        is_expired = bool(deadline) and deadline < today
+        is_soon = False
+        if deadline and not is_expired:
+            try:
+                days_left = (dt.date.fromisoformat(deadline) - today_date).days
+                is_soon = 0 <= days_left <= SOON_DAYS
+            except ValueError:
+                pass
+
         row = {
             "company": parsed["company"] or f["cik"],
             "website": parsed["website"],
@@ -457,7 +615,8 @@ def main():
             "security_type": parsed["security_type"],
             "cik": f["cik"],
             "sec_url": parsed["url"],
-            "is_expired": bool(deadline) and deadline < today,
+            "is_expired": is_expired,
+            "is_soon": is_soon,
         }
         rows.append(row)
         print(f"[{i}/{len(latest_by_cik)}] {row['company']} -> {row['platform']} (deadline {deadline or '?'})",
@@ -470,14 +629,32 @@ def main():
     rows = active_rows + expired_rows
 
     active_count = len(active_rows)
+    soon_count = sum(1 for r in active_rows if r["is_soon"])
     print(f"[i] Активных раундов: {active_count} из {len(rows)}", file=sys.stderr)
+    print(f"[i] Скоро закрытие (<={SOON_DAYS}д): {soon_count}", file=sys.stderr)
 
     from collections import Counter
     platform_counts = Counter(r["platform"] for r in active_rows if r["platform"])
     print(f"[i] По площадкам (активные): {dict(platform_counts.most_common())}", file=sys.stderr)
 
+    is_baseline = apply_new_tracking(rows, STATE_FILE)
+    new_active = [r for r in rows if r["is_new"] and not r["is_expired"]]
+    new_today = [{
+        "company": r["company"], "platform": r["platform"], "target": r["target_amount"],
+        "deadline": r["deadline"], "url": r["sec_url"],
+    } for r in new_active]
+
+    os.makedirs(os.path.dirname(NEW_TODAY_FILE), exist_ok=True)
+    with open(NEW_TODAY_FILE, "w", encoding="utf-8") as f:
+        json.dump(new_today, f, ensure_ascii=False, indent=2)
+
+    if is_baseline:
+        print("[i] formc_seen.json был пуст — это baseline, crowdfunding_new_today.json пустой", file=sys.stderr)
+    print(f"[i] Новых раундов: {sum(1 for r in rows if r['is_new'])} (активных новых: {len(new_today)})",
+          file=sys.stderr)
+
     cols = ["company", "website", "platform", "target_amount", "max_amount", "deadline",
-            "security_type", "cik", "sec_url", "is_expired"]
+            "security_type", "cik", "sec_url", "is_expired", "is_soon"]
     with open(a.out, "w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=cols)
         w.writeheader()
