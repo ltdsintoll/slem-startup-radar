@@ -16,9 +16,16 @@ NEW_TODAY_FILE = "public/new_today.json"
 ACCESSION_RE = re.compile(r"/data/\d+/(\d+)/")
 
 # --- скоринг: веса компонентов (сумма = 1.0) ---
-W_TRACTION = 0.40
-W_PEDIGREE = 0.25
-W_FRESHNESS = 0.20
+# Pedigree был снижен, Traction/Freshness подняты: при старых весах (T.40 P.25 F.20 C.15)
+# YC почти всегда получает pedigree=95 (YC_PEDIGREE_BASE+ACTIVE_BONUS) и completeness=100
+# (сайт есть почти всегда), это давало YC жёсткий "пол" по score независимо от traction —
+# топ-20 на реальных данных был 20/0 в пользу YC, лучший Form D был на 21-м месте с разницей
+# в 1 балл. Pedigree/completeness — почти не различающие компании внутри YC сигналы, поэтому
+# их вес снижен в пользу traction (единственный по-настоящему сравнимый между источниками
+# сигнал) и freshness.
+W_TRACTION = 0.45
+W_PEDIGREE = 0.15
+W_FRESHNESS = 0.25
 W_COMPLETENESS = 0.15
 
 # масштаб раунда решает: $250k->30, $2M->55, $20M->80, >=$200M->100
