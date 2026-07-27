@@ -2,8 +2,49 @@
   "1045810": {
     "ticker": "NVDA",
     "company": "NVIDIA CORP",
-    "articles": [],
-    "source": "no-data"
+    "articles": [
+      {
+        "title": "Could AMD Dethrone Nvidia ? ",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/could-amd-dethrone-nvidia-164500806.html",
+        "domain": "finance.yahoo.com",
+        "date": "2026-07-27",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "NVIDIA , Microsoft , IBM and others launch Open Secure AI Alliance to strengthen AI security after Hugging Face cyber incident",
+        "url": "https://aninews.in/news/business/nvidia-microsoft-ibm-and-others-launch-open-secure-ai-alliance-to-strengthen-ai-security-after-hugging-face-cyber-incident20260727202805/",
+        "domain": "aninews.in",
+        "date": "2026-07-27",
+        "sentiment_label": "позитив",
+        "sentiment_score": 1
+      },
+      {
+        "title": "Direxion Daily NVDA Bull 2X Shares ( NASDAQ : NVDU ) Stock Price Down 4 % – What Next ? ",
+        "url": "https://www.dailypolitical.com/2026/07/27/direxion-daily-nvda-bull-2x-shares-nasdaqnvdu-stock-price-down-4-whats-next.html",
+        "domain": "dailypolitical.com",
+        "date": "2026-07-27",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "NVIDIA First Made - In - America GB300 GPUs Roll Off TSMC Arizona - Based Fab 21 , But Still Fly To Taiwan for Packaging",
+        "url": "https://wccftech.com/nvidias-first-made-in-america-gb300-gpus-roll-off-tsmcs-arizona-based-fab-21-but-still-fly-to-taiwan-for-packaging/",
+        "domain": "wccftech.com",
+        "date": "2026-07-27",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "Baystreet . ca - Nvidia And Microsoft Launch A . I . Safety Initiative After OpenAI Cyberattack",
+        "url": "http://baystreet.ca/stockstowatch/23737/Nvidia-And-Microsoft-Launch-AI-Safety-Initiative-After-OpenAI-Cyberattack",
+        "domain": "baystreet.ca",
+        "date": "2026-07-27",
+        "sentiment_label": "позитив",
+        "sentiment_score": 1
+      }
+    ],
+    "source": "gdelt"
   },
   "1321655": {
     "ticker": "PLTR",
@@ -14,8 +55,33 @@
   "789019": {
     "ticker": "MSFT",
     "company": "MICROSOFT CORP",
-    "articles": [],
-    "source": "no-data"
+    "articles": [
+      {
+        "title": "NVIDIA , Microsoft , IBM and others launch Open Secure AI Alliance to strengthen AI security after Hugging Face cyber incident",
+        "url": "https://aninews.in/news/business/nvidia-microsoft-ibm-and-others-launch-open-secure-ai-alliance-to-strengthen-ai-security-after-hugging-face-cyber-incident20260727202805/",
+        "domain": "aninews.in",
+        "date": "2026-07-27",
+        "sentiment_label": "позитив",
+        "sentiment_score": 1
+      },
+      {
+        "title": "Baystreet . ca - Nvidia And Microsoft Launch A . I . Safety Initiative After OpenAI Cyberattack",
+        "url": "http://baystreet.ca/stockstowatch/23737/Nvidia-And-Microsoft-Launch-AI-Safety-Initiative-After-OpenAI-Cyberattack",
+        "domain": "baystreet.ca",
+        "date": "2026-07-27",
+        "sentiment_label": "позитив",
+        "sentiment_score": 1
+      },
+      {
+        "title": "Xbox Live Outage : Digital Games Unplayable as Microsoft Investigates Server Collapse",
+        "url": "https://www.ibtimes.co.uk/xbox-live-outage-digital-game-libraries-1810868",
+        "domain": "ibtimes.co.uk",
+        "date": "2026-07-27",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      }
+    ],
+    "source": "gdelt"
   },
   "320193": {
     "ticker": "AAPL",
