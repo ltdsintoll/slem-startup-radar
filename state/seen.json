@@ -694,6 +694,11 @@
     "name": "GovGuard",
     "source": "YC"
   },
+  "yc:graphify-labs": {
+    "first_seen": "2026-07-27",
+    "name": "Graphify Labs",
+    "source": "YC"
+  },
   "yc:gravy": {
     "first_seen": "2026-07-24",
     "name": "Gravy",
@@ -1562,6 +1567,11 @@
   "yc:surtr-defense-systems": {
     "first_seen": "2026-07-24",
     "name": "Surtr Defense Systems",
+    "source": "YC"
+  },
+  "yc:synapse-semiconductor": {
+    "first_seen": "2026-07-27",
+    "name": "Synapse Semiconductor",
     "source": "YC"
   },
   "yc:synphony": {
