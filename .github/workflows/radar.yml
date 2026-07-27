@@ -41,6 +41,9 @@ jobs:
       - name: Fetch IPO pipeline
         run: python3 ipo.py --days 30
 
+      - name: Fetch Form C crowdfunding
+        run: python3 formc.py --days 60
+
       - name: Fetch IPO fundamentals
         run: python3 fundamentals.py
 

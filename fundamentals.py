@@ -386,6 +386,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     <a href="fundamentals.html" class="active">Фундаментал</a>
     <a href="events.html">События</a>
     <a href="news.html">Новости</a>
+    <a href="crowdfunding.html">Краудфандинг</a>
   </nav>
   <h1>Фундаментал акций</h1>
   <div class="meta">Обновлено: __GENERATED_AT__</div>

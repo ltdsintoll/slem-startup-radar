@@ -11,6 +11,7 @@ IPO_CSV = "ipo.csv"
 FUNDAMENTALS_CSV = "fundamentals.csv"
 EVENTS_CSV = "events.csv"
 NEWS_CSV = "news.csv"
+FORMC_CSV = "formc.csv"
 MACRO_JSON = "macro.json"
 OUT_HTML = "public/index.html"
 
@@ -163,6 +164,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     <a href="fundamentals.html">Фундаментал</a>
     <a href="events.html">События</a>
     <a href="news.html">Новости</a>
+    <a href="crowdfunding.html">Краудфандинг</a>
   </nav>
   <h1>Invest Radar</h1>
   <div class="meta">Обновлено: __GENERATED_AT__</div>
@@ -206,6 +208,7 @@ def main():
     fund_rows = load_csv(FUNDAMENTALS_CSV)
     events_rows = load_csv(EVENTS_CSV)
     news_rows = load_csv(NEWS_CSV)
+    formc_rows = load_csv(FORMC_CSV)
     macro_banner = build_macro_banner()
 
     # --- KPI ---
@@ -222,11 +225,17 @@ def main():
     news_total = len(news_rows)
     news_mentions = sum(1 for r in news_rows if (r.get("mentions") or "").strip())
 
+    def not_expired(r):
+        return (r.get("is_expired") or "").strip().lower() != "true"
+
+    formc_active = [r for r in formc_rows if not_expired(r)]
+
     print(f"[i] Стартапы: {startups_total} (нов. {startups_new})", file=sys.stderr)
     print(f"[i] IPO: {ipo_total} (priced {ipo_priced})", file=sys.stderr)
     print(f"[i] Фундаментал: скоренных {fund_scored}", file=sys.stderr)
     print(f"[i] События 8-K (30д): {events_count}", file=sys.stderr)
     print(f"[i] Новости: {news_total} (про мои {news_mentions})", file=sys.stderr)
+    print(f"[i] Краудфандинг: активных {len(formc_active)} из {len(formc_rows)}", file=sys.stderr)
     if ipo_new_today:
         print(f"[i] IPO-событий сегодня: {len(ipo_new_today)}", file=sys.stderr)
 
@@ -236,6 +245,7 @@ def main():
         kpi_tile("Акции (фундаментал)", str(fund_scored), "скоренных", "fundamentals.html"),
         kpi_tile("События 8-K (30д)", str(events_count), "материальных филингов", "events.html"),
         kpi_tile("Новости", str(news_total), f"про мои компании {news_mentions}", "news.html"),
+        kpi_tile("Краудфандинг (можно вложить)", str(len(formc_active)), "активных раундов", "crowdfunding.html"),
     ]
 
     # --- топ стартапов по score ---
@@ -284,12 +294,21 @@ def main():
         sub_html = f'{esc(r.get("seendate",""))} · {esc(r.get("domain",""))}'
         news_items.append(top_item(main_html, sub_html))
 
+    # --- краудфандинг по ближайшему дедлайну ---
+    soonest_formc = sorted(formc_active, key=lambda r: r.get("deadline") or "9999-99-99")[:5]
+    formc_items = []
+    for r in soonest_formc:
+        main_html = f'{esc(r.get("company",""))} <span class="tag">{esc(r.get("platform",""))}</span>'
+        sub_html = f'Цель {esc(fmt_usd(r.get("target_amount")))} · до {esc(r.get("deadline",""))}'
+        formc_items.append(top_item(main_html, sub_html))
+
     top_blocks = [
         top_block("Топ стартапов по Score", "startups.html", startup_items),
         top_block("Свежие IPO", "ipo.html", ipo_items),
         top_block("Топ акций по фундаменталу", "fundamentals.html", stock_items),
         top_block("Последние события 8-K", "events.html", event_items),
         top_block("Последние новости", "news.html", news_items),
+        top_block("Краудфандинг — ближайшие дедлайны", "crowdfunding.html", formc_items),
     ]
 
     html_out = (HTML_TEMPLATE
