@@ -28,11 +28,12 @@ SUBMISSIONS = "https://data.sec.gov/submissions/CIK{cik}.json"
 EVENT_FORMS = {"8-K", "6-K"}
 STATE_FILE = "state/events_seen.json"
 NEW_TODAY_FILE = "public/events_new_today.json"
-SIGNIFICANT_CODES = {"1.01", "1.05", "2.01", "2.02", "4.02", "5.02"}
+SIGNIFICANT_CODES = {"1.01", "1.03", "1.05", "2.01", "2.02", "3.01", "4.02", "5.02"}
 
 ITEM_LABELS = {
     "1.01": "Существенное соглашение",
     "1.02": "Прекращение соглашения",
+    "1.03": "Банкротство/конкурсное производство",
     "1.05": "Кибер-инцидент",
     "2.01": "Сделка с активами",
     "2.02": "Финансовые результаты",
@@ -426,7 +427,7 @@ def main():
     new_events = [e for e in events if e["is_new"]]
     significant_new = [
         e for e in new_events
-        if e["ticker"] or set(e["item_codes"].split(",")) & SIGNIFICANT_CODES
+        if set(e["item_codes"].split(",")) & SIGNIFICANT_CODES
     ]
     new_today = [{
         "date": e["date"], "company": e["company"], "ticker": e["ticker"],
