@@ -248,6 +248,11 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   nav.pages a.active { color: var(--accent); font-weight: 600; border-bottom: 2px solid var(--accent); }
   h1 { margin: 0 0 4px; font-size: 22px; }
   .subtitle { color: var(--muted); font-size: 13px; margin-bottom: 6px; max-width: 700px; }
+  .disclaimer {
+    font-size: 12px; color: var(--muted); background: var(--bg-alt);
+    border: 1px solid var(--border); border-radius: 6px;
+    padding: 7px 10px; margin-bottom: 10px; max-width: 760px;
+  }
   .meta { color: var(--muted); font-size: 13px; margin-bottom: 8px; }
   .counts { display: flex; gap: 16px; flex-wrap: wrap; font-size: 13px; margin-bottom: 14px; }
   .counts b { font-size: 16px; }
@@ -312,6 +317,11 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     Стартапы, куда может вложиться любой (от ~$100) через указанную площадку;
     дедлайн — докуда открыт раунд.
   </div>
+  <div class="disclaimer">
+    Площадки — США (Reg CF). Доступ для инвесторов не из США различается: часть площадок
+    принимает международных (проверяй при регистрации), часть — только резидентов США.
+    Убедись, что площадка принимает твою юрисдикцию, прежде чем рассчитывать на раунд.
+  </div>
   <div class="meta">Обновлено: __GENERATED_AT__</div>
   <div class="new-panel" id="newPanel">
     <b>🆕 Новые раунды (<span id="newCount">0</span>)</b>
@@ -326,6 +336,12 @@ __PLATFORM_BUTTONS__
     <button class="filter-btn" id="soonBtn">⏰ Скоро закрытие (7д)</button>
     <button class="filter-btn" id="newOnlyBtn">🆕 Только новые</button>
   </div>
+  <div class="controls" style="margin-top: 8px;">
+    <button class="filter-btn active" data-size="0">Все размеры</button>
+    <button class="filter-btn" data-size="100000">≥$100k</button>
+    <button class="filter-btn" data-size="500000">≥$500k</button>
+    <button class="filter-btn" data-size="1000000">≥$1M</button>
+  </div>
 </header>
 <main>
   <div class="table-wrap">
@@ -337,6 +353,7 @@ __PLATFORM_BUTTONS__
           <th data-key="target_amount">Цель</th>
           <th data-key="max_amount">Максимум</th>
           <th data-key="deadline">Дедлайн</th>
+          <th data-key="days_left">Осталось</th>
           <th data-key="security_type">Бумага</th>
           <th>SEC</th>
         </tr>
@@ -355,10 +372,17 @@ let searchTerm = "";
 let platformFilter = "all";
 let onlySoon = false;
 let onlyNew = false;
+let sizeFilter = 0;
 
 function fmtUsd(v) {
   if (typeof v !== "number") return "—";
   return "$" + Math.round(v).toLocaleString("en-US");
+}
+
+function roundSize(row) {
+  const t = typeof row.target_amount === "number" ? row.target_amount : -Infinity;
+  const m = typeof row.max_amount === "number" ? row.max_amount : -Infinity;
+  return Math.max(t, m);
 }
 
 function sortRows(rows) {
@@ -386,6 +410,7 @@ function render() {
   }
   if (onlySoon) rows = rows.filter(r => r.is_soon);
   if (onlyNew) rows = rows.filter(r => r.is_new);
+  if (sizeFilter > 0) rows = rows.filter(r => roundSize(r) >= sizeFilter);
   if (searchTerm) {
     const t = searchTerm.toLowerCase();
     rows = rows.filter(r =>
@@ -403,7 +428,7 @@ function render() {
   if (rows.length === 0) {
     const tr = document.createElement("tr");
     const td = document.createElement("td");
-    td.colSpan = 7;
+    td.colSpan = 8;
     td.className = "empty";
     td.textContent = "Ничего не найдено";
     tr.appendChild(td);
@@ -462,6 +487,10 @@ function render() {
     }
     tr.appendChild(tdDeadline);
 
+    const tdDaysLeft = document.createElement("td");
+    tdDaysLeft.textContent = typeof row.days_left === "number" ? row.days_left + "д" : "—";
+    tr.appendChild(tdDaysLeft);
+
     const tdSecurity = document.createElement("td");
     tdSecurity.textContent = row.security_type || "";
     tr.appendChild(tdSecurity);
@@ -512,6 +541,15 @@ document.getElementById("newOnlyBtn").addEventListener("click", (e) => {
   onlyNew = !onlyNew;
   e.target.classList.toggle("active", onlyNew);
   render();
+});
+
+document.querySelectorAll(".filter-btn[data-size]").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".filter-btn[data-size]").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    sizeFilter = parseInt(btn.dataset.size, 10);
+    render();
+  });
 });
 
 function renderNewPanel() {
@@ -598,12 +636,13 @@ def main():
 
         is_expired = bool(deadline) and deadline < today
         is_soon = False
+        days_left = None
         if deadline and not is_expired:
             try:
                 days_left = (dt.date.fromisoformat(deadline) - today_date).days
                 is_soon = 0 <= days_left <= SOON_DAYS
             except ValueError:
-                pass
+                days_left = None
 
         row = {
             "company": parsed["company"] or f["cik"],
@@ -612,6 +651,7 @@ def main():
             "target_amount": target_amount,
             "max_amount": max_amount,
             "deadline": deadline,
+            "days_left": days_left,
             "security_type": parsed["security_type"],
             "cik": f["cik"],
             "sec_url": parsed["url"],
@@ -653,7 +693,7 @@ def main():
     print(f"[i] Новых раундов: {sum(1 for r in rows if r['is_new'])} (активных новых: {len(new_today)})",
           file=sys.stderr)
 
-    cols = ["company", "website", "platform", "target_amount", "max_amount", "deadline",
+    cols = ["company", "website", "platform", "target_amount", "max_amount", "deadline", "days_left",
             "security_type", "cik", "sec_url", "is_expired", "is_soon"]
     with open(a.out, "w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=cols)
