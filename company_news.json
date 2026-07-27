@@ -86,7 +86,32 @@
   "320193": {
     "ticker": "AAPL",
     "company": "Apple Inc.",
-    "articles": [],
-    "source": "no-data"
+    "articles": [
+      {
+        "title": "For Sale ( 50 Pieces ) New Apple iPhone 17 Original 256GB Unlocked $16 , 950CAD",
+        "url": "http://www.dhal3.com/vb/showthread.php?s=e9c01e3dd81967c0a5f3c43954eb4407&p=1672184",
+        "domain": "dhal3.com",
+        "date": "2026-07-27",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "The war between competing AI models could end up more like Apple vs . Android than VHS vs . Betamax",
+        "url": "https://fortune.com/2026/07/27/open-weight-ai-closed-models-china-us-rivalry-apple-android-vhs-betamax/",
+        "domain": "fortune.com",
+        "date": "2026-07-27",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "Song Called  I Did It  Appears On D4vd Apple Music Artist Profile",
+        "url": "https://koacolorado.iheart.com/content/2026-07-27-song-called-i-did-it-appears-on-d4vds-apple-music-artist-profile/",
+        "domain": "koacolorado.iheart.com",
+        "date": "2026-07-27",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      }
+    ],
+    "source": "gdelt"
   }
 }
