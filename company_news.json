@@ -39,8 +39,33 @@
   "789019": {
     "ticker": "MSFT",
     "company": "MICROSOFT CORP",
-    "articles": [],
-    "source": "no-data"
+    "articles": [
+      {
+        "title": "  I wouldnt be here if Microsoft India had hired me : Techie emotional X post goes viral",
+        "url": "https://www.moneycontrol.com/news/trends/i-wouldn-t-be-here-if-microsoft-india-had-hired-me-techie-s-emotional-x-post-goes-viral-13984786.html",
+        "domain": "moneycontrol.com",
+        "date": "2026-07-27",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "Sovran Advisors LLC Boosts Stock Holdings in Microsoft Corporation $MSFT",
+        "url": "https://www.tickerreport.com/banking-finance/13517078/sovran-advisors-llc-boosts-stock-holdings-in-microsoft-corporation-msft.html",
+        "domain": "tickerreport.com",
+        "date": "2026-07-27",
+        "sentiment_label": "позитив",
+        "sentiment_score": 1
+      },
+      {
+        "title": "Former Microsoft President Jeff Raikes Says AI Could Create a  Talent Debt  by Replacing Entry - Level Work",
+        "url": "https://www.benzinga.com/markets/tech/26/07/60688069/former-microsoft-president-jeff-raikes-says-ai-could-create-a-talent-debt-by-replacing-entry-level-work",
+        "domain": "benzinga.com",
+        "date": "2026-07-27",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      }
+    ],
+    "source": "gdelt"
   },
   "320193": {
     "ticker": "AAPL",

@@ -227,7 +227,7 @@
   "1745648": {
     "first_seen": "2026-07-24",
     "name": "Apnimed, Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "1756064": {
     "first_seen": "2026-07-24",
@@ -352,7 +352,7 @@
   "1853921": {
     "first_seen": "2026-07-24",
     "name": "Scribe Therapeutics, Inc.",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "1854963": {
     "first_seen": "2026-07-24",
@@ -994,6 +994,11 @@
     "name": "Cryptex Digital Market Cap ETF",
     "stage": "Amending"
   },
+  "2115659": {
+    "first_seen": "2026-07-27",
+    "name": "Watu Metals Acquisition Corp",
+    "stage": "Amending"
+  },
   "2116105": {
     "first_seen": "2026-07-24",
     "name": "Futurewave Acquisition Corp",
@@ -1128,6 +1133,11 @@
     "first_seen": "2026-07-24",
     "name": "Arterior Solutions Corp",
     "stage": "Amending"
+  },
+  "2134856": {
+    "first_seen": "2026-07-27",
+    "name": "Karman Line Acquisition Corp.",
+    "stage": "Filed"
   },
   "2134914": {
     "first_seen": "2026-07-24",
