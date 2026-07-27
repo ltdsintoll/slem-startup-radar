@@ -2,33 +2,8 @@
   "1045810": {
     "ticker": "NVDA",
     "company": "NVIDIA CORP",
-    "articles": [
-      {
-        "title": "Nvidia forms industry alliance for open AI security after Hugging Face hack",
-        "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/nvidia-forms-industry-alliance-for-open-ai-security-after-hugging-face-hack/articleshow/132659899.cms",
-        "domain": "economictimes.indiatimes.com",
-        "date": "2026-07-27",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "Is Nvidia OpenAI financing deal circular risk ? ",
-        "url": "https://www.thenews.com.pk/latest/1410368-is-nvidias-openai-financing-deal-circular-risk",
-        "domain": "thenews.com.pk",
-        "date": "2026-07-27",
-        "sentiment_label": "негатив",
-        "sentiment_score": -1
-      },
-      {
-        "title": "South Korea Naver jumps 10 per cent on Nvidia $1 . 2b investment plan",
-        "url": "https://www.asiaone.com:443/money/south-koreas-naver-jumps-10-cent-nvidias-12b-investment-plan",
-        "domain": "asiaone.com",
-        "date": "2026-07-27",
-        "sentiment_label": "позитив",
-        "sentiment_score": 1
-      }
-    ],
-    "source": "gdelt"
+    "articles": [],
+    "source": "no-data"
   },
   "1321655": {
     "ticker": "PLTR",
@@ -39,79 +14,13 @@
   "789019": {
     "ticker": "MSFT",
     "company": "MICROSOFT CORP",
-    "articles": [
-      {
-        "title": "  I wouldnt be here if Microsoft India had hired me : Techie emotional X post goes viral",
-        "url": "https://www.moneycontrol.com/news/trends/i-wouldn-t-be-here-if-microsoft-india-had-hired-me-techie-s-emotional-x-post-goes-viral-13984786.html",
-        "domain": "moneycontrol.com",
-        "date": "2026-07-27",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "Sovran Advisors LLC Boosts Stock Holdings in Microsoft Corporation $MSFT",
-        "url": "https://www.tickerreport.com/banking-finance/13517078/sovran-advisors-llc-boosts-stock-holdings-in-microsoft-corporation-msft.html",
-        "domain": "tickerreport.com",
-        "date": "2026-07-27",
-        "sentiment_label": "позитив",
-        "sentiment_score": 1
-      },
-      {
-        "title": "Former Microsoft President Jeff Raikes Says AI Could Create a  Talent Debt  by Replacing Entry - Level Work",
-        "url": "https://www.benzinga.com/markets/tech/26/07/60688069/former-microsoft-president-jeff-raikes-says-ai-could-create-a-talent-debt-by-replacing-entry-level-work",
-        "domain": "benzinga.com",
-        "date": "2026-07-27",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      }
-    ],
-    "source": "gdelt"
+    "articles": [],
+    "source": "no-data"
   },
   "320193": {
     "ticker": "AAPL",
     "company": "Apple Inc.",
-    "articles": [
-      {
-        "title": "For Sale ( 20 Pieces ) New Apple iPhone Air Original 256GB Unlocked $15 , 980CAD",
-        "url": "http://www.dhal3.com/vb/showthread.php?s=ee9b0794ebd4eacdaa3daabb73c57683&t=307125",
-        "domain": "dhal3.com",
-        "date": "2026-07-27",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "For Sale ( 5 Pieces ) New Apple iPhone 17 Original 256GB Unlocked $3 , 995CAD",
-        "url": "http://www.dhal3.com/vb/showthread.php?s=6f72853851e37c5c2d59adef1e76788b&t=307130",
-        "domain": "dhal3.com",
-        "date": "2026-07-27",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "For Sale ( 30 Pieces ) New Apple iPhone Air Original 256GB Unlocked $20 , 970CAD",
-        "url": "http://www.dhal3.com/vb/showthread.php?s=6f72853851e37c5c2d59adef1e76788b&t=307126",
-        "domain": "dhal3.com",
-        "date": "2026-07-27",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "Apple best device protection deal is finally leaving the US",
-        "url": "https://www.digitaltrends.com/phones/apples-best-device-protection-deal-is-finally-leaving-the-us/",
-        "domain": "digitaltrends.com",
-        "date": "2026-07-27",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "For Sale ( 20 Pieces ) New Apple iPhone 17 Original 256GB Unlocked $11 , 980CAD",
-        "url": "http://www.dhal3.com/vb/showthread.php?s=6f72853851e37c5c2d59adef1e76788b&t=307132",
-        "domain": "dhal3.com",
-        "date": "2026-07-27",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      }
-    ],
-    "source": "gdelt"
+    "articles": [],
+    "source": "no-data"
   }
 }

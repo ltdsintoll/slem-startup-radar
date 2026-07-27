@@ -1,7 +1,27 @@
 {
+  "formd:000101410826000042": {
+    "first_seen": "2026-07-27",
+    "name": "Asher Health, Inc.",
+    "source": "Form D"
+  },
+  "formd:000106299326003839": {
+    "first_seen": "2026-07-27",
+    "name": "Scorpio Gold Corp",
+    "source": "Form D"
+  },
   "formd:000185588826000005": {
     "first_seen": "2026-07-24",
     "name": "ASCENDIA PHARMACEUTICALS, INC.",
+    "source": "Form D"
+  },
+  "formd:000197056926000003": {
+    "first_seen": "2026-07-27",
+    "name": "Anchor 3724, LLC",
+    "source": "Form D"
+  },
+  "formd:000198119126000003": {
+    "first_seen": "2026-07-27",
+    "name": "Veza Innovations Inc.",
     "source": "Form D"
   },
   "formd:000200402026000003": {
@@ -9,9 +29,19 @@
     "name": "DIMER INSTRUMENTS, INC.",
     "source": "Form D"
   },
+  "formd:000203259426000005": {
+    "first_seen": "2026-07-27",
+    "name": "SleepRes, Inc.",
+    "source": "Form D"
+  },
   "formd:000203363726000002": {
     "first_seen": "2026-07-24",
     "name": "Unless LGH Holdings LLC",
+    "source": "Form D"
+  },
+  "formd:000207891426000001": {
+    "first_seen": "2026-07-27",
+    "name": "Point Reyes Partners, LLC",
     "source": "Form D"
   },
   "formd:000208300126000001": {
@@ -24,14 +54,44 @@
     "name": "Brimstone Grill Inc.",
     "source": "Form D"
   },
+  "formd:000210096626000011": {
+    "first_seen": "2026-07-27",
+    "name": "Aslan Housing Foundation",
+    "source": "Form D"
+  },
   "formd:000210964326000003": {
     "first_seen": "2026-07-24",
     "name": "Embold Therapeutics, Inc.",
     "source": "Form D"
   },
+  "formd:000211213826000002": {
+    "first_seen": "2026-07-27",
+    "name": "MyWay West End Ltd Liability Co",
+    "source": "Form D"
+  },
+  "formd:000212858526000002": {
+    "first_seen": "2026-07-27",
+    "name": "Blue Arbor Technologies, Inc.",
+    "source": "Form D"
+  },
+  "formd:000213452926000001": {
+    "first_seen": "2026-07-27",
+    "name": "Red Shaker, Inc.",
+    "source": "Form D"
+  },
+  "formd:000213471826000059": {
+    "first_seen": "2026-07-27",
+    "name": "Easy Trader App, Inc.",
+    "source": "Form D"
+  },
   "formd:000213551826000001": {
     "first_seen": "2026-07-24",
     "name": "Elixir Technology Holdings Inc.",
+    "source": "Form D"
+  },
+  "formd:000213561526000001": {
+    "first_seen": "2026-07-27",
+    "name": "PIM Litigation Portfolio 3 LLC",
     "source": "Form D"
   },
   "formd:000213949526000002": {
@@ -42,6 +102,16 @@
   "formd:000213990626000001": {
     "first_seen": "2026-07-25",
     "name": "Way Way West, LLC",
+    "source": "Form D"
+  },
+  "formd:000214056726000001": {
+    "first_seen": "2026-07-27",
+    "name": "Gaingels Steel Robotics LLC",
+    "source": "Form D"
+  },
+  "formd:000214237726000001": {
+    "first_seen": "2026-07-27",
+    "name": "MCB The Enolia Student Housing DST",
     "source": "Form D"
   },
   "formd:000214391326000001": {
@@ -94,6 +164,16 @@
     "name": "Forever Home Theatrical Co LLC",
     "source": "Form D"
   },
+  "formd:000214624126000001": {
+    "first_seen": "2026-07-27",
+    "name": "LawEngine Inc.",
+    "source": "Form D"
+  },
+  "formd:000214651126000002": {
+    "first_seen": "2026-07-27",
+    "name": "Scaler AI Labs Inc.",
+    "source": "Form D"
+  },
   "formd:000214658326000001": {
     "first_seen": "2026-07-25",
     "name": "Software Velocity Corp.",
@@ -104,6 +184,11 @@
     "name": "Doc Watson Technologies, Inc.",
     "source": "Form D"
   },
+  "formd:000214696326000001": {
+    "first_seen": "2026-07-27",
+    "name": "XENOPS Manufacturing Technologies Inc",
+    "source": "Form D"
+  },
   "formd:000214699726000001": {
     "first_seen": "2026-07-24",
     "name": "Crafton Equities Inc.",
@@ -112,6 +197,16 @@
   "formd:000214718826000001": {
     "first_seen": "2026-07-24",
     "name": "GUARDIAN RECOVERY - WISCONSIN, LLC",
+    "source": "Form D"
+  },
+  "formd:000214729526000001": {
+    "first_seen": "2026-07-27",
+    "name": "Mazzeo Fund I, LP",
+    "source": "Form D"
+  },
+  "formd:000214737326000001": {
+    "first_seen": "2026-07-27",
+    "name": "ScopeRemote, Inc.",
     "source": "Form D"
   },
   "yc:6thsense": {
