@@ -47,6 +47,24 @@ jobs:
       - name: Fetch IPO fundamentals
         run: python3 fundamentals.py
 
+      - name: Check if today is a per-ticker news day (every 3 days)
+        id: news_day_check
+        run: |
+          DOY=$(date -u +%j)
+          if [ "$((10#$DOY % 3))" = "0" ]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Fetch per-ticker news + sentiment (watchlist only)
+        if: steps.news_day_check.outputs.should_run == 'true' || github.event_name == 'workflow_dispatch'
+        run: python3 news_ticker.py --watchlist-only --days 7
+
+      - name: Rebuild fundamentals with fresh per-ticker news
+        if: steps.news_day_check.outputs.should_run == 'true' || github.event_name == 'workflow_dispatch'
+        run: python3 fundamentals.py
+
       - name: Fetch 8-K events
         run: python3 events.py
 
@@ -63,7 +81,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add state/seen.json state/ipo_seen.json state/events_seen.json state/formc_seen.json
+          git add state/seen.json state/ipo_seen.json state/events_seen.json state/formc_seen.json company_news.json
           git commit -m "update seen state [skip ci]" || echo "no changes to commit"
           git push
 

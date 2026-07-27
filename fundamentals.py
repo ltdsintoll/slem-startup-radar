@@ -32,6 +32,19 @@ ANNUAL_FORMS = {"10-K", "20-F"}
 
 WATCHLIST_FILE = "watchlist.txt"
 WATCHLIST_DEFAULT = ["AAPL", "NVDA", "MSFT", "PLTR"]
+COMPANY_NEWS_JSON = "company_news.json"
+
+
+def load_company_news(path):
+    """Из news_ticker.py; отсутствие файла/битый JSON — мягко пустым словарём,
+    карточки компаний просто покажут 'н/д' вместо новостей."""
+    if not os.path.exists(path):
+        return {}
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return {}
 
 W_GROWTH = 0.35
 W_PROFIT = 0.30
@@ -368,6 +381,27 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   .badge.med { background: #d97706; }
   .badge.low { background: var(--gray); }
   .ticker { color: var(--muted); font-size: 12px; }
+  .news-toggle {
+    background: none; border: 1px solid var(--border); border-radius: 10px;
+    padding: 2px 8px; font-size: 11px; color: var(--muted); cursor: pointer;
+  }
+  .news-toggle:hover { border-color: var(--accent); color: var(--accent); }
+  .news-na { color: var(--muted); font-size: 12px; font-style: italic; }
+  .news-detail {
+    margin-top: 6px; padding-top: 6px; border-top: 1px dashed var(--border);
+    display: flex; flex-direction: column; gap: 6px; max-width: 320px;
+  }
+  .news-item { font-size: 12px; line-height: 1.4; }
+  .news-item a { color: inherit; text-decoration: none; }
+  .news-item a:hover { color: var(--accent); text-decoration: underline; }
+  .sentiment-badge {
+    display: inline-block; padding: 0 6px; border-radius: 8px;
+    font-size: 10px; font-weight: 600; color: #fff; margin-right: 4px; vertical-align: middle;
+  }
+  .sentiment-badge.pos { background: var(--green); }
+  .sentiment-badge.neg { background: var(--red); }
+  .sentiment-badge.neu { background: var(--gray); }
+  .news-domain { color: var(--muted); }
   .filter-btn {
     padding: 7px 12px; border: 1px solid var(--border); background: var(--bg);
     border-radius: 6px; cursor: pointer; font-size: 13px;
@@ -423,6 +457,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
           <th data-key="leverage">Леверидж</th>
           <th data-key="score">Score</th>
           <th data-key="data_confidence">Данные</th>
+          <th>Новости</th>
         </tr>
       </thead>
       <tbody id="rows"></tbody>
@@ -483,7 +518,7 @@ function render() {
   if (rows.length === 0) {
     const tr = document.createElement("tr");
     const td = document.createElement("td");
-    td.colSpan = 10;
+    td.colSpan = 11;
     td.className = "empty";
     td.textContent = "Ничего не найдено";
     tr.appendChild(td);
@@ -548,6 +583,48 @@ function render() {
     badge.textContent = row.data_confidence;
     tdConf.appendChild(badge);
     tr.appendChild(tdConf);
+
+    const tdNews = document.createElement("td");
+    const news = row.news || [];
+    if (news.length === 0) {
+      const na = document.createElement("span");
+      na.className = "news-na";
+      na.textContent = "н/д";
+      tdNews.appendChild(na);
+    } else {
+      const toggle = document.createElement("button");
+      toggle.className = "news-toggle";
+      toggle.textContent = "📰 " + news.length;
+      const detail = document.createElement("div");
+      detail.className = "news-detail";
+      detail.style.display = "none";
+      for (const n of news) {
+        const item = document.createElement("div");
+        item.className = "news-item";
+        const sentClass = n.sentiment_score > 0 ? "pos" : (n.sentiment_score < 0 ? "neg" : "neu");
+        const sentBadge = document.createElement("span");
+        sentBadge.className = "sentiment-badge " + sentClass;
+        sentBadge.textContent = n.sentiment_label;
+        item.appendChild(sentBadge);
+        const a = document.createElement("a");
+        a.href = n.url;
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        a.textContent = n.title;
+        item.appendChild(a);
+        const meta = document.createElement("div");
+        meta.className = "news-domain";
+        meta.textContent = (n.date || "") + " · " + (n.domain || "");
+        item.appendChild(meta);
+        detail.appendChild(item);
+      }
+      toggle.addEventListener("click", () => {
+        detail.style.display = detail.style.display === "none" ? "flex" : "none";
+      });
+      tdNews.appendChild(toggle);
+      tdNews.appendChild(detail);
+    }
+    tr.appendChild(tdNews);
 
     tbody.appendChild(tr);
   }
@@ -616,6 +693,10 @@ def main():
     watchlist_only = sum(1 for e in universe_entries if "Watchlist" in e["universe"])
     print(f"[i] Универсум: {len(universe_entries)} компаний (из них Watchlist: {watchlist_only})", file=sys.stderr)
 
+    company_news = load_company_news(COMPANY_NEWS_JSON)
+    print(f"[i] company_news.json: новостей на {sum(1 for v in company_news.values() if v.get('articles'))} компаний "
+          f"(из {len(company_news)})", file=sys.stderr)
+
     rows = []
     for i, entry in enumerate(universe_entries, 1):
         name = entry.get("ticker") or entry["company"]
@@ -628,6 +709,7 @@ def main():
         if facts is None:
             print(f"[{i}/{len(universe_entries)}] {name} -> no-data", file=sys.stderr)
         row = build_row(entry, facts)
+        row["news"] = (company_news.get(row["cik"], {}) or {}).get("articles", [])
         print(f"[{i}/{len(universe_entries)}] {name} -> score={row['score']} ({row['data_confidence']})",
               file=sys.stderr)
         rows.append(row)
