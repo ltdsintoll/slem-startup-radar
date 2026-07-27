@@ -71,7 +71,9 @@ jobs:
       - name: Fetch news feed
         run: python3 news.py
 
-      - name: Fetch macro (Treasury yields)
+      - name: Fetch macro (Treasury yields + FRED rate/inflation)
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
         run: python3 macro.py
 
       - name: Build overview

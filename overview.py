@@ -113,6 +113,18 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     padding: 8px 14px; margin-bottom: 16px;
   }
   .macro-banner .inversion { color: #dc2626; font-weight: 700; }
+  .macro-tiles { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 4px; }
+  .macro-tile {
+    background: var(--bg); border: 1px solid var(--border); border-radius: 10px;
+    padding: 10px 14px; min-width: 150px; flex: 1 1 150px;
+  }
+  .macro-tile .t-title { font-size: 11px; color: var(--muted); margin-bottom: 4px; }
+  .macro-tile .t-val { font-size: 20px; font-weight: 700; }
+  .macro-tile .t-delta { font-size: 11px; margin-top: 2px; color: var(--muted); }
+  .macro-tile .t-delta.rise { color: #dc2626; }
+  .macro-tile .t-delta.fall { color: #059669; }
+  .macro-attribution { font-size: 11px; color: var(--muted); margin: 4px 0 16px; }
+  .macro-attribution a { color: var(--muted); }
   .kpi-row {
     display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     gap: 12px; margin-bottom: 24px;
@@ -171,6 +183,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 </header>
 <main>
 __MACRO_BANNER__
+__FRED_BANNER__
   <div class="kpi-row">
 __KPI_TILES__
   </div>
@@ -200,6 +213,45 @@ def build_macro_banner():
     return f'<div class="macro-banner">{text}</div>'
 
 
+def macro_tile(title, date_str, value_str, delta):
+    cls = "rise" if delta > 0 else ("fall" if delta < 0 else "")
+    delta_txt = f"{delta:+.2f} п.п." if delta else "без изменений"
+    return (f'<div class="macro-tile"><div class="t-title">{esc(title)} ({esc(date_str)})</div>'
+            f'<div class="t-val">{value_str}</div>'
+            f'<div class="t-delta {cls}">{delta_txt}</div></div>')
+
+
+def build_fred_banner():
+    macro = load_json(MACRO_JSON, None)
+    if not macro:
+        return ""
+
+    tiles = []
+    try:
+        if macro.get("fed_funds_rate") is not None:
+            rate = float(macro["fed_funds_rate"])
+            delta = float(macro.get("fed_funds_delta") or 0)
+            tiles.append(macro_tile("Ставка ФРС", macro.get("fed_funds_date", ""), f"{rate:.2f}%", delta))
+    except (TypeError, ValueError):
+        pass
+    try:
+        if macro.get("cpi_yoy") is not None:
+            cpi = float(macro["cpi_yoy"])
+            delta = float(macro.get("cpi_yoy_delta") or 0)
+            tiles.append(macro_tile("Инфляция CPI (год к году)", macro.get("cpi_yoy_date", ""), f"{cpi:.2f}%", delta))
+    except (TypeError, ValueError):
+        pass
+
+    if not tiles:
+        return ""
+
+    attribution = (
+        '<div class="macro-attribution">Источник: <a href="https://fred.stlouisfed.org/" '
+        'target="_blank" rel="noopener noreferrer">FRED, Federal Reserve Bank of St. Louis</a></div>'
+    )
+    return f'<div class="macro-tiles">{"".join(tiles)}</div>{attribution}'
+
+
 def main():
     startups_data = load_json(STARTUPS_JSON, [])
     new_today = load_json(NEW_TODAY_JSON, [])
@@ -210,6 +262,7 @@ def main():
     news_rows = load_csv(NEWS_CSV)
     formc_rows = load_csv(FORMC_CSV)
     macro_banner = build_macro_banner()
+    fred_banner = build_fred_banner()
 
     # --- KPI ---
     startups_total = len(startups_data)
@@ -314,6 +367,7 @@ def main():
     html_out = (HTML_TEMPLATE
                 .replace("__GENERATED_AT__", datetime.now().strftime("%Y-%m-%d %H:%M"))
                 .replace("__MACRO_BANNER__", macro_banner)
+                .replace("__FRED_BANNER__", fred_banner)
                 .replace("__KPI_TILES__", "\n".join(kpi_tiles))
                 .replace("__TOP_BLOCKS__", "\n".join(top_blocks)))
 
