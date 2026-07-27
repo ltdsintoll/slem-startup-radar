@@ -380,9 +380,9 @@ function fmtUsd(v) {
 }
 
 function roundSize(row) {
-  const t = typeof row.target_amount === "number" ? row.target_amount : -Infinity;
-  const m = typeof row.max_amount === "number" ? row.max_amount : -Infinity;
-  return Math.max(t, m);
+  // намеренно только target_amount: max_amount почти всегда выставлен на потолок
+  // Reg CF ($5M) независимо от реальной цели раунда и вводит фильтр в заблуждение
+  return typeof row.target_amount === "number" ? row.target_amount : -Infinity;
 }
 
 function sortRows(rows) {
