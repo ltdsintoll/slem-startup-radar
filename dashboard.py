@@ -9,6 +9,7 @@ FORMD_ENRICHED_CSV = "startups_enriched.csv"
 FORMD_PLAIN_CSV = "startups.csv"
 YC_CSV = "yc.csv"
 PRODUCT_HUNT_CSV = "product_hunt.csv"
+COMPANIES_HOUSE_CSV = "companies_house.csv"
 OUT_HTML = "public/startups.html"
 STARTUPS_DATA_JSON = "public/startups_data.json"
 STATE_FILE = "state/seen.json"
@@ -130,6 +131,18 @@ def ph_id(post_id):
     return f"ph:{post_id}"
 
 
+def score_of_ch(f, c):
+    """Companies House — голая регистрационная запись, без сигналов pedigree И
+    traction (нет ни инвесторов, ни выручки/команды/апвоутов). Оба веса
+    перераспределены на F/C тем же способом, что и score_of_ph()."""
+    total_weight = W_FRESHNESS + W_COMPLETENESS
+    return round((W_FRESHNESS * f + W_COMPLETENESS * c) / total_weight)
+
+
+def ch_id(company_number):
+    return f"ch:{company_number}"
+
+
 def load_state(path):
     if not os.path.exists(path):
         return {}
@@ -221,6 +234,7 @@ def load_formd():
                 "sec_url": sec_url,
                 "yc_url": "",
                 "ph_url": "",
+                "ch_url": "",
                 "score": score_of(p, t, fr, c),
                 "score_p": p, "score_t": t, "score_f": fr, "score_c": c,
             })
@@ -286,6 +300,7 @@ def load_yc(path):
             "sec_url": "",
             "yc_url": yc_url,
             "ph_url": "",
+            "ch_url": "",
             "score": score_of(p, t, fr, c),
             "score_p": p, "score_t": t, "score_f": fr, "score_c": c,
         })
@@ -347,12 +362,76 @@ def load_product_hunt(path):
             "sec_url": "",
             "yc_url": "",
             "ph_url": r.get("url", ""),
+            "ch_url": "",
             "score": score_of_ph(t, fr, c),
             # pedigree — н/д для Product Hunt (нет данных о фаундерах/финансировании),
             # None -> JSON null -> "н/д" в тултипе (см. tdScore.title в JS ниже)
             "score_p": None, "score_t": t, "score_f": fr, "score_c": c,
         })
     print(f"[i] Product Hunt: {len(rows)} строк из {path}", file=sys.stderr)
+    return rows
+
+
+def load_companies_house(path):
+    if not os.path.exists(path):
+        print(f"[i] {path} не найден — пропускаю Companies House", file=sys.stderr)
+        return []
+
+    with open(path, newline="", encoding="utf-8") as f:
+        raw_rows = list(csv.DictReader(f))
+
+    today = date.today()
+    rows = []
+    for r in raw_rows:
+        sic_labels = r.get("sic_labels", "") or ""
+        has_sic = bool(r.get("sic_codes", "").strip())
+        locality = r.get("locality", "") or ""
+        region = r.get("region", "") or ""
+        country = r.get("country", "") or ""
+        location = ", ".join(x for x in (locality, region or country) if x)
+
+        # freshness — та же кривая, что у Form D/Product Hunt (0 дн.=100, 90+=0)
+        try:
+            created = datetime.strptime(r.get("date_of_creation", ""), "%Y-%m-%d").date()
+            days = max(0, (today - created).days)
+            freshness = max(0.0, min(100.0, 100 - (days / 90) * 100))
+        except ValueError:
+            freshness = 0.0
+
+        # completeness — единственное, что у Companies House вообще варьируется:
+        # заявлен ли SIC-код и указан ли адрес регистрации
+        completeness = 100 if (has_sic and location) else (50 if (has_sic or location) else 0)
+
+        fr, c = round(freshness), completeness
+        company_number = r.get("company_number", "")
+        extra_bits = [b for b in (r.get("company_type", ""), location) if b]
+        extra = " · ".join(extra_bits)
+
+        rows.append({
+            "id": ch_id(company_number),
+            "source": "Companies House",
+            "name": r.get("company_name", ""),
+            "description": sic_labels,
+            "industry": sic_labels,
+            "amount_display": "",
+            "amount_sort": -1,
+            "extra": extra,
+            "location": location,
+            "website": "",
+            "guessed_website": "",
+            "confidence": "",
+            "sec_url": "",
+            "yc_url": "",
+            "ph_url": "",
+            "ch_url": f"https://find-and-update.company-information.service.gov.uk/company/{company_number}"
+                      if company_number else "",
+            "score": score_of_ch(fr, c),
+            # ни pedigree, ни traction Companies House не даёт (нет ни инвесторов,
+            # ни выручки/команды/апвоутов) — оба "н/д", это ожидаемо для голой
+            # регистрационной записи, не баг
+            "score_p": None, "score_t": None, "score_f": fr, "score_c": c,
+        })
+    print(f"[i] Companies House: {len(rows)} строк из {path}", file=sys.stderr)
     return rows
 
 
@@ -372,6 +451,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     --formd: #b45309;
     --yc: #ea580c;
     --ph: #da552f;
+    --ch: #012169;
     --green: #16a34a;
     --gray: #9ca3af;
   }
@@ -470,6 +550,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   .badge.formd { background: var(--formd); }
   .badge.yc { background: var(--yc); }
   .badge.ph { background: var(--ph); }
+  .badge.ch { background: var(--ch); }
   .company-name { font-weight: 600; }
   .sub { color: var(--muted); font-size: 11px; margin-top: 2px; }
   .score-cell { cursor: help; }
@@ -525,6 +606,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     <span>Form D: <b>__FORMD_COUNT__</b></span>
     <span>YC: <b>__YC_COUNT__</b></span>
     <span>Product Hunt: <b>__PH_COUNT__</b></span>
+    <span>Companies House: <b>__CH_COUNT__</b></span>
   </div>
   <div class="controls">
     <input id="search" type="text" placeholder="Поиск по названию, описанию, отрасли...">
@@ -532,6 +614,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     <button class="filter-btn" data-source="Form D">Form D</button>
     <button class="filter-btn" data-source="YC">YC</button>
     <button class="filter-btn" data-source="Product Hunt">Product Hunt</button>
+    <button class="filter-btn" data-source="Companies House">Companies House</button>
     <button class="filter-btn" id="newOnlyBtn">🆕 Только новые</button>
   </div>
 </header>
@@ -573,6 +656,7 @@ function buildLinks(row) {
   if (row.sec_url) links.push({ label: "SEC", href: row.sec_url });
   if (row.yc_url) links.push({ label: "YC", href: row.yc_url });
   if (row.ph_url) links.push({ label: "Product Hunt", href: row.ph_url });
+  if (row.ch_url) links.push({ label: "Companies House", href: row.ch_url });
   links.push({ label: "Google", href: searchUrl("https://www.google.com/search?q=", row.name) });
   links.push({ label: "LinkedIn", href: searchUrl("https://www.linkedin.com/search/results/all/?keywords=", row.name) });
   links.push({ label: "Crunchbase", href: searchUrl("https://www.crunchbase.com/textsearch?q=", row.name) });
@@ -624,7 +708,8 @@ function render() {
 
     const tdSource = document.createElement("td");
     const badge = document.createElement("span");
-    badge.className = "badge " + (row.source === "Form D" ? "formd" : row.source === "YC" ? "yc" : "ph");
+    const badgeClass = { "Form D": "formd", "YC": "yc", "Product Hunt": "ph", "Companies House": "ch" }[row.source] || "yc";
+    badge.className = "badge " + badgeClass;
     badge.textContent = row.source;
     tdSource.appendChild(badge);
     tr.appendChild(tdSource);
@@ -679,8 +764,8 @@ function render() {
 
     const tdScore = document.createElement("td");
     tdScore.className = "score-cell";
-    const pedigreeLabel = typeof row.score_p === "number" ? row.score_p : "н/д";
-    tdScore.title = `Pedigree ${pedigreeLabel} · Traction ${row.score_t} · Freshness ${row.score_f} · Completeness ${row.score_c}`;
+    const naFallback = (v) => typeof v === "number" ? v : "н/д";
+    tdScore.title = `Pedigree ${naFallback(row.score_p)} · Traction ${naFallback(row.score_t)} · Freshness ${row.score_f} · Completeness ${row.score_c}`;
     const scoreNum = document.createElement("div");
     scoreNum.className = "score-num";
     scoreNum.textContent = row.score;
@@ -776,7 +861,8 @@ def main():
     formd_rows = load_formd()
     yc_rows = load_yc(YC_CSV)
     ph_rows = load_product_hunt(PRODUCT_HUNT_CSV)
-    data = formd_rows + yc_rows + ph_rows
+    ch_rows = load_companies_house(COMPANIES_HOUSE_CSV)
+    data = formd_rows + yc_rows + ph_rows + ch_rows
 
     is_baseline = apply_new_tracking(data, STATE_FILE)
     new_items = [r for r in data if r["is_new"]]
@@ -784,7 +870,7 @@ def main():
     new_today = [{
         "id": r["id"], "name": r["name"], "source": r["source"], "score": r["score"],
         "industry": r["industry"], "description": r["description"],
-        "url": r["sec_url"] or r["yc_url"] or r["ph_url"], "first_seen": r["first_seen"],
+        "url": r["sec_url"] or r["yc_url"] or r["ph_url"] or r["ch_url"], "first_seen": r["first_seen"],
     } for r in new_items]
 
     os.makedirs(os.path.dirname(NEW_TODAY_FILE), exist_ok=True)
@@ -802,6 +888,7 @@ def main():
             .replace("__FORMD_COUNT__", str(len(formd_rows)))
             .replace("__YC_COUNT__", str(len(yc_rows)))
             .replace("__PH_COUNT__", str(len(ph_rows)))
+            .replace("__CH_COUNT__", str(len(ch_rows)))
             .replace("__W_P__", str(W_PEDIGREE))
             .replace("__W_T__", str(W_TRACTION))
             .replace("__W_F__", str(W_FRESHNESS))
@@ -815,14 +902,14 @@ def main():
     startups_data = [{
         "name": r["name"], "source": r["source"], "score": r["score"],
         "industry": r["industry"], "description": r["description"],
-        "url": r["sec_url"] or r["yc_url"] or r["ph_url"], "is_new": r["is_new"], "first_seen": r["first_seen"],
+        "url": r["sec_url"] or r["yc_url"] or r["ph_url"] or r["ch_url"], "is_new": r["is_new"], "first_seen": r["first_seen"],
     } for r in data]
     os.makedirs(os.path.dirname(STARTUPS_DATA_JSON), exist_ok=True)
     with open(STARTUPS_DATA_JSON, "w", encoding="utf-8") as f:
         json.dump(startups_data, f, ensure_ascii=False)
 
-    print(f"[OK] {len(data)} строк ({len(formd_rows)} Form D + {len(yc_rows)} YC + {len(ph_rows)} Product Hunt) -> {OUT_HTML}",
-          file=sys.stderr)
+    print(f"[OK] {len(data)} строк ({len(formd_rows)} Form D + {len(yc_rows)} YC + {len(ph_rows)} Product Hunt "
+          f"+ {len(ch_rows)} Companies House) -> {OUT_HTML}", file=sys.stderr)
 
 
 if __name__ == "__main__":
