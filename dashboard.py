@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""dashboard.py — единый локальный дашборд по стартапам (Form D + YC) в один index.html,
-с прозрачным скорингом приоритизации (не прогноз успеха — эвристика)."""
+"""dashboard.py — единый локальный дашборд по стартапам (Form D + YC + Product Hunt)
+в один index.html, с прозрачным скорингом приоритизации (не прогноз успеха — эвристика)."""
 import csv, json, math, os, re, sys
 from datetime import date, datetime
 
 FORMD_ENRICHED_CSV = "startups_enriched.csv"
 FORMD_PLAIN_CSV = "startups.csv"
 YC_CSV = "yc.csv"
+PRODUCT_HUNT_CSV = "product_hunt.csv"
 OUT_HTML = "public/startups.html"
 STARTUPS_DATA_JSON = "public/startups_data.json"
 STATE_FILE = "state/seen.json"
@@ -45,6 +46,14 @@ FORMD_PEDIGREE_MEGA_ROUND_THRESHOLD = 50_000_000
 YC_PEDIGREE_BASE = 70
 YC_PEDIGREE_ACTIVE_BONUS = 25
 YC_PEDIGREE_INACTIVE_PENALTY = 40
+
+# Product Hunt: engagement = votes + 3*comments (комментарий — более сильный сигнал
+# вовлечённости, чем апвоут), log10-интерполяция как у Form D/YC traction. Без реальных
+# PH-данных для калибровки (нет токена на момент правки) — round-number якоря, не измерено.
+PH_TRACTION_ANCHORS = [
+    (math.log10(5), 20), (math.log10(30), 45), (math.log10(150), 70), (math.log10(800), 95),
+]
+PH_COMMENT_WEIGHT = 3
 
 SEASON_RANK = {"winter": 0, "spring": 1, "summer": 2, "fall": 3}
 BATCH_RE = re.compile(r"^(Winter|Spring|Summer|Fall)\s+(\d{4})$", re.IGNORECASE)
@@ -98,6 +107,15 @@ def score_of(p, t, f, c):
     return round(W_PEDIGREE * p + W_TRACTION * t + W_FRESHNESS * f + W_COMPLETENESS * c)
 
 
+def score_of_ph(t, f, c):
+    """Product Hunt не даёт сигнала pedigree (нет данных о фаундерах/финансировании) —
+    "н/д", не выдуманное число. Вес pedigree пропорционально перераспределён на T/F/C
+    (те же глобальные веса, без изменения W_* констант), как fundamentals.py уже делает
+    для компонентов с недостающими данными."""
+    total_weight = W_TRACTION + W_FRESHNESS + W_COMPLETENESS
+    return round((W_TRACTION * t + W_FRESHNESS * f + W_COMPLETENESS * c) / total_weight)
+
+
 def formd_id(sec_url):
     m = ACCESSION_RE.search(sec_url or "")
     return f"formd:{m.group(1)}" if m else f"formd:{sec_url}"
@@ -106,6 +124,10 @@ def formd_id(sec_url):
 def yc_id(yc_url):
     slug = (yc_url or "").rstrip("/").split("/")[-1]
     return f"yc:{slug}" if slug else f"yc:{yc_url}"
+
+
+def ph_id(post_id):
+    return f"ph:{post_id}"
 
 
 def load_state(path):
@@ -198,6 +220,7 @@ def load_formd():
                 "confidence": confidence,
                 "sec_url": sec_url,
                 "yc_url": "",
+                "ph_url": "",
                 "score": score_of(p, t, fr, c),
                 "score_p": p, "score_t": t, "score_f": fr, "score_c": c,
             })
@@ -262,10 +285,74 @@ def load_yc(path):
             "confidence": "",
             "sec_url": "",
             "yc_url": yc_url,
+            "ph_url": "",
             "score": score_of(p, t, fr, c),
             "score_p": p, "score_t": t, "score_f": fr, "score_c": c,
         })
     print(f"[i] YC: {len(rows)} строк из {path}", file=sys.stderr)
+    return rows
+
+
+def load_product_hunt(path):
+    if not os.path.exists(path):
+        print(f"[i] {path} не найден — пропускаю Product Hunt", file=sys.stderr)
+        return []
+
+    with open(path, newline="", encoding="utf-8") as f:
+        raw_rows = list(csv.DictReader(f))
+
+    today = date.today()
+    rows = []
+    for r in raw_rows:
+        votes = to_int(r.get("votes", ""))
+        comments = to_int(r.get("comments", ""))
+        website = r.get("website", "") or ""
+        makers = r.get("makers", "") or ""
+        topics = r.get("topics", "") or ""
+
+        engagement = votes + PH_COMMENT_WEIGHT * comments
+        traction = interp_clamped(math.log10(engagement), PH_TRACTION_ANCHORS) if engagement > 0 else 0.0
+
+        # freshness — та же линейная деградация по дням, что у Form D (0 дн.=100, 90+=0);
+        # с --days 7 на входе она всё равно будет у потолка, это ожидаемо
+        try:
+            posted = datetime.strptime(r.get("created_at", ""), "%Y-%m-%d").date()
+            days = max(0, (today - posted).days)
+            freshness = max(0.0, min(100.0, 100 - (days / 90) * 100))
+        except ValueError:
+            freshness = 0.0
+
+        completeness = 100 if (website and makers) else (50 if (website or makers) else 0)
+
+        t, fr, c = round(traction), round(freshness), completeness
+        post_id = r.get("id", "")
+        extra_bits = []
+        if votes: extra_bits.append(f"👍{votes}")
+        if comments: extra_bits.append(f"💬{comments}")
+        extra = " · ".join(extra_bits)
+
+        rows.append({
+            "id": ph_id(post_id),
+            "source": "Product Hunt",
+            "name": r.get("name", ""),
+            "description": r.get("description", "") or r.get("tagline", ""),
+            "industry": topics,
+            "amount_display": "",
+            "amount_sort": votes if votes else -1,
+            "extra": extra,
+            "location": "",
+            "website": website,
+            "guessed_website": "",
+            "confidence": "",
+            "sec_url": "",
+            "yc_url": "",
+            "ph_url": r.get("url", ""),
+            "score": score_of_ph(t, fr, c),
+            # pedigree — н/д для Product Hunt (нет данных о фаундерах/финансировании),
+            # None -> JSON null -> "н/д" в тултипе (см. tdScore.title в JS ниже)
+            "score_p": None, "score_t": t, "score_f": fr, "score_c": c,
+        })
+    print(f"[i] Product Hunt: {len(rows)} строк из {path}", file=sys.stderr)
     return rows
 
 
@@ -284,6 +371,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     --accent: #2451c7;
     --formd: #b45309;
     --yc: #ea580c;
+    --ph: #da552f;
     --green: #16a34a;
     --gray: #9ca3af;
   }
@@ -381,6 +469,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   }
   .badge.formd { background: var(--formd); }
   .badge.yc { background: var(--yc); }
+  .badge.ph { background: var(--ph); }
   .company-name { font-weight: 600; }
   .sub { color: var(--muted); font-size: 11px; margin-top: 2px; }
   .score-cell { cursor: help; }
@@ -435,12 +524,14 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     <span>Всего: <b>__TOTAL__</b></span>
     <span>Form D: <b>__FORMD_COUNT__</b></span>
     <span>YC: <b>__YC_COUNT__</b></span>
+    <span>Product Hunt: <b>__PH_COUNT__</b></span>
   </div>
   <div class="controls">
     <input id="search" type="text" placeholder="Поиск по названию, описанию, отрасли...">
     <button class="filter-btn active" data-source="all">Все</button>
     <button class="filter-btn" data-source="Form D">Form D</button>
     <button class="filter-btn" data-source="YC">YC</button>
+    <button class="filter-btn" data-source="Product Hunt">Product Hunt</button>
     <button class="filter-btn" id="newOnlyBtn">🆕 Только новые</button>
   </div>
 </header>
@@ -453,7 +544,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
           <th data-key="name">Компания</th>
           <th data-key="description">Чем занимается</th>
           <th data-key="industry">Отрасль</th>
-          <th data-key="amount_sort">Сумма/Батч</th>
+          <th data-key="amount_sort">Сумма/Батч/Апвоуты</th>
           <th data-key="score">Score</th>
           <th data-key="location">Локация</th>
           <th>Ссылки</th>
@@ -481,6 +572,7 @@ function buildLinks(row) {
   if (row.website) links.push({ label: "Site", href: row.website });
   if (row.sec_url) links.push({ label: "SEC", href: row.sec_url });
   if (row.yc_url) links.push({ label: "YC", href: row.yc_url });
+  if (row.ph_url) links.push({ label: "Product Hunt", href: row.ph_url });
   links.push({ label: "Google", href: searchUrl("https://www.google.com/search?q=", row.name) });
   links.push({ label: "LinkedIn", href: searchUrl("https://www.linkedin.com/search/results/all/?keywords=", row.name) });
   links.push({ label: "Crunchbase", href: searchUrl("https://www.crunchbase.com/textsearch?q=", row.name) });
@@ -532,7 +624,7 @@ function render() {
 
     const tdSource = document.createElement("td");
     const badge = document.createElement("span");
-    badge.className = "badge " + (row.source === "Form D" ? "formd" : "yc");
+    badge.className = "badge " + (row.source === "Form D" ? "formd" : row.source === "YC" ? "yc" : "ph");
     badge.textContent = row.source;
     tdSource.appendChild(badge);
     tr.appendChild(tdSource);
@@ -587,7 +679,8 @@ function render() {
 
     const tdScore = document.createElement("td");
     tdScore.className = "score-cell";
-    tdScore.title = `Pedigree ${row.score_p} · Traction ${row.score_t} · Freshness ${row.score_f} · Completeness ${row.score_c}`;
+    const pedigreeLabel = typeof row.score_p === "number" ? row.score_p : "н/д";
+    tdScore.title = `Pedigree ${pedigreeLabel} · Traction ${row.score_t} · Freshness ${row.score_f} · Completeness ${row.score_c}`;
     const scoreNum = document.createElement("div");
     scoreNum.className = "score-num";
     scoreNum.textContent = row.score;
@@ -682,7 +775,8 @@ render();
 def main():
     formd_rows = load_formd()
     yc_rows = load_yc(YC_CSV)
-    data = formd_rows + yc_rows
+    ph_rows = load_product_hunt(PRODUCT_HUNT_CSV)
+    data = formd_rows + yc_rows + ph_rows
 
     is_baseline = apply_new_tracking(data, STATE_FILE)
     new_items = [r for r in data if r["is_new"]]
@@ -690,7 +784,7 @@ def main():
     new_today = [{
         "id": r["id"], "name": r["name"], "source": r["source"], "score": r["score"],
         "industry": r["industry"], "description": r["description"],
-        "url": r["sec_url"] or r["yc_url"], "first_seen": r["first_seen"],
+        "url": r["sec_url"] or r["yc_url"] or r["ph_url"], "first_seen": r["first_seen"],
     } for r in new_items]
 
     os.makedirs(os.path.dirname(NEW_TODAY_FILE), exist_ok=True)
@@ -707,6 +801,7 @@ def main():
             .replace("__TOTAL__", str(len(data)))
             .replace("__FORMD_COUNT__", str(len(formd_rows)))
             .replace("__YC_COUNT__", str(len(yc_rows)))
+            .replace("__PH_COUNT__", str(len(ph_rows)))
             .replace("__W_P__", str(W_PEDIGREE))
             .replace("__W_T__", str(W_TRACTION))
             .replace("__W_F__", str(W_FRESHNESS))
@@ -720,13 +815,14 @@ def main():
     startups_data = [{
         "name": r["name"], "source": r["source"], "score": r["score"],
         "industry": r["industry"], "description": r["description"],
-        "url": r["sec_url"] or r["yc_url"], "is_new": r["is_new"], "first_seen": r["first_seen"],
+        "url": r["sec_url"] or r["yc_url"] or r["ph_url"], "is_new": r["is_new"], "first_seen": r["first_seen"],
     } for r in data]
     os.makedirs(os.path.dirname(STARTUPS_DATA_JSON), exist_ok=True)
     with open(STARTUPS_DATA_JSON, "w", encoding="utf-8") as f:
         json.dump(startups_data, f, ensure_ascii=False)
 
-    print(f"[OK] {len(data)} строк ({len(formd_rows)} Form D + {len(yc_rows)} YC) -> {OUT_HTML}", file=sys.stderr)
+    print(f"[OK] {len(data)} строк ({len(formd_rows)} Form D + {len(yc_rows)} YC + {len(ph_rows)} Product Hunt) -> {OUT_HTML}",
+          file=sys.stderr)
 
 
 if __name__ == "__main__":

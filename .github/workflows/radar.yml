@@ -32,6 +32,11 @@ jobs:
       - name: Fetch YC companies
         run: python3 yc.py --recent 2 --out yc.csv
 
+      - name: Fetch Product Hunt launches
+        env:
+          PH_API_TOKEN: ${{ secrets.PH_API_TOKEN }}
+        run: python3 product_hunt.py --days 7
+
       - name: Enrich Form D companies with guessed websites
         run: python3 enrich.py
 
