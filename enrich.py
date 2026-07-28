@@ -68,6 +68,32 @@ def build_candidates(entity):
 META_RE = re.compile(r"<meta\s+([^>]*?)/?>", re.I | re.S)
 ATTR_RE = re.compile(r'([a-zA-Z_:-]+)\s*=\s*"(.*?)"|([a-zA-Z_:-]+)\s*=\s*\'(.*?)\'', re.S)
 TITLE_RE = re.compile(r"<title[^>]*>(.*?)</title>", re.I | re.S)
+SCRIPT_STYLE_RE = re.compile(r"<(script|style)[^>]*>.*?</\1>", re.I | re.S)
+TAG_RE = re.compile(r"<[^>]+>")
+BODY_SNIPPET_LIMIT = 2000
+MIN_SURNAME_LEN = 3
+
+
+def strip_tags(body, limit=BODY_SNIPPET_LIMIT):
+    """Грубый текст главной страницы для фамильного матча ниже — не полный
+    скрейп: тот же уже загруженный body, что и title/meta, просто без тегов."""
+    cleaned = SCRIPT_STYLE_RE.sub(" ", body)
+    cleaned = TAG_RE.sub(" ", cleaned)
+    cleaned = html.unescape(cleaned)
+    cleaned = re.sub(r"\s+", " ", cleaned).strip()
+    return cleaned[:limit]
+
+
+def extract_surnames(related_persons):
+    """"Jane Smith (Executive Officer); John Doe (Director)" -> ["Smith", "Doe"].
+    Хотя бы фамилия — последнее слово имени без relationship-суффикса в скобках."""
+    surnames = []
+    for entry in (related_persons or "").split(";"):
+        name = re.sub(r"\s*\([^)]*\)\s*$", "", entry).strip()
+        words = name.split()
+        if words and len(words[-1]) >= MIN_SURNAME_LEN:
+            surnames.append(words[-1])
+    return surnames
 
 
 def parse_meta(body):
@@ -116,10 +142,16 @@ def fetch(domain):
     # boilerplate ("<!doctype") and self-referential links (href="https://<domain>/...")
     # that would leak the slug back in and make the match trivially true again
     match_text = (title + " " + description + " " + site_name).lower()
-    return {"title": title, "description": description, "site_name": site_name, "match_text": match_text}
+    # body_snippet is separate from match_text on purpose — it's only used for the
+    # founder-surname fallback below, never for the primary company-name match (raw
+    # body text is noisy enough that a surname is a safe, narrow thing to search for,
+    # but a generic word would false-positive constantly)
+    body_snippet = strip_tags(body)
+    return {"title": title, "description": description, "site_name": site_name,
+            "match_text": match_text, "body_snippet": body_snippet}
 
 
-def guess(entity):
+def guess(entity, related_persons=""):
     candidates, distinctive_words = build_candidates(entity)
     checked = []
 
@@ -140,6 +172,20 @@ def guess(entity):
         # even on a full match — e.g. "Elixir" alone also names an unrelated CCM company
         multi_word = len(distinctive_words) >= 2
         confidence = "high" if (full_match and multi_word) else "medium"
+        founder_match = ""
+
+        # single-word name, the word itself matched, but confidence is capped at medium —
+        # try to break the ambiguity with a founder surname from Form D's related_persons
+        # against the same page (title/meta + a short body-text fragment). Upgrade only,
+        # never downgrade: no surname match just leaves it at medium, same as before.
+        if confidence == "medium" and full_match and not multi_word and related_persons:
+            extended_text = page["match_text"] + " " + page["body_snippet"]
+            for surname in extract_surnames(related_persons):
+                if re.search(rf"\b{re.escape(surname)}\b", extended_text, re.IGNORECASE):
+                    confidence = "high"
+                    founder_match = surname
+                    break
+
         description = page["description"] or page["title"] or page["site_name"]
         return {
             "guessed_website": f"https://{domain}",
@@ -147,6 +193,7 @@ def guess(entity):
             "confidence": confidence,
             "method": METHOD,
             "checked_domains": ";".join(checked),
+            "founder_match": founder_match,
         }
 
     return {
@@ -155,6 +202,7 @@ def guess(entity):
         "confidence": "low",
         "method": METHOD,
         "checked_domains": ";".join(checked),
+        "founder_match": "",
     }
 
 
@@ -171,21 +219,27 @@ def main():
     print(f"[i] Компаний для обогащения: {len(rows)}", file=sys.stderr)
 
     counts = {"high": 0, "medium": 0, "low": 0}
+    founder_upgrades = 0
     out_rows = []
     for i, row in enumerate(rows, 1):
         entity = row.get("entity", "")
         try:
-            enrichment = guess(entity)
+            enrichment = guess(entity, row.get("related_persons", ""))
         except Exception as ex:
             print(f"  ! {entity}: {ex}", file=sys.stderr)
             enrichment = {"guessed_website": "", "description": "", "confidence": "low",
-                          "method": METHOD, "checked_domains": ""}
+                          "method": METHOD, "checked_domains": "", "founder_match": ""}
         counts[enrichment["confidence"]] += 1
-        print(f"[{i}/{len(rows)}] {entity} -> {enrichment['confidence']} ({enrichment['guessed_website'] or '—'})",
-              file=sys.stderr)
+        if enrichment.get("founder_match"):
+            founder_upgrades += 1
+            print(f"[{i}/{len(rows)}] {entity} -> high ({enrichment['guessed_website']}) "
+                  f"— фамилия основателя «{enrichment['founder_match']}» найдена на сайте", file=sys.stderr)
+        else:
+            print(f"[{i}/{len(rows)}] {entity} -> {enrichment['confidence']} ({enrichment['guessed_website'] or '—'})",
+                  file=sys.stderr)
         out_rows.append({**row, **enrichment})
 
-    cols = base_cols + ["guessed_website", "description", "confidence", "method", "checked_domains"]
+    cols = base_cols + ["guessed_website", "description", "confidence", "method", "checked_domains", "founder_match"]
     with open(OUT_CSV, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=cols)
         w.writeheader()
@@ -193,7 +247,8 @@ def main():
             w.writerow({k: r.get(k, "") for k in cols})
 
     print(f"[OK] {len(out_rows)} строк -> {OUT_CSV}", file=sys.stderr)
-    print(f"[summary] high={counts['high']} medium={counts['medium']} low={counts['low']}", file=sys.stderr)
+    print(f"[summary] high={counts['high']} medium={counts['medium']} low={counts['low']} "
+          f"(апгрейднуто по фамилии основателя: {founder_upgrades})", file=sys.stderr)
 
 
 if __name__ == "__main__":
