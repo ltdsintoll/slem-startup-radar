@@ -114,9 +114,19 @@
     "name": "Gaingels Steel Robotics LLC",
     "source": "Form D"
   },
+  "formd:000214146626000001": {
+    "first_seen": "2026-07-28",
+    "name": "ESTRIGENIX THERAPEUTICS, INC.",
+    "source": "Form D"
+  },
   "formd:000214237726000001": {
     "first_seen": "2026-07-27",
     "name": "MCB The Enolia Student Housing DST",
+    "source": "Form D"
+  },
+  "formd:000214335926000001": {
+    "first_seen": "2026-07-28",
+    "name": "Mottainai Labs, Inc.",
     "source": "Form D"
   },
   "formd:000214391326000001": {
@@ -142,6 +152,11 @@
   "formd:000214442026000001": {
     "first_seen": "2026-07-24",
     "name": "Sugar Plum Street Ltd Liability Co",
+    "source": "Form D"
+  },
+  "formd:000214465326000001": {
+    "first_seen": "2026-07-28",
+    "name": "CUB3PAY, Inc.",
     "source": "Form D"
   },
   "formd:000214523126000001": {
@@ -214,9 +229,34 @@
     "name": "Mazzeo Fund I, LP",
     "source": "Form D"
   },
+  "formd:000214731226000001": {
+    "first_seen": "2026-07-28",
+    "name": "ClearWorks Manufacturing, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214733126000001": {
+    "first_seen": "2026-07-28",
+    "name": "Simbryo Technologies, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214733926000001": {
+    "first_seen": "2026-07-28",
+    "name": "RiffleCM LLC",
+    "source": "Form D"
+  },
   "formd:000214737326000001": {
     "first_seen": "2026-07-27",
     "name": "ScopeRemote, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214744726000001": {
+    "first_seen": "2026-07-28",
+    "name": "Camo Hospitality Inc",
+    "source": "Form D"
+  },
+  "formd:000214750226000001": {
+    "first_seen": "2026-07-28",
+    "name": "Medford Wellington Service Co., Inc.",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -817,6 +857,11 @@
   "yc:guild": {
     "first_seen": "2026-07-24",
     "name": "GUILD",
+    "source": "YC"
+  },
+  "yc:gutgutgoose": {
+    "first_seen": "2026-07-28",
+    "name": "Gutgutgoose",
     "source": "YC"
   },
   "yc:hardware-intelligence": {
@@ -1882,6 +1927,11 @@
   "yc:withasync": {
     "first_seen": "2026-07-24",
     "name": "Async",
+    "source": "YC"
+  },
+  "yc:wondering": {
+    "first_seen": "2026-07-28",
+    "name": "Wondering",
     "source": "YC"
   },
   "yc:youart": {
