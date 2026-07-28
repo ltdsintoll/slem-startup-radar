@@ -8,51 +8,83 @@
   "1321655": {
     "ticker": "PLTR",
     "company": "Palantir Technologies Inc.",
-    "articles": [],
-    "source": "no-data"
+    "articles": [
+      {
+        "title": "Why Is Palantir Stock Falling on Tuesday ? - Palantir Technologies ( NASDAQ : PLTR ) ",
+        "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60734075/why-is-palantir-stock-falling-on-tuesday-2",
+        "domain": "benzinga.com",
+        "date": "2026-07-28",
+        "sentiment_label": "негатив",
+        "sentiment_score": -1
+      },
+      {
+        "title": "Palantir Stock : The $1 Trillion Thesis Is Intact After The Pullback ( NASDAQ : PLTR ) ",
+        "url": "https://seekingalpha.com/article/4926009-palantir-stock-the-1-trillion-thesis-is-intact-after-the-pullback",
+        "domain": "seekingalpha.com",
+        "date": "2026-07-28",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "SA analyst upgrades / downgrades : INTC , TSLA , SPCX , PLTR",
+        "url": "https://seekingalpha.com/news/4618729-sa-analyst-upgrades-downgrades-intc-tsla-spcx-pltr",
+        "domain": "seekingalpha.com",
+        "date": "2026-07-27",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      }
+    ],
+    "source": "gdelt"
   },
   "789019": {
     "ticker": "MSFT",
     "company": "MICROSOFT CORP",
-    "articles": [
-      {
-        "title": "Microsoft Launches Flurry of AI Security Initiatives - Infosecurity Magazine",
-        "url": "https://www.infosecurity-magazine.com/news/microsoft-ai-security-initiatives/",
-        "domain": "infosecurity-magazine.com",
-        "date": "2026-07-28",
-        "sentiment_label": "позитив",
-        "sentiment_score": 1
-      }
-    ],
-    "source": "gdelt"
+    "articles": [],
+    "source": "no-data"
   },
   "320193": {
     "ticker": "AAPL",
     "company": "Apple Inc.",
     "articles": [
       {
-        "title": "Apple briefly becomes second company ever to notch $5 trillion market value - Moneycontrol . com",
-        "url": "https://www.moneycontrol.com/news/business/markets/apple-briefly-becomes-second-company-ever-to-notch-5-trillion-market-value-13986261.html",
-        "domain": "moneycontrol.com",
+        "title": "Apple Disease Risks Rise as Wisconsin Harvest Nears | Wisconsin Ag Connection",
+        "url": "https://wisconsinagconnection.com/news/apple-disease-risks-rise-as-wisconsin-harvest-nears",
+        "domain": "wisconsinagconnection.com",
+        "date": "2026-07-28",
+        "sentiment_label": "негатив",
+        "sentiment_score": -1
+      },
+      {
+        "title": "Ben Stiller says season three of Apple TV  Severance  has just started filming",
+        "url": "https://www.mactech.com/2026/07/28/ben-stiller-says-season-three-of-apple-tvs-severance-has-just-started-filming/",
+        "domain": "mactech.com",
         "date": "2026-07-28",
         "sentiment_label": "нейтрально",
         "sentiment_score": 0
       },
       {
-        "title": "X Money Launches in the U . S . With Apple Wallet Support for Premium Subscribers",
-        "url": "https://www.iclarified.com/101607/x-money-launches-in-the-us-with-apple-wallet-support-for-premium-subscribers",
-        "domain": "iclarified.com",
+        "title": "Apple TV posts trailer for season four of  Ted Lasso  ",
+        "url": "https://www.mactech.com/2026/07/28/apple-tv-posts-trailer-for-season-four-of-ted-lasso/",
+        "domain": "mactech.com",
+        "date": "2026-07-28",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "Apple unveils subscription - style leasing for iPhones and Macs",
+        "url": "https://www.kjrh.com/science-and-tech/apple-unveils-subscription-style-leasing-for-iphones-and-macs",
+        "domain": "kjrh.com",
+        "date": "2026-07-28",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "Apple introduces Apple Upgrade , which replaces the iPhone Upgrade Program and iPhone Payments",
+        "url": "https://www.mactech.com/2026/07/28/apple-introduces-apple-upgrade-which-replaces-the-iphone-upgrade-program-and-iphone-payments/",
+        "domain": "mactech.com",
         "date": "2026-07-28",
         "sentiment_label": "позитив",
         "sentiment_score": 1
-      },
-      {
-        "title": "Apple tops $5tn valuation for first time",
-        "url": "https://www.irishtimes.com/business/2026/07/28/apple-tops-5tn-valuation-for-first-time/",
-        "domain": "irishtimes.com",
-        "date": "2026-07-28",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
       }
     ],
     "source": "gdelt"
