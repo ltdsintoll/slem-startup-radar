@@ -8,58 +8,17 @@
   "1321655": {
     "ticker": "PLTR",
     "company": "Palantir Technologies Inc.",
-    "articles": [
-      {
-        "title": "Palantir Stock : The $1 Trillion Thesis Is Intact After The Pullback ( NASDAQ : PLTR ) ",
-        "url": "https://seekingalpha.com/article/4926009-palantir-stock-the-1-trillion-thesis-is-intact-after-the-pullback",
-        "domain": "seekingalpha.com",
-        "date": "2026-07-28",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "SA analyst upgrades / downgrades : INTC , TSLA , SPCX , PLTR",
-        "url": "https://seekingalpha.com/news/4618729-sa-analyst-upgrades-downgrades-intc-tsla-spcx-pltr",
-        "domain": "seekingalpha.com",
-        "date": "2026-07-27",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      }
-    ],
-    "source": "gdelt"
+    "articles": [],
+    "source": "no-data"
   },
   "789019": {
     "ticker": "MSFT",
     "company": "MICROSOFT CORP",
     "articles": [
       {
-        "title": "Klickitat wind , solar energy going to Microsoft | News",
-        "url": "https://www.columbiagorgenews.com/news/klickitat-s-wind-solar-energy-going-to-microsoft/article_7b9eb410-40ec-4690-8b5e-8ecedb9f68f9.html",
-        "domain": "columbiagorgenews.com",
-        "date": "2026-07-28",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "Microsoft Unveils Cost - Saving AI Cybersecurity Model Built to Beat Anthropic and Google at Half the Cost",
-        "url": "https://www.ibtimes.com.au/microsoft-ai-model-cybersecurity-1873118",
-        "domain": "ibtimes.com.au",
-        "date": "2026-07-28",
-        "sentiment_label": "позитив",
-        "sentiment_score": 1
-      },
-      {
-        "title": "One year later , XBOX Adaptive Joystick has changed our accessible gaming life for the better as Microsoft efforts slow down",
-        "url": "https://www.windowscentral.com/gaming/xbox/one-year-later-xbox-adaptive-joystick-changed-our-accessible-gaming-life",
-        "domain": "windowscentral.com",
-        "date": "2026-07-28",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "Microsoft introduces MAI Cyber 1 Flash AI model , says it beats Mythos 5 on important benchmark",
-        "url": "https://www.digit.in/news/general/microsoft-introduces-mai-cyber-1-flash-ai-model-says-it-beats-mythos-5-on-important-benchmark.html",
-        "domain": "digit.in",
+        "title": "Microsoft Launches Flurry of AI Security Initiatives - Infosecurity Magazine",
+        "url": "https://www.infosecurity-magazine.com/news/microsoft-ai-security-initiatives/",
+        "domain": "infosecurity-magazine.com",
         "date": "2026-07-28",
         "sentiment_label": "позитив",
         "sentiment_score": 1
@@ -70,7 +29,32 @@
   "320193": {
     "ticker": "AAPL",
     "company": "Apple Inc.",
-    "articles": [],
-    "source": "no-data"
+    "articles": [
+      {
+        "title": "Apple briefly becomes second company ever to notch $5 trillion market value - Moneycontrol . com",
+        "url": "https://www.moneycontrol.com/news/business/markets/apple-briefly-becomes-second-company-ever-to-notch-5-trillion-market-value-13986261.html",
+        "domain": "moneycontrol.com",
+        "date": "2026-07-28",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "X Money Launches in the U . S . With Apple Wallet Support for Premium Subscribers",
+        "url": "https://www.iclarified.com/101607/x-money-launches-in-the-us-with-apple-wallet-support-for-premium-subscribers",
+        "domain": "iclarified.com",
+        "date": "2026-07-28",
+        "sentiment_label": "позитив",
+        "sentiment_score": 1
+      },
+      {
+        "title": "Apple tops $5tn valuation for first time",
+        "url": "https://www.irishtimes.com/business/2026/07/28/apple-tops-5tn-valuation-for-first-time/",
+        "domain": "irishtimes.com",
+        "date": "2026-07-28",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      }
+    ],
+    "source": "gdelt"
   }
 }

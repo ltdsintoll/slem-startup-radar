@@ -134,9 +134,24 @@
     "name": "Gaingels Steel Robotics LLC",
     "source": "Form D"
   },
+  "formd:000214068326000001": {
+    "first_seen": "2026-07-28",
+    "name": "Hatchery Holdings Company, LLC",
+    "source": "Form D"
+  },
+  "formd:000214089326000001": {
+    "first_seen": "2026-07-28",
+    "name": "Summit-Smithway Investment, LLC",
+    "source": "Form D"
+  },
   "formd:000214146626000001": {
     "first_seen": "2026-07-28",
     "name": "ESTRIGENIX THERAPEUTICS, INC.",
+    "source": "Form D"
+  },
+  "formd:000214176426000001": {
+    "first_seen": "2026-07-28",
+    "name": "Gaingels Core Automation LLC",
     "source": "Form D"
   },
   "formd:000214237726000001": {
@@ -182,6 +197,11 @@
   "formd:000214465326000001": {
     "first_seen": "2026-07-28",
     "name": "CUB3PAY, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214507226000003": {
+    "first_seen": "2026-07-28",
+    "name": "Light Materials Holding Corp",
     "source": "Form D"
   },
   "formd:000214523126000001": {
@@ -264,6 +284,11 @@
     "name": "GUARDIAN RECOVERY - WISCONSIN, LLC",
     "source": "Form D"
   },
+  "formd:000214727426000001": {
+    "first_seen": "2026-07-28",
+    "name": "Auxesys Inc.",
+    "source": "Form D"
+  },
   "formd:000214729526000001": {
     "first_seen": "2026-07-27",
     "name": "Mazzeo Fund I, LP",
@@ -272,6 +297,11 @@
   "formd:000214731226000001": {
     "first_seen": "2026-07-28",
     "name": "ClearWorks Manufacturing, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214732226000001": {
+    "first_seen": "2026-07-28",
+    "name": "1541 Productions Ltd Liability Co",
     "source": "Form D"
   },
   "formd:000214733126000001": {
