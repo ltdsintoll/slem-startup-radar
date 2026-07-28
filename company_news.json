@@ -2,99 +2,67 @@
   "1045810": {
     "ticker": "NVDA",
     "company": "NVIDIA CORP",
+    "articles": [],
+    "source": "no-data"
+  },
+  "1321655": {
+    "ticker": "PLTR",
+    "company": "Palantir Technologies Inc.",
     "articles": [
       {
-        "title": "Samsung and SK Hynix Stocks Plunge Amid Nvidia Financing Fears and China Competition , ETTelecom",
-        "url": "https://telecom.economictimes.indiatimes.com/news/devices/samsung-and-sk-hynix-stocks-plunge-amid-nvidia-financing-fears-and-china-competition/132673629",
-        "domain": "telecom.economictimes.indiatimes.com",
-        "date": "2026-07-28",
-        "sentiment_label": "негатив",
-        "sentiment_score": -1
-      },
-      {
-        "title": "Nvidia employee detained by Taiwan in China chip smuggling probe",
-        "url": "https://www.businesstimes.com.sg/companies-markets/nvidia-employee-detained-taiwan-china-chip-smuggling-probe",
-        "domain": "businesstimes.com.sg",
-        "date": "2026-07-28",
-        "sentiment_label": "негатив",
-        "sentiment_score": -1
-      },
-      {
-        "title": "Apple Overtakes Nvidia Again to Become World Most Valuable Company : Can It Reach $5 Trillion ? ",
-        "url": "https://www.ibtimes.co.uk/apple-reclaims-title-worlds-most-valuable-company-1810947",
-        "domain": "ibtimes.co.uk",
+        "title": "Palantir Stock : The $1 Trillion Thesis Is Intact After The Pullback ( NASDAQ : PLTR ) ",
+        "url": "https://seekingalpha.com/article/4926009-palantir-stock-the-1-trillion-thesis-is-intact-after-the-pullback",
+        "domain": "seekingalpha.com",
         "date": "2026-07-28",
         "sentiment_label": "нейтрально",
         "sentiment_score": 0
       },
       {
-        "title": "Anthropic CEO Dario Amodei makes it clear to Microsoft , Nvidia , Palantir and all other companies who signed the open letter in Chinese AI models : We are not for ban , but ... ",
-        "url": "https://timesofindia.indiatimes.com/technology/tech-news/anthropic-ceo-dario-amodei-makes-it-clear-to-microsoft-nvidia-palantir-and-all-other-companies-who-signed-the-open-letter-in-chinese-ai-models-we-are-not-for-ban-but-/articleshow/132676225.cms",
-        "domain": "timesofindia.indiatimes.com",
-        "date": "2026-07-28",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "President of South Korea Visits SF During AI Summit , Makes $500 Billion Deal with Nvidia",
-        "url": "https://sfist.com/2026/07/27/president-of-south-korea-visits-sf-during-ai-summit-makes-500-billion-deal-with-nvidi/",
-        "domain": "sfist.com",
-        "date": "2026-07-28",
+        "title": "SA analyst upgrades / downgrades : INTC , TSLA , SPCX , PLTR",
+        "url": "https://seekingalpha.com/news/4618729-sa-analyst-upgrades-downgrades-intc-tsla-spcx-pltr",
+        "domain": "seekingalpha.com",
+        "date": "2026-07-27",
         "sentiment_label": "нейтрально",
         "sentiment_score": 0
       }
     ],
     "source": "gdelt"
   },
-  "1321655": {
-    "ticker": "PLTR",
-    "company": "Palantir Technologies Inc.",
-    "articles": [],
-    "source": "no-data"
-  },
   "789019": {
     "ticker": "MSFT",
     "company": "MICROSOFT CORP",
     "articles": [
       {
-        "title": "Microsoft Touts  Project Perception , A New Cybersecurity Model That Fights AI Using AI",
-        "url": "https://www.itechpost.com/articles/236841/20260727/microsoft-touts-project-perception-new-cybersecurity-model-that-fights-ai-using-ai.htm",
-        "domain": "itechpost.com",
+        "title": "Klickitat wind , solar energy going to Microsoft | News",
+        "url": "https://www.columbiagorgenews.com/news/klickitat-s-wind-solar-energy-going-to-microsoft/article_7b9eb410-40ec-4690-8b5e-8ecedb9f68f9.html",
+        "domain": "columbiagorgenews.com",
         "date": "2026-07-28",
         "sentiment_label": "нейтрально",
         "sentiment_score": 0
       },
       {
-        "title": "Anthropic CEO Dario Amodei makes it clear to Microsoft , Nvidia , Palantir and all other companies who signed the open letter in Chinese AI models : We are not for ban , but ... ",
-        "url": "https://timesofindia.indiatimes.com/technology/tech-news/anthropic-ceo-dario-amodei-makes-it-clear-to-microsoft-nvidia-palantir-and-all-other-companies-who-signed-the-open-letter-in-chinese-ai-models-we-are-not-for-ban-but-/articleshow/132676225.cms",
-        "domain": "timesofindia.indiatimes.com",
+        "title": "Microsoft Unveils Cost - Saving AI Cybersecurity Model Built to Beat Anthropic and Google at Half the Cost",
+        "url": "https://www.ibtimes.com.au/microsoft-ai-model-cybersecurity-1873118",
+        "domain": "ibtimes.com.au",
+        "date": "2026-07-28",
+        "sentiment_label": "позитив",
+        "sentiment_score": 1
+      },
+      {
+        "title": "One year later , XBOX Adaptive Joystick has changed our accessible gaming life for the better as Microsoft efforts slow down",
+        "url": "https://www.windowscentral.com/gaming/xbox/one-year-later-xbox-adaptive-joystick-changed-our-accessible-gaming-life",
+        "domain": "windowscentral.com",
         "date": "2026-07-28",
         "sentiment_label": "нейтрально",
         "sentiment_score": 0
       },
       {
-        "title": "Microsoft unveils Project Perception with AI security agents , Cyber Stack and MAI - Cyber - 1 - Flash",
-        "url": "https://www.fonearena.com/blog/488349/microsoft-project-perception-features.html",
-        "domain": "fonearena.com",
+        "title": "Microsoft introduces MAI Cyber 1 Flash AI model , says it beats Mythos 5 on important benchmark",
+        "url": "https://www.digit.in/news/general/microsoft-introduces-mai-cyber-1-flash-ai-model-says-it-beats-mythos-5-on-important-benchmark.html",
+        "domain": "digit.in",
         "date": "2026-07-28",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "Hackers are compromising hotel Wi - Fi gateways to hijack Microsoft 365 accounts",
-        "url": "https://www.computerworld.com/article/4202088/hackers-are-compromising-hotel-wi-fi-gateways-to-hijack-microsoft-365-accounts-2.html",
-        "domain": "computerworld.com",
-        "date": "2026-07-28",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "2026 - 07 - 28 | MSFT DEADLINE : ROSEN , A LONGSTANDING FIRM , Encourages Microsoft Investors to Secure Counsel Before Important Deadline in Securities Class Action - MSFT | TSX : MSFT",
-        "url": "https://stockhouse.com/news/press-releases/2026/07/28/msft-deadline-rosen-a-longstanding-firm-encourages-microsoft-investors-to-secure",
-        "domain": "stockhouse.com",
-        "date": "2026-07-28",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
+        "sentiment_label": "позитив",
+        "sentiment_score": 1
       }
     ],
     "source": "gdelt"
