@@ -21,6 +21,15 @@ STARTUP_INDUSTRIES = {"Other Technology","Computers","Telecommunications","Biote
     "Pharmaceuticals","Other Health Care","Health Care","Internet","Other",
     "Manufacturing","Retailing","Business Services"}
 
+# "Other"/"Business Services" в STARTUP_INDUSTRIES — самоотчёт filer'а по industryGroupType,
+# ненадёжен: real estate trust или инвестфонд легко попадает в "Other". Отдельно ловим
+# инвестиционные/трастовые vehicle по имени юрлица — word-boundary, регистронезависимо.
+VEHICLE_NAME_RE = re.compile(r"\b(trust|dst|reit|fund|litigation|spv)\b", re.IGNORECASE)
+
+
+def is_vehicle_name(entity):
+    return bool(VEHICLE_NAME_RE.search(entity or ""))
+
 def daterange(days):
     end = dt.date.today(); return (end - dt.timedelta(days=days)).isoformat(), end.isoformat()
 
@@ -99,7 +108,7 @@ def main():
         try: d = parse_primary_doc(f["ciks"], f["accession"], f["file"])
         except Exception as ex:
             print(f"  ! {f.get('name','?')}: {ex}", file=sys.stderr); continue
-        if a.tech_only and d["industry"] not in STARTUP_INDUSTRIES: continue
+        if a.tech_only and (d["industry"] not in STARTUP_INDUSTRIES or is_vehicle_name(d["entity"])): continue
         d["filed"] = f["date"]; rows.append(d)
         print(f"  {i:>3}. {d['entity'][:38]:38} | {d['industry'][:16]:16} | offer={d['total_offering']:>12}", file=sys.stderr)
         time.sleep(0.2)
