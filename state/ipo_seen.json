@@ -154,6 +154,11 @@
     "name": "Decoy Therapeutics Inc.",
     "stage": "Filed"
   },
+  "1622345": {
+    "first_seen": "2026-07-29",
+    "name": "Polar Power, Inc.",
+    "stage": "Filed"
+  },
   "1630212": {
     "first_seen": "2026-07-24",
     "name": "Avalon GloboCare Corp.",
@@ -188,6 +193,11 @@
     "first_seen": "2026-07-24",
     "name": "EvoAir Holdings Inc.",
     "stage": "Amending"
+  },
+  "1701756": {
+    "first_seen": "2026-07-29",
+    "name": "Sadot Group Inc.",
+    "stage": "Filed"
   },
   "1706524": {
     "first_seen": "2026-07-24",
@@ -552,7 +562,7 @@
   "2007691": {
     "first_seen": "2026-07-24",
     "name": "Ionic Digital Inc.",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "2015691": {
     "first_seen": "2026-07-24",
@@ -1008,6 +1018,11 @@
     "first_seen": "2026-07-24",
     "name": "Chilwa Minerals Ltd",
     "stage": "Amending"
+  },
+  "2114145": {
+    "first_seen": "2026-07-29",
+    "name": "TracX Logis Pte. Ltd.",
+    "stage": "Filed"
   },
   "2114229": {
     "first_seen": "2026-07-24",

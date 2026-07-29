@@ -254,6 +254,11 @@
     "name": "Software Velocity Corp.",
     "source": "Form D"
   },
+  "formd:000214668226000001": {
+    "first_seen": "2026-07-29",
+    "name": "Oboro Labs, Inc.",
+    "source": "Form D"
+  },
   "formd:000214675326000001": {
     "first_seen": "2026-07-28",
     "name": "VIN-59 Enhance Health, LLC",
@@ -334,9 +339,29 @@
     "name": "Camo Hospitality Inc",
     "source": "Form D"
   },
+  "formd:000214748526000001": {
+    "first_seen": "2026-07-29",
+    "name": "i2 Health Advisors Inc.",
+    "source": "Form D"
+  },
   "formd:000214750226000001": {
     "first_seen": "2026-07-28",
     "name": "Medford Wellington Service Co., Inc.",
+    "source": "Form D"
+  },
+  "formd:000214771326000001": {
+    "first_seen": "2026-07-29",
+    "name": "Kiken Technoloigies, Inc",
+    "source": "Form D"
+  },
+  "formd:000214777126000001": {
+    "first_seen": "2026-07-29",
+    "name": "Wayy Inc.",
+    "source": "Form D"
+  },
+  "formd:000214777326000001": {
+    "first_seen": "2026-07-29",
+    "name": "ReLiftMD Ventures, LLC",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -457,6 +482,11 @@
   "yc:apollo-atomics-inc": {
     "first_seen": "2026-07-24",
     "name": "Apollo Atomics, Inc.",
+    "source": "YC"
+  },
+  "yc:applied-electrodynamics-inc": {
+    "first_seen": "2026-07-29",
+    "name": "Applied Electrodynamics, Inc.",
     "source": "YC"
   },
   "yc:aquashield": {
@@ -619,6 +649,11 @@
     "name": "Bloomy",
     "source": "YC"
   },
+  "yc:buildbox": {
+    "first_seen": "2026-07-29",
+    "name": "Buildbox",
+    "source": "YC"
+  },
   "yc:callab-ai": {
     "first_seen": "2026-07-24",
     "name": "Callab AI",
@@ -734,6 +769,11 @@
     "name": "Dayjob",
     "source": "YC"
   },
+  "yc:decawork": {
+    "first_seen": "2026-07-29",
+    "name": "Decawork",
+    "source": "YC"
+  },
   "yc:deep-interactions": {
     "first_seen": "2026-07-24",
     "name": "Deep Interactions",
@@ -767,6 +807,11 @@
   "yc:dispatch": {
     "first_seen": "2026-07-24",
     "name": "Dispatch",
+    "source": "YC"
+  },
+  "yc:dock": {
+    "first_seen": "2026-07-29",
+    "name": "Dock",
     "source": "YC"
   },
   "yc:donkey": {
@@ -934,6 +979,11 @@
     "name": "Greypoint Industries",
     "source": "YC"
   },
+  "yc:grip": {
+    "first_seen": "2026-07-29",
+    "name": "Grip",
+    "source": "YC"
+  },
   "yc:guild": {
     "first_seen": "2026-07-24",
     "name": "GUILD",
@@ -1094,6 +1144,11 @@
     "name": "jo",
     "source": "YC"
   },
+  "yc:joinmarble": {
+    "first_seen": "2026-07-29",
+    "name": "Marble",
+    "source": "YC"
+  },
   "yc:juno-chat": {
     "first_seen": "2026-07-24",
     "name": "Juno",
@@ -1157,6 +1212,11 @@
   "yc:lab0": {
     "first_seen": "2026-07-24",
     "name": "Lab0",
+    "source": "YC"
+  },
+  "yc:lamb-labs": {
+    "first_seen": "2026-07-29",
+    "name": "Lamb Labs",
     "source": "YC"
   },
   "yc:lamina-labs": {

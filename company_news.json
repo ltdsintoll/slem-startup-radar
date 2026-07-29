@@ -8,33 +8,8 @@
   "1321655": {
     "ticker": "PLTR",
     "company": "Palantir Technologies Inc.",
-    "articles": [
-      {
-        "title": "Why Is Palantir Stock Falling on Tuesday ? - Palantir Technologies ( NASDAQ : PLTR ) ",
-        "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60734075/why-is-palantir-stock-falling-on-tuesday-2",
-        "domain": "benzinga.com",
-        "date": "2026-07-28",
-        "sentiment_label": "негатив",
-        "sentiment_score": -1
-      },
-      {
-        "title": "Palantir Stock : The $1 Trillion Thesis Is Intact After The Pullback ( NASDAQ : PLTR ) ",
-        "url": "https://seekingalpha.com/article/4926009-palantir-stock-the-1-trillion-thesis-is-intact-after-the-pullback",
-        "domain": "seekingalpha.com",
-        "date": "2026-07-28",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "SA analyst upgrades / downgrades : INTC , TSLA , SPCX , PLTR",
-        "url": "https://seekingalpha.com/news/4618729-sa-analyst-upgrades-downgrades-intc-tsla-spcx-pltr",
-        "domain": "seekingalpha.com",
-        "date": "2026-07-27",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      }
-    ],
-    "source": "gdelt"
+    "articles": [],
+    "source": "no-data"
   },
   "789019": {
     "ticker": "MSFT",
@@ -47,44 +22,44 @@
     "company": "Apple Inc.",
     "articles": [
       {
-        "title": "Apple Disease Risks Rise as Wisconsin Harvest Nears | Wisconsin Ag Connection",
-        "url": "https://wisconsinagconnection.com/news/apple-disease-risks-rise-as-wisconsin-harvest-nears",
-        "domain": "wisconsinagconnection.com",
-        "date": "2026-07-28",
-        "sentiment_label": "негатив",
-        "sentiment_score": -1
-      },
-      {
-        "title": "Ben Stiller says season three of Apple TV  Severance  has just started filming",
-        "url": "https://www.mactech.com/2026/07/28/ben-stiller-says-season-three-of-apple-tvs-severance-has-just-started-filming/",
-        "domain": "mactech.com",
-        "date": "2026-07-28",
+        "title": "Apple briefly tops $5 trillion market value for first time",
+        "url": "https://news.tuoitre.vn/apple-briefly-tops-5-trillion-market-value-for-first-time-10326072911501359.htm",
+        "domain": "news.tuoitre.vn",
+        "date": "2026-07-29",
         "sentiment_label": "нейтрально",
         "sentiment_score": 0
       },
       {
-        "title": "Apple TV posts trailer for season four of  Ted Lasso  ",
-        "url": "https://www.mactech.com/2026/07/28/apple-tv-posts-trailer-for-season-four-of-ted-lasso/",
-        "domain": "mactech.com",
-        "date": "2026-07-28",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "Apple unveils subscription - style leasing for iPhones and Macs",
-        "url": "https://www.kjrh.com/science-and-tech/apple-unveils-subscription-style-leasing-for-iphones-and-macs",
-        "domain": "kjrh.com",
-        "date": "2026-07-28",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "Apple introduces Apple Upgrade , which replaces the iPhone Upgrade Program and iPhone Payments",
-        "url": "https://www.mactech.com/2026/07/28/apple-introduces-apple-upgrade-which-replaces-the-iphone-upgrade-program-and-iphone-payments/",
-        "domain": "mactech.com",
-        "date": "2026-07-28",
+        "title": "Apple crosses USD 5 trillion market cap on Tuesday trading , becomes second company to achieve milestone",
+        "url": "http://www.calcuttanews.net/news/279214455/apple-crosses-usd-5-trillion-market-cap-on-tuesday-trading-becomes-second-company-to-achieve-milestone",
+        "domain": "calcuttanews.net",
+        "date": "2026-07-29",
         "sentiment_label": "позитив",
         "sentiment_score": 1
+      },
+      {
+        "title": "Apple Upgrade Makes Owning iPhones , MacBooks Easier With Monthly Payments",
+        "url": "https://propakistani.pk/2026/07/29/apple-upgrade-makes-owning-iphones-macbooks-easier-with-monthly-payments/",
+        "domain": "propakistani.pk",
+        "date": "2026-07-29",
+        "sentiment_label": "позитив",
+        "sentiment_score": 1
+      },
+      {
+        "title": "Apple touches $5 trillion market cap and one of the reasons is what has made Wall Street  unhappy  with Google , Microsoft , Meta and Amazon",
+        "url": "https://timesofindia.indiatimes.com/technology/tech-news/apple-touches-5-trillion-market-cap-and-one-of-the-reasons-is-what-has-made-wall-street-unhappy-with-google-microsoft-meta-and-amazon/articleshow/132703934.cms",
+        "domain": "timesofindia.indiatimes.com",
+        "date": "2026-07-29",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "Apple introduces leasing programme in the US for iPhones and other devices",
+        "url": "https://www.thestar.com.my/tech/tech-news/2026/07/29/apple-introduces-leasing-program-in-the-us-for-iphones-and-other-devices",
+        "domain": "thestar.com.my",
+        "date": "2026-07-29",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
       }
     ],
     "source": "gdelt"
