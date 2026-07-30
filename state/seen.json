@@ -169,6 +169,16 @@
     "name": "Social Value Inc.",
     "source": "Form D"
   },
+  "formd:000214410026000001": {
+    "first_seen": "2026-07-30",
+    "name": "ImmuNovus, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214410026000002": {
+    "first_seen": "2026-07-30",
+    "name": "ImmuNovus, Inc.",
+    "source": "Form D"
+  },
   "formd:000214419626000002": {
     "first_seen": "2026-07-28",
     "name": "Cross Margin Labs, Inc.",
@@ -194,9 +204,19 @@
     "name": "Sugar Plum Street Ltd Liability Co",
     "source": "Form D"
   },
+  "formd:000214458526000001": {
+    "first_seen": "2026-07-30",
+    "name": "Truss Veterinary Alliance, LLC",
+    "source": "Form D"
+  },
   "formd:000214465326000001": {
     "first_seen": "2026-07-28",
     "name": "CUB3PAY, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214489826000001": {
+    "first_seen": "2026-07-30",
+    "name": "Conduit Gaming Inc",
     "source": "Form D"
   },
   "formd:000214507226000003": {
@@ -294,6 +314,11 @@
     "name": "Bootheo Inc.",
     "source": "Form D"
   },
+  "formd:000214715326000001": {
+    "first_seen": "2026-07-30",
+    "name": "Boz AI, Inc.",
+    "source": "Form D"
+  },
   "formd:000214718826000001": {
     "first_seen": "2026-07-24",
     "name": "GUARDIAN RECOVERY - WISCONSIN, LLC",
@@ -334,9 +359,19 @@
     "name": "ScopeRemote, Inc.",
     "source": "Form D"
   },
+  "formd:000214741326000001": {
+    "first_seen": "2026-07-30",
+    "name": "Prisma Prop Tech, LLC",
+    "source": "Form D"
+  },
   "formd:000214744726000001": {
     "first_seen": "2026-07-28",
     "name": "Camo Hospitality Inc",
+    "source": "Form D"
+  },
+  "formd:000214747726000001": {
+    "first_seen": "2026-07-30",
+    "name": "Nodal Networks, Inc.",
     "source": "Form D"
   },
   "formd:000214748526000001": {
@@ -349,9 +384,19 @@
     "name": "Medford Wellington Service Co., Inc.",
     "source": "Form D"
   },
+  "formd:000214751426000001": {
+    "first_seen": "2026-07-30",
+    "name": "MVKLB LTH LLC",
+    "source": "Form D"
+  },
   "formd:000214771326000001": {
     "first_seen": "2026-07-29",
     "name": "Kiken Technoloigies, Inc",
+    "source": "Form D"
+  },
+  "formd:000214774326000001": {
+    "first_seen": "2026-07-30",
+    "name": "Qualified Health PBC",
     "source": "Form D"
   },
   "formd:000214777126000001": {
@@ -362,6 +407,36 @@
   "formd:000214777326000001": {
     "first_seen": "2026-07-29",
     "name": "ReLiftMD Ventures, LLC",
+    "source": "Form D"
+  },
+  "formd:000214777526000001": {
+    "first_seen": "2026-07-30",
+    "name": "Bovo Music, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214785726000001": {
+    "first_seen": "2026-07-30",
+    "name": "Frick! LLC",
+    "source": "Form D"
+  },
+  "formd:000214786826000001": {
+    "first_seen": "2026-07-30",
+    "name": "HSA Ventures Ambit LLC",
+    "source": "Form D"
+  },
+  "formd:000214787926000001": {
+    "first_seen": "2026-07-30",
+    "name": "Research Discovery Innovation Inc.",
+    "source": "Form D"
+  },
+  "formd:000214789026000001": {
+    "first_seen": "2026-07-30",
+    "name": "StimCardio Medical, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214796626000001": {
+    "first_seen": "2026-07-30",
+    "name": "DMZ Vehicles LLC",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -412,6 +487,11 @@
   "yc:agnost-ai": {
     "first_seen": "2026-07-24",
     "name": "Agnost AI",
+    "source": "YC"
+  },
+  "yc:ai-coach": {
+    "first_seen": "2026-07-30",
+    "name": "COACH",
     "source": "YC"
   },
   "yc:aice": {
@@ -572,6 +652,11 @@
   "yc:atlas-discovery": {
     "first_seen": "2026-07-24",
     "name": "Atlas Discovery",
+    "source": "YC"
+  },
+  "yc:atlia": {
+    "first_seen": "2026-07-30",
+    "name": "Atlia",
     "source": "YC"
   },
   "yc:atomarine": {
@@ -854,6 +939,11 @@
     "name": "Egoist Machines",
     "source": "YC"
   },
+  "yc:ekho-labs": {
+    "first_seen": "2026-07-30",
+    "name": "Ekho Labs",
+    "source": "YC"
+  },
   "yc:ekpa": {
     "first_seen": "2026-07-24",
     "name": "Ekpa",
@@ -867,6 +957,11 @@
   "yc:enjamb-labs": {
     "first_seen": "2026-07-24",
     "name": "Enjamb Labs",
+    "source": "YC"
+  },
+  "yc:executor": {
+    "first_seen": "2026-07-30",
+    "name": "Executor",
     "source": "YC"
   },
   "yc:expanse": {
@@ -949,6 +1044,11 @@
     "name": "Gigacatalyst",
     "source": "YC"
   },
+  "yc:gitcafe": {
+    "first_seen": "2026-07-30",
+    "name": "GitCafe",
+    "source": "YC"
+  },
   "yc:glen": {
     "first_seen": "2026-07-24",
     "name": "Glen",
@@ -1024,6 +1124,11 @@
     "name": "HeyClicky",
     "source": "YC"
   },
+  "yc:hiloop": {
+    "first_seen": "2026-07-30",
+    "name": "hiloop",
+    "source": "YC"
+  },
   "yc:hop-aero": {
     "first_seen": "2026-07-24",
     "name": "Hop Aero",
@@ -1037,6 +1142,11 @@
   "yc:hub": {
     "first_seen": "2026-07-24",
     "name": "Hub",
+    "source": "YC"
+  },
+  "yc:hubble-ai": {
+    "first_seen": "2026-07-30",
+    "name": "Hubble",
     "source": "YC"
   },
   "yc:humwork": {
@@ -1152,6 +1262,11 @@
   "yc:juno-chat": {
     "first_seen": "2026-07-24",
     "name": "Juno",
+    "source": "YC"
+  },
+  "yc:kara": {
+    "first_seen": "2026-07-30",
+    "name": "Kara",
     "source": "YC"
   },
   "yc:kebra": {
@@ -1282,6 +1397,11 @@
   "yc:locke": {
     "first_seen": "2026-07-24",
     "name": "Locke",
+    "source": "YC"
+  },
+  "yc:luca-iq": {
+    "first_seen": "2026-07-30",
+    "name": "Luca IQ",
     "source": "YC"
   },
   "yc:lumeria": {
@@ -1452,6 +1572,11 @@
   "yc:opentrade": {
     "first_seen": "2026-07-24",
     "name": "OpenTrade",
+    "source": "YC"
+  },
+  "yc:openvector": {
+    "first_seen": "2026-07-30",
+    "name": "OpenVector",
     "source": "YC"
   },
   "yc:openwork": {
@@ -1839,6 +1964,16 @@
     "name": "Standout",
     "source": "YC"
   },
+  "yc:stoa": {
+    "first_seen": "2026-07-30",
+    "name": "Stoa",
+    "source": "YC"
+  },
+  "yc:stratum-industries": {
+    "first_seen": "2026-07-30",
+    "name": "Stratum Industries",
+    "source": "YC"
+  },
   "yc:subvysion": {
     "first_seen": "2026-07-24",
     "name": "SubVysion",
@@ -1942,6 +2077,11 @@
   "yc:traceforce": {
     "first_seen": "2026-07-26",
     "name": "Traceforce",
+    "source": "YC"
+  },
+  "yc:tracer": {
+    "first_seen": "2026-07-30",
+    "name": "Tracer",
     "source": "YC"
   },
   "yc:transload": {
