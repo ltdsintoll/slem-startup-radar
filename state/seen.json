@@ -229,9 +229,19 @@
     "name": "Elanor Labs Inc.",
     "source": "Form D"
   },
+  "formd:000214548226000001": {
+    "first_seen": "2026-07-31",
+    "name": "Shrink Software LLC",
+    "source": "Form D"
+  },
   "formd:000214572826000001": {
     "first_seen": "2026-07-24",
     "name": "EchoIQ Ltd",
+    "source": "Form D"
+  },
+  "formd:000214582326000001": {
+    "first_seen": "2026-07-31",
+    "name": "AssureSync LLC",
     "source": "Form D"
   },
   "formd:000214584526000001": {
@@ -244,6 +254,11 @@
     "name": "Synthorai Technology Inc",
     "source": "Form D"
   },
+  "formd:000214609426000001": {
+    "first_seen": "2026-07-31",
+    "name": "YD3 Inc.",
+    "source": "Form D"
+  },
   "formd:000214623926000001": {
     "first_seen": "2026-07-24",
     "name": "Forever Home Theatrical Co LLC",
@@ -252,6 +267,11 @@
   "formd:000214624126000001": {
     "first_seen": "2026-07-27",
     "name": "LawEngine Inc.",
+    "source": "Form D"
+  },
+  "formd:000214642026000001": {
+    "first_seen": "2026-07-31",
+    "name": "Baton Media Inc.",
     "source": "Form D"
   },
   "formd:000214647326000002": {
@@ -294,6 +314,11 @@
     "name": "Doc Watson Technologies, Inc.",
     "source": "Form D"
   },
+  "formd:000214684626000001": {
+    "first_seen": "2026-07-31",
+    "name": "G1 Veriflow LLC",
+    "source": "Form D"
+  },
   "formd:000214696326000001": {
     "first_seen": "2026-07-27",
     "name": "XENOPS Manufacturing Technologies Inc",
@@ -322,6 +347,11 @@
   "formd:000214718826000001": {
     "first_seen": "2026-07-24",
     "name": "GUARDIAN RECOVERY - WISCONSIN, LLC",
+    "source": "Form D"
+  },
+  "formd:000214720326000001": {
+    "first_seen": "2026-07-31",
+    "name": "Brio Health, Inc.",
     "source": "Form D"
   },
   "formd:000214727426000001": {
@@ -369,6 +399,16 @@
     "name": "Camo Hospitality Inc",
     "source": "Form D"
   },
+  "formd:000214746526000001": {
+    "first_seen": "2026-07-31",
+    "name": "Contrivian Inc",
+    "source": "Form D"
+  },
+  "formd:000214746926000001": {
+    "first_seen": "2026-07-31",
+    "name": "Recovered Potential, Inc.",
+    "source": "Form D"
+  },
   "formd:000214747726000001": {
     "first_seen": "2026-07-30",
     "name": "Nodal Networks, Inc.",
@@ -387,6 +427,16 @@
   "formd:000214751426000001": {
     "first_seen": "2026-07-30",
     "name": "MVKLB LTH LLC",
+    "source": "Form D"
+  },
+  "formd:000214760526000001": {
+    "first_seen": "2026-07-31",
+    "name": "GRAI, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214767626000001": {
+    "first_seen": "2026-07-31",
+    "name": "COVR Promo Inc",
     "source": "Form D"
   },
   "formd:000214771326000001": {
@@ -414,6 +464,11 @@
     "name": "Bovo Music, Inc.",
     "source": "Form D"
   },
+  "formd:000214780426000001": {
+    "first_seen": "2026-07-31",
+    "name": "Biota Inc.",
+    "source": "Form D"
+  },
   "formd:000214785726000001": {
     "first_seen": "2026-07-30",
     "name": "Frick! LLC",
@@ -437,6 +492,16 @@
   "formd:000214796626000001": {
     "first_seen": "2026-07-30",
     "name": "DMZ Vehicles LLC",
+    "source": "Form D"
+  },
+  "formd:000214799426000001": {
+    "first_seen": "2026-07-31",
+    "name": "Dot Game Holdings, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214814526000001": {
+    "first_seen": "2026-07-31",
+    "name": "Core Automation, Inc.",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -2017,6 +2082,11 @@
   "yc:talentpluto": {
     "first_seen": "2026-07-24",
     "name": "Pluto",
+    "source": "YC"
+  },
+  "yc:tarebio": {
+    "first_seen": "2026-07-31",
+    "name": "TareBio",
     "source": "YC"
   },
   "yc:tasklet-2": {
