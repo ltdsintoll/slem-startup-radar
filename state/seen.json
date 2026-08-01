@@ -164,6 +164,11 @@
     "name": "Mottainai Labs, Inc.",
     "source": "Form D"
   },
+  "formd:000214350326000001": {
+    "first_seen": "2026-08-01",
+    "name": "LiLi MD Group Inc",
+    "source": "Form D"
+  },
   "formd:000214391326000001": {
     "first_seen": "2026-07-24",
     "name": "Social Value Inc.",
@@ -229,6 +234,11 @@
     "name": "Elanor Labs Inc.",
     "source": "Form D"
   },
+  "formd:000214545326000001": {
+    "first_seen": "2026-08-01",
+    "name": "Less2Close LLC",
+    "source": "Form D"
+  },
   "formd:000214548226000001": {
     "first_seen": "2026-07-31",
     "name": "Shrink Software LLC",
@@ -237,6 +247,11 @@
   "formd:000214572826000001": {
     "first_seen": "2026-07-24",
     "name": "EchoIQ Ltd",
+    "source": "Form D"
+  },
+  "formd:000214580426000001": {
+    "first_seen": "2026-08-01",
+    "name": "Holt Street Holdings, Inc.",
     "source": "Form D"
   },
   "formd:000214582326000001": {
@@ -274,6 +289,11 @@
     "name": "Baton Media Inc.",
     "source": "Form D"
   },
+  "formd:000214645726000001": {
+    "first_seen": "2026-08-01",
+    "name": "Yaven, Inc.",
+    "source": "Form D"
+  },
   "formd:000214647326000002": {
     "first_seen": "2026-07-28",
     "name": "Metric Mint LLC",
@@ -292,6 +312,11 @@
   "formd:000214658326000001": {
     "first_seen": "2026-07-25",
     "name": "Software Velocity Corp.",
+    "source": "Form D"
+  },
+  "formd:000214660426000001": {
+    "first_seen": "2026-08-01",
+    "name": "Full Health Clarity, Inc.",
     "source": "Form D"
   },
   "formd:000214668226000001": {
@@ -352,6 +377,11 @@
   "formd:000214720326000001": {
     "first_seen": "2026-07-31",
     "name": "Brio Health, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214725426000001": {
+    "first_seen": "2026-08-01",
+    "name": "Bear Boy LLC",
     "source": "Form D"
   },
   "formd:000214727426000001": {
@@ -434,6 +464,21 @@
     "name": "GRAI, Inc.",
     "source": "Form D"
   },
+  "formd:000214760626000001": {
+    "first_seen": "2026-08-01",
+    "name": "GRAI HOLDCO, LLC",
+    "source": "Form D"
+  },
+  "formd:000214762126000001": {
+    "first_seen": "2026-08-01",
+    "name": "PushCART Therapeutics, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214763826000001": {
+    "first_seen": "2026-08-01",
+    "name": "HILstart, Inc.",
+    "source": "Form D"
+  },
   "formd:000214767626000001": {
     "first_seen": "2026-07-31",
     "name": "COVR Promo Inc",
@@ -449,6 +494,11 @@
     "name": "Qualified Health PBC",
     "source": "Form D"
   },
+  "formd:000214777026000001": {
+    "first_seen": "2026-08-01",
+    "name": "Youth Enrichment Alliance Partners, LLC",
+    "source": "Form D"
+  },
   "formd:000214777126000001": {
     "first_seen": "2026-07-29",
     "name": "Wayy Inc.",
@@ -462,6 +512,11 @@
   "formd:000214777526000001": {
     "first_seen": "2026-07-30",
     "name": "Bovo Music, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214779826000001": {
+    "first_seen": "2026-08-01",
+    "name": "PETA OPTRONICS, INC.",
     "source": "Form D"
   },
   "formd:000214780426000001": {
@@ -489,6 +544,11 @@
     "name": "StimCardio Medical, Inc.",
     "source": "Form D"
   },
+  "formd:000214791226000001": {
+    "first_seen": "2026-08-01",
+    "name": "Janet AI, Inc.",
+    "source": "Form D"
+  },
   "formd:000214796626000001": {
     "first_seen": "2026-07-30",
     "name": "DMZ Vehicles LLC",
@@ -502,6 +562,21 @@
   "formd:000214814526000001": {
     "first_seen": "2026-07-31",
     "name": "Core Automation, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214816726000001": {
+    "first_seen": "2026-08-01",
+    "name": "SLP Tacer Topco, LLC",
+    "source": "Form D"
+  },
+  "formd:000214833826000001": {
+    "first_seen": "2026-08-01",
+    "name": "KaiAvora Health, LLC",
+    "source": "Form D"
+  },
+  "formd:000214843126000001": {
+    "first_seen": "2026-08-01",
+    "name": "H. BOISCH SOLUTIONS INC.",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -602,6 +677,11 @@
   "yc:amboras": {
     "first_seen": "2026-07-24",
     "name": "Amboras",
+    "source": "YC"
+  },
+  "yc:amorphic-labs": {
+    "first_seen": "2026-08-01",
+    "name": "Amorphic Labs",
     "source": "YC"
   },
   "yc:amulet": {
@@ -2087,6 +2167,11 @@
   "yc:tarebio": {
     "first_seen": "2026-07-31",
     "name": "TareBio",
+    "source": "YC"
+  },
+  "yc:tash": {
+    "first_seen": "2026-08-01",
+    "name": "tash",
     "source": "YC"
   },
   "yc:tasklet-2": {
