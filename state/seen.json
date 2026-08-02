@@ -2099,6 +2099,11 @@
     "name": "Stage",
     "source": "YC"
   },
+  "yc:standard-machines": {
+    "first_seen": "2026-08-02",
+    "name": "Standard Machines",
+    "source": "YC"
+  },
   "yc:standard-signal": {
     "first_seen": "2026-07-24",
     "name": "Standard Signal",
@@ -2247,6 +2252,11 @@
   "yc:trellistech": {
     "first_seen": "2026-07-24",
     "name": "Trellis",
+    "source": "YC"
+  },
+  "yc:trident": {
+    "first_seen": "2026-08-02",
+    "name": "Trident",
     "source": "YC"
   },
   "yc:trope": {
