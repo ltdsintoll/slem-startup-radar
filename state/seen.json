@@ -894,6 +894,16 @@
     "name": "Care GP",
     "source": "YC"
   },
+  "yc:carsignal": {
+    "first_seen": "2026-08-03",
+    "name": "CarSignal",
+    "source": "YC"
+  },
+  "yc:caution": {
+    "first_seen": "2026-08-03",
+    "name": "Caution",
+    "source": "YC"
+  },
   "yc:centralcoms": {
     "first_seen": "2026-07-24",
     "name": "CentralComs",
@@ -1317,6 +1327,11 @@
   "yc:illume-labs": {
     "first_seen": "2026-07-24",
     "name": "Illume Labs",
+    "source": "YC"
+  },
+  "yc:impact-drones": {
+    "first_seen": "2026-08-03",
+    "name": "IMPACT Drones",
     "source": "YC"
   },
   "yc:imperfect": {
@@ -2082,6 +2097,11 @@
   "yc:soria": {
     "first_seen": "2026-07-24",
     "name": "Soria",
+    "source": "YC"
+  },
+  "yc:spaceflow-technologies-inc": {
+    "first_seen": "2026-08-03",
+    "name": "SpaceFlow Technologies, Inc.",
     "source": "YC"
   },
   "yc:speko": {
