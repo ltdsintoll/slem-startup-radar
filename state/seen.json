@@ -309,6 +309,11 @@
     "name": "EchoIQ Ltd",
     "source": "Form D"
   },
+  "formd:000214578326000001": {
+    "first_seen": "2026-08-05",
+    "name": "Bear Analytics, Inc.",
+    "source": "Form D"
+  },
   "formd:000214580426000001": {
     "first_seen": "2026-08-01",
     "name": "Holt Street Holdings, Inc.",
@@ -327,6 +332,21 @@
   "formd:000214588926000001": {
     "first_seen": "2026-07-24",
     "name": "Synthorai Technology Inc",
+    "source": "Form D"
+  },
+  "formd:000214594726000003": {
+    "first_seen": "2026-08-05",
+    "name": "Rigora Clinical Inc.",
+    "source": "Form D"
+  },
+  "formd:000214605926000001": {
+    "first_seen": "2026-08-05",
+    "name": "MCB Heartland G&I I Holdco LLC",
+    "source": "Form D"
+  },
+  "formd:000214608926000001": {
+    "first_seen": "2026-08-05",
+    "name": "Cypress Bay Partners, LLC",
     "source": "Form D"
   },
   "formd:000214609426000001": {
@@ -417,6 +437,11 @@
   "formd:000214696326000001": {
     "first_seen": "2026-07-27",
     "name": "XENOPS Manufacturing Technologies Inc",
+    "source": "Form D"
+  },
+  "formd:000214699526000001": {
+    "first_seen": "2026-08-05",
+    "name": "Handle The Truth Ltd Liability Co",
     "source": "Form D"
   },
   "formd:000214699726000001": {
@@ -544,6 +569,11 @@
     "name": "MVKLB LTH LLC",
     "source": "Form D"
   },
+  "formd:000214759626000001": {
+    "first_seen": "2026-08-05",
+    "name": "Aperon, Inc.",
+    "source": "Form D"
+  },
   "formd:000214760526000001": {
     "first_seen": "2026-07-31",
     "name": "GRAI, Inc.",
@@ -574,8 +604,18 @@
     "name": "Hydrate28, INC.",
     "source": "Form D"
   },
+  "formd:000214770426000001": {
+    "first_seen": "2026-08-05",
+    "name": "Coraa, Inc.",
+    "source": "Form D"
+  },
   "formd:000214771326000001": {
     "first_seen": "2026-07-29",
+    "name": "Kiken Technoloigies, Inc",
+    "source": "Form D"
+  },
+  "formd:000214771326000002": {
+    "first_seen": "2026-08-05",
     "name": "Kiken Technoloigies, Inc",
     "source": "Form D"
   },
@@ -694,6 +734,31 @@
     "name": "Senza Research, Inc.",
     "source": "Form D"
   },
+  "formd:000214821426000001": {
+    "first_seen": "2026-08-05",
+    "name": "Proactive AI Lab, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214823426000001": {
+    "first_seen": "2026-08-05",
+    "name": "Glacian Technologies Inc.",
+    "source": "Form D"
+  },
+  "formd:000214824826000001": {
+    "first_seen": "2026-08-05",
+    "name": "Katis, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214828026000001": {
+    "first_seen": "2026-08-05",
+    "name": "Faex Technologies Inc.",
+    "source": "Form D"
+  },
+  "formd:000214831926000001": {
+    "first_seen": "2026-08-05",
+    "name": "Wilson & Pack Relocation Inc.",
+    "source": "Form D"
+  },
   "formd:000214833826000001": {
     "first_seen": "2026-08-01",
     "name": "KaiAvora Health, LLC",
@@ -714,9 +779,34 @@
     "name": "Sponsormind, Inc.",
     "source": "Form D"
   },
+  "formd:000214846126000001": {
+    "first_seen": "2026-08-05",
+    "name": "Theradaptive, Inc.",
+    "source": "Form D"
+  },
   "formd:000214847126000001": {
     "first_seen": "2026-08-04",
     "name": "Kinesthetic Inc.",
+    "source": "Form D"
+  },
+  "formd:000214852026000001": {
+    "first_seen": "2026-08-05",
+    "name": "Canine Enterprises LLC",
+    "source": "Form D"
+  },
+  "formd:000214858826000001": {
+    "first_seen": "2026-08-05",
+    "name": "Imagen Glenview Support Services, LLC",
+    "source": "Form D"
+  },
+  "formd:000214870326000002": {
+    "first_seen": "2026-08-05",
+    "name": "AM Sailing LP",
+    "source": "Form D"
+  },
+  "formd:000214877426000001": {
+    "first_seen": "2026-08-05",
+    "name": "Nexus Labs Holdings, Inc.",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -752,6 +842,11 @@
   "yc:agency-tool-company": {
     "first_seen": "2026-07-25",
     "name": "Agency Tool Company",
+    "source": "YC"
+  },
+  "yc:agent-fm": {
+    "first_seen": "2026-08-05",
+    "name": "Agent FM",
     "source": "YC"
   },
   "yc:agentcard": {
@@ -862,6 +957,11 @@
   "yc:ara": {
     "first_seen": "2026-07-24",
     "name": "Ara",
+    "source": "YC"
+  },
+  "yc:arbital": {
+    "first_seen": "2026-08-05",
+    "name": "Arbital",
     "source": "YC"
   },
   "yc:archal": {
@@ -1062,6 +1162,11 @@
   "yc:chert": {
     "first_seen": "2026-07-24",
     "name": "Chert",
+    "source": "YC"
+  },
+  "yc:chromiedev": {
+    "first_seen": "2026-08-05",
+    "name": "chromie.dev",
     "source": "YC"
   },
   "yc:chronicle-labs": {
@@ -2124,6 +2229,11 @@
     "name": "Rex",
     "source": "YC"
   },
+  "yc:riften": {
+    "first_seen": "2026-08-05",
+    "name": "Riften",
+    "source": "YC"
+  },
   "yc:rindler": {
     "first_seen": "2026-07-24",
     "name": "Rindler",
@@ -2467,6 +2577,11 @@
   "yc:twolabs": {
     "first_seen": "2026-07-24",
     "name": "Twolabs",
+    "source": "YC"
+  },
+  "yc:ultrasonium": {
+    "first_seen": "2026-08-05",
+    "name": "Ultrasonium",
     "source": "YC"
   },
   "yc:understudy-labs": {

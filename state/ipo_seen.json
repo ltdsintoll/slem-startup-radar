@@ -19,6 +19,11 @@
     "name": "USBC, Inc.",
     "stage": "Amending"
   },
+  "1083522": {
+    "first_seen": "2026-08-05",
+    "name": "JONES SODA CO.",
+    "stage": "Amending"
+  },
   "1115864": {
     "first_seen": "2026-07-30",
     "name": "ECOMINAS CORP.",
@@ -372,7 +377,7 @@
   "1839970": {
     "first_seen": "2026-07-24",
     "name": "BlossomHill Therapeutics, Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "1843714": {
     "first_seen": "2026-07-24",
@@ -454,6 +459,11 @@
     "name": "DEFSEC Technologies Inc.",
     "stage": "Filed"
   },
+  "1892704": {
+    "first_seen": "2026-08-05",
+    "name": "First Breach, Inc.",
+    "stage": "Amending"
+  },
   "1900851": {
     "first_seen": "2026-07-24",
     "name": "Ambitious Entertainment, Inc.",
@@ -472,7 +482,7 @@
   "1912884": {
     "first_seen": "2026-07-24",
     "name": "Republic Power Group Ltd",
-    "stage": "Filed"
+    "stage": "Priced/IPO"
   },
   "1912966": {
     "first_seen": "2026-07-24",
@@ -602,7 +612,7 @@
   "2006960": {
     "first_seen": "2026-07-24",
     "name": "Londian Wason New Energy Tech Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2007691": {
     "first_seen": "2026-07-24",
@@ -722,7 +732,12 @@
   "2056611": {
     "first_seen": "2026-07-24",
     "name": "Latigo Biotherapeutics, Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
+  },
+  "2058007": {
+    "first_seen": "2026-08-05",
+    "name": "ECST Holdings Ltd",
+    "stage": "Amending"
   },
   "2058707": {
     "first_seen": "2026-07-24",
@@ -752,6 +767,11 @@
   "2064768": {
     "first_seen": "2026-07-24",
     "name": "Canary Staked TRX ETF",
+    "stage": "Amending"
+  },
+  "2065232": {
+    "first_seen": "2026-08-05",
+    "name": "Fitness Fanatics Ltd",
     "stage": "Amending"
   },
   "2065821": {
@@ -797,7 +817,7 @@
   "2075109": {
     "first_seen": "2026-07-24",
     "name": "Matternet, Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2075335": {
     "first_seen": "2026-07-28",
@@ -842,7 +862,7 @@
   "2080216": {
     "first_seen": "2026-07-24",
     "name": "BOA Acquisition Corp. II",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "2081641": {
     "first_seen": "2026-07-24",
@@ -989,6 +1009,11 @@
     "name": "Bluerock Acquisition Corp. II",
     "stage": "Filed"
   },
+  "2100704": {
+    "first_seen": "2026-08-05",
+    "name": "East West Ave Acquisition Corp.",
+    "stage": "Priced/IPO"
+  },
   "2101240": {
     "first_seen": "2026-07-24",
     "name": "SunScout Holding Ltd",
@@ -1012,6 +1037,11 @@
   "2103976": {
     "first_seen": "2026-07-24",
     "name": "Morgan Stanley Ethereum Trust",
+    "stage": "Amending"
+  },
+  "2104032": {
+    "first_seen": "2026-08-05",
+    "name": "Suchness Tech Ltd",
     "stage": "Amending"
   },
   "2104277": {
@@ -1094,6 +1124,11 @@
     "name": "Sensei Harbor Corp.",
     "stage": "Amending"
   },
+  "2113060": {
+    "first_seen": "2026-08-05",
+    "name": "IQM Quantum Computers Oyj",
+    "stage": "Filed"
+  },
   "2113481": {
     "first_seen": "2026-07-24",
     "name": "Osprey Acquisition Corp. III",
@@ -1123,6 +1158,11 @@
     "first_seen": "2026-07-27",
     "name": "Watu Metals Acquisition Corp",
     "stage": "Amending"
+  },
+  "2115818": {
+    "first_seen": "2026-08-05",
+    "name": "1776 Acquisition Corp",
+    "stage": "Filed"
   },
   "2116105": {
     "first_seen": "2026-07-24",
@@ -1237,7 +1277,7 @@
   "2132582": {
     "first_seen": "2026-07-24",
     "name": "Lyntris Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2133136": {
     "first_seen": "2026-07-24",
@@ -1273,6 +1313,11 @@
     "first_seen": "2026-07-24",
     "name": "Dear Industrial Gas Inc",
     "stage": "Filed"
+  },
+  "2135163": {
+    "first_seen": "2026-08-05",
+    "name": "Albatross Acquisition Corp",
+    "stage": "Amending"
   },
   "2136360": {
     "first_seen": "2026-07-24",
@@ -1364,9 +1409,19 @@
     "name": "K2 Capital Acquisition II Corp.",
     "stage": "Filed"
   },
+  "2145409": {
+    "first_seen": "2026-08-05",
+    "name": "GX Acquisition Corp. III/Cayman",
+    "stage": "Filed"
+  },
   "2146369": {
     "first_seen": "2026-07-24",
     "name": "Londonla Inc.",
+    "stage": "Filed"
+  },
+  "2148196": {
+    "first_seen": "2026-08-05",
+    "name": "Luminous Acquisition",
     "stage": "Filed"
   },
   "351998": {
