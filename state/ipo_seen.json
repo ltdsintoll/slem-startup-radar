@@ -32,7 +32,7 @@
   "1131903": {
     "first_seen": "2026-07-24",
     "name": "SPECTRAL CAPITAL Corp",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "1141284": {
     "first_seen": "2026-07-24",
@@ -113,6 +113,11 @@
     "first_seen": "2026-07-24",
     "name": "Ambiq Micro, Inc.",
     "stage": "Priced/IPO"
+  },
+  "1506929": {
+    "first_seen": "2026-08-06",
+    "name": "VERDE RESOURCES, INC.",
+    "stage": "Amending"
   },
   "1517681": {
     "first_seen": "2026-07-24",
@@ -742,7 +747,7 @@
   "2058707": {
     "first_seen": "2026-07-24",
     "name": "Attovia Therapeutics, Inc.",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "2060016": {
     "first_seen": "2026-07-24",
@@ -847,7 +852,7 @@
   "2079109": {
     "first_seen": "2026-08-01",
     "name": "Veraxa Biotech Holding AG",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2079999": {
     "first_seen": "2026-07-24",
@@ -962,7 +967,7 @@
   "2094712": {
     "first_seen": "2026-07-24",
     "name": "ARC Group Securities Acquisition I",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "2095096": {
     "first_seen": "2026-07-24",
@@ -1089,6 +1094,11 @@
     "name": "MobbQuest Inc.",
     "stage": "Amending"
   },
+  "2109823": {
+    "first_seen": "2026-08-06",
+    "name": "Leader's Advantage Acquisition Corp.",
+    "stage": "Amending"
+  },
   "2110117": {
     "first_seen": "2026-07-24",
     "name": "ITG, Inc./DE/",
@@ -1194,6 +1204,11 @@
     "name": "Cumberland Farms Ltd",
     "stage": "Filed"
   },
+  "2123380": {
+    "first_seen": "2026-08-06",
+    "name": "Gravity Acquisition Corp.",
+    "stage": "Filed"
+  },
   "2123471": {
     "first_seen": "2026-07-24",
     "name": "Columbus Circle Capital Corp III",
@@ -1202,7 +1217,7 @@
   "2123955": {
     "first_seen": "2026-07-24",
     "name": "Pinnacle Acquisition Corp",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2124122": {
     "first_seen": "2026-07-24",
@@ -1437,6 +1452,11 @@
   "720762": {
     "first_seen": "2026-07-24",
     "name": "NON INVASIVE MONITORING SYSTEMS INC /FL/",
+    "stage": "Filed"
+  },
+  "744452": {
+    "first_seen": "2026-08-06",
+    "name": "BNB PLUS CORP.",
     "stage": "Filed"
   },
   "802257": {

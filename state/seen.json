@@ -149,6 +149,11 @@
     "name": "Way Way West, LLC",
     "source": "Form D"
   },
+  "formd:000214053926000002": {
+    "first_seen": "2026-08-06",
+    "name": "Taktile Holding, Inc.",
+    "source": "Form D"
+  },
   "formd:000214056726000001": {
     "first_seen": "2026-07-27",
     "name": "Gaingels Steel Robotics LLC",
@@ -279,6 +284,11 @@
     "name": "Conduit Gaming Inc",
     "source": "Form D"
   },
+  "formd:000214497126000002": {
+    "first_seen": "2026-08-06",
+    "name": "Monster Equities LLC",
+    "source": "Form D"
+  },
   "formd:000214504826000001": {
     "first_seen": "2026-08-04",
     "name": "WILLY CHAVARRIA, INC.",
@@ -397,6 +407,11 @@
   "formd:000214651126000002": {
     "first_seen": "2026-07-27",
     "name": "Scaler AI Labs Inc.",
+    "source": "Form D"
+  },
+  "formd:000214657126000001": {
+    "first_seen": "2026-08-06",
+    "name": "Lightyear Space, Inc.",
     "source": "Form D"
   },
   "formd:000214658326000001": {
@@ -522,6 +537,11 @@
   "formd:000214737326000001": {
     "first_seen": "2026-07-27",
     "name": "ScopeRemote, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214737626000001": {
+    "first_seen": "2026-08-06",
+    "name": "Kala Holdings Inc.",
     "source": "Form D"
   },
   "formd:000214741326000001": {
@@ -729,6 +749,11 @@
     "name": "SLP Tacer Topco, LLC",
     "source": "Form D"
   },
+  "formd:000214817726000001": {
+    "first_seen": "2026-08-06",
+    "name": "Oncologic, Inc. / DE",
+    "source": "Form D"
+  },
   "formd:000214820926000002": {
     "first_seen": "2026-08-04",
     "name": "Senza Research, Inc.",
@@ -759,9 +784,24 @@
     "name": "Wilson & Pack Relocation Inc.",
     "source": "Form D"
   },
+  "formd:000214833226000001": {
+    "first_seen": "2026-08-06",
+    "name": "JSAP HOLDINGS COSTA MESA LLC",
+    "source": "Form D"
+  },
   "formd:000214833826000001": {
     "first_seen": "2026-08-01",
     "name": "KaiAvora Health, LLC",
+    "source": "Form D"
+  },
+  "formd:000214836626000001": {
+    "first_seen": "2026-08-06",
+    "name": "Colossal I A Series of OffExchange LLC",
+    "source": "Form D"
+  },
+  "formd:000214837126000001": {
+    "first_seen": "2026-08-06",
+    "name": "Integrated Biosciences, Inc.",
     "source": "Form D"
   },
   "formd:000214843126000001": {
@@ -799,14 +839,39 @@
     "name": "Imagen Glenview Support Services, LLC",
     "source": "Form D"
   },
+  "formd:000214862226000001": {
+    "first_seen": "2026-08-06",
+    "name": "Malted AI Ltd",
+    "source": "Form D"
+  },
   "formd:000214870326000002": {
     "first_seen": "2026-08-05",
     "name": "AM Sailing LP",
     "source": "Form D"
   },
+  "formd:000214870426000001": {
+    "first_seen": "2026-08-06",
+    "name": "FMFreeman Inc",
+    "source": "Form D"
+  },
   "formd:000214877426000001": {
     "first_seen": "2026-08-05",
     "name": "Nexus Labs Holdings, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214879126000001": {
+    "first_seen": "2026-08-06",
+    "name": "CompanAIn, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214890226000001": {
+    "first_seen": "2026-08-06",
+    "name": "Vapor Industries, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214892426000001": {
+    "first_seen": "2026-08-06",
+    "name": "SPORTY & RICH INC",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -1187,6 +1252,11 @@
   "yc:clawvisor": {
     "first_seen": "2026-07-24",
     "name": "Clawvisor",
+    "source": "YC"
+  },
+  "yc:click": {
+    "first_seen": "2026-08-06",
+    "name": "Click",
     "source": "YC"
   },
   "yc:coasty": {
