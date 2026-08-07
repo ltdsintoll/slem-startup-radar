@@ -189,6 +189,11 @@
     "name": "Gaingels Core Automation LLC",
     "source": "Form D"
   },
+  "formd:000214204626000001": {
+    "first_seen": "2026-08-07",
+    "name": "Series 87-2, a series of StartEngine Private LLC",
+    "source": "Form D"
+  },
   "formd:000214222126000001": {
     "first_seen": "2026-08-04",
     "name": "Weatherwave Space, Inc.",
@@ -267,6 +272,11 @@
   "formd:000214442026000001": {
     "first_seen": "2026-07-24",
     "name": "Sugar Plum Street Ltd Liability Co",
+    "source": "Form D"
+  },
+  "formd:000214446426000004": {
+    "first_seen": "2026-08-07",
+    "name": "Resurgent Industries Inc.",
     "source": "Form D"
   },
   "formd:000214458526000001": {
@@ -429,6 +439,11 @@
     "name": "Oboro Labs, Inc.",
     "source": "Form D"
   },
+  "formd:000214671026000001": {
+    "first_seen": "2026-08-07",
+    "name": "Palm Beach Royals Champions Equity Holdings LLC",
+    "source": "Form D"
+  },
   "formd:000214675326000001": {
     "first_seen": "2026-07-28",
     "name": "VIN-59 Enhance Health, LLC",
@@ -477,6 +492,11 @@
   "formd:000214709926000001": {
     "first_seen": "2026-07-28",
     "name": "Bootheo Inc.",
+    "source": "Form D"
+  },
+  "formd:000214711226000001": {
+    "first_seen": "2026-08-07",
+    "name": "Splat Labs, LLC",
     "source": "Form D"
   },
   "formd:000214715326000001": {
@@ -542,6 +562,16 @@
   "formd:000214737626000001": {
     "first_seen": "2026-08-06",
     "name": "Kala Holdings Inc.",
+    "source": "Form D"
+  },
+  "formd:000214739826000002": {
+    "first_seen": "2026-08-07",
+    "name": "TRAYAM INC.",
+    "source": "Form D"
+  },
+  "formd:000214739926000001": {
+    "first_seen": "2026-08-07",
+    "name": "Grove CHS, LLC",
     "source": "Form D"
   },
   "formd:000214741326000001": {
@@ -684,6 +714,11 @@
     "name": "Gentle Caring Mind Healthcare LLC",
     "source": "Form D"
   },
+  "formd:000214783226000001": {
+    "first_seen": "2026-08-07",
+    "name": "Obran Services Holding I LLC",
+    "source": "Form D"
+  },
   "formd:000214785726000001": {
     "first_seen": "2026-07-30",
     "name": "Frick! LLC",
@@ -754,6 +789,11 @@
     "name": "Oncologic, Inc. / DE",
     "source": "Form D"
   },
+  "formd:000214818726000001": {
+    "first_seen": "2026-08-07",
+    "name": "Furnace Systems Corp",
+    "source": "Form D"
+  },
   "formd:000214820926000002": {
     "first_seen": "2026-08-04",
     "name": "Senza Research, Inc.",
@@ -769,9 +809,29 @@
     "name": "Glacian Technologies Inc.",
     "source": "Form D"
   },
+  "formd:000214823926000002": {
+    "first_seen": "2026-08-07",
+    "name": "Wild Zebra, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214823926000003": {
+    "first_seen": "2026-08-07",
+    "name": "Wild Zebra, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214823926000004": {
+    "first_seen": "2026-08-07",
+    "name": "Wild Zebra, Inc.",
+    "source": "Form D"
+  },
   "formd:000214824826000001": {
     "first_seen": "2026-08-05",
     "name": "Katis, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214825226000001": {
+    "first_seen": "2026-08-07",
+    "name": "GorillaOps, Inc.",
     "source": "Form D"
   },
   "formd:000214828026000001": {
@@ -839,6 +899,11 @@
     "name": "Imagen Glenview Support Services, LLC",
     "source": "Form D"
   },
+  "formd:000214860426000001": {
+    "first_seen": "2026-08-07",
+    "name": "Hub Corp",
+    "source": "Form D"
+  },
   "formd:000214862226000001": {
     "first_seen": "2026-08-06",
     "name": "Malted AI Ltd",
@@ -874,6 +939,46 @@
     "name": "SPORTY & RICH INC",
     "source": "Form D"
   },
+  "formd:000214897026000001": {
+    "first_seen": "2026-08-07",
+    "name": "Samply, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214898626000001": {
+    "first_seen": "2026-08-07",
+    "name": "ClerkMate, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214899026000001": {
+    "first_seen": "2026-08-07",
+    "name": "Squary, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214903426000001": {
+    "first_seen": "2026-08-07",
+    "name": "Iridium Credit, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214907826000001": {
+    "first_seen": "2026-08-07",
+    "name": "Trivas Inc.",
+    "source": "Form D"
+  },
+  "formd:000214910026000001": {
+    "first_seen": "2026-08-07",
+    "name": "Shiver Vertical, LLC",
+    "source": "Form D"
+  },
+  "formd:000214919926000001": {
+    "first_seen": "2026-08-07",
+    "name": "Quad Marketplace, Co.",
+    "source": "Form D"
+  },
+  "formd:000214921726000001": {
+    "first_seen": "2026-08-07",
+    "name": "Unicorn Snot, LLC",
+    "source": "Form D"
+  },
   "yc:6thsense": {
     "first_seen": "2026-07-24",
     "name": "6thSense",
@@ -902,6 +1007,11 @@
   "yc:advanced-metal-research": {
     "first_seen": "2026-07-24",
     "name": "Advanced Metal Research",
+    "source": "YC"
+  },
+  "yc:afterfive": {
+    "first_seen": "2026-08-07",
+    "name": "afterfive",
     "source": "YC"
   },
   "yc:agency-tool-company": {
@@ -1229,6 +1339,11 @@
     "name": "Chert",
     "source": "YC"
   },
+  "yc:chromie": {
+    "first_seen": "2026-08-07",
+    "name": "Chromie",
+    "source": "YC"
+  },
   "yc:chromiedev": {
     "first_seen": "2026-08-05",
     "name": "chromie.dev",
@@ -1437,6 +1552,11 @@
   "yc:executor": {
     "first_seen": "2026-07-30",
     "name": "Executor",
+    "source": "YC"
+  },
+  "yc:exosat": {
+    "first_seen": "2026-08-07",
+    "name": "Exosat",
     "source": "YC"
   },
   "yc:expanse": {
@@ -1994,6 +2114,11 @@
     "name": "Netter",
     "source": "YC"
   },
+  "yc:neuromorphic": {
+    "first_seen": "2026-08-07",
+    "name": "Neuromorphic",
+    "source": "YC"
+  },
   "yc:neuron-industries": {
     "first_seen": "2026-07-24",
     "name": "Neuron Industries",
@@ -2234,6 +2359,11 @@
     "name": "qomplement",
     "source": "YC"
   },
+  "yc:radley": {
+    "first_seen": "2026-08-07",
+    "name": "Radley",
+    "source": "YC"
+  },
   "yc:rapidfolio": {
     "first_seen": "2026-07-24",
     "name": "Rapidfolio",
@@ -2427,6 +2557,11 @@
   "yc:smol-machines": {
     "first_seen": "2026-07-24",
     "name": "smol machines",
+    "source": "YC"
+  },
+  "yc:solo-labs": {
+    "first_seen": "2026-08-07",
+    "name": "Solo Labs",
     "source": "YC"
   },
   "yc:soria": {

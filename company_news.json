@@ -2,34 +2,59 @@
   "1045810": {
     "ticker": "NVDA",
     "company": "NVIDIA CORP",
-    "articles": [],
-    "source": "no-data"
+    "articles": [
+      {
+        "title": "Why Nvidia Stock Rallied Today",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-nvidia-stock-rallied-today-181509741.html",
+        "domain": "finance.yahoo.com",
+        "date": "2026-08-07",
+        "sentiment_label": "позитив",
+        "sentiment_score": 1
+      },
+      {
+        "title": "Samsung new memory chip could make Nvidia AI chips faster",
+        "url": "https://finance.yahoo.com/technology/ai/articles/samsung-memory-chip-could-nvidia-060300531.html",
+        "domain": "finance.yahoo.com",
+        "date": "2026-08-07",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "Nvidia Stock Is on the Rise , After Elon Musk Says SpaceX Will  Exclusively  Buy Its Chips",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-rise-elon-musk-181003255.html",
+        "domain": "finance.yahoo.com",
+        "date": "2026-08-07",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "China pharma companies are facing a  monkey problem  that they say is as tough as  negotiating for an Nvidia chip  ",
+        "url": "https://timesofindia.indiatimes.com/technology/tech-news/chinas-pharma-companies-are-facing-a-monkey-problem-that-they-say-is-as-tough-as-negotiating-for-an-nvidia-chip/articleshow/133022137.cms",
+        "domain": "timesofindia.indiatimes.com",
+        "date": "2026-08-07",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "Indosat , Ooredoo Group , Nokia , and NVIDIA Launch Zankore by Indosat , Ready to Serve the Region with Full Stack AI ... - Engineering / Artificial Intelligence - Ovi / Nokia Group",
+        "url": "https://www.newswiretoday.com/news/186648/Indosat-Ooredoo-Group-Nokia-and-NVIDIA-Launch-Zankore-by-Indosat-Ready-to-Serve-the-Region-with-Full-Stack-AI-Infra-Platform/",
+        "domain": "newswiretoday.com",
+        "date": "2026-08-07",
+        "sentiment_label": "позитив",
+        "sentiment_score": 1
+      }
+    ],
+    "source": "gdelt"
   },
   "1321655": {
     "ticker": "PLTR",
     "company": "Palantir Technologies Inc.",
     "articles": [
       {
-        "title": "PLTR , SNAP , CRWV , ON , SOFI : 5 Trending Stocks Today - Palantir Technologies ( NASDAQ : PLTR ) ",
-        "url": "https://www.benzinga.com/markets/equities/26/08/60894586/palantir-snap-coreweave-on-semiconductor-sofi-stocks-watch",
-        "domain": "benzinga.com",
-        "date": "2026-08-04",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "Palantir Stock Gets Boost As SpaceX Bet Pays Off - Palantir Technologies ( NASDAQ : PLTR ) ",
-        "url": "https://www.benzinga.com/markets/earnings/26/08/60895013/palantir-earnings-get-a-lift-from-spacex-ipo-gains-as-latest-ai-giant-benefits-from-blockbuster-listing",
-        "domain": "benzinga.com",
-        "date": "2026-08-04",
-        "sentiment_label": "позитив",
-        "sentiment_score": 1
-      },
-      {
-        "title": "Palantir Technologies Q2 Earnings Call Highlights",
-        "url": "https://www.themarketsdaily.com/2026/08/03/palantir-technologies-q2-earnings-call-highlights.html",
-        "domain": "themarketsdaily.com",
-        "date": "2026-08-03",
+        "title": "Wall Street Is Paying Attention to Palantir ( PLTR ) Again",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-paying-attention-palantir-205245219.html",
+        "domain": "finance.yahoo.com",
+        "date": "2026-08-06",
         "sentiment_label": "нейтрально",
         "sentiment_score": 0
       }
@@ -47,42 +72,10 @@
     "company": "Apple Inc.",
     "articles": [
       {
-        "title": "OpenAI says it doesnt have or want Apple trade secrets , reveals emails and chats",
-        "url": "https://economictimes.indiatimes.com/news/international/business/openai-says-it-doesnt-have-or-want-apples-trade-secrets-reveals-emails-and-chats/articleshow/132850794.cms",
-        "domain": "economictimes.indiatimes.com",
-        "date": "2026-08-04",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "Apple new CEO taps retired hardware executive for management team",
-        "url": "https://economictimes.indiatimes.com/tech/technology/apples-new-ceo-taps-retired-hardware-executive-for-management-team/articleshow/132851015.cms",
-        "domain": "economictimes.indiatimes.com",
-        "date": "2026-08-04",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "Apple seeks preliminary injunction against OpenAI in trade secrets case",
-        "url": "https://www.thehindubusinessline.com/info-tech/apple-seeks-preliminary-injunction-against-openai-in-trade-secrets-case/article71304106.ece",
-        "domain": "thehindubusinessline.com",
-        "date": "2026-08-04",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "Apple iPhone 16 price drops to Rs 40 , 612 with bank offer and exchange",
-        "url": "https://www.moneycontrol.com/technology/apple-iphone-16-price-drops-to-rs-40-612-with-bank-offers-and-exchange-article-13993418.html",
-        "domain": "moneycontrol.com",
-        "date": "2026-08-04",
-        "sentiment_label": "негатив",
-        "sentiment_score": -1
-      },
-      {
-        "title": "Telegram briefly vanishes from Apple App Store search ; internet wonders if Epstein post is linked",
-        "url": "https://www.moneycontrol.com/news/trends/lists-will-never-be-released-telegram-briefly-vanishes-from-apple-app-store-search-internet-wonders-if-epstein-post-is-linked-13993138.html",
-        "domain": "moneycontrol.com",
-        "date": "2026-08-04",
+        "title": "Bad news for Apple fans as iPhone 18 Pro may sell out quickly",
+        "url": "https://www.samaa.tv/2087354831-bad-news-for-apple-fans-as-iphone-18-pro-may-sell-out-quickly",
+        "domain": "samaa.tv",
+        "date": "2026-08-07",
         "sentiment_label": "нейтрально",
         "sentiment_score": 0
       }
