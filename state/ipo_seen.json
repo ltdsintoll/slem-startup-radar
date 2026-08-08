@@ -44,6 +44,11 @@
     "name": "CREATIVE MEDICAL TECHNOLOGY HOLDINGS, INC.",
     "stage": "Amending"
   },
+  "1211805": {
+    "first_seen": "2026-08-08",
+    "name": "My Size, Inc.",
+    "stage": "Filed"
+  },
   "1263364": {
     "first_seen": "2026-07-24",
     "name": "Idaho Copper Corp  (COPR, COPR-WT)",
@@ -139,10 +144,15 @@
     "name": "Professional Diversity Network, Inc.",
     "stage": "Amending"
   },
+  "1553788": {
+    "first_seen": "2026-08-08",
+    "name": "SPLASH BEVERAGE GROUP, INC.",
+    "stage": "Filed"
+  },
   "1558569": {
     "first_seen": "2026-07-24",
     "name": "iSpecimen Inc.",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "1560293": {
     "first_seen": "2026-07-24",
@@ -202,7 +212,7 @@
   "1658678": {
     "first_seen": "2026-07-30",
     "name": "BioStem Technologies, Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "1659617": {
     "first_seen": "2026-07-30",
@@ -294,6 +304,11 @@
     "name": "SeeQC, Inc.",
     "stage": "Filed"
   },
+  "1786471": {
+    "first_seen": "2026-08-08",
+    "name": "Aptera Motors Corp",
+    "stage": "Filed"
+  },
   "1787117": {
     "first_seen": "2026-07-24",
     "name": "Reformation Inc.",
@@ -349,6 +364,11 @@
     "name": "Banzai International, Inc.",
     "stage": "Amending"
   },
+  "1827635": {
+    "first_seen": "2026-08-08",
+    "name": "Veradermics, Inc",
+    "stage": "Filed"
+  },
   "1830072": {
     "first_seen": "2026-07-24",
     "name": "iPower Inc.",
@@ -382,7 +402,7 @@
   "1839970": {
     "first_seen": "2026-07-24",
     "name": "BlossomHill Therapeutics, Inc.",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "1843714": {
     "first_seen": "2026-07-24",
@@ -447,6 +467,11 @@
   "1875655": {
     "first_seen": "2026-07-24",
     "name": "AEI CapForce II Investment Corp",
+    "stage": "Amending"
+  },
+  "1876431": {
+    "first_seen": "2026-08-08",
+    "name": "Prenetics Global Ltd",
     "stage": "Amending"
   },
   "1880995": {
@@ -669,6 +694,11 @@
     "name": "KIDZ AI Inc.",
     "stage": "Priced/IPO"
   },
+  "2022416": {
+    "first_seen": "2026-08-08",
+    "name": "Silexion Therapeutics Corp",
+    "stage": "Filed"
+  },
   "2024258": {
     "first_seen": "2026-07-24",
     "name": "PHAOS TECHNOLOGY HOLDINGS (CAYMAN) Ltd",
@@ -679,10 +709,20 @@
     "name": "Everbright Digital Holding Ltd.",
     "stage": "Priced/IPO"
   },
+  "2027262": {
+    "first_seen": "2026-08-08",
+    "name": "Fast Track Group",
+    "stage": "Filed"
+  },
   "2030498": {
     "first_seen": "2026-07-24",
     "name": "JuNeng Technology Ltd",
     "stage": "Amending"
+  },
+  "2030763": {
+    "first_seen": "2026-08-08",
+    "name": "DataMeds AI, Inc.",
+    "stage": "Filed"
   },
   "2030771": {
     "first_seen": "2026-07-24",
@@ -742,7 +782,7 @@
   "2056611": {
     "first_seen": "2026-07-24",
     "name": "Latigo Biotherapeutics, Inc.",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "2058007": {
     "first_seen": "2026-08-05",
@@ -882,7 +922,7 @@
   "2083125": {
     "first_seen": "2026-07-31",
     "name": "PRESIDIO PRODUCTION Co  (FTW, FTW-WT)",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2083945": {
     "first_seen": "2026-07-24",
@@ -928,6 +968,11 @@
     "first_seen": "2026-07-24",
     "name": "Texas Precious Metals Trust",
     "stage": "Amending"
+  },
+  "2088286": {
+    "first_seen": "2026-08-08",
+    "name": "Danneskjold & Galt Acquisition Co",
+    "stage": "Filed"
   },
   "2089447": {
     "first_seen": "2026-07-24",
@@ -1014,6 +1059,11 @@
     "name": "Sin Lian Seng Construction",
     "stage": "Amending"
   },
+  "2098038": {
+    "first_seen": "2026-08-08",
+    "name": "Zensitive Holding Ltd",
+    "stage": "Filed"
+  },
   "2098395": {
     "first_seen": "2026-07-24",
     "name": "IMC Rare Earths Ltd",
@@ -1067,7 +1117,7 @@
   "2104296": {
     "first_seen": "2026-07-24",
     "name": "Ticketplus Ltd.",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "2104391": {
     "first_seen": "2026-07-24",
@@ -1093,6 +1143,11 @@
     "first_seen": "2026-07-24",
     "name": "DPC Holdings Ltd",
     "stage": "Priced/IPO"
+  },
+  "2108121": {
+    "first_seen": "2026-08-08",
+    "name": "Ionetix Corp / DE /",
+    "stage": "Filed"
   },
   "2109801": {
     "first_seen": "2026-07-24",
@@ -1232,7 +1287,7 @@
   "2123955": {
     "first_seen": "2026-07-24",
     "name": "Pinnacle Acquisition Corp",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "2124122": {
     "first_seen": "2026-07-24",
@@ -1317,7 +1372,7 @@
   "2133239": {
     "first_seen": "2026-07-24",
     "name": "Southern Cross Acquisition II Corp.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2133716": {
     "first_seen": "2026-07-24",
@@ -1377,7 +1432,7 @@
   "2137679": {
     "first_seen": "2026-07-24",
     "name": "OceanLight Acquisition Corp",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "2137777": {
     "first_seen": "2026-07-24",
@@ -1429,6 +1484,11 @@
     "name": "PBT Land & Minerals, Inc.",
     "stage": "Filed"
   },
+  "2143156": {
+    "first_seen": "2026-08-08",
+    "name": "Lucens Capital Acquisition Corp I",
+    "stage": "Filed"
+  },
   "2144182": {
     "first_seen": "2026-07-24",
     "name": "Jaovi Inc.",
@@ -1462,6 +1522,11 @@
   "2148196": {
     "first_seen": "2026-08-05",
     "name": "Luminous Acquisition",
+    "stage": "Filed"
+  },
+  "2148436": {
+    "first_seen": "2026-08-08",
+    "name": "Southport Acquisition Corp. II",
     "stage": "Filed"
   },
   "351998": {
@@ -1517,6 +1582,11 @@
   "948708": {
     "first_seen": "2026-07-24",
     "name": "SMITH MICRO SOFTWARE, INC.",
+    "stage": "Filed"
+  },
+  "95572": {
+    "first_seen": "2026-08-08",
+    "name": "KiNRG, Inc.",
     "stage": "Filed"
   }
 }

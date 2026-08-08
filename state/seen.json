@@ -359,6 +359,11 @@
     "name": "Rigora Clinical Inc.",
     "source": "Form D"
   },
+  "formd:000214605826000001": {
+    "first_seen": "2026-08-08",
+    "name": "InHaus Lab Inc.",
+    "source": "Form D"
+  },
   "formd:000214605926000001": {
     "first_seen": "2026-08-05",
     "name": "MCB Heartland G&I I Holdco LLC",
@@ -449,6 +454,11 @@
     "name": "VIN-59 Enhance Health, LLC",
     "source": "Form D"
   },
+  "formd:000214683126000001": {
+    "first_seen": "2026-08-08",
+    "name": "Gluzo AI Inc.",
+    "source": "Form D"
+  },
   "formd:000214683626000001": {
     "first_seen": "2026-07-28",
     "name": "Enhance Health, Inc.",
@@ -497,6 +507,11 @@
   "formd:000214711226000001": {
     "first_seen": "2026-08-07",
     "name": "Splat Labs, LLC",
+    "source": "Form D"
+  },
+  "formd:000214714026000001": {
+    "first_seen": "2026-08-08",
+    "name": "Blend Innovations, Inc.",
     "source": "Form D"
   },
   "formd:000214715326000001": {
@@ -607,6 +622,11 @@
   "formd:000214748526000001": {
     "first_seen": "2026-07-29",
     "name": "i2 Health Advisors Inc.",
+    "source": "Form D"
+  },
+  "formd:000214748826000002": {
+    "first_seen": "2026-08-08",
+    "name": "WESTERN WASTE HAULERS INC.",
     "source": "Form D"
   },
   "formd:000214750226000001": {
@@ -769,6 +789,11 @@
     "name": "Tenaxiom Technology, Inc.",
     "source": "Form D"
   },
+  "formd:000214813026000001": {
+    "first_seen": "2026-08-08",
+    "name": "Practice LLC",
+    "source": "Form D"
+  },
   "formd:000214814526000001": {
     "first_seen": "2026-07-31",
     "name": "Core Automation, Inc.",
@@ -839,6 +864,11 @@
     "name": "Faex Technologies Inc.",
     "source": "Form D"
   },
+  "formd:000214828326000001": {
+    "first_seen": "2026-08-08",
+    "name": "Layka Bio Inc",
+    "source": "Form D"
+  },
   "formd:000214831926000001": {
     "first_seen": "2026-08-05",
     "name": "Wilson & Pack Relocation Inc.",
@@ -852,6 +882,11 @@
   "formd:000214833826000001": {
     "first_seen": "2026-08-01",
     "name": "KaiAvora Health, LLC",
+    "source": "Form D"
+  },
+  "formd:000214834326000001": {
+    "first_seen": "2026-08-08",
+    "name": "Latitude Health, Inc.",
     "source": "Form D"
   },
   "formd:000214836626000001": {
@@ -889,9 +924,29 @@
     "name": "Kinesthetic Inc.",
     "source": "Form D"
   },
+  "formd:000214848126000001": {
+    "first_seen": "2026-08-08",
+    "name": "Sen-Jam Pharmaceutical V, a series of Capitalize Investments LLC",
+    "source": "Form D"
+  },
+  "formd:000214848226000001": {
+    "first_seen": "2026-08-08",
+    "name": "Vectoral I, a series of Capitalize Investments LLC",
+    "source": "Form D"
+  },
+  "formd:000214848326000001": {
+    "first_seen": "2026-08-08",
+    "name": "Health Care Originals III, a series of Capitalize Investments LLC",
+    "source": "Form D"
+  },
   "formd:000214852026000001": {
     "first_seen": "2026-08-05",
     "name": "Canine Enterprises LLC",
+    "source": "Form D"
+  },
+  "formd:000214855526000001": {
+    "first_seen": "2026-08-08",
+    "name": "Chapul I I, a series of Capitalize Investments LLC",
     "source": "Form D"
   },
   "formd:000214858826000001": {
@@ -919,6 +974,11 @@
     "name": "FMFreeman Inc",
     "source": "Form D"
   },
+  "formd:000214876326000001": {
+    "first_seen": "2026-08-08",
+    "name": "Chat Automation Group, Inc.",
+    "source": "Form D"
+  },
   "formd:000214877426000001": {
     "first_seen": "2026-08-05",
     "name": "Nexus Labs Holdings, Inc.",
@@ -929,6 +989,11 @@
     "name": "CompanAIn, Inc.",
     "source": "Form D"
   },
+  "formd:000214881926000001": {
+    "first_seen": "2026-08-08",
+    "name": "Cyberbrain, INC.",
+    "source": "Form D"
+  },
   "formd:000214890226000001": {
     "first_seen": "2026-08-06",
     "name": "Vapor Industries, Inc.",
@@ -937,6 +1002,16 @@
   "formd:000214892426000001": {
     "first_seen": "2026-08-06",
     "name": "SPORTY & RICH INC",
+    "source": "Form D"
+  },
+  "formd:000214896626000004": {
+    "first_seen": "2026-08-08",
+    "name": "Gourmend Foods, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214896926000001": {
+    "first_seen": "2026-08-08",
+    "name": "KORTEK SOLUTIONS LLC",
     "source": "Form D"
   },
   "formd:000214897026000001": {
@@ -954,6 +1029,11 @@
     "name": "Squary, Inc.",
     "source": "Form D"
   },
+  "formd:000214899126000001": {
+    "first_seen": "2026-08-08",
+    "name": "Midwest Screens Holdings, LLC",
+    "source": "Form D"
+  },
   "formd:000214903426000001": {
     "first_seen": "2026-08-07",
     "name": "Iridium Credit, Inc.",
@@ -964,9 +1044,29 @@
     "name": "Trivas Inc.",
     "source": "Form D"
   },
+  "formd:000214909726000001": {
+    "first_seen": "2026-08-08",
+    "name": "EmulateAI, Inc.",
+    "source": "Form D"
+  },
   "formd:000214910026000001": {
     "first_seen": "2026-08-07",
     "name": "Shiver Vertical, LLC",
+    "source": "Form D"
+  },
+  "formd:000214916326000001": {
+    "first_seen": "2026-08-08",
+    "name": "2294 Tall Grass Storage LLC",
+    "source": "Form D"
+  },
+  "formd:000214917526000001": {
+    "first_seen": "2026-08-08",
+    "name": "Exclaim Robotics Inc.",
+    "source": "Form D"
+  },
+  "formd:000214918226000001": {
+    "first_seen": "2026-08-08",
+    "name": "Shiverbright Technologies, Inc.",
     "source": "Form D"
   },
   "formd:000214919926000001": {
@@ -974,9 +1074,44 @@
     "name": "Quad Marketplace, Co.",
     "source": "Form D"
   },
+  "formd:000214921126000001": {
+    "first_seen": "2026-08-08",
+    "name": "Labelbees Inc",
+    "source": "Form D"
+  },
   "formd:000214921726000001": {
     "first_seen": "2026-08-07",
     "name": "Unicorn Snot, LLC",
+    "source": "Form D"
+  },
+  "formd:000214922526000001": {
+    "first_seen": "2026-08-08",
+    "name": "Truckee Hilltop Holdings, LLC",
+    "source": "Form D"
+  },
+  "formd:000214923126000001": {
+    "first_seen": "2026-08-08",
+    "name": "emberOS, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214929026000001": {
+    "first_seen": "2026-08-08",
+    "name": "Veyl Technologies, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214930126000001": {
+    "first_seen": "2026-08-08",
+    "name": "CloneTech, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214934126000001": {
+    "first_seen": "2026-08-08",
+    "name": "Bella Bling LLC",
+    "source": "Form D"
+  },
+  "formd:000214937326000001": {
+    "first_seen": "2026-08-08",
+    "name": "Kaleta Labs LLC",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -1227,6 +1362,11 @@
   "yc:atrisa": {
     "first_seen": "2026-07-24",
     "name": "Atrisa",
+    "source": "YC"
+  },
+  "yc:audun": {
+    "first_seen": "2026-08-08",
+    "name": "Audun",
     "source": "YC"
   },
   "yc:autostep": {
@@ -1692,6 +1832,11 @@
   "yc:hardware-intelligence": {
     "first_seen": "2026-07-24",
     "name": "hardware intelligence",
+    "source": "YC"
+  },
+  "yc:hebbian-robotics": {
+    "first_seen": "2026-08-08",
+    "name": "Hebbian Robotics",
     "source": "YC"
   },
   "yc:hedge": {
@@ -2352,6 +2497,11 @@
   "yc:provenmetal": {
     "first_seen": "2026-07-24",
     "name": "ProvenMetal",
+    "source": "YC"
+  },
+  "yc:qlo": {
+    "first_seen": "2026-08-08",
+    "name": "Qlo",
     "source": "YC"
   },
   "yc:qomplement": {
