@@ -1574,6 +1574,11 @@
     "name": "Datoric",
     "source": "YC"
   },
+  "yc:dawn-industries": {
+    "first_seen": "2026-08-09",
+    "name": "Dawn Industries",
+    "source": "YC"
+  },
   "yc:dayjob": {
     "first_seen": "2026-07-24",
     "name": "Dayjob",
@@ -2194,6 +2199,11 @@
     "name": "Maquoketa Research",
     "source": "YC"
   },
+  "yc:marengo": {
+    "first_seen": "2026-08-09",
+    "name": "Marengo",
+    "source": "YC"
+  },
   "yc:markov": {
     "first_seen": "2026-07-24",
     "name": "Markov",
@@ -2477,6 +2487,11 @@
   "yc:prized": {
     "first_seen": "2026-07-24",
     "name": "Prized",
+    "source": "YC"
+  },
+  "yc:prodigy-research": {
+    "first_seen": "2026-08-09",
+    "name": "Prodigy Research",
     "source": "YC"
   },
   "yc:projectx": {
