@@ -2,61 +2,28 @@
   "1045810": {
     "ticker": "NVDA",
     "company": "NVIDIA CORP",
-    "articles": [
-      {
-        "title": "Why Nvidia Stock Rallied Today",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-nvidia-stock-rallied-today-181509741.html",
-        "domain": "finance.yahoo.com",
-        "date": "2026-08-07",
-        "sentiment_label": "позитив",
-        "sentiment_score": 1
-      },
-      {
-        "title": "Samsung new memory chip could make Nvidia AI chips faster",
-        "url": "https://finance.yahoo.com/technology/ai/articles/samsung-memory-chip-could-nvidia-060300531.html",
-        "domain": "finance.yahoo.com",
-        "date": "2026-08-07",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "Nvidia Stock Is on the Rise , After Elon Musk Says SpaceX Will  Exclusively  Buy Its Chips",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-rise-elon-musk-181003255.html",
-        "domain": "finance.yahoo.com",
-        "date": "2026-08-07",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "China pharma companies are facing a  monkey problem  that they say is as tough as  negotiating for an Nvidia chip  ",
-        "url": "https://timesofindia.indiatimes.com/technology/tech-news/chinas-pharma-companies-are-facing-a-monkey-problem-that-they-say-is-as-tough-as-negotiating-for-an-nvidia-chip/articleshow/133022137.cms",
-        "domain": "timesofindia.indiatimes.com",
-        "date": "2026-08-07",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "Indosat , Ooredoo Group , Nokia , and NVIDIA Launch Zankore by Indosat , Ready to Serve the Region with Full Stack AI ... - Engineering / Artificial Intelligence - Ovi / Nokia Group",
-        "url": "https://www.newswiretoday.com/news/186648/Indosat-Ooredoo-Group-Nokia-and-NVIDIA-Launch-Zankore-by-Indosat-Ready-to-Serve-the-Region-with-Full-Stack-AI-Infra-Platform/",
-        "domain": "newswiretoday.com",
-        "date": "2026-08-07",
-        "sentiment_label": "позитив",
-        "sentiment_score": 1
-      }
-    ],
-    "source": "gdelt"
+    "articles": [],
+    "source": "no-data"
   },
   "1321655": {
     "ticker": "PLTR",
     "company": "Palantir Technologies Inc.",
     "articles": [
       {
-        "title": "Wall Street Is Paying Attention to Palantir ( PLTR ) Again",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-paying-attention-palantir-205245219.html",
+        "title": "Palantir ( NASDAQ : PLTR ) vs . Salesforce ( NYSE : CRM ): Competing AI Visions Produce a Clear Risk - Adjusted Winner",
+        "url": "https://www.foreignpolicyjournal.com/2026/08/09/palantir-nasdaq-pltr-vs-salesforce-nyse-crm-competing-ai-visions-produce-a-clear-risk-adjusted-winner/",
+        "domain": "foreignpolicyjournal.com",
+        "date": "2026-08-09",
+        "sentiment_label": "негатив",
+        "sentiment_score": -1
+      },
+      {
+        "title": "Palantir ( PLTR ) Posted Record 93 % Growth , Here Why Analysts Think It Wont Last",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-pltr-posted-record-93-113953926.html",
         "domain": "finance.yahoo.com",
-        "date": "2026-08-06",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
+        "date": "2026-08-08",
+        "sentiment_label": "позитив",
+        "sentiment_score": 2
       }
     ],
     "source": "gdelt"
@@ -72,10 +39,26 @@
     "company": "Apple Inc.",
     "articles": [
       {
-        "title": "Bad news for Apple fans as iPhone 18 Pro may sell out quickly",
-        "url": "https://www.samaa.tv/2087354831-bad-news-for-apple-fans-as-iphone-18-pro-may-sell-out-quickly",
-        "domain": "samaa.tv",
-        "date": "2026-08-07",
+        "title": "Apple enables Alibaba Qwen AI on Macs in China",
+        "url": "http://www.saltlakecitysun.com/news/279227795/apple-enables-alibaba-s-qwen-ai-on-macs-in-china",
+        "domain": "saltlakecitysun.com",
+        "date": "2026-08-10",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "Apple Gets Sweaty In Latest  Shot On iPhone  Campaign",
+        "url": "https://www.bandt.com.au/apple-gets-sweaty-in-latest-shot-on-iphone-campaign/",
+        "domain": "bandt.com.au",
+        "date": "2026-08-10",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "Apple says Mac users in China can connect to Alibaba Qwen AI service",
+        "url": "https://www.thehindu.com/sci-tech/technology/apple-says-mac-users-in-china-can-connect-to-alibabas-qwen-ai-service/article71326875.ece",
+        "domain": "thehindu.com",
+        "date": "2026-08-10",
         "sentiment_label": "нейтрально",
         "sentiment_score": 0
       }

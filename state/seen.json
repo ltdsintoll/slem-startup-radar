@@ -1689,9 +1689,19 @@
     "name": "Elyra",
     "source": "YC"
   },
+  "yc:enact": {
+    "first_seen": "2026-08-10",
+    "name": "Enact",
+    "source": "YC"
+  },
   "yc:enjamb-labs": {
     "first_seen": "2026-07-24",
     "name": "Enjamb Labs",
+    "source": "YC"
+  },
+  "yc:erinys": {
+    "first_seen": "2026-08-10",
+    "name": "Erinys",
     "source": "YC"
   },
   "yc:executor": {
@@ -1999,6 +2009,11 @@
     "name": "Isengard Industries Inc",
     "source": "YC"
   },
+  "yc:jcode": {
+    "first_seen": "2026-08-10",
+    "name": "Jcode",
+    "source": "YC"
+  },
   "yc:jo": {
     "first_seen": "2026-07-24",
     "name": "jo",
@@ -2249,6 +2264,11 @@
     "name": "Molagri",
     "source": "YC"
   },
+  "yc:mosaic-inc": {
+    "first_seen": "2026-08-10",
+    "name": "Mosaic",
+    "source": "YC"
+  },
   "yc:mount": {
     "first_seen": "2026-07-24",
     "name": "Mount",
@@ -2377,6 +2397,11 @@
   "yc:osseus": {
     "first_seen": "2026-07-24",
     "name": "Osseus",
+    "source": "YC"
+  },
+  "yc:pacific": {
+    "first_seen": "2026-08-10",
+    "name": "Pacific",
     "source": "YC"
   },
   "yc:pairio": {
