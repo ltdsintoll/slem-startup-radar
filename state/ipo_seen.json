@@ -24,6 +24,11 @@
     "name": "JONES SODA CO.",
     "stage": "Amending"
   },
+  "1108205": {
+    "first_seen": "2026-08-11",
+    "name": "CURIS INC",
+    "stage": "Filed"
+  },
   "1115864": {
     "first_seen": "2026-07-30",
     "name": "ECOMINAS CORP.",
@@ -697,7 +702,7 @@
   "2022416": {
     "first_seen": "2026-08-08",
     "name": "Silexion Therapeutics Corp",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2024258": {
     "first_seen": "2026-07-24",
@@ -777,6 +782,11 @@
   "2049977": {
     "first_seen": "2026-07-24",
     "name": "Starton Holdings, Inc.",
+    "stage": "Amending"
+  },
+  "2050020": {
+    "first_seen": "2026-08-11",
+    "name": "HengHong Technology Inc.",
     "stage": "Amending"
   },
   "2056611": {
@@ -1484,6 +1494,11 @@
     "name": "PBT Land & Minerals, Inc.",
     "stage": "Filed"
   },
+  "2143067": {
+    "first_seen": "2026-08-11",
+    "name": "Eaglesky Acquisition Corp",
+    "stage": "Filed"
+  },
   "2143156": {
     "first_seen": "2026-08-08",
     "name": "Lucens Capital Acquisition Corp I",
@@ -1509,6 +1524,16 @@
     "name": "GX Acquisition Corp. III/Cayman",
     "stage": "Filed"
   },
+  "2145659": {
+    "first_seen": "2026-08-11",
+    "name": "JATT III Acquisition Corp",
+    "stage": "Filed"
+  },
+  "2146310": {
+    "first_seen": "2026-08-11",
+    "name": "Inflection Point Acquisition Corp. VIII",
+    "stage": "Filed"
+  },
   "2146369": {
     "first_seen": "2026-07-24",
     "name": "Londonla Inc.",
@@ -1519,6 +1544,11 @@
     "name": "Rainier Acquisition Corp",
     "stage": "Filed"
   },
+  "2147267": {
+    "first_seen": "2026-08-11",
+    "name": "Gores Holdings XII, Inc.",
+    "stage": "Filed"
+  },
   "2148196": {
     "first_seen": "2026-08-05",
     "name": "Luminous Acquisition",
@@ -1527,6 +1557,11 @@
   "2148436": {
     "first_seen": "2026-08-08",
     "name": "Southport Acquisition Corp. II",
+    "stage": "Filed"
+  },
+  "2149294": {
+    "first_seen": "2026-08-11",
+    "name": "GigCapital10 Corp.",
     "stage": "Filed"
   },
   "351998": {
@@ -1554,6 +1589,11 @@
     "name": "Mitesco, Inc.",
     "stage": "Amending"
   },
+  "840715": {
+    "first_seen": "2026-08-11",
+    "name": "CLEARONE INC",
+    "stage": "Filed"
+  },
   "882291": {
     "first_seen": "2026-07-24",
     "name": "AETHLON MEDICAL INC",
@@ -1577,7 +1617,7 @@
   "930245": {
     "first_seen": "2026-08-01",
     "name": "Agassi Sports Entertainment Corp.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "948708": {
     "first_seen": "2026-07-24",

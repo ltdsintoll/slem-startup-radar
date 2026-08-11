@@ -189,6 +189,11 @@
     "name": "Gaingels Core Automation LLC",
     "source": "Form D"
   },
+  "formd:000214186326000001": {
+    "first_seen": "2026-08-11",
+    "name": "BLUE ZONE DEVELOPMENT LLC",
+    "source": "Form D"
+  },
   "formd:000214204626000001": {
     "first_seen": "2026-08-07",
     "name": "Series 87-2, a series of StartEngine Private LLC",
@@ -202,6 +207,11 @@
   "formd:000214237726000001": {
     "first_seen": "2026-07-27",
     "name": "MCB The Enolia Student Housing DST",
+    "source": "Form D"
+  },
+  "formd:000214276726000001": {
+    "first_seen": "2026-08-11",
+    "name": "Gaingels Apollo Atomics LLC",
     "source": "Form D"
   },
   "formd:000214323526000001": {
@@ -242,6 +252,11 @@
   "formd:000214410026000002": {
     "first_seen": "2026-07-30",
     "name": "ImmuNovus, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214410326000002": {
+    "first_seen": "2026-08-11",
+    "name": "Echoes & Ember, Inc.",
     "source": "Form D"
   },
   "formd:000214411926000001": {
@@ -314,6 +329,11 @@
     "name": "Elanor Labs Inc.",
     "source": "Form D"
   },
+  "formd:000214531126000001": {
+    "first_seen": "2026-08-11",
+    "name": "Coverbase Inc.",
+    "source": "Form D"
+  },
   "formd:000214545326000001": {
     "first_seen": "2026-08-01",
     "name": "Less2Close LLC",
@@ -322,6 +342,11 @@
   "formd:000214548226000001": {
     "first_seen": "2026-07-31",
     "name": "Shrink Software LLC",
+    "source": "Form D"
+  },
+  "formd:000214570326000001": {
+    "first_seen": "2026-08-11",
+    "name": "Echovane Inc",
     "source": "Form D"
   },
   "formd:000214572826000001": {
@@ -392,6 +417,11 @@
   "formd:000214624126000001": {
     "first_seen": "2026-07-27",
     "name": "LawEngine Inc.",
+    "source": "Form D"
+  },
+  "formd:000214625426000001": {
+    "first_seen": "2026-08-11",
+    "name": "Gaingels CookUnity 2026 LLC",
     "source": "Form D"
   },
   "formd:000214625626000001": {
@@ -659,9 +689,19 @@
     "name": "PushCART Therapeutics, Inc.",
     "source": "Form D"
   },
+  "formd:000214763026000001": {
+    "first_seen": "2026-08-11",
+    "name": "Kairo Health Labs, Inc.",
+    "source": "Form D"
+  },
   "formd:000214763826000001": {
     "first_seen": "2026-08-01",
     "name": "HILstart, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214765326000001": {
+    "first_seen": "2026-08-11",
+    "name": "Voyageur Pharmaceuticals Ltd.",
     "source": "Form D"
   },
   "formd:000214767626000001": {
@@ -717,6 +757,11 @@
   "formd:000214779826000001": {
     "first_seen": "2026-08-01",
     "name": "PETA OPTRONICS, INC.",
+    "source": "Form D"
+  },
+  "formd:000214780326000001": {
+    "first_seen": "2026-08-11",
+    "name": "BMP II Meal Prep Sunday Investment, LP",
     "source": "Form D"
   },
   "formd:000214780426000001": {
@@ -859,6 +904,16 @@
     "name": "GorillaOps, Inc.",
     "source": "Form D"
   },
+  "formd:000214826926000001": {
+    "first_seen": "2026-08-11",
+    "name": "Riven Corp",
+    "source": "Form D"
+  },
+  "formd:000214827126000001": {
+    "first_seen": "2026-08-11",
+    "name": "Pathlight Project, Inc.",
+    "source": "Form D"
+  },
   "formd:000214828026000001": {
     "first_seen": "2026-08-05",
     "name": "Faex Technologies Inc.",
@@ -904,6 +959,11 @@
     "name": "H. BOISCH SOLUTIONS INC.",
     "source": "Form D"
   },
+  "formd:000214844126000001": {
+    "first_seen": "2026-08-11",
+    "name": "Bullseye Biodevices, Inc.",
+    "source": "Form D"
+  },
   "formd:000214845026000001": {
     "first_seen": "2026-08-04",
     "name": "OdysseyPBC, Inc.",
@@ -937,6 +997,16 @@
   "formd:000214848326000001": {
     "first_seen": "2026-08-08",
     "name": "Health Care Originals III, a series of Capitalize Investments LLC",
+    "source": "Form D"
+  },
+  "formd:000214848426000001": {
+    "first_seen": "2026-08-11",
+    "name": "ARCYN Defense Corp. I, a series of Capitalize Investments LLC",
+    "source": "Form D"
+  },
+  "formd:000214851326000001": {
+    "first_seen": "2026-08-11",
+    "name": "Vitalis AI Inc.",
     "source": "Form D"
   },
   "formd:000214852026000001": {
@@ -989,9 +1059,19 @@
     "name": "CompanAIn, Inc.",
     "source": "Form D"
   },
+  "formd:000214880526000001": {
+    "first_seen": "2026-08-11",
+    "name": "Fortis Medical Devices Teoranta",
+    "source": "Form D"
+  },
   "formd:000214881926000001": {
     "first_seen": "2026-08-08",
     "name": "Cyberbrain, INC.",
+    "source": "Form D"
+  },
+  "formd:000214882426000001": {
+    "first_seen": "2026-08-11",
+    "name": "MI Fire Giver Investments, LLC",
     "source": "Form D"
   },
   "formd:000214890226000001": {
@@ -1079,6 +1159,11 @@
     "name": "Labelbees Inc",
     "source": "Form D"
   },
+  "formd:000214921626000001": {
+    "first_seen": "2026-08-11",
+    "name": "Noosphere Labs, Inc.",
+    "source": "Form D"
+  },
   "formd:000214921726000001": {
     "first_seen": "2026-08-07",
     "name": "Unicorn Snot, LLC",
@@ -1092,6 +1177,11 @@
   "formd:000214923126000001": {
     "first_seen": "2026-08-08",
     "name": "emberOS, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214923226000002": {
+    "first_seen": "2026-08-11",
+    "name": "Reliable Intelligence Inc.",
     "source": "Form D"
   },
   "formd:000214929026000001": {
@@ -1112,6 +1202,16 @@
   "formd:000214937326000001": {
     "first_seen": "2026-08-08",
     "name": "Kaleta Labs LLC",
+    "source": "Form D"
+  },
+  "formd:000214952826000001": {
+    "first_seen": "2026-08-11",
+    "name": "Toucan Labs, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214959526000001": {
+    "first_seen": "2026-08-11",
+    "name": "Invictos LLC",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -1247,6 +1347,11 @@
   "yc:anoria": {
     "first_seen": "2026-07-24",
     "name": "ANORIA",
+    "source": "YC"
+  },
+  "yc:antropi-robotics": {
+    "first_seen": "2026-08-11",
+    "name": "Antropi Robotics",
     "source": "YC"
   },
   "yc:apollo-atomics-inc": {
@@ -1529,6 +1634,11 @@
     "name": "Cohesion",
     "source": "YC"
   },
+  "yc:collar": {
+    "first_seen": "2026-08-11",
+    "name": "Collar",
+    "source": "YC"
+  },
   "yc:complir": {
     "first_seen": "2026-07-24",
     "name": "Complir",
@@ -1597,6 +1707,11 @@
   "yc:definite": {
     "first_seen": "2026-07-24",
     "name": "Definite",
+    "source": "YC"
+  },
+  "yc:degla-inc": {
+    "first_seen": "2026-08-11",
+    "name": "Degla Inc",
     "source": "YC"
   },
   "yc:denta": {
@@ -1734,6 +1849,11 @@
     "name": "FinalDose",
     "source": "YC"
   },
+  "yc:financial-datasets": {
+    "first_seen": "2026-08-11",
+    "name": "Financial Datasets",
+    "source": "YC"
+  },
   "yc:floracene": {
     "first_seen": "2026-07-24",
     "name": "Floracene",
@@ -1804,6 +1924,11 @@
     "name": "Glen",
     "source": "YC"
   },
+  "yc:godhands": {
+    "first_seen": "2026-08-11",
+    "name": "GodHands",
+    "source": "YC"
+  },
   "yc:gojiberry-ai": {
     "first_seen": "2026-07-24",
     "name": "Gojiberry AI",
@@ -1857,6 +1982,11 @@
   "yc:hedge": {
     "first_seen": "2026-07-24",
     "name": "Hedge",
+    "source": "YC"
+  },
+  "yc:herdr": {
+    "first_seen": "2026-08-11",
+    "name": "herdr",
     "source": "YC"
   },
   "yc:hessian": {
@@ -2097,6 +2227,11 @@
   "yc:lamb-labs": {
     "first_seen": "2026-07-29",
     "name": "Lamb Labs",
+    "source": "YC"
+  },
+  "yc:lambda-robotics": {
+    "first_seen": "2026-08-11",
+    "name": "Lambda Robotics",
     "source": "YC"
   },
   "yc:lamina-labs": {
@@ -2439,6 +2574,11 @@
     "name": "Pavoot",
     "source": "YC"
   },
+  "yc:peer": {
+    "first_seen": "2026-08-11",
+    "name": "Peer",
+    "source": "YC"
+  },
   "yc:pentagon": {
     "first_seen": "2026-07-24",
     "name": "Pentagon",
@@ -2544,6 +2684,11 @@
     "name": "Qlo",
     "source": "YC"
   },
+  "yc:qokedas": {
+    "first_seen": "2026-08-11",
+    "name": "Qokedas",
+    "source": "YC"
+  },
   "yc:qomplement": {
     "first_seen": "2026-07-24",
     "name": "qomplement",
@@ -2622,6 +2767,11 @@
   "yc:riften": {
     "first_seen": "2026-08-05",
     "name": "Riften",
+    "source": "YC"
+  },
+  "yc:rightnow": {
+    "first_seen": "2026-08-11",
+    "name": "RightNow",
     "source": "YC"
   },
   "yc:rindler": {
@@ -2732,6 +2882,11 @@
   "yc:silmaril": {
     "first_seen": "2026-07-24",
     "name": "Silmaril",
+    "source": "YC"
+  },
+  "yc:simantic": {
+    "first_seen": "2026-08-11",
+    "name": "Simantic",
     "source": "YC"
   },
   "yc:skymerse": {
@@ -2874,6 +3029,11 @@
     "name": "Tenet Industries",
     "source": "YC"
   },
+  "yc:tensr": {
+    "first_seen": "2026-08-11",
+    "name": "Tensr",
+    "source": "YC"
+  },
   "yc:testerarmy": {
     "first_seen": "2026-07-24",
     "name": "TesterArmy",
@@ -2989,6 +3149,11 @@
     "name": "Uno Wallet",
     "source": "YC"
   },
+  "yc:useforward": {
+    "first_seen": "2026-08-11",
+    "name": "Forward",
+    "source": "YC"
+  },
   "yc:useparrot": {
     "first_seen": "2026-07-24",
     "name": "Parrot",
@@ -3012,6 +3177,11 @@
   "yc:verdant": {
     "first_seen": "2026-07-24",
     "name": "Verdant",
+    "source": "YC"
+  },
+  "yc:verdict-machine": {
+    "first_seen": "2026-08-11",
+    "name": "Verdict Machine",
     "source": "YC"
   },
   "yc:vestris": {
