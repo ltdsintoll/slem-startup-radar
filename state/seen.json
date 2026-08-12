@@ -429,6 +429,11 @@
     "name": "Gaingels Keeper LLC",
     "source": "Form D"
   },
+  "formd:000214633726000001": {
+    "first_seen": "2026-08-12",
+    "name": "Gaingels Aalo Atomics 2026 LLC",
+    "source": "Form D"
+  },
   "formd:000214642026000001": {
     "first_seen": "2026-07-31",
     "name": "Baton Media Inc.",
@@ -684,6 +689,11 @@
     "name": "GRAI HOLDCO, LLC",
     "source": "Form D"
   },
+  "formd:000214761726000001": {
+    "first_seen": "2026-08-12",
+    "name": "Gaingels Lincode LLC",
+    "source": "Form D"
+  },
   "formd:000214762126000001": {
     "first_seen": "2026-08-01",
     "name": "PushCART Therapeutics, Inc.",
@@ -829,9 +839,19 @@
     "name": "Mixel Studio, Inc.",
     "source": "Form D"
   },
+  "formd:000214807726000001": {
+    "first_seen": "2026-08-12",
+    "name": "Here For You, PBC",
+    "source": "Form D"
+  },
   "formd:000214811226000001": {
     "first_seen": "2026-08-04",
     "name": "Tenaxiom Technology, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214811726000001": {
+    "first_seen": "2026-08-12",
+    "name": "Eleanor Infrastructure LLC",
     "source": "Form D"
   },
   "formd:000214813026000001": {
@@ -862,6 +882,11 @@
   "formd:000214818726000001": {
     "first_seen": "2026-08-07",
     "name": "Furnace Systems Corp",
+    "source": "Form D"
+  },
+  "formd:000214819126000001": {
+    "first_seen": "2026-08-12",
+    "name": "WorldRelay, Inc.",
     "source": "Form D"
   },
   "formd:000214820926000002": {
@@ -1014,6 +1039,21 @@
     "name": "Canine Enterprises LLC",
     "source": "Form D"
   },
+  "formd:000214853426000001": {
+    "first_seen": "2026-08-12",
+    "name": "Kikitora, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214855126000001": {
+    "first_seen": "2026-08-12",
+    "name": "Longdrive Management Holdings, LP",
+    "source": "Form D"
+  },
+  "formd:000214855126000002": {
+    "first_seen": "2026-08-12",
+    "name": "Longdrive Management Holdings, LP",
+    "source": "Form D"
+  },
   "formd:000214855526000001": {
     "first_seen": "2026-08-08",
     "name": "Chapul I I, a series of Capitalize Investments LLC",
@@ -1114,6 +1154,11 @@
     "name": "Midwest Screens Holdings, LLC",
     "source": "Form D"
   },
+  "formd:000214902826000001": {
+    "first_seen": "2026-08-12",
+    "name": "ELLA LEROY Corp",
+    "source": "Form D"
+  },
   "formd:000214903426000001": {
     "first_seen": "2026-08-07",
     "name": "Iridium Credit, Inc.",
@@ -1204,6 +1249,11 @@
     "name": "Kaleta Labs LLC",
     "source": "Form D"
   },
+  "formd:000214950726000001": {
+    "first_seen": "2026-08-12",
+    "name": "Routh Systems, Inc.",
+    "source": "Form D"
+  },
   "formd:000214952826000001": {
     "first_seen": "2026-08-11",
     "name": "Toucan Labs, Inc.",
@@ -1212,6 +1262,36 @@
   "formd:000214959526000001": {
     "first_seen": "2026-08-11",
     "name": "Invictos LLC",
+    "source": "Form D"
+  },
+  "formd:000214971026000001": {
+    "first_seen": "2026-08-12",
+    "name": "BotStacks, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214971426000001": {
+    "first_seen": "2026-08-12",
+    "name": "Merlin Biotech, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214977026000001": {
+    "first_seen": "2026-08-12",
+    "name": "J2 Labs Inc.",
+    "source": "Form D"
+  },
+  "formd:000214980026000001": {
+    "first_seen": "2026-08-12",
+    "name": "DrawScale, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214982826000001": {
+    "first_seen": "2026-08-12",
+    "name": "Duodata, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214991226000001": {
+    "first_seen": "2026-08-12",
+    "name": "Lumoza Inc.",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -1984,6 +2064,11 @@
     "name": "Hedge",
     "source": "YC"
   },
+  "yc:hemlock": {
+    "first_seen": "2026-08-12",
+    "name": "Hemlock",
+    "source": "YC"
+  },
   "yc:herdr": {
     "first_seen": "2026-08-11",
     "name": "herdr",
@@ -2407,6 +2492,11 @@
   "yc:mount": {
     "first_seen": "2026-07-24",
     "name": "Mount",
+    "source": "YC"
+  },
+  "yc:moving-atoms": {
+    "first_seen": "2026-08-12",
+    "name": "Moving Atoms",
     "source": "YC"
   },
   "yc:napkin-math": {
@@ -2889,6 +2979,11 @@
     "name": "Simantic",
     "source": "YC"
   },
+  "yc:simulithic": {
+    "first_seen": "2026-08-12",
+    "name": "Simulithic",
+    "source": "YC"
+  },
   "yc:skymerse": {
     "first_seen": "2026-07-24",
     "name": "Skymerse",
@@ -2964,6 +3059,11 @@
     "name": "SubVysion",
     "source": "YC"
   },
+  "yc:sunflower": {
+    "first_seen": "2026-08-12",
+    "name": "Sunflower",
+    "source": "YC"
+  },
   "yc:superlog": {
     "first_seen": "2026-07-24",
     "name": "Superlog",
@@ -3027,6 +3127,11 @@
   "yc:tenet-industries": {
     "first_seen": "2026-07-24",
     "name": "Tenet Industries",
+    "source": "YC"
+  },
+  "yc:tenor": {
+    "first_seen": "2026-08-12",
+    "name": "Tenor",
     "source": "YC"
   },
   "yc:tensr": {
@@ -3119,6 +3224,11 @@
     "name": "Bloom",
     "source": "YC"
   },
+  "yc:trynearby": {
+    "first_seen": "2026-08-12",
+    "name": "TryNearby",
+    "source": "YC"
+  },
   "yc:tryprism": {
     "first_seen": "2026-07-24",
     "name": "Prism",
@@ -3127,6 +3237,11 @@
   "yc:tsenta": {
     "first_seen": "2026-07-24",
     "name": "Tsenta",
+    "source": "YC"
+  },
+  "yc:twentyfour26": {
+    "first_seen": "2026-08-12",
+    "name": "twentyfour26",
     "source": "YC"
   },
   "yc:twolabs": {
@@ -3192,6 +3307,11 @@
   "yc:voquill": {
     "first_seen": "2026-07-24",
     "name": "Voquill",
+    "source": "YC"
+  },
+  "yc:vorelios": {
+    "first_seen": "2026-08-12",
+    "name": "Vorelios",
     "source": "YC"
   },
   "yc:waddle-labs": {
