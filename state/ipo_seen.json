@@ -224,6 +224,11 @@
     "name": "Moleculin Biotech, Inc.",
     "stage": "Amending"
   },
+  "1670747": {
+    "first_seen": "2026-08-13",
+    "name": "BirchBioMed Inc.",
+    "stage": "Filed"
+  },
   "1679628": {
     "first_seen": "2026-07-24",
     "name": "JUPITER NEUROSCIENCES, INC.",
@@ -307,6 +312,11 @@
   "1779977": {
     "first_seen": "2026-07-24",
     "name": "SeeQC, Inc.",
+    "stage": "Filed"
+  },
+  "1782107": {
+    "first_seen": "2026-08-13",
+    "name": "Onconetix, Inc.",
     "stage": "Filed"
   },
   "1786471": {
@@ -517,7 +527,7 @@
   "1903784": {
     "first_seen": "2026-07-24",
     "name": "Vogenx, Inc.",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "1911545": {
     "first_seen": "2026-07-30",
@@ -972,7 +982,7 @@
   "2084227": {
     "first_seen": "2026-07-24",
     "name": "Advasa Holdings, Inc.",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "2085836": {
     "first_seen": "2026-08-07",
@@ -1187,6 +1197,11 @@
   "2108121": {
     "first_seen": "2026-08-08",
     "name": "Ionetix Corp / DE /",
+    "stage": "Filed"
+  },
+  "2109616": {
+    "first_seen": "2026-08-13",
+    "name": "Fast Finance Pay Corp.",
     "stage": "Filed"
   },
   "2109801": {
@@ -1552,7 +1567,7 @@
   "2145409": {
     "first_seen": "2026-08-05",
     "name": "GX Acquisition Corp. III/Cayman",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2145659": {
     "first_seen": "2026-08-11",

@@ -239,6 +239,11 @@
     "name": "Social Value Inc.",
     "source": "Form D"
   },
+  "formd:000214393626000001": {
+    "first_seen": "2026-08-13",
+    "name": "Global Mobile Software LLC.",
+    "source": "Form D"
+  },
   "formd:000214394426000001": {
     "first_seen": "2026-08-04",
     "name": "FPF Defense, Inc.",
@@ -294,6 +299,11 @@
     "name": "Resurgent Industries Inc.",
     "source": "Form D"
   },
+  "formd:000214454626000002": {
+    "first_seen": "2026-08-13",
+    "name": "Them3 Labs Inc.",
+    "source": "Form D"
+  },
   "formd:000214458526000001": {
     "first_seen": "2026-07-30",
     "name": "Truss Veterinary Alliance, LLC",
@@ -302,6 +312,11 @@
   "formd:000214465326000001": {
     "first_seen": "2026-07-28",
     "name": "CUB3PAY, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214473626000001": {
+    "first_seen": "2026-08-13",
+    "name": "PAR Investco Holdings LLC",
     "source": "Form D"
   },
   "formd:000214489826000001": {
@@ -367,6 +382,11 @@
   "formd:000214582326000001": {
     "first_seen": "2026-07-31",
     "name": "AssureSync LLC",
+    "source": "Form D"
+  },
+  "formd:000214583526000001": {
+    "first_seen": "2026-08-13",
+    "name": "Layu, Inc.",
     "source": "Form D"
   },
   "formd:000214584526000001": {
@@ -629,6 +649,11 @@
     "name": "Prisma Prop Tech, LLC",
     "source": "Form D"
   },
+  "formd:000214744426000001": {
+    "first_seen": "2026-08-13",
+    "name": "CYBERNOMIC, INC.",
+    "source": "Form D"
+  },
   "formd:000214744726000001": {
     "first_seen": "2026-07-28",
     "name": "Camo Hospitality Inc",
@@ -662,6 +687,11 @@
   "formd:000214748826000002": {
     "first_seen": "2026-08-08",
     "name": "WESTERN WASTE HAULERS INC.",
+    "source": "Form D"
+  },
+  "formd:000214750126000002": {
+    "first_seen": "2026-08-13",
+    "name": "Trace Biosciences Inc.",
     "source": "Form D"
   },
   "formd:000214750226000001": {
@@ -844,6 +874,11 @@
     "name": "Here For You, PBC",
     "source": "Form D"
   },
+  "formd:000214809726000001": {
+    "first_seen": "2026-08-13",
+    "name": "Forza Nutrition, Inc.",
+    "source": "Form D"
+  },
   "formd:000214811226000001": {
     "first_seen": "2026-08-04",
     "name": "Tenaxiom Technology, Inc.",
@@ -852,6 +887,11 @@
   "formd:000214811726000001": {
     "first_seen": "2026-08-12",
     "name": "Eleanor Infrastructure LLC",
+    "source": "Form D"
+  },
+  "formd:000214811926000001": {
+    "first_seen": "2026-08-13",
+    "name": "Xeris Technologies LLC",
     "source": "Form D"
   },
   "formd:000214813026000001": {
@@ -1229,6 +1269,11 @@
     "name": "Reliable Intelligence Inc.",
     "source": "Form D"
   },
+  "formd:000214923926000001": {
+    "first_seen": "2026-08-13",
+    "name": "Kore Holding Group, LLC",
+    "source": "Form D"
+  },
   "formd:000214929026000001": {
     "first_seen": "2026-08-08",
     "name": "Veyl Technologies, Inc.",
@@ -1249,6 +1294,16 @@
     "name": "Kaleta Labs LLC",
     "source": "Form D"
   },
+  "formd:000214939926000001": {
+    "first_seen": "2026-08-13",
+    "name": "Flightcast Inc.",
+    "source": "Form D"
+  },
+  "formd:000214942626000001": {
+    "first_seen": "2026-08-13",
+    "name": "2DALOOP, CORP.",
+    "source": "Form D"
+  },
   "formd:000214950726000001": {
     "first_seen": "2026-08-12",
     "name": "Routh Systems, Inc.",
@@ -1259,9 +1314,19 @@
     "name": "Toucan Labs, Inc.",
     "source": "Form D"
   },
+  "formd:000214954726000001": {
+    "first_seen": "2026-08-13",
+    "name": "Pieces of Art Productions Ltd Liability Co",
+    "source": "Form D"
+  },
   "formd:000214959526000001": {
     "first_seen": "2026-08-11",
     "name": "Invictos LLC",
+    "source": "Form D"
+  },
+  "formd:000214969226000001": {
+    "first_seen": "2026-08-13",
+    "name": "Meridian Wound Care LLC",
     "source": "Form D"
   },
   "formd:000214971026000001": {
@@ -1292,6 +1357,16 @@
   "formd:000214991226000001": {
     "first_seen": "2026-08-12",
     "name": "Lumoza Inc.",
+    "source": "Form D"
+  },
+  "formd:000214994726000001": {
+    "first_seen": "2026-08-13",
+    "name": "HeyHuddl, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215006126000001": {
+    "first_seen": "2026-08-13",
+    "name": "Skin Union Group Inc.",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -1784,6 +1859,11 @@
     "name": "Deep Interactions",
     "source": "YC"
   },
+  "yc:deepreach-inc": {
+    "first_seen": "2026-08-13",
+    "name": "DeepReach Inc.",
+    "source": "YC"
+  },
   "yc:definite": {
     "first_seen": "2026-07-24",
     "name": "Definite",
@@ -1807,6 +1887,11 @@
   "yc:dialogus": {
     "first_seen": "2026-07-24",
     "name": "Dialogus",
+    "source": "YC"
+  },
+  "yc:dipole-labs": {
+    "first_seen": "2026-08-13",
+    "name": "Dipole Labs",
     "source": "YC"
   },
   "yc:discovered-materials": {
@@ -1857,6 +1942,11 @@
   "yc:eden-robotics": {
     "first_seen": "2026-07-24",
     "name": "Eden Robotics",
+    "source": "YC"
+  },
+  "yc:edotenv": {
+    "first_seen": "2026-08-13",
+    "name": "EdotEnv",
     "source": "YC"
   },
   "yc:edviro": {
@@ -1922,6 +2012,11 @@
   "yc:fabraix": {
     "first_seen": "2026-07-24",
     "name": "Fabraix",
+    "source": "YC"
+  },
+  "yc:familiar": {
+    "first_seen": "2026-08-13",
+    "name": "Familiar",
     "source": "YC"
   },
   "yc:finaldose": {
@@ -2964,6 +3059,11 @@
     "name": "Shielded",
     "source": "YC"
   },
+  "yc:shiraz-ai": {
+    "first_seen": "2026-08-13",
+    "name": "Shiraz AI",
+    "source": "YC"
+  },
   "yc:shotwellai": {
     "first_seen": "2026-07-24",
     "name": "shotwell.ai",
@@ -3177,6 +3277,11 @@
   "yc:touchmark": {
     "first_seen": "2026-07-24",
     "name": "Touchmark",
+    "source": "YC"
+  },
+  "yc:tovenai": {
+    "first_seen": "2026-08-13",
+    "name": "TovenAI",
     "source": "YC"
   },
   "yc:traceforce": {

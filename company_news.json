@@ -10,18 +10,34 @@
     "company": "Palantir Technologies Inc.",
     "articles": [
       {
-        "title": "Palantir ( NASDAQ : PLTR ) vs . Salesforce ( NYSE : CRM ): Competing AI Visions Produce a Clear Risk - Adjusted Winner",
-        "url": "https://www.foreignpolicyjournal.com/2026/08/09/palantir-nasdaq-pltr-vs-salesforce-nyse-crm-competing-ai-visions-produce-a-clear-risk-adjusted-winner/",
-        "domain": "foreignpolicyjournal.com",
-        "date": "2026-08-09",
-        "sentiment_label": "негатив",
-        "sentiment_score": -1
+        "title": "Cathie Wood Is Dumping More Palantir Shares . But Revenue Growth and Swelling Cash Flows Bode Well for PLTR Stock . ",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-dumping-more-palantir-184403363.html",
+        "domain": "finance.yahoo.com",
+        "date": "2026-08-13",
+        "sentiment_label": "позитив",
+        "sentiment_score": 1
       },
       {
-        "title": "Palantir ( PLTR ) Posted Record 93 % Growth , Here Why Analysts Think It Wont Last",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-pltr-posted-record-93-113953926.html",
+        "title": "Palantir Technologies ( NASDAQ : PLTR ) Shares Down 2 . 2 % – Here What Happened",
+        "url": "https://www.themarketsdaily.com/2026/08/12/palantir-technologies-nasdaqpltr-shares-down-2-2-heres-what-happened.html",
+        "domain": "themarketsdaily.com",
+        "date": "2026-08-12",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "Palantir Technologies Inc . ( PLTR ) vs . BigBear . ai Holdings , Inc . ( BBAI ): Palantir  Otherworldly  Quarter Sends Shares Soaring 30 % ",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-technologies-inc-pltr-vs-172109809.html",
         "domain": "finance.yahoo.com",
-        "date": "2026-08-08",
+        "date": "2026-08-12",
+        "sentiment_label": "позитив",
+        "sentiment_score": 1
+      },
+      {
+        "title": "Palantir ( NASDAQ : PLTR ) Posts 93 % Revenue Surge In Q2 2026 , Raises Full - Year Guidance To $8 . 15 Billion",
+        "url": "https://www.foreignpolicyjournal.com/2026/08/11/palantir-nasdaq-pltr-posts-93-revenue-surge-in-q2-2026-raises-full-year-guidance-to-8-15-billion/",
+        "domain": "foreignpolicyjournal.com",
+        "date": "2026-08-11",
         "sentiment_label": "позитив",
         "sentiment_score": 2
       }
@@ -39,26 +55,26 @@
     "company": "Apple Inc.",
     "articles": [
       {
-        "title": "Apple enables Alibaba Qwen AI on Macs in China",
-        "url": "http://www.saltlakecitysun.com/news/279227795/apple-enables-alibaba-s-qwen-ai-on-macs-in-china",
-        "domain": "saltlakecitysun.com",
-        "date": "2026-08-10",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
+        "title": "Google Pixel Tag Launched In India As Apple AirTag Competitor ; Priced At ₹3 , 799",
+        "url": "https://www.freepressjournal.in/tech/google-pixel-tag-launched-in-india-as-apple-airtag-competitor-priced-at-3799",
+        "domain": "freepressjournal.in",
+        "date": "2026-08-13",
+        "sentiment_label": "позитив",
+        "sentiment_score": 1
       },
       {
-        "title": "Apple Gets Sweaty In Latest  Shot On iPhone  Campaign",
-        "url": "https://www.bandt.com.au/apple-gets-sweaty-in-latest-shot-on-iphone-campaign/",
-        "domain": "bandt.com.au",
-        "date": "2026-08-10",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
+        "title": "Jefferies Downgrades Apple as iPhone Worries Mount . What This Means for AAPL Stock . ",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/jefferies-downgrades-apple-iphone-worries-192455657.html",
+        "domain": "finance.yahoo.com",
+        "date": "2026-08-13",
+        "sentiment_label": "негатив",
+        "sentiment_score": -1
       },
       {
-        "title": "Apple says Mac users in China can connect to Alibaba Qwen AI service",
-        "url": "https://www.thehindu.com/sci-tech/technology/apple-says-mac-users-in-china-can-connect-to-alibabas-qwen-ai-service/article71326875.ece",
-        "domain": "thehindu.com",
-        "date": "2026-08-10",
+        "title": "Amazon . com , Inc . ( AMZN ) vs . Apple Inc . ( AAPL ): Hedge Funds Favor One over the Other",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-com-inc-amzn-vs-185154577.html",
+        "domain": "finance.yahoo.com",
+        "date": "2026-08-13",
         "sentiment_label": "нейтрально",
         "sentiment_score": 0
       }
