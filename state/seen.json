@@ -1219,9 +1219,19 @@
     "name": "Shiver Vertical, LLC",
     "source": "Form D"
   },
+  "formd:000214916226000001": {
+    "first_seen": "2026-08-14",
+    "name": "3852.ai Inc",
+    "source": "Form D"
+  },
   "formd:000214916326000001": {
     "first_seen": "2026-08-08",
     "name": "2294 Tall Grass Storage LLC",
+    "source": "Form D"
+  },
+  "formd:000214916426000001": {
+    "first_seen": "2026-08-14",
+    "name": "Floating Fleet AI, Inc.",
     "source": "Form D"
   },
   "formd:000214917526000001": {
@@ -1289,6 +1299,11 @@
     "name": "Bella Bling LLC",
     "source": "Form D"
   },
+  "formd:000214935426000001": {
+    "first_seen": "2026-08-14",
+    "name": "Secret Production Five Ltd",
+    "source": "Form D"
+  },
   "formd:000214937326000001": {
     "first_seen": "2026-08-08",
     "name": "Kaleta Labs LLC",
@@ -1344,6 +1359,16 @@
     "name": "J2 Labs Inc.",
     "source": "Form D"
   },
+  "formd:000214978326000001": {
+    "first_seen": "2026-08-14",
+    "name": "Adaly AI Inc.",
+    "source": "Form D"
+  },
+  "formd:000214978626000001": {
+    "first_seen": "2026-08-14",
+    "name": "AlpacaX Inc.",
+    "source": "Form D"
+  },
   "formd:000214980026000001": {
     "first_seen": "2026-08-12",
     "name": "DrawScale, Inc.",
@@ -1359,6 +1384,21 @@
     "name": "Lumoza Inc.",
     "source": "Form D"
   },
+  "formd:000214991526000001": {
+    "first_seen": "2026-08-14",
+    "name": "BBMW Holdings LLC",
+    "source": "Form D"
+  },
+  "formd:000214992126000001": {
+    "first_seen": "2026-08-14",
+    "name": "Hawthorne Health, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214992126000002": {
+    "first_seen": "2026-08-14",
+    "name": "Hawthorne Health, Inc.",
+    "source": "Form D"
+  },
   "formd:000214994726000001": {
     "first_seen": "2026-08-13",
     "name": "HeyHuddl, Inc.",
@@ -1367,6 +1407,36 @@
   "formd:000215006126000001": {
     "first_seen": "2026-08-13",
     "name": "Skin Union Group Inc.",
+    "source": "Form D"
+  },
+  "formd:000215010726000001": {
+    "first_seen": "2026-08-14",
+    "name": "Archean Sciences, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215014226000001": {
+    "first_seen": "2026-08-14",
+    "name": "Pura Sanguine, L.L.C.",
+    "source": "Form D"
+  },
+  "formd:000215020826000001": {
+    "first_seen": "2026-08-14",
+    "name": "Lila Superintelligence LLC",
+    "source": "Form D"
+  },
+  "formd:000215024826000001": {
+    "first_seen": "2026-08-14",
+    "name": "Khaya Biosciences, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215025726000001": {
+    "first_seen": "2026-08-14",
+    "name": "OSIRIS HOLDINGS ROMEOVILLE, LLC",
+    "source": "Form D"
+  },
+  "formd:000215038426000001": {
+    "first_seen": "2026-08-14",
+    "name": "Urgent Capital Group LLC",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -1442,6 +1512,11 @@
   "yc:akkari": {
     "first_seen": "2026-07-24",
     "name": "Akkari",
+    "source": "YC"
+  },
+  "yc:akon-labs": {
+    "first_seen": "2026-08-14",
+    "name": "Akon Labs",
     "source": "YC"
   },
   "yc:aktoria-robotics": {
@@ -1924,6 +1999,11 @@
     "name": "Dreach",
     "source": "YC"
   },
+  "yc:dream": {
+    "first_seen": "2026-08-14",
+    "name": "Dream",
+    "source": "YC"
+  },
   "yc:drippay": {
     "first_seen": "2026-07-24",
     "name": "Drip",
@@ -1987,6 +2067,11 @@
   "yc:erinys": {
     "first_seen": "2026-08-10",
     "name": "Erinys",
+    "source": "YC"
+  },
+  "yc:evergrove": {
+    "first_seen": "2026-08-14",
+    "name": "Evergrove",
     "source": "YC"
   },
   "yc:executor": {
@@ -2504,6 +2589,11 @@
     "name": "Madrone",
     "source": "YC"
   },
+  "yc:magma": {
+    "first_seen": "2026-08-14",
+    "name": "Magma",
+    "source": "YC"
+  },
   "yc:maingen": {
     "first_seen": "2026-07-24",
     "name": "Maingen",
@@ -2549,6 +2639,16 @@
     "name": "Memory Store",
     "source": "YC"
   },
+  "yc:mentlio": {
+    "first_seen": "2026-08-14",
+    "name": "Mentlio",
+    "source": "YC"
+  },
+  "yc:meteoric": {
+    "first_seen": "2026-08-14",
+    "name": "Meteoric",
+    "source": "YC"
+  },
   "yc:minicor": {
     "first_seen": "2026-07-24",
     "name": "Minicor",
@@ -2567,6 +2667,11 @@
   "yc:mochatrade": {
     "first_seen": "2026-07-24",
     "name": "Mochatrade",
+    "source": "YC"
+  },
+  "yc:mochitv": {
+    "first_seen": "2026-08-14",
+    "name": "MOCHI.TV",
     "source": "YC"
   },
   "yc:modern": {
@@ -2734,6 +2839,11 @@
     "name": "Palette",
     "source": "YC"
   },
+  "yc:palisade": {
+    "first_seen": "2026-08-14",
+    "name": "Palisade",
+    "source": "YC"
+  },
   "yc:palisade-2": {
     "first_seen": "2026-07-24",
     "name": "Palisade",
@@ -2762,6 +2872,11 @@
   "yc:peer": {
     "first_seen": "2026-08-11",
     "name": "Peer",
+    "source": "YC"
+  },
+  "yc:pennant": {
+    "first_seen": "2026-08-14",
+    "name": "Pennant",
     "source": "YC"
   },
   "yc:pentagon": {
@@ -2832,6 +2947,11 @@
   "yc:primitive": {
     "first_seen": "2026-07-24",
     "name": "primitive",
+    "source": "YC"
+  },
+  "yc:princeps": {
+    "first_seen": "2026-08-14",
+    "name": "PRINCEPS",
     "source": "YC"
   },
   "yc:prized": {
@@ -3389,6 +3509,11 @@
     "name": "ValCtrl",
     "source": "YC"
   },
+  "yc:veltha": {
+    "first_seen": "2026-08-14",
+    "name": "Veltha",
+    "source": "YC"
+  },
   "yc:vendo": {
     "first_seen": "2026-07-24",
     "name": "Vendo",
@@ -3457,6 +3582,11 @@
   "yc:wondering": {
     "first_seen": "2026-07-28",
     "name": "Wondering",
+    "source": "YC"
+  },
+  "yc:wondertx": {
+    "first_seen": "2026-08-14",
+    "name": "WonderTx",
     "source": "YC"
   },
   "yc:youart": {
