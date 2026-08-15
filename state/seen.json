@@ -969,6 +969,11 @@
     "name": "GorillaOps, Inc.",
     "source": "Form D"
   },
+  "formd:000214825326000001": {
+    "first_seen": "2026-08-15",
+    "name": "Captiox, LLC",
+    "source": "Form D"
+  },
   "formd:000214826926000001": {
     "first_seen": "2026-08-11",
     "name": "Riven Corp",
@@ -1079,6 +1084,11 @@
     "name": "Canine Enterprises LLC",
     "source": "Form D"
   },
+  "formd:000214853226000001": {
+    "first_seen": "2026-08-15",
+    "name": "Superior Genomics, Inc.",
+    "source": "Form D"
+  },
   "formd:000214853426000001": {
     "first_seen": "2026-08-12",
     "name": "Kikitora, Inc.",
@@ -1124,6 +1134,11 @@
     "name": "FMFreeman Inc",
     "source": "Form D"
   },
+  "formd:000214873826000001": {
+    "first_seen": "2026-08-15",
+    "name": "Amen Health Inc",
+    "source": "Form D"
+  },
   "formd:000214876326000001": {
     "first_seen": "2026-08-08",
     "name": "Chat Automation Group, Inc.",
@@ -1137,6 +1152,11 @@
   "formd:000214879126000001": {
     "first_seen": "2026-08-06",
     "name": "CompanAIn, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214880326000001": {
+    "first_seen": "2026-08-15",
+    "name": "Clarity Technology Solutions Inc.",
     "source": "Form D"
   },
   "formd:000214880526000001": {
@@ -1154,6 +1174,31 @@
     "name": "MI Fire Giver Investments, LLC",
     "source": "Form D"
   },
+  "formd:000214884026000001": {
+    "first_seen": "2026-08-15",
+    "name": "MBQ PHARMA INC.",
+    "source": "Form D"
+  },
+  "formd:000214884026000002": {
+    "first_seen": "2026-08-15",
+    "name": "MBQ PHARMA INC.",
+    "source": "Form D"
+  },
+  "formd:000214884026000003": {
+    "first_seen": "2026-08-15",
+    "name": "MBQ PHARMA INC.",
+    "source": "Form D"
+  },
+  "formd:000214884026000004": {
+    "first_seen": "2026-08-15",
+    "name": "MBQ PHARMA INC.",
+    "source": "Form D"
+  },
+  "formd:000214884026000005": {
+    "first_seen": "2026-08-15",
+    "name": "MBQ PHARMA INC.",
+    "source": "Form D"
+  },
   "formd:000214890226000001": {
     "first_seen": "2026-08-06",
     "name": "Vapor Industries, Inc.",
@@ -1162,6 +1207,11 @@
   "formd:000214892426000001": {
     "first_seen": "2026-08-06",
     "name": "SPORTY & RICH INC",
+    "source": "Form D"
+  },
+  "formd:000214892526000001": {
+    "first_seen": "2026-08-15",
+    "name": "Govably, Inc.",
     "source": "Form D"
   },
   "formd:000214896626000004": {
@@ -1192,6 +1242,11 @@
   "formd:000214899126000001": {
     "first_seen": "2026-08-08",
     "name": "Midwest Screens Holdings, LLC",
+    "source": "Form D"
+  },
+  "formd:000214901426000002": {
+    "first_seen": "2026-08-15",
+    "name": "Lab Angelus, Inc.",
     "source": "Form D"
   },
   "formd:000214902826000001": {
@@ -1319,6 +1374,11 @@
     "name": "2DALOOP, CORP.",
     "source": "Form D"
   },
+  "formd:000214949826000001": {
+    "first_seen": "2026-08-15",
+    "name": "ARC SERIES ONE, LLC",
+    "source": "Form D"
+  },
   "formd:000214950726000001": {
     "first_seen": "2026-08-12",
     "name": "Routh Systems, Inc.",
@@ -1329,6 +1389,16 @@
     "name": "Toucan Labs, Inc.",
     "source": "Form D"
   },
+  "formd:000214953926000001": {
+    "first_seen": "2026-08-15",
+    "name": "Evermind Labs, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214954026000001": {
+    "first_seen": "2026-08-15",
+    "name": "Valstad Shipworks Inc.",
+    "source": "Form D"
+  },
   "formd:000214954726000001": {
     "first_seen": "2026-08-13",
     "name": "Pieces of Art Productions Ltd Liability Co",
@@ -1337,6 +1407,11 @@
   "formd:000214959526000001": {
     "first_seen": "2026-08-11",
     "name": "Invictos LLC",
+    "source": "Form D"
+  },
+  "formd:000214960526000001": {
+    "first_seen": "2026-08-15",
+    "name": "Rafnum Holdings LLC",
     "source": "Form D"
   },
   "formd:000214969226000001": {
@@ -1409,9 +1484,24 @@
     "name": "Skin Union Group Inc.",
     "source": "Form D"
   },
+  "formd:000215006926000001": {
+    "first_seen": "2026-08-15",
+    "name": "Caporus Technologies, Inc.",
+    "source": "Form D"
+  },
   "formd:000215010726000001": {
     "first_seen": "2026-08-14",
     "name": "Archean Sciences, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215011126000001": {
+    "first_seen": "2026-08-15",
+    "name": "Superset Inc.",
+    "source": "Form D"
+  },
+  "formd:000215011626000002": {
+    "first_seen": "2026-08-15",
+    "name": "Technosys Digital Health Solutions Inc.",
     "source": "Form D"
   },
   "formd:000215014226000001": {
@@ -1434,9 +1524,39 @@
     "name": "OSIRIS HOLDINGS ROMEOVILLE, LLC",
     "source": "Form D"
   },
+  "formd:000215027226000001": {
+    "first_seen": "2026-08-15",
+    "name": "Bard & Hops Crux LLC",
+    "source": "Form D"
+  },
+  "formd:000215034226000001": {
+    "first_seen": "2026-08-15",
+    "name": "Kotofit Inc.",
+    "source": "Form D"
+  },
   "formd:000215038426000001": {
     "first_seen": "2026-08-14",
     "name": "Urgent Capital Group LLC",
+    "source": "Form D"
+  },
+  "formd:000215047426000001": {
+    "first_seen": "2026-08-15",
+    "name": "Didge NX Inc.",
+    "source": "Form D"
+  },
+  "formd:000215047726000001": {
+    "first_seen": "2026-08-15",
+    "name": "ZENOVISION Inc",
+    "source": "Form D"
+  },
+  "formd:000215051126000001": {
+    "first_seen": "2026-08-15",
+    "name": "Aivatu, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215057126000001": {
+    "first_seen": "2026-08-15",
+    "name": "MLNavigator Inc.",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -1744,6 +1864,11 @@
     "name": "BentoLabs AI",
     "source": "YC"
   },
+  "yc:bernard": {
+    "first_seen": "2026-08-15",
+    "name": "Bernard",
+    "source": "YC"
+  },
   "yc:billow-ai-labs": {
     "first_seen": "2026-07-24",
     "name": "Billow AI Labs",
@@ -1902,6 +2027,11 @@
   "yc:cova": {
     "first_seen": "2026-07-24",
     "name": "Cova",
+    "source": "YC"
+  },
+  "yc:cuebench": {
+    "first_seen": "2026-08-15",
+    "name": "CueBench",
     "source": "YC"
   },
   "yc:daqstra": {
@@ -2579,6 +2709,11 @@
     "name": "Lumius",
     "source": "YC"
   },
+  "yc:lyon": {
+    "first_seen": "2026-08-15",
+    "name": "Lyon",
+    "source": "YC"
+  },
   "yc:machine0": {
     "first_seen": "2026-07-24",
     "name": "machine0",
@@ -2627,6 +2762,11 @@
   "yc:markov": {
     "first_seen": "2026-07-24",
     "name": "Markov",
+    "source": "YC"
+  },
+  "yc:mass-magnetics": {
+    "first_seen": "2026-08-15",
+    "name": "Mass Magnetics",
     "source": "YC"
   },
   "yc:memoir": {
@@ -3329,6 +3469,11 @@
     "name": "TareBio",
     "source": "YC"
   },
+  "yc:tarifflo-inc": {
+    "first_seen": "2026-08-15",
+    "name": "Tarifflo Inc.",
+    "source": "YC"
+  },
   "yc:tash": {
     "first_seen": "2026-08-01",
     "name": "tash",
@@ -3397,6 +3542,11 @@
   "yc:touchmark": {
     "first_seen": "2026-07-24",
     "name": "Touchmark",
+    "source": "YC"
+  },
+  "yc:touchy": {
+    "first_seen": "2026-08-15",
+    "name": "Touchy",
     "source": "YC"
   },
   "yc:tovenai": {
@@ -3557,6 +3707,11 @@
   "yc:wato": {
     "first_seen": "2026-07-24",
     "name": "Wato",
+    "source": "YC"
+  },
+  "yc:waybill": {
+    "first_seen": "2026-08-15",
+    "name": "Waybill",
     "source": "YC"
   },
   "yc:wealor": {
