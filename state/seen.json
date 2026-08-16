@@ -2554,6 +2554,11 @@
     "name": "Juno",
     "source": "YC"
   },
+  "yc:kandor": {
+    "first_seen": "2026-08-16",
+    "name": "Kandor",
+    "source": "YC"
+  },
   "yc:kara": {
     "first_seen": "2026-07-30",
     "name": "Kara",
@@ -2667,6 +2672,11 @@
   "yc:light-anchor": {
     "first_seen": "2026-07-24",
     "name": "Light Anchor",
+    "source": "YC"
+  },
+  "yc:lightfield": {
+    "first_seen": "2026-08-16",
+    "name": "Lightfield",
     "source": "YC"
   },
   "yc:lightsprint": {
@@ -3394,6 +3404,11 @@
     "name": "Standard Machines",
     "source": "YC"
   },
+  "yc:standard-medical": {
+    "first_seen": "2026-08-16",
+    "name": "Standard Medical",
+    "source": "YC"
+  },
   "yc:standard-signal": {
     "first_seen": "2026-07-24",
     "name": "Standard Signal",
@@ -3677,6 +3692,11 @@
   "yc:verdict-machine": {
     "first_seen": "2026-08-11",
     "name": "Verdict Machine",
+    "source": "YC"
+  },
+  "yc:vernius-systems-inc": {
+    "first_seen": "2026-08-16",
+    "name": "Vernius Systems, Inc.",
     "source": "YC"
   },
   "yc:vestris": {
