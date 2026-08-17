@@ -1589,6 +1589,11 @@
     "name": "Advanced Metal Research",
     "source": "YC"
   },
+  "yc:aerogen-systems": {
+    "first_seen": "2026-08-17",
+    "name": "Aerogen Systems",
+    "source": "YC"
+  },
   "yc:afterfive": {
     "first_seen": "2026-08-07",
     "name": "afterfive",
@@ -1697,6 +1702,11 @@
   "yc:anoria": {
     "first_seen": "2026-07-24",
     "name": "ANORIA",
+    "source": "YC"
+  },
+  "yc:antimattr": {
+    "first_seen": "2026-08-17",
+    "name": "antimattr",
     "source": "YC"
   },
   "yc:antropi-robotics": {
@@ -3672,6 +3682,11 @@
   "yc:valctrl": {
     "first_seen": "2026-07-24",
     "name": "ValCtrl",
+    "source": "YC"
+  },
+  "yc:veeza-ai": {
+    "first_seen": "2026-08-17",
+    "name": "Veeza AI",
     "source": "YC"
   },
   "yc:veltha": {
