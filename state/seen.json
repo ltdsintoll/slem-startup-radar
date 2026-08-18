@@ -74,6 +74,11 @@
     "name": "SRO Album LLC",
     "source": "Form D"
   },
+  "formd:000210271426000001": {
+    "first_seen": "2026-08-18",
+    "name": "SelectDr, Inc.",
+    "source": "Form D"
+  },
   "formd:000210964326000003": {
     "first_seen": "2026-07-24",
     "name": "Embold Therapeutics, Inc.",
@@ -132,6 +137,11 @@
   "formd:000213564626000001": {
     "first_seen": "2026-08-04",
     "name": "Gaingels Offe Market LLC",
+    "source": "Form D"
+  },
+  "formd:000213785726000002": {
+    "first_seen": "2026-08-18",
+    "name": "Dexterity, Inc.",
     "source": "Form D"
   },
   "formd:000213949526000002": {
@@ -429,6 +439,11 @@
     "name": "Build Wealth, Inc.",
     "source": "Form D"
   },
+  "formd:000214622326000001": {
+    "first_seen": "2026-08-18",
+    "name": "nlitenai, inc",
+    "source": "Form D"
+  },
   "formd:000214623926000001": {
     "first_seen": "2026-07-24",
     "name": "Forever Home Theatrical Co LLC",
@@ -452,6 +467,11 @@
   "formd:000214633726000001": {
     "first_seen": "2026-08-12",
     "name": "Gaingels Aalo Atomics 2026 LLC",
+    "source": "Form D"
+  },
+  "formd:000214640726000001": {
+    "first_seen": "2026-08-18",
+    "name": "Ezra Legacy Partners, LLC",
     "source": "Form D"
   },
   "formd:000214642026000001": {
@@ -842,6 +862,11 @@
   "formd:000214789026000001": {
     "first_seen": "2026-07-30",
     "name": "StimCardio Medical, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214789226000002": {
+    "first_seen": "2026-08-18",
+    "name": "One Mighty Mill, Inc.",
     "source": "Form D"
   },
   "formd:000214791226000001": {
@@ -1359,6 +1384,11 @@
     "name": "Secret Production Five Ltd",
     "source": "Form D"
   },
+  "formd:000214935926000001": {
+    "first_seen": "2026-08-18",
+    "name": "Seerist, Inc.",
+    "source": "Form D"
+  },
   "formd:000214937326000001": {
     "first_seen": "2026-08-08",
     "name": "Kaleta Labs LLC",
@@ -1439,6 +1469,11 @@
     "name": "Adaly AI Inc.",
     "source": "Form D"
   },
+  "formd:000214978326000002": {
+    "first_seen": "2026-08-18",
+    "name": "Adaly AI Inc.",
+    "source": "Form D"
+  },
   "formd:000214978626000001": {
     "first_seen": "2026-08-14",
     "name": "AlpacaX Inc.",
@@ -1452,6 +1487,11 @@
   "formd:000214982826000001": {
     "first_seen": "2026-08-12",
     "name": "Duodata, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214983026000001": {
+    "first_seen": "2026-08-18",
+    "name": "Tang Trading Group LLC",
     "source": "Form D"
   },
   "formd:000214991226000001": {
@@ -1509,6 +1549,11 @@
     "name": "Pura Sanguine, L.L.C.",
     "source": "Form D"
   },
+  "formd:000215016126000001": {
+    "first_seen": "2026-08-18",
+    "name": "Icarus Ventures LLC",
+    "source": "Form D"
+  },
   "formd:000215020826000001": {
     "first_seen": "2026-08-14",
     "name": "Lila Superintelligence LLC",
@@ -1557,6 +1602,21 @@
   "formd:000215057126000001": {
     "first_seen": "2026-08-15",
     "name": "MLNavigator Inc.",
+    "source": "Form D"
+  },
+  "formd:000215058126000001": {
+    "first_seen": "2026-08-18",
+    "name": "ProSentra, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215059426000001": {
+    "first_seen": "2026-08-18",
+    "name": "EnduraFAST Inc.",
+    "source": "Form D"
+  },
+  "formd:000215063626000001": {
+    "first_seen": "2026-08-18",
+    "name": "Psio, Inc.",
     "source": "Form D"
   },
   "yc:6thsense": {

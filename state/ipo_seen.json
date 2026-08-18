@@ -44,6 +44,11 @@
     "name": "ACTELIS NETWORKS INC",
     "stage": "Filed"
   },
+  "1173313": {
+    "first_seen": "2026-08-18",
+    "name": "ABVC BIOPHARMA, INC.",
+    "stage": "Priced/IPO"
+  },
   "1187953": {
     "first_seen": "2026-07-24",
     "name": "CREATIVE MEDICAL TECHNOLOGY HOLDINGS, INC.",
@@ -58,6 +63,11 @@
     "first_seen": "2026-07-24",
     "name": "Idaho Copper Corp  (COPR, COPR-WT)",
     "stage": "Priced/IPO"
+  },
+  "1317685": {
+    "first_seen": "2026-08-18",
+    "name": "Alliance Laundry Holdings Inc.",
+    "stage": "Filed"
   },
   "1342916": {
     "first_seen": "2026-07-24",
@@ -182,7 +192,7 @@
   "1610590": {
     "first_seen": "2026-07-25",
     "name": "Check-Cap Ltd",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "1615219": {
     "first_seen": "2026-07-24",
@@ -347,6 +357,11 @@
   "1789192": {
     "first_seen": "2026-07-24",
     "name": "Nexentis Technologies Inc.",
+    "stage": "Filed"
+  },
+  "1793497": {
+    "first_seen": "2026-08-18",
+    "name": "VS Trust",
     "stage": "Filed"
   },
   "1795851": {
@@ -522,6 +537,11 @@
   "1892704": {
     "first_seen": "2026-08-05",
     "name": "First Breach, Inc.",
+    "stage": "Amending"
+  },
+  "1893657": {
+    "first_seen": "2026-08-18",
+    "name": "Rubber Leaf Inc",
     "stage": "Amending"
   },
   "1900851": {
@@ -749,6 +769,11 @@
     "name": "Fast Track Group",
     "stage": "Filed"
   },
+  "2027329": {
+    "first_seen": "2026-08-18",
+    "name": "Optimi Health Corp.",
+    "stage": "Filed"
+  },
   "2030498": {
     "first_seen": "2026-07-24",
     "name": "JuNeng Technology Ltd",
@@ -868,6 +893,11 @@
     "first_seen": "2026-08-05",
     "name": "Fitness Fanatics Ltd",
     "stage": "Amending"
+  },
+  "2065708": {
+    "first_seen": "2026-08-18",
+    "name": "Andersen Group Inc.",
+    "stage": "Filed"
   },
   "2065821": {
     "first_seen": "2026-07-24",
@@ -1189,6 +1219,11 @@
     "name": "Catalyst Acquisition Corp.",
     "stage": "Priced/IPO"
   },
+  "2104827": {
+    "first_seen": "2026-08-18",
+    "name": "BANG MAI FANG HOLDINGS",
+    "stage": "Filed"
+  },
   "2105318": {
     "first_seen": "2026-07-24",
     "name": "Gold Mountain Acquisition Corp.",
@@ -1347,7 +1382,7 @@
   "2123380": {
     "first_seen": "2026-08-06",
     "name": "Gravity Acquisition Corp.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2123471": {
     "first_seen": "2026-07-24",
