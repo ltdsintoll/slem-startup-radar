@@ -774,6 +774,11 @@
     "name": "Hydrate28, INC.",
     "source": "Form D"
   },
+  "formd:000214769426000002": {
+    "first_seen": "2026-08-19",
+    "name": "QUDARA INC.",
+    "source": "Form D"
+  },
   "formd:000214770426000001": {
     "first_seen": "2026-08-05",
     "name": "Coraa, Inc.",
@@ -1379,6 +1384,11 @@
     "name": "Bella Bling LLC",
     "source": "Form D"
   },
+  "formd:000214935026000001": {
+    "first_seen": "2026-08-19",
+    "name": "Orkora Inc.",
+    "source": "Form D"
+  },
   "formd:000214935426000001": {
     "first_seen": "2026-08-14",
     "name": "Secret Production Five Ltd",
@@ -1442,6 +1452,11 @@
   "formd:000214960526000001": {
     "first_seen": "2026-08-15",
     "name": "Rafnum Holdings LLC",
+    "source": "Form D"
+  },
+  "formd:000214964726000001": {
+    "first_seen": "2026-08-19",
+    "name": "Obsidian Security, Inc.",
     "source": "Form D"
   },
   "formd:000214969226000001": {
@@ -1529,6 +1544,11 @@
     "name": "Caporus Technologies, Inc.",
     "source": "Form D"
   },
+  "formd:000215010126000001": {
+    "first_seen": "2026-08-19",
+    "name": "Aerdos Labs, Inc.",
+    "source": "Form D"
+  },
   "formd:000215010726000001": {
     "first_seen": "2026-08-14",
     "name": "Archean Sciences, Inc.",
@@ -1584,6 +1604,16 @@
     "name": "Urgent Capital Group LLC",
     "source": "Form D"
   },
+  "formd:000215045326000001": {
+    "first_seen": "2026-08-19",
+    "name": "CTF Parent, LLC",
+    "source": "Form D"
+  },
+  "formd:000215046826000001": {
+    "first_seen": "2026-08-19",
+    "name": "CYNC Labs, Inc.",
+    "source": "Form D"
+  },
   "formd:000215047426000001": {
     "first_seen": "2026-08-15",
     "name": "Didge NX Inc.",
@@ -1597,6 +1627,11 @@
   "formd:000215051126000001": {
     "first_seen": "2026-08-15",
     "name": "Aivatu, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215051526000001": {
+    "first_seen": "2026-08-19",
+    "name": "CTF Employee Holdings, LLC",
     "source": "Form D"
   },
   "formd:000215057126000001": {
@@ -1614,9 +1649,29 @@
     "name": "EnduraFAST Inc.",
     "source": "Form D"
   },
+  "formd:000215062926000001": {
+    "first_seen": "2026-08-19",
+    "name": "BZAR Technologies, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215063126000001": {
+    "first_seen": "2026-08-19",
+    "name": "Vigo Special Opportunity II LLC",
+    "source": "Form D"
+  },
+  "formd:000215063226000002": {
+    "first_seen": "2026-08-19",
+    "name": "Qualitate, Inc.",
+    "source": "Form D"
+  },
   "formd:000215063626000001": {
     "first_seen": "2026-08-18",
     "name": "Psio, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215089126000001": {
+    "first_seen": "2026-08-19",
+    "name": "Guide Star Biosciences, Inc.",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -1972,6 +2027,11 @@
   "yc:callab-ai": {
     "first_seen": "2026-07-24",
     "name": "Callab AI",
+    "source": "YC"
+  },
+  "yc:callbook-ai": {
+    "first_seen": "2026-08-19",
+    "name": "Callbook AI",
     "source": "YC"
   },
   "yc:care-gp": {
@@ -2374,6 +2434,11 @@
     "name": "Gigacatalyst",
     "source": "YC"
   },
+  "yc:gini": {
+    "first_seen": "2026-08-19",
+    "name": "Gini",
+    "source": "YC"
+  },
   "yc:gitcafe": {
     "first_seen": "2026-07-30",
     "name": "GitCafe",
@@ -2417,6 +2482,11 @@
   "yc:grip": {
     "first_seen": "2026-07-29",
     "name": "Grip",
+    "source": "YC"
+  },
+  "yc:grocalo": {
+    "first_seen": "2026-08-19",
+    "name": "Grocalo",
     "source": "YC"
   },
   "yc:guild": {
@@ -2477,6 +2547,11 @@
   "yc:hiloop": {
     "first_seen": "2026-07-30",
     "name": "hiloop",
+    "source": "YC"
+  },
+  "yc:hilstart": {
+    "first_seen": "2026-08-19",
+    "name": "Hilstart",
     "source": "YC"
   },
   "yc:hop-aero": {
@@ -2709,6 +2784,11 @@
     "name": "Lamina Labs",
     "source": "YC"
   },
+  "yc:lantern-ai": {
+    "first_seen": "2026-08-19",
+    "name": "Lantern AI",
+    "source": "YC"
+  },
   "yc:last-accounting-company": {
     "first_seen": "2026-07-24",
     "name": "Last Accounting Company",
@@ -2837,6 +2917,11 @@
   "yc:marengo": {
     "first_seen": "2026-08-09",
     "name": "Marengo",
+    "source": "YC"
+  },
+  "yc:marker": {
+    "first_seen": "2026-08-19",
+    "name": "Marker",
     "source": "YC"
   },
   "yc:markov": {
@@ -3159,6 +3244,11 @@
     "name": "Praxis AI",
     "source": "YC"
   },
+  "yc:praxis-robotics": {
+    "first_seen": "2026-08-19",
+    "name": "Praxis Robotics",
+    "source": "YC"
+  },
   "yc:prescience-inc": {
     "first_seen": "2026-07-24",
     "name": "Prescience, Inc.",
@@ -3437,6 +3527,11 @@
   "yc:smol-machines": {
     "first_seen": "2026-07-24",
     "name": "smol machines",
+    "source": "YC"
+  },
+  "yc:snap-poker": {
+    "first_seen": "2026-08-19",
+    "name": "Snap Poker",
     "source": "YC"
   },
   "yc:solo-labs": {

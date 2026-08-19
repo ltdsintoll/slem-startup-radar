@@ -2,55 +2,31 @@
   "1045810": {
     "ticker": "NVDA",
     "company": "NVIDIA CORP",
-    "articles": [],
-    "source": "no-data"
+    "articles": [
+      {
+        "title": "Prediction : 3 Unstoppable Artificial Intelligence Stocks That Will Join Nvidia , Apple , and Alphabet in the $4 Trillion Club by 2028",
+        "url": "https://www.fool.com/investing/2026/08/19/prediction-3-unstoppable-artificial-intelligence-s/?source=iedfolrf0000001",
+        "domain": "fool.com",
+        "date": "2026-08-19",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "1 Quantum Stock Near 52 - Week Lows With Nvidia Partnership Backing Is Poised to Rebound",
+        "url": "https://www.fool.com/investing/2026/08/18/1-quantum-stock-near-52-week-lows-with-nvidia-part/",
+        "domain": "fool.com",
+        "date": "2026-08-19",
+        "sentiment_label": "позитив",
+        "sentiment_score": 2
+      }
+    ],
+    "source": "gdelt"
   },
   "1321655": {
     "ticker": "PLTR",
     "company": "Palantir Technologies Inc.",
-    "articles": [
-      {
-        "title": "Chamath Palihapitiya Backs Palantir ( NASDAQ : PLTR ) Stock As Model - Agnostic AI Platforms Gain Ground Over Next 36 Months",
-        "url": "https://www.foreignpolicyjournal.com/2026/08/14/chamath-palihapitiya-backs-palantir-nasdaq-pltr-stock-as-model-agnostic-ai-platforms-gain-ground-over-next-36-months/",
-        "domain": "foreignpolicyjournal.com",
-        "date": "2026-08-15",
-        "sentiment_label": "позитив",
-        "sentiment_score": 1
-      },
-      {
-        "title": "Palantir Technologies ( NASDAQ : PLTR ) Stock Price Down 2 . 8 % – Here What Happened",
-        "url": "https://www.themarketsdaily.com/2026/08/14/palantir-technologies-nasdaqpltr-stock-price-down-2-8-heres-what-happened.html",
-        "domain": "themarketsdaily.com",
-        "date": "2026-08-14",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "Y Intercept Hong Kong Ltd Boosts Stock Position in Palantir Technologies Inc . $PLTR",
-        "url": "https://www.themarketsdaily.com/2026/08/14/y-intercept-hong-kong-ltd-boosts-stock-position-in-palantir-technologies-inc-pltr.html",
-        "domain": "themarketsdaily.com",
-        "date": "2026-08-14",
-        "sentiment_label": "позитив",
-        "sentiment_score": 1
-      },
-      {
-        "title": "Salem Investment Counselors Inc . Cuts Position in Palantir Technologies Inc . $PLTR",
-        "url": "https://www.tickerreport.com/banking-finance/13542685/salem-investment-counselors-inc-cuts-position-in-palantir-technologies-inc-pltr.html",
-        "domain": "tickerreport.com",
-        "date": "2026-08-14",
-        "sentiment_label": "негатив",
-        "sentiment_score": -1
-      },
-      {
-        "title": "Plancorp LLC Has $428 , 000 Stock Holdings in Palantir Technologies Inc . $PLTR",
-        "url": "https://www.themarketsdaily.com/2026/08/14/plancorp-llc-has-428000-stock-holdings-in-palantir-technologies-inc-pltr.html",
-        "domain": "themarketsdaily.com",
-        "date": "2026-08-14",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      }
-    ],
-    "source": "gdelt"
+    "articles": [],
+    "source": "no-data"
   },
   "789019": {
     "ticker": "MSFT",
@@ -61,7 +37,24 @@
   "320193": {
     "ticker": "AAPL",
     "company": "Apple Inc.",
-    "articles": [],
-    "source": "no-data"
+    "articles": [
+      {
+        "title": "Apple changes App Store fees in Europe after long legal battle , Epic Games reacts",
+        "url": "https://www.digit.in/news/general/apple-changes-app-store-fees-in-europe-after-long-legal-battle-epic-games-reacts.html",
+        "domain": "digit.in",
+        "date": "2026-08-19",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "Prediction : 3 Unstoppable Artificial Intelligence Stocks That Will Join Nvidia , Apple , and Alphabet in the $4 Trillion Club by 2028",
+        "url": "https://www.fool.com/investing/2026/08/19/prediction-3-unstoppable-artificial-intelligence-s/?source=iedfolrf0000001",
+        "domain": "fool.com",
+        "date": "2026-08-19",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      }
+    ],
+    "source": "gdelt"
   }
 }
