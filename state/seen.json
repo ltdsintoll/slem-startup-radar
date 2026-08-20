@@ -139,6 +139,11 @@
     "name": "Gaingels Offe Market LLC",
     "source": "Form D"
   },
+  "formd:000213592926000002": {
+    "first_seen": "2026-08-20",
+    "name": "Gewang International Industrial Holding Group Inc",
+    "source": "Form D"
+  },
   "formd:000213785726000002": {
     "first_seen": "2026-08-18",
     "name": "Dexterity, Inc.",
@@ -239,6 +244,11 @@
     "name": "LiLi MD Group Inc",
     "source": "Form D"
   },
+  "formd:000214364626000001": {
+    "first_seen": "2026-08-20",
+    "name": "Gaingels Efficient Computer LLC",
+    "source": "Form D"
+  },
   "formd:000214374826000001": {
     "first_seen": "2026-08-04",
     "name": "Gaingels Peec LLC",
@@ -302,6 +312,11 @@
   "formd:000214442026000001": {
     "first_seen": "2026-07-24",
     "name": "Sugar Plum Street Ltd Liability Co",
+    "source": "Form D"
+  },
+  "formd:000214443126000001": {
+    "first_seen": "2026-08-20",
+    "name": "OceanFlex, Inc",
     "source": "Form D"
   },
   "formd:000214446426000004": {
@@ -412,6 +427,11 @@
   "formd:000214594726000003": {
     "first_seen": "2026-08-05",
     "name": "Rigora Clinical Inc.",
+    "source": "Form D"
+  },
+  "formd:000214599326000001": {
+    "first_seen": "2026-08-20",
+    "name": "Velio Partners LLC",
     "source": "Form D"
   },
   "formd:000214605826000001": {
@@ -567,6 +587,11 @@
   "formd:000214699826000001": {
     "first_seen": "2026-08-04",
     "name": "AppWizzy, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214709126000001": {
+    "first_seen": "2026-08-20",
+    "name": "Gaingels J2026 LLC",
     "source": "Form D"
   },
   "formd:000214709326000001": {
@@ -764,6 +789,11 @@
     "name": "Voyageur Pharmaceuticals Ltd.",
     "source": "Form D"
   },
+  "formd:000214765726000001": {
+    "first_seen": "2026-08-20",
+    "name": "7teenth Street Holdings Inc",
+    "source": "Form D"
+  },
   "formd:000214767626000001": {
     "first_seen": "2026-07-31",
     "name": "COVR Promo Inc",
@@ -817,6 +847,11 @@
   "formd:000214777526000001": {
     "first_seen": "2026-07-30",
     "name": "Bovo Music, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214779126000002": {
+    "first_seen": "2026-08-20",
+    "name": "KJH Brand Holdings, Inc.",
     "source": "Form D"
   },
   "formd:000214779826000001": {
@@ -962,6 +997,11 @@
   "formd:000214820926000002": {
     "first_seen": "2026-08-04",
     "name": "Senza Research, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214821226000001": {
+    "first_seen": "2026-08-20",
+    "name": "LONE PALM LABS, INC.",
     "source": "Form D"
   },
   "formd:000214821426000001": {
@@ -1244,6 +1284,11 @@
     "name": "Govably, Inc.",
     "source": "Form D"
   },
+  "formd:000214894426000001": {
+    "first_seen": "2026-08-20",
+    "name": "Blue17 Studios, Inc.",
+    "source": "Form D"
+  },
   "formd:000214896626000004": {
     "first_seen": "2026-08-08",
     "name": "Gourmend Foods, Inc.",
@@ -1474,6 +1519,11 @@
     "name": "Merlin Biotech, Inc.",
     "source": "Form D"
   },
+  "formd:000214976926000001": {
+    "first_seen": "2026-08-20",
+    "name": "Ascend Works, LLC",
+    "source": "Form D"
+  },
   "formd:000214977026000001": {
     "first_seen": "2026-08-12",
     "name": "J2 Labs Inc.",
@@ -1507,6 +1557,11 @@
   "formd:000214983026000001": {
     "first_seen": "2026-08-18",
     "name": "Tang Trading Group LLC",
+    "source": "Form D"
+  },
+  "formd:000214991126000001": {
+    "first_seen": "2026-08-20",
+    "name": "Tympanum, Inc.",
     "source": "Form D"
   },
   "formd:000214991226000001": {
@@ -1562,6 +1617,11 @@
   "formd:000215011626000002": {
     "first_seen": "2026-08-15",
     "name": "Technosys Digital Health Solutions Inc.",
+    "source": "Form D"
+  },
+  "formd:000215014026000001": {
+    "first_seen": "2026-08-20",
+    "name": "Gamow Labs, Inc.",
     "source": "Form D"
   },
   "formd:000215014226000001": {
@@ -1634,6 +1694,16 @@
     "name": "CTF Employee Holdings, LLC",
     "source": "Form D"
   },
+  "formd:000215052326000001": {
+    "first_seen": "2026-08-20",
+    "name": "Domain Intellects, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215052426000001": {
+    "first_seen": "2026-08-20",
+    "name": "Precision AI, CO",
+    "source": "Form D"
+  },
   "formd:000215057126000001": {
     "first_seen": "2026-08-15",
     "name": "MLNavigator Inc.",
@@ -1669,9 +1739,29 @@
     "name": "Psio, Inc.",
     "source": "Form D"
   },
+  "formd:000215076026000001": {
+    "first_seen": "2026-08-20",
+    "name": "Takt, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215077726000001": {
+    "first_seen": "2026-08-20",
+    "name": "Polt AI, Inc.",
+    "source": "Form D"
+  },
   "formd:000215089126000001": {
     "first_seen": "2026-08-19",
     "name": "Guide Star Biosciences, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215093826000001": {
+    "first_seen": "2026-08-20",
+    "name": "Premium Nutrition for Pets, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215102526000003": {
+    "first_seen": "2026-08-20",
+    "name": "FESTIMO INC",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -1772,6 +1862,11 @@
   "yc:alkera-ai": {
     "first_seen": "2026-07-24",
     "name": "Alkera AI",
+    "source": "YC"
+  },
+  "yc:allia-health": {
+    "first_seen": "2026-08-20",
+    "name": "Allia Health",
     "source": "YC"
   },
   "yc:alloovium": {
@@ -2032,6 +2127,11 @@
   "yc:callbook-ai": {
     "first_seen": "2026-08-19",
     "name": "Callbook AI",
+    "source": "YC"
+  },
+  "yc:capveon": {
+    "first_seen": "2026-08-20",
+    "name": "Capveon",
     "source": "YC"
   },
   "yc:care-gp": {
@@ -3592,6 +3692,11 @@
   "yc:stratum-industries": {
     "first_seen": "2026-07-30",
     "name": "Stratum Industries",
+    "source": "YC"
+  },
+  "yc:studio": {
+    "first_seen": "2026-08-20",
+    "name": "Studio",
     "source": "YC"
   },
   "yc:subvysion": {

@@ -67,7 +67,7 @@
   "1317685": {
     "first_seen": "2026-08-18",
     "name": "Alliance Laundry Holdings Inc.",
-    "stage": "Filed"
+    "stage": "Priced/IPO"
   },
   "1342916": {
     "first_seen": "2026-07-24",
@@ -699,6 +699,11 @@
     "name": "Devonian Health Group Inc.",
     "stage": "Filed"
   },
+  "2004024": {
+    "first_seen": "2026-08-20",
+    "name": "Lianhe Sowell International Group Ltd",
+    "stage": "Filed"
+  },
   "2004711": {
     "first_seen": "2026-07-24",
     "name": "Bending Spoons S.p.A.",
@@ -748,6 +753,11 @@
     "first_seen": "2026-07-24",
     "name": "Intercont (Cayman) Ltd",
     "stage": "Priced/IPO"
+  },
+  "2019793": {
+    "first_seen": "2026-08-20",
+    "name": "XCF Global, Inc.",
+    "stage": "Filed"
   },
   "2020027": {
     "first_seen": "2026-07-24",
@@ -1482,7 +1492,7 @@
   "2132582": {
     "first_seen": "2026-07-24",
     "name": "Lyntris Inc.",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "2133136": {
     "first_seen": "2026-07-24",
@@ -1502,7 +1512,7 @@
   "2133719": {
     "first_seen": "2026-07-24",
     "name": "NorthStrive Acquisition Corp I.",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "2133770": {
     "first_seen": "2026-07-24",
