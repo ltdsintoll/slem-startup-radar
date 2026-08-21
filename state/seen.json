@@ -964,6 +964,11 @@
     "name": "Practice LLC",
     "source": "Form D"
   },
+  "formd:000214813626000001": {
+    "first_seen": "2026-08-21",
+    "name": "Intent Built AI LLC",
+    "source": "Form D"
+  },
   "formd:000214814526000001": {
     "first_seen": "2026-07-31",
     "name": "Core Automation, Inc.",
@@ -1084,6 +1089,16 @@
     "name": "Latitude Health, Inc.",
     "source": "Form D"
   },
+  "formd:000214834326000002": {
+    "first_seen": "2026-08-21",
+    "name": "Latitude Health, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214834326000003": {
+    "first_seen": "2026-08-21",
+    "name": "Latitude Health, Inc.",
+    "source": "Form D"
+  },
   "formd:000214836626000001": {
     "first_seen": "2026-08-06",
     "name": "Colossal I A Series of OffExchange LLC",
@@ -1092,6 +1107,11 @@
   "formd:000214837126000001": {
     "first_seen": "2026-08-06",
     "name": "Integrated Biosciences, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214842226000001": {
+    "first_seen": "2026-08-21",
+    "name": "Delphi Interactive Inc",
     "source": "Form D"
   },
   "formd:000214843126000001": {
@@ -1414,6 +1434,11 @@
     "name": "Kore Holding Group, LLC",
     "source": "Form D"
   },
+  "formd:000214924026000001": {
+    "first_seen": "2026-08-21",
+    "name": "Anvil Talent Holdings, Inc.",
+    "source": "Form D"
+  },
   "formd:000214929026000001": {
     "first_seen": "2026-08-08",
     "name": "Veyl Technologies, Inc.",
@@ -1459,6 +1484,11 @@
     "name": "2DALOOP, CORP.",
     "source": "Form D"
   },
+  "formd:000214949726000001": {
+    "first_seen": "2026-08-21",
+    "name": "KIMAMI, INC",
+    "source": "Form D"
+  },
   "formd:000214949826000001": {
     "first_seen": "2026-08-15",
     "name": "ARC SERIES ONE, LLC",
@@ -1467,6 +1497,11 @@
   "formd:000214950726000001": {
     "first_seen": "2026-08-12",
     "name": "Routh Systems, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214951826000001": {
+    "first_seen": "2026-08-21",
+    "name": "METABODY AI INC.",
     "source": "Form D"
   },
   "formd:000214952826000001": {
@@ -1497,6 +1532,16 @@
   "formd:000214960526000001": {
     "first_seen": "2026-08-15",
     "name": "Rafnum Holdings LLC",
+    "source": "Form D"
+  },
+  "formd:000214962026000001": {
+    "first_seen": "2026-08-21",
+    "name": "Azura Waunakee Member, LLC",
+    "source": "Form D"
+  },
+  "formd:000214962726000002": {
+    "first_seen": "2026-08-21",
+    "name": "Azura Waunakee, LLC",
     "source": "Form D"
   },
   "formd:000214964726000001": {
@@ -1659,6 +1704,11 @@
     "name": "Kotofit Inc.",
     "source": "Form D"
   },
+  "formd:000215037826000001": {
+    "first_seen": "2026-08-21",
+    "name": "Oxbridge Health, Inc.",
+    "source": "Form D"
+  },
   "formd:000215038426000001": {
     "first_seen": "2026-08-14",
     "name": "Urgent Capital Group LLC",
@@ -1719,6 +1769,16 @@
     "name": "EnduraFAST Inc.",
     "source": "Form D"
   },
+  "formd:000215060126000001": {
+    "first_seen": "2026-08-21",
+    "name": "LifeCyte Innovations, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215061226000001": {
+    "first_seen": "2026-08-21",
+    "name": "Asterism Books & Distribution Co",
+    "source": "Form D"
+  },
   "formd:000215062926000001": {
     "first_seen": "2026-08-19",
     "name": "BZAR Technologies, Inc.",
@@ -1749,6 +1809,26 @@
     "name": "Polt AI, Inc.",
     "source": "Form D"
   },
+  "formd:000215081226000001": {
+    "first_seen": "2026-08-21",
+    "name": "USA Made in America Inc.",
+    "source": "Form D"
+  },
+  "formd:000215084226000001": {
+    "first_seen": "2026-08-21",
+    "name": "Datazip, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215085326000001": {
+    "first_seen": "2026-08-21",
+    "name": "Rapidflare, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215087526000001": {
+    "first_seen": "2026-08-21",
+    "name": "Highland Materials SP, LLC",
+    "source": "Form D"
+  },
   "formd:000215089126000001": {
     "first_seen": "2026-08-19",
     "name": "Guide Star Biosciences, Inc.",
@@ -1759,9 +1839,39 @@
     "name": "Premium Nutrition for Pets, Inc.",
     "source": "Form D"
   },
+  "formd:000215100826000001": {
+    "first_seen": "2026-08-21",
+    "name": "iodyne, Inc.",
+    "source": "Form D"
+  },
   "formd:000215102526000003": {
     "first_seen": "2026-08-20",
     "name": "FESTIMO INC",
+    "source": "Form D"
+  },
+  "formd:000215108326000001": {
+    "first_seen": "2026-08-21",
+    "name": "MP Industrial Holdings Inc.",
+    "source": "Form D"
+  },
+  "formd:000215111626000001": {
+    "first_seen": "2026-08-21",
+    "name": "Medieval Tech Inc.",
+    "source": "Form D"
+  },
+  "formd:000215115526000001": {
+    "first_seen": "2026-08-21",
+    "name": "Our Junk Ltd Liability Co",
+    "source": "Form D"
+  },
+  "formd:000215115726000001": {
+    "first_seen": "2026-08-21",
+    "name": "Nincompoopery Ltd Liability Co",
+    "source": "Form D"
+  },
+  "formd:000215122626000001": {
+    "first_seen": "2026-08-21",
+    "name": "8x Social, Inc.",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -2202,6 +2312,11 @@
   "yc:click": {
     "first_seen": "2026-08-06",
     "name": "Click",
+    "source": "YC"
+  },
+  "yc:coarena": {
+    "first_seen": "2026-08-21",
+    "name": "CoArena",
     "source": "YC"
   },
   "yc:coasty": {
