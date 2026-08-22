@@ -159,6 +159,11 @@
     "name": "Akari Therapeutics Plc",
     "stage": "Amending"
   },
+  "1544227": {
+    "first_seen": "2026-08-22",
+    "name": "Tempest Therapeutics, Inc.",
+    "stage": "Filed"
+  },
   "1546296": {
     "first_seen": "2026-07-24",
     "name": "Professional Diversity Network, Inc.",
@@ -247,6 +252,16 @@
   "1670747": {
     "first_seen": "2026-08-13",
     "name": "BirchBioMed Inc.",
+    "stage": "Filed"
+  },
+  "1671584": {
+    "first_seen": "2026-08-22",
+    "name": "Aptevo Therapeutics Inc.",
+    "stage": "Filed"
+  },
+  "1677077": {
+    "first_seen": "2026-08-22",
+    "name": "Alzamend Neuro, Inc.",
     "stage": "Filed"
   },
   "1679628": {
@@ -1104,6 +1119,11 @@
     "name": "Danneskjold & Galt Acquisition Co",
     "stage": "Filed"
   },
+  "2088375": {
+    "first_seen": "2026-08-22",
+    "name": "Turbogen Ltd.",
+    "stage": "Amending"
+  },
   "2089447": {
     "first_seen": "2026-07-24",
     "name": "Advance JV Group Ltd",
@@ -1117,6 +1137,11 @@
   "2090910": {
     "first_seen": "2026-07-24",
     "name": "Lagarosse Holdings Ltd",
+    "stage": "Filed"
+  },
+  "2091680": {
+    "first_seen": "2026-08-22",
+    "name": "Bitari Inc",
     "stage": "Filed"
   },
   "2092287": {
@@ -1192,6 +1217,11 @@
   "2097388": {
     "first_seen": "2026-07-24",
     "name": "Sin Lian Seng Construction",
+    "stage": "Amending"
+  },
+  "2097903": {
+    "first_seen": "2026-08-22",
+    "name": "UDynamics Ltd",
     "stage": "Amending"
   },
   "2098038": {
@@ -1487,7 +1517,7 @@
   "2128462": {
     "first_seen": "2026-07-24",
     "name": "Three Lions Acquisition Corp.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2129056": {
     "first_seen": "2026-07-24",
@@ -1518,6 +1548,11 @@
     "first_seen": "2026-07-24",
     "name": "Braveheart Bio, Inc.",
     "stage": "Priced/IPO"
+  },
+  "2131613": {
+    "first_seen": "2026-08-22",
+    "name": "CoVolt Power, Inc.",
+    "stage": "Filed"
   },
   "2132582": {
     "first_seen": "2026-07-24",
@@ -1758,6 +1793,11 @@
     "first_seen": "2026-07-24",
     "name": "Capstone Holding Corp.",
     "stage": "Filed"
+  },
+  "888721": {
+    "first_seen": "2026-08-22",
+    "name": "TRINITY BIOTECH PLC",
+    "stage": "Amending"
   },
   "890394": {
     "first_seen": "2026-07-24",

@@ -384,6 +384,11 @@
     "name": "Shrink Software LLC",
     "source": "Form D"
   },
+  "formd:000214548226000002": {
+    "first_seen": "2026-08-22",
+    "name": "Shrink Software LLC",
+    "source": "Form D"
+  },
   "formd:000214570326000001": {
     "first_seen": "2026-08-11",
     "name": "Echovane Inc",
@@ -1324,6 +1329,11 @@
     "name": "Samply, Inc.",
     "source": "Form D"
   },
+  "formd:000214897526000001": {
+    "first_seen": "2026-08-22",
+    "name": "FlavCity Holdco, LLC",
+    "source": "Form D"
+  },
   "formd:000214898626000001": {
     "first_seen": "2026-08-07",
     "name": "ClerkMate, Inc.",
@@ -1367,6 +1377,11 @@
   "formd:000214910026000001": {
     "first_seen": "2026-08-07",
     "name": "Shiver Vertical, LLC",
+    "source": "Form D"
+  },
+  "formd:000214912926000001": {
+    "first_seen": "2026-08-22",
+    "name": "DMJC COLOSSAL LLC",
     "source": "Form D"
   },
   "formd:000214916226000001": {
@@ -1684,6 +1699,11 @@
     "name": "Lila Superintelligence LLC",
     "source": "Form D"
   },
+  "formd:000215022226000001": {
+    "first_seen": "2026-08-22",
+    "name": "Halal Shack Holdings, LLC",
+    "source": "Form D"
+  },
   "formd:000215024826000001": {
     "first_seen": "2026-08-14",
     "name": "Khaya Biosciences, Inc.",
@@ -1697,6 +1717,11 @@
   "formd:000215027226000001": {
     "first_seen": "2026-08-15",
     "name": "Bard & Hops Crux LLC",
+    "source": "Form D"
+  },
+  "formd:000215032126000001": {
+    "first_seen": "2026-08-22",
+    "name": "Universal Graphene Products, Inc.",
     "source": "Form D"
   },
   "formd:000215034226000001": {
@@ -1754,9 +1779,19 @@
     "name": "Precision AI, CO",
     "source": "Form D"
   },
+  "formd:000215055426000001": {
+    "first_seen": "2026-08-22",
+    "name": "Samothrace Medical Innovations Inc.",
+    "source": "Form D"
+  },
   "formd:000215057126000001": {
     "first_seen": "2026-08-15",
     "name": "MLNavigator Inc.",
+    "source": "Form D"
+  },
+  "formd:000215057526000001": {
+    "first_seen": "2026-08-22",
+    "name": "Halal Shack Aggregator, LLC",
     "source": "Form D"
   },
   "formd:000215058126000001": {
@@ -1772,6 +1807,11 @@
   "formd:000215060126000001": {
     "first_seen": "2026-08-21",
     "name": "LifeCyte Innovations, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215060526000001": {
+    "first_seen": "2026-08-22",
+    "name": "menuredux Inc.",
     "source": "Form D"
   },
   "formd:000215061226000001": {
@@ -1799,6 +1839,11 @@
     "name": "Psio, Inc.",
     "source": "Form D"
   },
+  "formd:000215072026000001": {
+    "first_seen": "2026-08-22",
+    "name": "Vellora, Inc.",
+    "source": "Form D"
+  },
   "formd:000215076026000001": {
     "first_seen": "2026-08-20",
     "name": "Takt, Inc.",
@@ -1824,6 +1869,11 @@
     "name": "Rapidflare, Inc.",
     "source": "Form D"
   },
+  "formd:000215085626000001": {
+    "first_seen": "2026-08-22",
+    "name": "Kelly Roofing USA Holdings, LLC",
+    "source": "Form D"
+  },
   "formd:000215087526000001": {
     "first_seen": "2026-08-21",
     "name": "Highland Materials SP, LLC",
@@ -1834,9 +1884,19 @@
     "name": "Guide Star Biosciences, Inc.",
     "source": "Form D"
   },
+  "formd:000215090926000001": {
+    "first_seen": "2026-08-22",
+    "name": "Citrachem Corp.",
+    "source": "Form D"
+  },
   "formd:000215093826000001": {
     "first_seen": "2026-08-20",
     "name": "Premium Nutrition for Pets, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215100426000001": {
+    "first_seen": "2026-08-22",
+    "name": "Ultra Robotics Corp.",
     "source": "Form D"
   },
   "formd:000215100826000001": {
@@ -1872,6 +1932,26 @@
   "formd:000215122626000001": {
     "first_seen": "2026-08-21",
     "name": "8x Social, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215124326000001": {
+    "first_seen": "2026-08-22",
+    "name": "CSS Solutions LLC",
+    "source": "Form D"
+  },
+  "formd:000215141426000001": {
+    "first_seen": "2026-08-22",
+    "name": "Yeild, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215148526000001": {
+    "first_seen": "2026-08-22",
+    "name": "Cascade Alpine LLC",
+    "source": "Form D"
+  },
+  "formd:000215151726000001": {
+    "first_seen": "2026-08-22",
+    "name": "ImpactMatrix, LLC",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -2374,6 +2454,11 @@
     "name": "Cova",
     "source": "YC"
   },
+  "yc:covera": {
+    "first_seen": "2026-08-22",
+    "name": "Covera",
+    "source": "YC"
+  },
   "yc:cuebench": {
     "first_seen": "2026-08-15",
     "name": "CueBench",
@@ -2497,6 +2582,11 @@
   "yc:eden-robotics": {
     "first_seen": "2026-07-24",
     "name": "Eden Robotics",
+    "source": "YC"
+  },
+  "yc:edgerun": {
+    "first_seen": "2026-08-22",
+    "name": "Edgerun",
     "source": "YC"
   },
   "yc:edotenv": {
