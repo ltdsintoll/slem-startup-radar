@@ -2634,6 +2634,11 @@
     "name": "Erinys",
     "source": "YC"
   },
+  "yc:ethos-space-resources": {
+    "first_seen": "2026-08-24",
+    "name": "Ethos Space Resources",
+    "source": "YC"
+  },
   "yc:evergrove": {
     "first_seen": "2026-08-14",
     "name": "Evergrove",
@@ -3852,6 +3857,11 @@
   "yc:spaceflow-technologies-inc": {
     "first_seen": "2026-08-03",
     "name": "SpaceFlow Technologies, Inc.",
+    "source": "YC"
+  },
+  "yc:spectre-intelligence": {
+    "first_seen": "2026-08-24",
+    "name": "Spectre Intelligence",
     "source": "YC"
   },
   "yc:speko": {
