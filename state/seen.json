@@ -229,6 +229,11 @@
     "name": "Gaingels Apollo Atomics LLC",
     "source": "Form D"
   },
+  "formd:000214303726000002": {
+    "first_seen": "2026-08-25",
+    "name": "Polsia, Inc.",
+    "source": "Form D"
+  },
   "formd:000214323526000001": {
     "first_seen": "2026-08-04",
     "name": "AZJAH41 LLC",
@@ -247,6 +252,11 @@
   "formd:000214364626000001": {
     "first_seen": "2026-08-20",
     "name": "Gaingels Efficient Computer LLC",
+    "source": "Form D"
+  },
+  "formd:000214365026000001": {
+    "first_seen": "2026-08-25",
+    "name": "Gaingels Molten LLC",
     "source": "Form D"
   },
   "formd:000214374826000001": {
@@ -287,6 +297,11 @@
   "formd:000214411926000001": {
     "first_seen": "2026-08-04",
     "name": "Gaingels Tasklet June 2026 LLC",
+    "source": "Form D"
+  },
+  "formd:000214419126000001": {
+    "first_seen": "2026-08-25",
+    "name": "Gaingels 9 Mothers LLC",
     "source": "Form D"
   },
   "formd:000214419626000002": {
@@ -769,6 +784,11 @@
     "name": "GRAI HOLDCO, LLC",
     "source": "Form D"
   },
+  "formd:000214761426000001": {
+    "first_seen": "2026-08-25",
+    "name": "Gaingels Dexterity LLC",
+    "source": "Form D"
+  },
   "formd:000214761726000001": {
     "first_seen": "2026-08-12",
     "name": "Gaingels Lincode LLC",
@@ -786,6 +806,11 @@
   },
   "formd:000214763826000001": {
     "first_seen": "2026-08-01",
+    "name": "HILstart, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214763826000002": {
+    "first_seen": "2026-08-25",
     "name": "HILstart, Inc.",
     "source": "Form D"
   },
@@ -1112,6 +1137,11 @@
   "formd:000214837126000001": {
     "first_seen": "2026-08-06",
     "name": "Integrated Biosciences, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214841726000001": {
+    "first_seen": "2026-08-25",
+    "name": "Vantura Inc.",
     "source": "Form D"
   },
   "formd:000214842226000001": {
@@ -1859,6 +1889,11 @@
     "name": "USA Made in America Inc.",
     "source": "Form D"
   },
+  "formd:000215081626000001": {
+    "first_seen": "2026-08-25",
+    "name": "PathFinder CRO, Inc",
+    "source": "Form D"
+  },
   "formd:000215084226000001": {
     "first_seen": "2026-08-21",
     "name": "Datazip, Inc.",
@@ -1879,6 +1914,11 @@
     "name": "Highland Materials SP, LLC",
     "source": "Form D"
   },
+  "formd:000215088926000001": {
+    "first_seen": "2026-08-25",
+    "name": "Better Place Wellness Co",
+    "source": "Form D"
+  },
   "formd:000215089126000001": {
     "first_seen": "2026-08-19",
     "name": "Guide Star Biosciences, Inc.",
@@ -1892,6 +1932,16 @@
   "formd:000215093826000001": {
     "first_seen": "2026-08-20",
     "name": "Premium Nutrition for Pets, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215097726000001": {
+    "first_seen": "2026-08-25",
+    "name": "Out of It, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215098926000001": {
+    "first_seen": "2026-08-25",
+    "name": "Skan AI Mack LP",
     "source": "Form D"
   },
   "formd:000215100426000001": {
@@ -1912,6 +1962,11 @@
   "formd:000215108326000001": {
     "first_seen": "2026-08-21",
     "name": "MP Industrial Holdings Inc.",
+    "source": "Form D"
+  },
+  "formd:000215111226000001": {
+    "first_seen": "2026-08-25",
+    "name": "TJG Ventures Inc",
     "source": "Form D"
   },
   "formd:000215111626000001": {
@@ -1939,9 +1994,44 @@
     "name": "CSS Solutions LLC",
     "source": "Form D"
   },
+  "formd:000215125926000001": {
+    "first_seen": "2026-08-25",
+    "name": "Neolithics Inc.",
+    "source": "Form D"
+  },
+  "formd:000215126226000001": {
+    "first_seen": "2026-08-25",
+    "name": "MedNexus Health, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215128126000001": {
+    "first_seen": "2026-08-25",
+    "name": "Payloop, Inc.",
+    "source": "Form D"
+  },
   "formd:000215141426000001": {
     "first_seen": "2026-08-22",
     "name": "Yeild, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215142426000001": {
+    "first_seen": "2026-08-25",
+    "name": "AlloTRx Bio Inc.",
+    "source": "Form D"
+  },
+  "formd:000215144826000001": {
+    "first_seen": "2026-08-25",
+    "name": "EB-5 Charter School Phase 58, LP",
+    "source": "Form D"
+  },
+  "formd:000215144826000002": {
+    "first_seen": "2026-08-25",
+    "name": "EB-5 Charter School Phase 58, LP",
+    "source": "Form D"
+  },
+  "formd:000215147726000001": {
+    "first_seen": "2026-08-25",
+    "name": "Clio Studios, Inc",
     "source": "Form D"
   },
   "formd:000215148526000001": {
@@ -1952,6 +2042,36 @@
   "formd:000215151726000001": {
     "first_seen": "2026-08-22",
     "name": "ImpactMatrix, LLC",
+    "source": "Form D"
+  },
+  "formd:000215153326000001": {
+    "first_seen": "2026-08-25",
+    "name": "Imagen Fossil Creek Dental Support Services, LLC",
+    "source": "Form D"
+  },
+  "formd:000215153626000002": {
+    "first_seen": "2026-08-25",
+    "name": "EB-5 Charter School Phase 57, LP",
+    "source": "Form D"
+  },
+  "formd:000215153726000001": {
+    "first_seen": "2026-08-25",
+    "name": "OLYMPIC METALS LTD.",
+    "source": "Form D"
+  },
+  "formd:000215155326000001": {
+    "first_seen": "2026-08-25",
+    "name": "Monroe Capital Holdings LLC",
+    "source": "Form D"
+  },
+  "formd:000215161326000001": {
+    "first_seen": "2026-08-25",
+    "name": "ASCENDED PRODUCTIONS, LLC",
+    "source": "Form D"
+  },
+  "formd:000215163626000001": {
+    "first_seen": "2026-08-25",
+    "name": "Vigilis, Inc.",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -3374,6 +3494,11 @@
     "name": "OneCLI",
     "source": "YC"
   },
+  "yc:onetriangle": {
+    "first_seen": "2026-08-25",
+    "name": "OneTriangle",
+    "source": "YC"
+  },
   "yc:ontora": {
     "first_seen": "2026-07-24",
     "name": "Ontora",
@@ -3392,6 +3517,11 @@
   "yc:openrelay": {
     "first_seen": "2026-07-24",
     "name": "OpenRelay",
+    "source": "YC"
+  },
+  "yc:opentag": {
+    "first_seen": "2026-08-25",
+    "name": "OpenTag",
     "source": "YC"
   },
   "yc:opentrade": {
@@ -3782,6 +3912,11 @@
   "yc:screenpipe": {
     "first_seen": "2026-07-24",
     "name": "screenpipe",
+    "source": "YC"
+  },
+  "yc:sentient-os": {
+    "first_seen": "2026-08-25",
+    "name": "Sentient OS",
     "source": "YC"
   },
   "yc:shepherd-3": {

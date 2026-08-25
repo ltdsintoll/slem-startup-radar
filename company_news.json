@@ -8,53 +8,28 @@
   "1321655": {
     "ticker": "PLTR",
     "company": "Palantir Technologies Inc.",
-    "articles": [
-      {
-        "title": "Leeward Financial Partners LLC Sells 15 , 553 Shares of Palantir Technologies Inc . $PLTR",
-        "url": "https://www.themarketsdaily.com/2026/08/21/leeward-financial-partners-llc-sells-15553-shares-of-palantir-technologies-inc-pltr.html",
-        "domain": "themarketsdaily.com",
-        "date": "2026-08-21",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "Palantir Technologies Inc . $PLTR Stock Holdings Lessened by Meridian Wealth Management LLC",
-        "url": "https://www.themarketsdaily.com/2026/08/20/palantir-technologies-inc-pltr-stock-holdings-lessened-by-meridian-wealth-management-llc.html",
-        "domain": "themarketsdaily.com",
-        "date": "2026-08-20",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      }
-    ],
-    "source": "gdelt"
+    "articles": [],
+    "source": "no-data"
   },
   "789019": {
     "ticker": "MSFT",
     "company": "MICROSOFT CORP",
-    "articles": [],
-    "source": "no-data"
+    "articles": [
+      {
+        "title": "Residents pack community meeting over Microsoft data center tax district",
+        "url": "https://www.wndu.com/2026/08/25/residents-pack-community-meeting-over-microsoft-data-center-tax-district/",
+        "domain": "wndu.com",
+        "date": "2026-08-25",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      }
+    ],
+    "source": "gdelt"
   },
   "320193": {
     "ticker": "AAPL",
     "company": "Apple Inc.",
-    "articles": [
-      {
-        "title": "Apple Inc . ( AAPL ) Wants to Pay Publishers to Fix Siri . What the Catch ? ",
-        "url": "https://finance.yahoo.com/technology/ai/articles/apple-inc-aapl-wants-pay-231402505.html",
-        "domain": "finance.yahoo.com",
-        "date": "2026-08-22",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "Apple cuts 200+ jobs across Siri and Vision Pro teams amid AI realignment",
-        "url": "https://www.adgully.com/post/19610/apple-cuts-200-jobs-across-siri-and-vision-pro-teams-amid-ai-realignment",
-        "domain": "adgully.com",
-        "date": "2026-08-22",
-        "sentiment_label": "негатив",
-        "sentiment_score": -1
-      }
-    ],
-    "source": "gdelt"
+    "articles": [],
+    "source": "no-data"
   }
 }
