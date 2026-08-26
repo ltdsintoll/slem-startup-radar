@@ -24,6 +24,11 @@
     "name": "JONES SODA CO.",
     "stage": "Amending"
   },
+  "1094032": {
+    "first_seen": "2026-08-26",
+    "name": "QDM International Inc.",
+    "stage": "Amending"
+  },
   "1108205": {
     "first_seen": "2026-08-11",
     "name": "CURIS INC",
@@ -82,6 +87,11 @@
   "1370416": {
     "first_seen": "2026-07-24",
     "name": "WESTPORT FUEL SYSTEMS INC.",
+    "stage": "Filed"
+  },
+  "1378140": {
+    "first_seen": "2026-08-26",
+    "name": "Ocean Power Technologies, Inc.",
     "stage": "Filed"
   },
   "1417926": {
@@ -216,8 +226,8 @@
   },
   "1630212": {
     "first_seen": "2026-07-24",
-    "name": "Avalon GloboCare Corp.",
-    "stage": "Filed"
+    "name": "Change Agents Corporation.",
+    "stage": "Amending"
   },
   "1633369": {
     "first_seen": "2026-07-24",
@@ -282,7 +292,7 @@
   "1701756": {
     "first_seen": "2026-07-29",
     "name": "Sadot Group Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "1706524": {
     "first_seen": "2026-07-24",
@@ -624,6 +634,11 @@
     "name": "Cyber Enviro-Tech, Inc.",
     "stage": "Filed"
   },
+  "1936817": {
+    "first_seen": "2026-08-26",
+    "name": "Haoxin Holdings Ltd",
+    "stage": "Filed"
+  },
   "1940674": {
     "first_seen": "2026-07-30",
     "name": "SMX (Security Matters) Public Ltd Co",
@@ -818,6 +833,11 @@
     "first_seen": "2026-08-08",
     "name": "Silexion Therapeutics Corp",
     "stage": "Priced/IPO"
+  },
+  "2023153": {
+    "first_seen": "2026-08-26",
+    "name": "HomesToLife Ltd",
+    "stage": "Filed"
   },
   "2024258": {
     "first_seen": "2026-07-24",
@@ -1362,7 +1382,7 @@
   "2110025": {
     "first_seen": "2026-08-07",
     "name": "SIYATA PTT",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2110117": {
     "first_seen": "2026-07-24",
@@ -1378,6 +1398,11 @@
     "first_seen": "2026-07-24",
     "name": "Verdera Energy Corp.",
     "stage": "Amending"
+  },
+  "2111838": {
+    "first_seen": "2026-08-26",
+    "name": "Haymaker Acquisition Corp V",
+    "stage": "Filed"
   },
   "2111846": {
     "first_seen": "2026-07-24",

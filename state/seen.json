@@ -1324,6 +1324,11 @@
     "name": "MBQ PHARMA INC.",
     "source": "Form D"
   },
+  "formd:000214886726000001": {
+    "first_seen": "2026-08-26",
+    "name": "TO LONG YEARS, INC.",
+    "source": "Form D"
+  },
   "formd:000214890226000001": {
     "first_seen": "2026-08-06",
     "name": "Vapor Industries, Inc.",
@@ -1379,6 +1384,11 @@
     "name": "Midwest Screens Holdings, LLC",
     "source": "Form D"
   },
+  "formd:000214899526000001": {
+    "first_seen": "2026-08-26",
+    "name": "Gaingels Raven Space LLC",
+    "source": "Form D"
+  },
   "formd:000214901426000002": {
     "first_seen": "2026-08-15",
     "name": "Lab Angelus, Inc.",
@@ -1397,6 +1407,11 @@
   "formd:000214907826000001": {
     "first_seen": "2026-08-07",
     "name": "Trivas Inc.",
+    "source": "Form D"
+  },
+  "formd:000214908526000001": {
+    "first_seen": "2026-08-26",
+    "name": "OppyAI Inc.",
     "source": "Form D"
   },
   "formd:000214909726000001": {
@@ -1482,6 +1497,11 @@
   "formd:000214924026000001": {
     "first_seen": "2026-08-21",
     "name": "Anvil Talent Holdings, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214928326000001": {
+    "first_seen": "2026-08-26",
+    "name": "ACERVAS, INC.",
     "source": "Form D"
   },
   "formd:000214929026000001": {
@@ -1674,9 +1694,19 @@
     "name": "Hawthorne Health, Inc.",
     "source": "Form D"
   },
+  "formd:000214993126000001": {
+    "first_seen": "2026-08-26",
+    "name": "GONDOLIN CAPITAL, LP",
+    "source": "Form D"
+  },
   "formd:000214994726000001": {
     "first_seen": "2026-08-13",
     "name": "HeyHuddl, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214999726000002": {
+    "first_seen": "2026-08-26",
+    "name": "Learning Growth Innovations II, LLC",
     "source": "Form D"
   },
   "formd:000215006126000001": {
@@ -1744,6 +1774,11 @@
     "name": "OSIRIS HOLDINGS ROMEOVILLE, LLC",
     "source": "Form D"
   },
+  "formd:000215025726000002": {
+    "first_seen": "2026-08-26",
+    "name": "OSIRIS HOLDINGS ROMEOVILLE, LLC",
+    "source": "Form D"
+  },
   "formd:000215027226000001": {
     "first_seen": "2026-08-15",
     "name": "Bard & Hops Crux LLC",
@@ -1777,6 +1812,11 @@
   "formd:000215046826000001": {
     "first_seen": "2026-08-19",
     "name": "CYNC Labs, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215047226000001": {
+    "first_seen": "2026-08-26",
+    "name": "Opgate Inc.",
     "source": "Form D"
   },
   "formd:000215047426000001": {
@@ -1869,6 +1909,11 @@
     "name": "Psio, Inc.",
     "source": "Form D"
   },
+  "formd:000215071626000001": {
+    "first_seen": "2026-08-26",
+    "name": "Jones Technologies, Inc.",
+    "source": "Form D"
+  },
   "formd:000215072026000001": {
     "first_seen": "2026-08-22",
     "name": "Vellora, Inc.",
@@ -1907,6 +1952,11 @@
   "formd:000215085626000001": {
     "first_seen": "2026-08-22",
     "name": "Kelly Roofing USA Holdings, LLC",
+    "source": "Form D"
+  },
+  "formd:000215087226000001": {
+    "first_seen": "2026-08-26",
+    "name": "SIPPI KIDS, LLC",
     "source": "Form D"
   },
   "formd:000215087526000001": {
@@ -1969,6 +2019,11 @@
     "name": "TJG Ventures Inc",
     "source": "Form D"
   },
+  "formd:000215111326000001": {
+    "first_seen": "2026-08-26",
+    "name": "Bubo Inc.",
+    "source": "Form D"
+  },
   "formd:000215111626000001": {
     "first_seen": "2026-08-21",
     "name": "Medieval Tech Inc.",
@@ -1982,6 +2037,16 @@
   "formd:000215115726000001": {
     "first_seen": "2026-08-21",
     "name": "Nincompoopery Ltd Liability Co",
+    "source": "Form D"
+  },
+  "formd:000215116526000002": {
+    "first_seen": "2026-08-26",
+    "name": "Person Health Inc.",
+    "source": "Form D"
+  },
+  "formd:000215120326000001": {
+    "first_seen": "2026-08-26",
+    "name": "FM Land Holdings, LLC",
     "source": "Form D"
   },
   "formd:000215122626000001": {
@@ -2064,14 +2129,39 @@
     "name": "Monroe Capital Holdings LLC",
     "source": "Form D"
   },
+  "formd:000215155626000001": {
+    "first_seen": "2026-08-26",
+    "name": "Bonafide.ai, Inc.",
+    "source": "Form D"
+  },
   "formd:000215161326000001": {
     "first_seen": "2026-08-25",
     "name": "ASCENDED PRODUCTIONS, LLC",
     "source": "Form D"
   },
+  "formd:000215162326000001": {
+    "first_seen": "2026-08-26",
+    "name": "Loamy Technologies, Inc,",
+    "source": "Form D"
+  },
   "formd:000215163626000001": {
     "first_seen": "2026-08-25",
     "name": "Vigilis, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215169426000001": {
+    "first_seen": "2026-08-26",
+    "name": "Harvard Digital Media Corp.",
+    "source": "Form D"
+  },
+  "formd:000215191126000001": {
+    "first_seen": "2026-08-26",
+    "name": "Gilpin Health, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215191826000001": {
+    "first_seen": "2026-08-26",
+    "name": "PIG Elevest, LLC",
     "source": "Form D"
   },
   "yc:6thsense": {
