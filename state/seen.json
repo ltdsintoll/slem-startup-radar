@@ -4594,6 +4594,11 @@
     "name": "WonderTx",
     "source": "YC"
   },
+  "yc:workers-io": {
+    "first_seen": "2026-08-29",
+    "name": "Workers IO",
+    "source": "YC"
+  },
   "yc:youart": {
     "first_seen": "2026-07-24",
     "name": "YouArt",
