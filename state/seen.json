@@ -274,6 +274,11 @@
     "name": "Gaingels Molten LLC",
     "source": "Form D"
   },
+  "formd:000214366226000001": {
+    "first_seen": "2026-08-30",
+    "name": "Eurofire 24 Ltd Liability Co",
+    "source": "Form D"
+  },
   "formd:000214374826000001": {
     "first_seen": "2026-08-04",
     "name": "Gaingels Peec LLC",
@@ -612,6 +617,11 @@
   "formd:000214696326000001": {
     "first_seen": "2026-07-27",
     "name": "XENOPS Manufacturing Technologies Inc",
+    "source": "Form D"
+  },
+  "formd:000214697326000002": {
+    "first_seen": "2026-08-30",
+    "name": "Entrepreneur Ventures I, LP",
     "source": "Form D"
   },
   "formd:000214699526000001": {
@@ -1219,6 +1229,11 @@
     "name": "ARCYN Defense Corp. I, a series of Capitalize Investments LLC",
     "source": "Form D"
   },
+  "formd:000214848526000001": {
+    "first_seen": "2026-08-30",
+    "name": "Aquagga II, a series of Capitalize Investments LLC",
+    "source": "Form D"
+  },
   "formd:000214851226000001": {
     "first_seen": "2026-08-27",
     "name": "Trinity All Access Investors LLC",
@@ -1582,6 +1597,11 @@
   "formd:000214937326000001": {
     "first_seen": "2026-08-08",
     "name": "Kaleta Labs LLC",
+    "source": "Form D"
+  },
+  "formd:000214937326000005": {
+    "first_seen": "2026-08-30",
+    "name": "Kaleta Labs, Inc.",
     "source": "Form D"
   },
   "formd:000214939926000001": {
@@ -2039,6 +2059,11 @@
     "name": "Premium Nutrition for Pets, Inc.",
     "source": "Form D"
   },
+  "formd:000215094026000001": {
+    "first_seen": "2026-08-30",
+    "name": "Sparked Innovations.AI, Inc.",
+    "source": "Form D"
+  },
   "formd:000215097726000001": {
     "first_seen": "2026-08-25",
     "name": "Out of It, Inc.",
@@ -2234,6 +2259,11 @@
     "name": "PIG Elevest, LLC",
     "source": "Form D"
   },
+  "formd:000215195926000001": {
+    "first_seen": "2026-08-30",
+    "name": "Cabana Health, Inc.",
+    "source": "Form D"
+  },
   "formd:000215202326000001": {
     "first_seen": "2026-08-27",
     "name": "Red Gate Group, Ltd",
@@ -2242,6 +2272,26 @@
   "formd:000215202726000001": {
     "first_seen": "2026-08-27",
     "name": "Dajji Solopulse Investments LLC",
+    "source": "Form D"
+  },
+  "formd:000215205326000002": {
+    "first_seen": "2026-08-30",
+    "name": "APOLLO AI LAB, CO.",
+    "source": "Form D"
+  },
+  "formd:000215205326000003": {
+    "first_seen": "2026-08-30",
+    "name": "APOLLO AI LAB, CO.",
+    "source": "Form D"
+  },
+  "formd:000215206526000001": {
+    "first_seen": "2026-08-30",
+    "name": "Camelato, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215219926000001": {
+    "first_seen": "2026-08-30",
+    "name": "Candor Therapeutics Inc.",
     "source": "Form D"
   },
   "formd:000215224526000001": {
@@ -2254,9 +2304,29 @@
     "name": "Forecast Bio, Inc.",
     "source": "Form D"
   },
+  "formd:000215232926000001": {
+    "first_seen": "2026-08-30",
+    "name": "Mollie Collective LLC",
+    "source": "Form D"
+  },
+  "formd:000215233026000001": {
+    "first_seen": "2026-08-30",
+    "name": "Peachtree Hotel Partners LLC",
+    "source": "Form D"
+  },
   "formd:000215237226000001": {
     "first_seen": "2026-08-27",
     "name": "NextPour Collective Inc.",
+    "source": "Form D"
+  },
+  "formd:000215256826000001": {
+    "first_seen": "2026-08-30",
+    "name": "Voices of History Foundation",
+    "source": "Form D"
+  },
+  "formd:000215263426000001": {
+    "first_seen": "2026-08-30",
+    "name": "Streamline Glass, Inc.",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -4357,6 +4427,11 @@
   "yc:the-company-company": {
     "first_seen": "2026-07-24",
     "name": "The Company Company",
+    "source": "YC"
+  },
+  "yc:the-subvocal-company": {
+    "first_seen": "2026-08-30",
+    "name": "The Subvocal Company",
     "source": "YC"
   },
   "yc:thomas": {
