@@ -9,6 +9,16 @@
     "name": "Scorpio Gold Corp",
     "source": "Form D"
   },
+  "formd:000132914726000003": {
+    "first_seen": "2026-09-01",
+    "name": "Orthobond Corp",
+    "source": "Form D"
+  },
+  "formd:000149315226040893": {
+    "first_seen": "2026-09-01",
+    "name": "Kaida BioPharma Inc.",
+    "source": "Form D"
+  },
   "formd:000167542526000004": {
     "first_seen": "2026-07-28",
     "name": "Biosceptre International Ltd",
@@ -17,6 +27,16 @@
   "formd:000185588826000005": {
     "first_seen": "2026-07-24",
     "name": "ASCENDIA PHARMACEUTICALS, INC.",
+    "source": "Form D"
+  },
+  "formd:000187166126000001": {
+    "first_seen": "2026-09-01",
+    "name": "CivicPlus Holdings, LLC",
+    "source": "Form D"
+  },
+  "formd:000190427026000002": {
+    "first_seen": "2026-09-01",
+    "name": "Language IO, Inc.",
     "source": "Form D"
   },
   "formd:000197056926000003": {
@@ -47,6 +67,11 @@
   "formd:000203363726000002": {
     "first_seen": "2026-07-24",
     "name": "Unless LGH Holdings LLC",
+    "source": "Form D"
+  },
+  "formd:000204625626000005": {
+    "first_seen": "2026-09-01",
+    "name": "Thermolic Corp",
     "source": "Form D"
   },
   "formd:000207891426000001": {
@@ -2319,14 +2344,39 @@
     "name": "NextPour Collective Inc.",
     "source": "Form D"
   },
+  "formd:000215254726000001": {
+    "first_seen": "2026-09-01",
+    "name": "AimBot Media Inc.",
+    "source": "Form D"
+  },
   "formd:000215256826000001": {
     "first_seen": "2026-08-30",
     "name": "Voices of History Foundation",
     "source": "Form D"
   },
+  "formd:000215259426000001": {
+    "first_seen": "2026-09-01",
+    "name": "Micdrop LLC",
+    "source": "Form D"
+  },
   "formd:000215263426000001": {
     "first_seen": "2026-08-30",
     "name": "Streamline Glass, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215271526000001": {
+    "first_seen": "2026-09-01",
+    "name": "Please Help Me Productions, LLC",
+    "source": "Form D"
+  },
+  "formd:000215287226000001": {
+    "first_seen": "2026-09-01",
+    "name": "Gravitas Tech & Solutions Inc",
+    "source": "Form D"
+  },
+  "formd:000215291026000001": {
+    "first_seen": "2026-09-01",
+    "name": "MedeSol Global, Inc.",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -2557,6 +2607,16 @@
   "yc:arzana": {
     "first_seen": "2026-07-24",
     "name": "Arzana",
+    "source": "YC"
+  },
+  "yc:asakana": {
+    "first_seen": "2026-09-01",
+    "name": "Asakana",
+    "source": "YC"
+  },
+  "yc:ascii": {
+    "first_seen": "2026-09-01",
+    "name": "Ascii",
     "source": "YC"
   },
   "yc:asendia-ai": {
@@ -3094,6 +3154,11 @@
     "name": "Framewise Health",
     "source": "YC"
   },
+  "yc:frontier-computing": {
+    "first_seen": "2026-09-01",
+    "name": "Frontier Computing",
+    "source": "YC"
+  },
   "yc:fuchsia": {
     "first_seen": "2026-07-24",
     "name": "Fuchsia",
@@ -3604,6 +3669,11 @@
     "name": "Marengo",
     "source": "YC"
   },
+  "yc:maritime": {
+    "first_seen": "2026-09-01",
+    "name": "Maritime",
+    "source": "YC"
+  },
   "yc:marker": {
     "first_seen": "2026-08-19",
     "name": "Marker",
@@ -3727,6 +3797,11 @@
   "yc:nine-fives": {
     "first_seen": "2026-07-24",
     "name": "Nine Fives",
+    "source": "YC"
+  },
+  "yc:nodus": {
+    "first_seen": "2026-09-01",
+    "name": "Nodus",
     "source": "YC"
   },
   "yc:noril1": {
