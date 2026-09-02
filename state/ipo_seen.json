@@ -219,6 +219,11 @@
     "name": "Jaguar Health, Inc.",
     "stage": "Amending"
   },
+  "1602409": {
+    "first_seen": "2026-09-02",
+    "name": "FingerMotion, Inc.",
+    "stage": "Filed"
+  },
   "1604191": {
     "first_seen": "2026-07-24",
     "name": "GridAI Technologies Corp.",
@@ -757,7 +762,7 @@
   "1981662": {
     "first_seen": "2026-08-21",
     "name": "NewGenIvf Group Ltd",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "1987240": {
     "first_seen": "2026-07-24",
@@ -937,7 +942,7 @@
   "2032341": {
     "first_seen": "2026-08-01",
     "name": "CYABRA, INC.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2034161": {
     "first_seen": "2026-07-24",
@@ -1154,6 +1159,11 @@
     "name": "BOA Acquisition Corp. II",
     "stage": "Priced/IPO"
   },
+  "2080577": {
+    "first_seen": "2026-09-02",
+    "name": "LiPower New Energy Holdings Ltd",
+    "stage": "Filed"
+  },
   "2081641": {
     "first_seen": "2026-07-24",
     "name": "Worldstar Engineering Holdings Ltd",
@@ -1232,7 +1242,12 @@
   "2089447": {
     "first_seen": "2026-07-24",
     "name": "Advance JV Group Ltd",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
+  },
+  "2089787": {
+    "first_seen": "2026-09-02",
+    "name": "RainRock Acquisition Corp.",
+    "stage": "Filed"
   },
   "2090646": {
     "first_seen": "2026-07-24",
@@ -1524,6 +1539,11 @@
     "name": "Chilwa Minerals Ltd",
     "stage": "Amending"
   },
+  "2113733": {
+    "first_seen": "2026-09-02",
+    "name": "Bogd FT Ltd",
+    "stage": "Filed"
+  },
   "2114145": {
     "first_seen": "2026-07-29",
     "name": "TracX Logis Pte. Ltd.",
@@ -1667,7 +1687,7 @@
   "2128462": {
     "first_seen": "2026-07-24",
     "name": "Three Lions Acquisition Corp.",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "2129056": {
     "first_seen": "2026-07-24",

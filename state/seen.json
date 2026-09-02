@@ -19,6 +19,11 @@
     "name": "Kaida BioPharma Inc.",
     "source": "Form D"
   },
+  "formd:000166350926000003": {
+    "first_seen": "2026-09-02",
+    "name": "Sift Media, Inc.",
+    "source": "Form D"
+  },
   "formd:000167542526000004": {
     "first_seen": "2026-07-28",
     "name": "Biosceptre International Ltd",
@@ -122,6 +127,11 @@
   "formd:000211304426000002": {
     "first_seen": "2026-07-28",
     "name": "DoneCast, Inc.",
+    "source": "Form D"
+  },
+  "formd:000212743626000002": {
+    "first_seen": "2026-09-02",
+    "name": "Agen Genomics, Inc.",
     "source": "Form D"
   },
   "formd:000212858526000002": {
@@ -1744,6 +1754,11 @@
     "name": "AlpacaX Inc.",
     "source": "Form D"
   },
+  "formd:000214979226000001": {
+    "first_seen": "2026-09-02",
+    "name": "Perforated AI, Inc.",
+    "source": "Form D"
+  },
   "formd:000214980026000001": {
     "first_seen": "2026-08-12",
     "name": "DrawScale, Inc.",
@@ -2109,6 +2124,11 @@
     "name": "iodyne, Inc.",
     "source": "Form D"
   },
+  "formd:000215102426000001": {
+    "first_seen": "2026-09-02",
+    "name": "Stele Inc.",
+    "source": "Form D"
+  },
   "formd:000215102526000003": {
     "first_seen": "2026-08-20",
     "name": "FESTIMO INC",
@@ -2152,6 +2172,11 @@
   "formd:000215120326000001": {
     "first_seen": "2026-08-26",
     "name": "FM Land Holdings, LLC",
+    "source": "Form D"
+  },
+  "formd:000215120626000001": {
+    "first_seen": "2026-09-02",
+    "name": "TechniSoil Industrial, Inc.",
     "source": "Form D"
   },
   "formd:000215122626000001": {
@@ -2369,6 +2394,11 @@
     "name": "Please Help Me Productions, LLC",
     "source": "Form D"
   },
+  "formd:000215277826000001": {
+    "first_seen": "2026-09-02",
+    "name": "Neo Agent Inc.",
+    "source": "Form D"
+  },
   "formd:000215287226000001": {
     "first_seen": "2026-09-01",
     "name": "Gravitas Tech & Solutions Inc",
@@ -2377,6 +2407,26 @@
   "formd:000215291026000001": {
     "first_seen": "2026-09-01",
     "name": "MedeSol Global, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215306826000001": {
+    "first_seen": "2026-09-02",
+    "name": "Intergalactic Group LLC",
+    "source": "Form D"
+  },
+  "formd:000215314226000001": {
+    "first_seen": "2026-09-02",
+    "name": "CHRISTKINDLMARKT DUBLIN LLC",
+    "source": "Form D"
+  },
+  "formd:000215314726000001": {
+    "first_seen": "2026-09-02",
+    "name": "Anchor Capital Partners LLC-FL",
+    "source": "Form D"
+  },
+  "formd:000215314926000001": {
+    "first_seen": "2026-09-02",
+    "name": "Imagen Rainey Support Services, LLC",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -3877,6 +3927,11 @@
   "yc:operon": {
     "first_seen": "2026-07-24",
     "name": "Operon",
+    "source": "YC"
+  },
+  "yc:orca-aerospace": {
+    "first_seen": "2026-09-02",
+    "name": "Orca Aerospace",
     "source": "YC"
   },
   "yc:ornadyne": {
