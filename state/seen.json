@@ -59,9 +59,19 @@
     "name": "Veza Innovations Inc.",
     "source": "Form D"
   },
+  "formd:000200043126000001": {
+    "first_seen": "2026-09-04",
+    "name": "Switchboard Health, Inc.",
+    "source": "Form D"
+  },
   "formd:000200402026000003": {
     "first_seen": "2026-07-24",
     "name": "DIMER INSTRUMENTS, INC.",
+    "source": "Form D"
+  },
+  "formd:000202234026000005": {
+    "first_seen": "2026-09-04",
+    "name": "Verse Enterprises, Inc.",
     "source": "Form D"
   },
   "formd:000203259426000005": {
@@ -77,6 +87,31 @@
   "formd:000204625626000005": {
     "first_seen": "2026-09-01",
     "name": "Thermolic Corp",
+    "source": "Form D"
+  },
+  "formd:000205561026000003": {
+    "first_seen": "2026-09-04",
+    "name": "Visalaw Ventures, Inc.",
+    "source": "Form D"
+  },
+  "formd:000206075526000054": {
+    "first_seen": "2026-09-04",
+    "name": "Cello Acquisition Corp.",
+    "source": "Form D"
+  },
+  "formd:000206497726000001": {
+    "first_seen": "2026-09-04",
+    "name": "Labs Companies, Inc.",
+    "source": "Form D"
+  },
+  "formd:000206721426000001": {
+    "first_seen": "2026-09-04",
+    "name": "IWF Productions LLC",
+    "source": "Form D"
+  },
+  "formd:000207802626000001": {
+    "first_seen": "2026-09-04",
+    "name": "Oniqq Platforms, Inc.",
     "source": "Form D"
   },
   "formd:000207891426000001": {
@@ -477,6 +512,11 @@
   "formd:000214578326000001": {
     "first_seen": "2026-08-05",
     "name": "Bear Analytics, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214579626000002": {
+    "first_seen": "2026-09-04",
+    "name": "Cado Inc.",
     "source": "Form D"
   },
   "formd:000214580426000001": {
@@ -2364,6 +2404,11 @@
     "name": "Peachtree Hotel Partners LLC",
     "source": "Form D"
   },
+  "formd:000215236226000001": {
+    "first_seen": "2026-09-04",
+    "name": "Parle Systems, Inc.",
+    "source": "Form D"
+  },
   "formd:000215237226000001": {
     "first_seen": "2026-08-27",
     "name": "NextPour Collective Inc.",
@@ -2409,9 +2454,34 @@
     "name": "MedeSol Global, Inc.",
     "source": "Form D"
   },
+  "formd:000215292926000001": {
+    "first_seen": "2026-09-04",
+    "name": "Bevel, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215305326000001": {
+    "first_seen": "2026-09-04",
+    "name": "SerenX, Inc.",
+    "source": "Form D"
+  },
   "formd:000215306826000001": {
     "first_seen": "2026-09-02",
     "name": "Intergalactic Group LLC",
+    "source": "Form D"
+  },
+  "formd:000215309526000002": {
+    "first_seen": "2026-09-04",
+    "name": "ILLIUM AC, INC.",
+    "source": "Form D"
+  },
+  "formd:000215311826000002": {
+    "first_seen": "2026-09-04",
+    "name": "IRIS Inc.",
+    "source": "Form D"
+  },
+  "formd:000215311926000003": {
+    "first_seen": "2026-09-04",
+    "name": "ClinicFlow Inc.",
     "source": "Form D"
   },
   "formd:000215314226000001": {
@@ -2427,6 +2497,51 @@
   "formd:000215314926000001": {
     "first_seen": "2026-09-02",
     "name": "Imagen Rainey Support Services, LLC",
+    "source": "Form D"
+  },
+  "formd:000215325926000001": {
+    "first_seen": "2026-09-04",
+    "name": "TrndX Inc",
+    "source": "Form D"
+  },
+  "formd:000215326026000001": {
+    "first_seen": "2026-09-04",
+    "name": "Primis Inc. /DE",
+    "source": "Form D"
+  },
+  "formd:000215327326000001": {
+    "first_seen": "2026-09-04",
+    "name": "MWM Capital Partners, LLC",
+    "source": "Form D"
+  },
+  "formd:000215335726000001": {
+    "first_seen": "2026-09-04",
+    "name": "Black Hawk Milling & Mining, LLC",
+    "source": "Form D"
+  },
+  "formd:000215352626000001": {
+    "first_seen": "2026-09-04",
+    "name": "Truespire Systems, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215352626000002": {
+    "first_seen": "2026-09-04",
+    "name": "Truespire Systems, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215352826000001": {
+    "first_seen": "2026-09-04",
+    "name": "RoRo's Baking Company, LLC",
+    "source": "Form D"
+  },
+  "formd:000215358226000001": {
+    "first_seen": "2026-09-04",
+    "name": "OSSEOLABS, INC.",
+    "source": "Form D"
+  },
+  "formd:000215367026000001": {
+    "first_seen": "2026-09-04",
+    "name": "Protocol Labs LLC",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -3854,6 +3969,11 @@
     "name": "Nodus",
     "source": "YC"
   },
+  "yc:nodus-compute": {
+    "first_seen": "2026-09-04",
+    "name": "Nodus Compute",
+    "source": "YC"
+  },
   "yc:noril1": {
     "first_seen": "2026-07-24",
     "name": "Nori",
@@ -3877,6 +3997,11 @@
   "yc:onecli": {
     "first_seen": "2026-07-24",
     "name": "OneCLI",
+    "source": "YC"
+  },
+  "yc:onepatch": {
+    "first_seen": "2026-09-04",
+    "name": "OnePatch",
     "source": "YC"
   },
   "yc:onetriangle": {

@@ -37,7 +37,7 @@
   "1115864": {
     "first_seen": "2026-07-30",
     "name": "ECOMINAS CORP.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "1131903": {
     "first_seen": "2026-07-24",
@@ -169,6 +169,11 @@
     "name": "Propanc Biopharma, Inc.",
     "stage": "Filed"
   },
+  "1527352": {
+    "first_seen": "2026-09-04",
+    "name": "Nexalin Technology, Inc.",
+    "stage": "Filed"
+  },
   "1534154": {
     "first_seen": "2026-07-24",
     "name": "authID Inc.",
@@ -287,7 +292,7 @@
   "1671584": {
     "first_seen": "2026-08-22",
     "name": "Aptevo Therapeutics Inc.",
-    "stage": "Filed"
+    "stage": "Priced/IPO"
   },
   "1677077": {
     "first_seen": "2026-08-22",
@@ -802,12 +807,12 @@
   "2000684": {
     "first_seen": "2026-07-28",
     "name": "Devonian Health Group Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2004024": {
     "first_seen": "2026-08-20",
     "name": "Lianhe Sowell International Group Ltd",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "2004711": {
     "first_seen": "2026-07-24",
@@ -909,6 +914,11 @@
     "name": "Optimi Health Corp.",
     "stage": "Filed"
   },
+  "2027722": {
+    "first_seen": "2026-09-04",
+    "name": "Grande Group Ltd/HK",
+    "stage": "Filed"
+  },
   "2028464": {
     "first_seen": "2026-09-01",
     "name": "ENTRATA, INC.",
@@ -964,6 +974,11 @@
     "name": "Tailored Brands, Inc. / DE",
     "stage": "Amending"
   },
+  "2048271": {
+    "first_seen": "2026-09-04",
+    "name": "WeShop Holdings Ltd",
+    "stage": "Priced/IPO"
+  },
   "2048951": {
     "first_seen": "2026-07-30",
     "name": "Teamshares Inc",
@@ -989,6 +1004,11 @@
     "name": "HengHong Technology Inc.",
     "stage": "Amending"
   },
+  "2052443": {
+    "first_seen": "2026-09-04",
+    "name": "V Capital Consulting Group Ltd",
+    "stage": "Amending"
+  },
   "205402": {
     "first_seen": "2026-09-01",
     "name": "GRAYBAR ELECTRIC CO INC",
@@ -997,7 +1017,7 @@
   "2055301": {
     "first_seen": "2026-08-12",
     "name": "Aura Consolidated Group, Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2056611": {
     "first_seen": "2026-07-24",
@@ -1162,7 +1182,7 @@
   "2080577": {
     "first_seen": "2026-09-02",
     "name": "LiPower New Energy Holdings Ltd",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2081641": {
     "first_seen": "2026-07-24",
@@ -1497,7 +1517,7 @@
   "2111838": {
     "first_seen": "2026-08-26",
     "name": "Haymaker Acquisition Corp V",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2111846": {
     "first_seen": "2026-07-24",
@@ -1612,7 +1632,7 @@
   "2123232": {
     "first_seen": "2026-07-24",
     "name": "Cumberland Farms Ltd",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2123380": {
     "first_seen": "2026-08-06",
@@ -1733,6 +1753,11 @@
     "first_seen": "2026-07-24",
     "name": "Lyntris Inc.",
     "stage": "Priced/IPO"
+  },
+  "2133022": {
+    "first_seen": "2026-09-04",
+    "name": "Oura Inc.",
+    "stage": "Filed"
   },
   "2133037": {
     "first_seen": "2026-09-01",
@@ -1859,6 +1884,11 @@
     "name": "Asia AI Group Inc",
     "stage": "Filed"
   },
+  "2141406": {
+    "first_seen": "2026-09-04",
+    "name": "Accelevation Holdings Corp.",
+    "stage": "Filed"
+  },
   "2141512": {
     "first_seen": "2026-08-27",
     "name": "Spinnova Plc",
@@ -1872,7 +1902,7 @@
   "2142855": {
     "first_seen": "2026-07-30",
     "name": "PBT Land & Minerals, Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2143060": {
     "first_seen": "2026-08-25",
@@ -1957,6 +1987,11 @@
   "2149773": {
     "first_seen": "2026-09-01",
     "name": "Xiasan Dynasty Co",
+    "stage": "Filed"
+  },
+  "2151558": {
+    "first_seen": "2026-09-04",
+    "name": "Legion Capital Acquisition Corp.",
     "stage": "Filed"
   },
   "2151905": {
