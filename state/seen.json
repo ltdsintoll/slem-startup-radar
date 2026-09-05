@@ -3479,6 +3479,11 @@
     "name": "Hoplite",
     "source": "YC"
   },
+  "yc:hopper": {
+    "first_seen": "2026-09-05",
+    "name": "Hopper",
+    "source": "YC"
+  },
   "yc:hub": {
     "first_seen": "2026-07-24",
     "name": "Hub",
@@ -4482,6 +4487,11 @@
   "yc:simulithic": {
     "first_seen": "2026-08-12",
     "name": "Simulithic",
+    "source": "YC"
+  },
+  "yc:sinter-systems": {
+    "first_seen": "2026-09-05",
+    "name": "Sinter",
     "source": "YC"
   },
   "yc:skymerse": {
