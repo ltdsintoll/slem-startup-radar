@@ -1484,6 +1484,11 @@
     "name": "Blue17 Studios, Inc.",
     "source": "Form D"
   },
+  "formd:000214896426000001": {
+    "first_seen": "2026-09-06",
+    "name": "EGT 26 LLC",
+    "source": "Form D"
+  },
   "formd:000214896626000004": {
     "first_seen": "2026-08-08",
     "name": "Gourmend Foods, Inc.",
@@ -2194,6 +2199,11 @@
     "name": "Medieval Tech Inc.",
     "source": "Form D"
   },
+  "formd:000215114026000001": {
+    "first_seen": "2026-09-06",
+    "name": "Gaingels Superluminal 2026 LLC",
+    "source": "Form D"
+  },
   "formd:000215115526000001": {
     "first_seen": "2026-08-21",
     "name": "Our Junk Ltd Liability Co",
@@ -2414,6 +2424,11 @@
     "name": "NextPour Collective Inc.",
     "source": "Form D"
   },
+  "formd:000215241126000001": {
+    "first_seen": "2026-09-06",
+    "name": "Big Auto - Accident Attorneys PLLC",
+    "source": "Form D"
+  },
   "formd:000215254726000001": {
     "first_seen": "2026-09-01",
     "name": "AimBot Media Inc.",
@@ -2427,6 +2442,11 @@
   "formd:000215259426000001": {
     "first_seen": "2026-09-01",
     "name": "Micdrop LLC",
+    "source": "Form D"
+  },
+  "formd:000215263326000001": {
+    "first_seen": "2026-09-06",
+    "name": "Generation One Collect LLC",
     "source": "Form D"
   },
   "formd:000215263426000001": {
@@ -2459,6 +2479,16 @@
     "name": "Bevel, Inc.",
     "source": "Form D"
   },
+  "formd:000215296026000001": {
+    "first_seen": "2026-09-06",
+    "name": "MI Roof & Solar, LLC",
+    "source": "Form D"
+  },
+  "formd:000215303126000001": {
+    "first_seen": "2026-09-06",
+    "name": "Olney ReLeaf, LLC",
+    "source": "Form D"
+  },
   "formd:000215305326000001": {
     "first_seen": "2026-09-04",
     "name": "SerenX, Inc.",
@@ -2472,6 +2502,16 @@
   "formd:000215309526000002": {
     "first_seen": "2026-09-04",
     "name": "ILLIUM AC, INC.",
+    "source": "Form D"
+  },
+  "formd:000215310326000001": {
+    "first_seen": "2026-09-06",
+    "name": "RMJVT LTH Co-Invest LLC",
+    "source": "Form D"
+  },
+  "formd:000215310426000001": {
+    "first_seen": "2026-09-06",
+    "name": "RMJVT LTH LLC",
     "source": "Form D"
   },
   "formd:000215311826000002": {
@@ -2519,6 +2559,11 @@
     "name": "Black Hawk Milling & Mining, LLC",
     "source": "Form D"
   },
+  "formd:000215344126000001": {
+    "first_seen": "2026-09-06",
+    "name": "TechNovaTime, Inc.",
+    "source": "Form D"
+  },
   "formd:000215352626000001": {
     "first_seen": "2026-09-04",
     "name": "Truespire Systems, Inc.",
@@ -2534,14 +2579,44 @@
     "name": "RoRo's Baking Company, LLC",
     "source": "Form D"
   },
+  "formd:000215353526000001": {
+    "first_seen": "2026-09-06",
+    "name": "AlgoX2 Corp",
+    "source": "Form D"
+  },
+  "formd:000215358126000001": {
+    "first_seen": "2026-09-06",
+    "name": "Stoneledge Delaware, LLC",
+    "source": "Form D"
+  },
   "formd:000215358226000001": {
     "first_seen": "2026-09-04",
     "name": "OSSEOLABS, INC.",
     "source": "Form D"
   },
+  "formd:000215358626000001": {
+    "first_seen": "2026-09-06",
+    "name": "MI Macomb Gratiot Ave, LLC",
+    "source": "Form D"
+  },
+  "formd:000215361026000001": {
+    "first_seen": "2026-09-06",
+    "name": "Akil-Abree Consulting, LLC",
+    "source": "Form D"
+  },
+  "formd:000215364726000001": {
+    "first_seen": "2026-09-06",
+    "name": "Villas at Highland Pointe, LLC",
+    "source": "Form D"
+  },
   "formd:000215367026000001": {
     "first_seen": "2026-09-04",
     "name": "Protocol Labs LLC",
+    "source": "Form D"
+  },
+  "formd:000215386126000001": {
+    "first_seen": "2026-09-06",
+    "name": "Malayy Inc.",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -3162,6 +3237,11 @@
   "yc:dream": {
     "first_seen": "2026-08-14",
     "name": "Dream",
+    "source": "YC"
+  },
+  "yc:dreamscale-labs": {
+    "first_seen": "2026-09-06",
+    "name": "Dreamscale Labs",
     "source": "YC"
   },
   "yc:drippay": {

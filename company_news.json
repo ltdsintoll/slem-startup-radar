@@ -14,22 +14,30 @@
   "789019": {
     "ticker": "MSFT",
     "company": "MICROSOFT CORP",
+    "articles": [],
+    "source": "no-data"
+  },
+  "320193": {
+    "ticker": "AAPL",
+    "company": "Apple Inc.",
     "articles": [
       {
-        "title": "Residents pack community meeting over Microsoft data center tax district",
-        "url": "https://www.wndu.com/2026/08/25/residents-pack-community-meeting-over-microsoft-data-center-tax-district/",
-        "domain": "wndu.com",
-        "date": "2026-08-25",
+        "title": "Sky knocks £400 off iPhone 17 Pro bundle before Apple launch",
+        "url": "https://www.stokesentinel.co.uk/whats-on/shopping/iphone-17-pro-apple-launch-11141765",
+        "domain": "stokesentinel.co.uk",
+        "date": "2026-09-06",
+        "sentiment_label": "позитив",
+        "sentiment_score": 1
+      },
+      {
+        "title": "Can John Ternus Fill Tim Cook Shoes As Apple New CEO ? Analysts Weigh The Challenges Ahead In First Test",
+        "url": "https://www.ibtimes.com.au/john-ternus-apple-ceo-iphone-launch-1875076",
+        "domain": "ibtimes.com.au",
+        "date": "2026-09-06",
         "sentiment_label": "нейтрально",
         "sentiment_score": 0
       }
     ],
     "source": "gdelt"
-  },
-  "320193": {
-    "ticker": "AAPL",
-    "company": "Apple Inc.",
-    "articles": [],
-    "source": "no-data"
   }
 }
