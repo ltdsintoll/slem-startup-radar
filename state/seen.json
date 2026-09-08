@@ -9,6 +9,11 @@
     "name": "Scorpio Gold Corp",
     "source": "Form D"
   },
+  "formd:000110465926105583": {
+    "first_seen": "2026-09-08",
+    "name": "VECTORMAX Corp",
+    "source": "Form D"
+  },
   "formd:000132914726000003": {
     "first_seen": "2026-09-01",
     "name": "Orthobond Corp",
@@ -332,6 +337,11 @@
   "formd:000214350326000001": {
     "first_seen": "2026-08-01",
     "name": "LiLi MD Group Inc",
+    "source": "Form D"
+  },
+  "formd:000214353526000001": {
+    "first_seen": "2026-09-08",
+    "name": "Psyloutions, LLC",
     "source": "Form D"
   },
   "formd:000214364626000001": {
@@ -2479,6 +2489,11 @@
     "name": "Bevel, Inc.",
     "source": "Form D"
   },
+  "formd:000215294026000001": {
+    "first_seen": "2026-09-08",
+    "name": "Malcova, Inc",
+    "source": "Form D"
+  },
   "formd:000215296026000001": {
     "first_seen": "2026-09-06",
     "name": "MI Roof & Solar, LLC",
@@ -2564,6 +2579,11 @@
     "name": "TechNovaTime, Inc.",
     "source": "Form D"
   },
+  "formd:000215352426000001": {
+    "first_seen": "2026-09-08",
+    "name": "Ellipsys Medical, Inc.",
+    "source": "Form D"
+  },
   "formd:000215352626000001": {
     "first_seen": "2026-09-04",
     "name": "Truespire Systems, Inc.",
@@ -2609,9 +2629,19 @@
     "name": "Villas at Highland Pointe, LLC",
     "source": "Form D"
   },
+  "formd:000215365026000001": {
+    "first_seen": "2026-09-08",
+    "name": "Grove SV LLC",
+    "source": "Form D"
+  },
   "formd:000215367026000001": {
     "first_seen": "2026-09-04",
     "name": "Protocol Labs LLC",
+    "source": "Form D"
+  },
+  "formd:000215380926000001": {
+    "first_seen": "2026-09-08",
+    "name": "Physical World AI Model Capital LLC",
     "source": "Form D"
   },
   "formd:000215386126000001": {
@@ -3494,6 +3524,11 @@
     "name": "Gutgutgoose",
     "source": "YC"
   },
+  "yc:halmos-labs": {
+    "first_seen": "2026-09-08",
+    "name": "Halmos Labs",
+    "source": "YC"
+  },
   "yc:hardware-intelligence": {
     "first_seen": "2026-07-24",
     "name": "hardware intelligence",
@@ -3517,6 +3552,11 @@
   "yc:herdr": {
     "first_seen": "2026-08-11",
     "name": "herdr",
+    "source": "YC"
+  },
+  "yc:hesper-ai": {
+    "first_seen": "2026-09-08",
+    "name": "Hesper AI",
     "source": "YC"
   },
   "yc:hessian": {
@@ -3979,6 +4019,11 @@
     "name": "Mochatrade",
     "source": "YC"
   },
+  "yc:mochi": {
+    "first_seen": "2026-09-08",
+    "name": "Mochi",
+    "source": "YC"
+  },
   "yc:mochitv": {
     "first_seen": "2026-08-14",
     "name": "MOCHI.TV",
@@ -3992,6 +4037,11 @@
   "yc:molagri": {
     "first_seen": "2026-07-24",
     "name": "Molagri",
+    "source": "YC"
+  },
+  "yc:moonshot-computer": {
+    "first_seen": "2026-09-08",
+    "name": "Moonshot",
     "source": "YC"
   },
   "yc:mosaic-inc": {
