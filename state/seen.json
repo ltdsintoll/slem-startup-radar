@@ -2354,6 +2354,11 @@
     "name": "Harvard Digital Media Corp.",
     "source": "Form D"
   },
+  "formd:000215175226000002": {
+    "first_seen": "2026-09-09",
+    "name": "Fab2, Inc.",
+    "source": "Form D"
+  },
   "formd:000215181826000001": {
     "first_seen": "2026-08-27",
     "name": "Bioliberty Ltd",
@@ -2361,6 +2366,11 @@
   },
   "formd:000215191126000001": {
     "first_seen": "2026-08-26",
+    "name": "Gilpin Health, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215191126000002": {
+    "first_seen": "2026-09-09",
     "name": "Gilpin Health, Inc.",
     "source": "Form D"
   },
@@ -2424,6 +2434,11 @@
     "name": "Peachtree Hotel Partners LLC",
     "source": "Form D"
   },
+  "formd:000215234226000001": {
+    "first_seen": "2026-09-09",
+    "name": "Every Media, Inc.",
+    "source": "Form D"
+  },
   "formd:000215236226000001": {
     "first_seen": "2026-09-04",
     "name": "Parle Systems, Inc.",
@@ -2437,6 +2452,11 @@
   "formd:000215241126000001": {
     "first_seen": "2026-09-06",
     "name": "Big Auto - Accident Attorneys PLLC",
+    "source": "Form D"
+  },
+  "formd:000215251026000003": {
+    "first_seen": "2026-09-09",
+    "name": "PulsePoint EP, LLC",
     "source": "Form D"
   },
   "formd:000215254726000001": {
@@ -2464,6 +2484,11 @@
     "name": "Streamline Glass, Inc.",
     "source": "Form D"
   },
+  "formd:000215268526000001": {
+    "first_seen": "2026-09-09",
+    "name": "BIDAID, Inc.",
+    "source": "Form D"
+  },
   "formd:000215271526000001": {
     "first_seen": "2026-09-01",
     "name": "Please Help Me Productions, LLC",
@@ -2472,6 +2497,16 @@
   "formd:000215277826000001": {
     "first_seen": "2026-09-02",
     "name": "Neo Agent Inc.",
+    "source": "Form D"
+  },
+  "formd:000215282626000001": {
+    "first_seen": "2026-09-09",
+    "name": "Four Corners Plaza Associates, LLC",
+    "source": "Form D"
+  },
+  "formd:000215284026000001": {
+    "first_seen": "2026-09-09",
+    "name": "Tenet Water Holdings, LLC",
     "source": "Form D"
   },
   "formd:000215287226000001": {
@@ -2492,6 +2527,11 @@
   "formd:000215294026000001": {
     "first_seen": "2026-09-08",
     "name": "Malcova, Inc",
+    "source": "Form D"
+  },
+  "formd:000215295026000001": {
+    "first_seen": "2026-09-09",
+    "name": "Kopilot.ID, Inc.",
     "source": "Form D"
   },
   "formd:000215296026000001": {
@@ -2554,6 +2594,11 @@
     "name": "Imagen Rainey Support Services, LLC",
     "source": "Form D"
   },
+  "formd:000215317426000001": {
+    "first_seen": "2026-09-09",
+    "name": "Rely Capital Partners, LLC",
+    "source": "Form D"
+  },
   "formd:000215325926000001": {
     "first_seen": "2026-09-04",
     "name": "TrndX Inc",
@@ -2562,6 +2607,16 @@
   "formd:000215326026000001": {
     "first_seen": "2026-09-04",
     "name": "Primis Inc. /DE",
+    "source": "Form D"
+  },
+  "formd:000215326126000001": {
+    "first_seen": "2026-09-09",
+    "name": "Holistic Intelligence, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215326326000001": {
+    "first_seen": "2026-09-09",
+    "name": "All 22, LLC",
     "source": "Form D"
   },
   "formd:000215327326000001": {
@@ -2577,6 +2632,16 @@
   "formd:000215344126000001": {
     "first_seen": "2026-09-06",
     "name": "TechNovaTime, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215346126000001": {
+    "first_seen": "2026-09-09",
+    "name": "Onto AI LLC",
+    "source": "Form D"
+  },
+  "formd:000215347726000001": {
+    "first_seen": "2026-09-09",
+    "name": "Dunedin Sports Horses Investments LLC",
     "source": "Form D"
   },
   "formd:000215352426000001": {
@@ -2639,14 +2704,54 @@
     "name": "Protocol Labs LLC",
     "source": "Form D"
   },
+  "formd:000215369326000001": {
+    "first_seen": "2026-09-09",
+    "name": "SAFE ON SOCIAL, INC.",
+    "source": "Form D"
+  },
   "formd:000215380926000001": {
     "first_seen": "2026-09-08",
     "name": "Physical World AI Model Capital LLC",
     "source": "Form D"
   },
+  "formd:000215381626000001": {
+    "first_seen": "2026-09-09",
+    "name": "Towards Type Two, Inc.",
+    "source": "Form D"
+  },
   "formd:000215386126000001": {
     "first_seen": "2026-09-06",
     "name": "Malayy Inc.",
+    "source": "Form D"
+  },
+  "formd:000215388226000001": {
+    "first_seen": "2026-09-09",
+    "name": "SUPR Natural, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215394826000001": {
+    "first_seen": "2026-09-09",
+    "name": "SF Gray Residential, LLC",
+    "source": "Form D"
+  },
+  "formd:000215396426000001": {
+    "first_seen": "2026-09-09",
+    "name": "Alliance Investors, LP",
+    "source": "Form D"
+  },
+  "formd:000215399226000001": {
+    "first_seen": "2026-09-09",
+    "name": "Eletusk, Corp",
+    "source": "Form D"
+  },
+  "formd:000215400226000001": {
+    "first_seen": "2026-09-09",
+    "name": "Allium Mixed-Use, LLC",
+    "source": "Form D"
+  },
+  "formd:000215403726000001": {
+    "first_seen": "2026-09-09",
+    "name": "Eagleford Horizontal Partnership 91, LP",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -3322,6 +3427,11 @@
   "yc:ekpa": {
     "first_seen": "2026-07-24",
     "name": "Ekpa",
+    "source": "YC"
+  },
+  "yc:elite": {
+    "first_seen": "2026-09-09",
+    "name": "Elite",
     "source": "YC"
   },
   "yc:elyra": {
@@ -4204,6 +4314,11 @@
     "name": "Ornadyne",
     "source": "YC"
   },
+  "yc:oro-ai": {
+    "first_seen": "2026-09-09",
+    "name": "ORO AI",
+    "source": "YC"
+  },
   "yc:orvixo": {
     "first_seen": "2026-07-24",
     "name": "Orvixo",
@@ -4732,6 +4847,11 @@
   "yc:superlog": {
     "first_seen": "2026-07-24",
     "name": "Superlog",
+    "source": "YC"
+  },
+  "yc:superradiant": {
+    "first_seen": "2026-09-09",
+    "name": "SuperRadiant",
     "source": "YC"
   },
   "yc:superset": {

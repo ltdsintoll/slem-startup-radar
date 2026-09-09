@@ -2,8 +2,49 @@
   "1045810": {
     "ticker": "NVDA",
     "company": "NVIDIA CORP",
-    "articles": [],
-    "source": "no-data"
+    "articles": [
+      {
+        "title": "If You Only Own Nvidia for AI Exposure , Youre Missing Half the Trade . Here the Other Half . ",
+        "url": "https://finance.yahoo.com/technology/ai/articles/only-own-nvidia-ai-exposure-210000335.html",
+        "domain": "finance.yahoo.com",
+        "date": "2026-09-09",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "AGI is here , Nvidia CEO Jensen Huang has declared . Here why the market doesnt care",
+        "url": "https://fortune.com/2026/09/09/markets-agi-nvidia-singularity-wall-street/",
+        "domain": "fortune.com",
+        "date": "2026-09-09",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "With ChatGPT Astra , Human - Level AI Has Arrived , Claims Nvidia CEO - Trak . in - Indian Business of Tech , Mobile & Startups",
+        "url": "https://trak.in/stories/with-chatgpt-astra-human-level-ai-has-arrived-claims-nvidia-ceo/",
+        "domain": "trak.in",
+        "date": "2026-09-09",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "Nvidia Stock : Is It Still a Good Buy at $230 ? ",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-still-good-buy-192001219.html",
+        "domain": "finance.yahoo.com",
+        "date": "2026-09-09",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "1 Chart That Destroys The Nvidia Bear Thesis",
+        "url": "https://www.fool.com/investing/2026/09/08/1-chart-that-destroys-the-nvidia-bearish-thesis/?source=iedfolrf0000001",
+        "domain": "fool.com",
+        "date": "2026-09-09",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      }
+    ],
+    "source": "gdelt"
   },
   "1321655": {
     "ticker": "PLTR",
@@ -20,24 +61,7 @@
   "320193": {
     "ticker": "AAPL",
     "company": "Apple Inc.",
-    "articles": [
-      {
-        "title": "Sky knocks £400 off iPhone 17 Pro bundle before Apple launch",
-        "url": "https://www.stokesentinel.co.uk/whats-on/shopping/iphone-17-pro-apple-launch-11141765",
-        "domain": "stokesentinel.co.uk",
-        "date": "2026-09-06",
-        "sentiment_label": "позитив",
-        "sentiment_score": 1
-      },
-      {
-        "title": "Can John Ternus Fill Tim Cook Shoes As Apple New CEO ? Analysts Weigh The Challenges Ahead In First Test",
-        "url": "https://www.ibtimes.com.au/john-ternus-apple-ceo-iphone-launch-1875076",
-        "domain": "ibtimes.com.au",
-        "date": "2026-09-06",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      }
-    ],
-    "source": "gdelt"
+    "articles": [],
+    "source": "no-data"
   }
 }
