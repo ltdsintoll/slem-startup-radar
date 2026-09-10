@@ -69,6 +69,11 @@
     "name": "Idaho Copper Corp  (COPR, COPR-WT)",
     "stage": "Priced/IPO"
   },
+  "1314196": {
+    "first_seen": "2026-09-10",
+    "name": "OLB GROUP, INC.",
+    "stage": "Filed"
+  },
   "1317685": {
     "first_seen": "2026-08-18",
     "name": "Alliance Laundry Holdings Inc.",
@@ -107,6 +112,11 @@
   "1417926": {
     "first_seen": "2026-07-25",
     "name": "INVO Fertility, Inc.",
+    "stage": "Filed"
+  },
+  "1425627": {
+    "first_seen": "2026-09-10",
+    "name": "SOBR Safe, Inc.",
     "stage": "Filed"
   },
   "1435617": {
@@ -389,6 +399,11 @@
     "name": "Z Squared Inc.",
     "stage": "Filed"
   },
+  "1770069": {
+    "first_seen": "2026-09-10",
+    "name": "MapLight Therapeutics, Inc.",
+    "stage": "Filed"
+  },
   "1775734": {
     "first_seen": "2026-07-30",
     "name": "Beneficient",
@@ -452,7 +467,7 @@
   "1807887": {
     "first_seen": "2026-07-24",
     "name": "Laser Photonics Corp",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "1808377": {
     "first_seen": "2026-07-24",
@@ -1207,7 +1222,7 @@
   "2080215": {
     "first_seen": "2026-09-01",
     "name": "StableCoinX Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2080216": {
     "first_seen": "2026-07-24",
@@ -1417,7 +1432,7 @@
   "2098410": {
     "first_seen": "2026-07-25",
     "name": "Bluerock Acquisition Corp. II",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2098969": {
     "first_seen": "2026-08-19",
@@ -1654,6 +1669,11 @@
     "name": "GLGHK Ltd",
     "stage": "Filed"
   },
+  "2119292": {
+    "first_seen": "2026-09-10",
+    "name": "Pasqal Holding SA",
+    "stage": "Filed"
+  },
   "2120528": {
     "first_seen": "2026-09-01",
     "name": "Kainan Holding Group Ltd",
@@ -1702,7 +1722,7 @@
   "2124472": {
     "first_seen": "2026-08-21",
     "name": "Orion180 Insurance Group Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2124913": {
     "first_seen": "2026-09-01",
@@ -1779,6 +1799,16 @@
     "name": "RZ Wellness Ltd",
     "stage": "Amending"
   },
+  "2131072": {
+    "first_seen": "2026-09-10",
+    "name": "Harbour Island Acquisition Corp. I",
+    "stage": "Filed"
+  },
+  "2131124": {
+    "first_seen": "2026-09-10",
+    "name": "Elevation Acquisition Group Inc.",
+    "stage": "Filed"
+  },
   "2131350": {
     "first_seen": "2026-07-24",
     "name": "B&R Technology Merger Corp.",
@@ -1833,6 +1863,11 @@
     "first_seen": "2026-07-24",
     "name": "Arterior Solutions Corp",
     "stage": "Amending"
+  },
+  "2133939": {
+    "first_seen": "2026-09-10",
+    "name": "Football Manager SPAC Inc.",
+    "stage": "Filed"
   },
   "2134090": {
     "first_seen": "2026-08-25",

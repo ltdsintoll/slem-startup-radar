@@ -34,6 +34,16 @@
     "name": "Biosceptre International Ltd",
     "source": "Form D"
   },
+  "formd:000169018326000003": {
+    "first_seen": "2026-09-10",
+    "name": "DynamiCare Health, Inc.",
+    "source": "Form D"
+  },
+  "formd:000173763026000003": {
+    "first_seen": "2026-09-10",
+    "name": "TBC - The Boring Co",
+    "source": "Form D"
+  },
   "formd:000185588826000005": {
     "first_seen": "2026-07-24",
     "name": "ASCENDIA PHARMACEUTICALS, INC.",
@@ -44,9 +54,19 @@
     "name": "CivicPlus Holdings, LLC",
     "source": "Form D"
   },
+  "formd:000189317126000003": {
+    "first_seen": "2026-09-10",
+    "name": "South 40 Snacks, Inc.",
+    "source": "Form D"
+  },
   "formd:000190427026000002": {
     "first_seen": "2026-09-01",
     "name": "Language IO, Inc.",
+    "source": "Form D"
+  },
+  "formd:000195297426000004": {
+    "first_seen": "2026-09-10",
+    "name": "Praeventix, Inc.",
     "source": "Form D"
   },
   "formd:000197056926000003": {
@@ -92,6 +112,11 @@
   "formd:000204625626000005": {
     "first_seen": "2026-09-01",
     "name": "Thermolic Corp",
+    "source": "Form D"
+  },
+  "formd:000205288626000001": {
+    "first_seen": "2026-09-10",
+    "name": "Prosper Health, Inc.",
     "source": "Form D"
   },
   "formd:000205561026000003": {
@@ -2539,6 +2564,11 @@
     "name": "MI Roof & Solar, LLC",
     "source": "Form D"
   },
+  "formd:000215298526000001": {
+    "first_seen": "2026-09-10",
+    "name": "Wild West Systems, Inc.",
+    "source": "Form D"
+  },
   "formd:000215303126000001": {
     "first_seen": "2026-09-06",
     "name": "Olney ReLeaf, LLC",
@@ -2617,6 +2647,11 @@
   "formd:000215326326000001": {
     "first_seen": "2026-09-09",
     "name": "All 22, LLC",
+    "source": "Form D"
+  },
+  "formd:000215326726000001": {
+    "first_seen": "2026-09-10",
+    "name": "Analytical Insider Inc",
     "source": "Form D"
   },
   "formd:000215327326000001": {
@@ -2709,6 +2744,16 @@
     "name": "SAFE ON SOCIAL, INC.",
     "source": "Form D"
   },
+  "formd:000215377226000001": {
+    "first_seen": "2026-09-10",
+    "name": "Telos Astra LLC",
+    "source": "Form D"
+  },
+  "formd:000215378326000001": {
+    "first_seen": "2026-09-10",
+    "name": "Travelinix Inc",
+    "source": "Form D"
+  },
   "formd:000215380926000001": {
     "first_seen": "2026-09-08",
     "name": "Physical World AI Model Capital LLC",
@@ -2724,9 +2769,19 @@
     "name": "Malayy Inc.",
     "source": "Form D"
   },
+  "formd:000215386426000001": {
+    "first_seen": "2026-09-10",
+    "name": "Kelleran Research & Investments, Inc.",
+    "source": "Form D"
+  },
   "formd:000215388226000001": {
     "first_seen": "2026-09-09",
     "name": "SUPR Natural, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215392226000001": {
+    "first_seen": "2026-09-10",
+    "name": "ZT Technology PE 1, LLC",
     "source": "Form D"
   },
   "formd:000215394826000001": {
@@ -2744,6 +2799,11 @@
     "name": "Eletusk, Corp",
     "source": "Form D"
   },
+  "formd:000215399926000001": {
+    "first_seen": "2026-09-10",
+    "name": "Definition II-E LLC",
+    "source": "Form D"
+  },
   "formd:000215400226000001": {
     "first_seen": "2026-09-09",
     "name": "Allium Mixed-Use, LLC",
@@ -2752,6 +2812,46 @@
   "formd:000215403726000001": {
     "first_seen": "2026-09-09",
     "name": "Eagleford Horizontal Partnership 91, LP",
+    "source": "Form D"
+  },
+  "formd:000215404526000002": {
+    "first_seen": "2026-09-10",
+    "name": "MTM 2027 Ltd Liability Co",
+    "source": "Form D"
+  },
+  "formd:000215407226000001": {
+    "first_seen": "2026-09-10",
+    "name": "General Cybernetics Corp",
+    "source": "Form D"
+  },
+  "formd:000215415226000001": {
+    "first_seen": "2026-09-10",
+    "name": "DeepMorph.ai, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215423926000001": {
+    "first_seen": "2026-09-10",
+    "name": "Monteforte Group, LLC",
+    "source": "Form D"
+  },
+  "formd:000215425726000001": {
+    "first_seen": "2026-09-10",
+    "name": "IT'S A FLEX Ltd LIABILITY Co",
+    "source": "Form D"
+  },
+  "formd:000215427826000001": {
+    "first_seen": "2026-09-10",
+    "name": "Legacy AI Technologies, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215437426000001": {
+    "first_seen": "2026-09-10",
+    "name": "Better Self Storage Yuma Syndication LLC",
+    "source": "Form D"
+  },
+  "formd:000215453926000001": {
+    "first_seen": "2026-09-10",
+    "name": "Jojo Health, Inc.",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -3117,6 +3217,11 @@
   "yc:buildbox": {
     "first_seen": "2026-07-29",
     "name": "Buildbox",
+    "source": "YC"
+  },
+  "yc:byteask": {
+    "first_seen": "2026-09-10",
+    "name": "ByteAsk",
     "source": "YC"
   },
   "yc:callab-ai": {
@@ -3542,6 +3647,11 @@
   "yc:frontier-computing": {
     "first_seen": "2026-09-01",
     "name": "Frontier Computing",
+    "source": "YC"
+  },
+  "yc:frontrunner": {
+    "first_seen": "2026-09-10",
+    "name": "Frontrunner",
     "source": "YC"
   },
   "yc:fuchsia": {
@@ -4704,6 +4814,11 @@
     "name": "Shepherd",
     "source": "YC"
   },
+  "yc:shepherd-robotics": {
+    "first_seen": "2026-09-10",
+    "name": "Shepherd Robotics",
+    "source": "YC"
+  },
   "yc:sherpa": {
     "first_seen": "2026-07-24",
     "name": "Sherpa",
@@ -4767,6 +4882,11 @@
   "yc:solo-labs": {
     "first_seen": "2026-08-07",
     "name": "Solo Labs",
+    "source": "YC"
+  },
+  "yc:sona8": {
+    "first_seen": "2026-09-10",
+    "name": "Sona8",
     "source": "YC"
   },
   "yc:soria": {
@@ -4942,6 +5062,11 @@
   "yc:textsidekick": {
     "first_seen": "2026-07-24",
     "name": "Sidekick",
+    "source": "YC"
+  },
+  "yc:the-agentic-data-co": {
+    "first_seen": "2026-09-10",
+    "name": "The Agentic Data Co.",
     "source": "YC"
   },
   "yc:the-company-company": {
