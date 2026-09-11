@@ -129,6 +129,11 @@
     "name": "Cello Acquisition Corp.",
     "source": "Form D"
   },
+  "formd:000206075526000056": {
+    "first_seen": "2026-09-11",
+    "name": "Balanced Body Organics, Inc.",
+    "source": "Form D"
+  },
   "formd:000206497726000001": {
     "first_seen": "2026-09-04",
     "name": "Labs Companies, Inc.",
@@ -2789,6 +2794,11 @@
     "name": "SF Gray Residential, LLC",
     "source": "Form D"
   },
+  "formd:000215395926000001": {
+    "first_seen": "2026-09-11",
+    "name": "LeanOnWe Care, Inc.",
+    "source": "Form D"
+  },
   "formd:000215396426000001": {
     "first_seen": "2026-09-09",
     "name": "Alliance Investors, LP",
@@ -2807,6 +2817,11 @@
   "formd:000215400226000001": {
     "first_seen": "2026-09-09",
     "name": "Allium Mixed-Use, LLC",
+    "source": "Form D"
+  },
+  "formd:000215402726000001": {
+    "first_seen": "2026-09-11",
+    "name": "Gaingels YC S26 LLC",
     "source": "Form D"
   },
   "formd:000215403726000001": {
@@ -2834,9 +2849,19 @@
     "name": "Monteforte Group, LLC",
     "source": "Form D"
   },
+  "formd:000215425626000001": {
+    "first_seen": "2026-09-11",
+    "name": "BMP II K Marketing Investment, LP",
+    "source": "Form D"
+  },
   "formd:000215425726000001": {
     "first_seen": "2026-09-10",
     "name": "IT'S A FLEX Ltd LIABILITY Co",
+    "source": "Form D"
+  },
+  "formd:000215426326000002": {
+    "first_seen": "2026-09-11",
+    "name": "Simplora, Inc",
     "source": "Form D"
   },
   "formd:000215427826000001": {
@@ -2844,14 +2869,49 @@
     "name": "Legacy AI Technologies, Inc.",
     "source": "Form D"
   },
+  "formd:000215431026000001": {
+    "first_seen": "2026-09-11",
+    "name": "KingsHeart.AI, Inc.",
+    "source": "Form D"
+  },
   "formd:000215437426000001": {
     "first_seen": "2026-09-10",
     "name": "Better Self Storage Yuma Syndication LLC",
     "source": "Form D"
   },
+  "formd:000215444326000001": {
+    "first_seen": "2026-09-11",
+    "name": "DIM SUM FARM LLC",
+    "source": "Form D"
+  },
+  "formd:000215449526000002": {
+    "first_seen": "2026-09-11",
+    "name": "Norman Retirement, LLC",
+    "source": "Form D"
+  },
+  "formd:000215451226000001": {
+    "first_seen": "2026-09-11",
+    "name": "Altai Research, Inc.",
+    "source": "Form D"
+  },
   "formd:000215453926000001": {
     "first_seen": "2026-09-10",
     "name": "Jojo Health, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215454626000001": {
+    "first_seen": "2026-09-11",
+    "name": "SkinAware Inc",
+    "source": "Form D"
+  },
+  "formd:000215460426000001": {
+    "first_seen": "2026-09-11",
+    "name": "Imaging Kinetics Enterprise, LLC",
+    "source": "Form D"
+  },
+  "formd:000215464826000001": {
+    "first_seen": "2026-09-11",
+    "name": "Red Stitch Labs, Inc.",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -3409,6 +3469,11 @@
     "name": "Deep Interactions",
     "source": "YC"
   },
+  "yc:deepmark": {
+    "first_seen": "2026-09-11",
+    "name": "DeepMark",
+    "source": "YC"
+  },
   "yc:deepreach-inc": {
     "first_seen": "2026-08-13",
     "name": "DeepReach Inc.",
@@ -3427,6 +3492,11 @@
   "yc:denta": {
     "first_seen": "2026-07-24",
     "name": "Denta",
+    "source": "YC"
+  },
+  "yc:deploy": {
+    "first_seen": "2026-09-11",
+    "name": "Deploy",
     "source": "YC"
   },
   "yc:derya": {
@@ -4227,6 +4297,11 @@
   "yc:mireye": {
     "first_seen": "2026-07-24",
     "name": "Mireye",
+    "source": "YC"
+  },
+  "yc:mirrors": {
+    "first_seen": "2026-09-11",
+    "name": "Mirrors",
     "source": "YC"
   },
   "yc:miso-labs": {
