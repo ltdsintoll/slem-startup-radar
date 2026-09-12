@@ -2519,6 +2519,11 @@
     "name": "BIDAID, Inc.",
     "source": "Form D"
   },
+  "formd:000215271426000002": {
+    "first_seen": "2026-09-12",
+    "name": "ACTA Funds Master Series 2026 LLC",
+    "source": "Form D"
+  },
   "formd:000215271526000001": {
     "first_seen": "2026-09-01",
     "name": "Please Help Me Productions, LLC",
@@ -2572,6 +2577,11 @@
   "formd:000215298526000001": {
     "first_seen": "2026-09-10",
     "name": "Wild West Systems, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215302426000001": {
+    "first_seen": "2026-09-12",
+    "name": "Yardage Buk LLC",
     "source": "Form D"
   },
   "formd:000215303126000001": {
@@ -2684,6 +2694,11 @@
     "name": "Dunedin Sports Horses Investments LLC",
     "source": "Form D"
   },
+  "formd:000215351426000001": {
+    "first_seen": "2026-09-12",
+    "name": "EB5IM Partners I, LLC",
+    "source": "Form D"
+  },
   "formd:000215352426000001": {
     "first_seen": "2026-09-08",
     "name": "Ellipsys Medical, Inc.",
@@ -2789,6 +2804,11 @@
     "name": "ZT Technology PE 1, LLC",
     "source": "Form D"
   },
+  "formd:000215392826000003": {
+    "first_seen": "2026-09-12",
+    "name": "Viola Pictures, LLC",
+    "source": "Form D"
+  },
   "formd:000215394826000001": {
     "first_seen": "2026-09-09",
     "name": "SF Gray Residential, LLC",
@@ -2839,9 +2859,19 @@
     "name": "General Cybernetics Corp",
     "source": "Form D"
   },
+  "formd:000215410626000001": {
+    "first_seen": "2026-09-12",
+    "name": "Cargo Produce Inc.",
+    "source": "Form D"
+  },
   "formd:000215415226000001": {
     "first_seen": "2026-09-10",
     "name": "DeepMorph.ai, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215419626000001": {
+    "first_seen": "2026-09-12",
+    "name": "DTC Residences Mezz Lender LLC",
     "source": "Form D"
   },
   "formd:000215423926000001": {
@@ -2864,9 +2894,19 @@
     "name": "Simplora, Inc",
     "source": "Form D"
   },
+  "formd:000215427226000001": {
+    "first_seen": "2026-09-12",
+    "name": "Septablate, Inc.",
+    "source": "Form D"
+  },
   "formd:000215427826000001": {
     "first_seen": "2026-09-10",
     "name": "Legacy AI Technologies, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215430926000001": {
+    "first_seen": "2026-09-12",
+    "name": "MDF AP Holdings LLC",
     "source": "Form D"
   },
   "formd:000215431026000001": {
@@ -2899,9 +2939,19 @@
     "name": "Jojo Health, Inc.",
     "source": "Form D"
   },
+  "formd:000215454326000001": {
+    "first_seen": "2026-09-12",
+    "name": "Amplica Bio, Inc.",
+    "source": "Form D"
+  },
   "formd:000215454626000001": {
     "first_seen": "2026-09-11",
     "name": "SkinAware Inc",
+    "source": "Form D"
+  },
+  "formd:000215458226000001": {
+    "first_seen": "2026-09-12",
+    "name": "BreezyFile, PBC",
     "source": "Form D"
   },
   "formd:000215460426000001": {
@@ -2912,6 +2962,51 @@
   "formd:000215464826000001": {
     "first_seen": "2026-09-11",
     "name": "Red Stitch Labs, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215465326000001": {
+    "first_seen": "2026-09-12",
+    "name": "Charlestowne Senior Village LLC",
+    "source": "Form D"
+  },
+  "formd:000215472926000001": {
+    "first_seen": "2026-09-12",
+    "name": "Benefitsbridge 01-15 LLC",
+    "source": "Form D"
+  },
+  "formd:000215480726000001": {
+    "first_seen": "2026-09-12",
+    "name": "Main Street World Flavors, LLC",
+    "source": "Form D"
+  },
+  "formd:000215484826000001": {
+    "first_seen": "2026-09-12",
+    "name": "Provident Health 01-05 LLC",
+    "source": "Form D"
+  },
+  "formd:000215486926000001": {
+    "first_seen": "2026-09-12",
+    "name": "CSV Draftea LLC",
+    "source": "Form D"
+  },
+  "formd:000215490526000001": {
+    "first_seen": "2026-09-12",
+    "name": "Civic Horizon 01-15 LLC",
+    "source": "Form D"
+  },
+  "formd:000215490626000001": {
+    "first_seen": "2026-09-12",
+    "name": "Secure Horizon 01-15 LLC",
+    "source": "Form D"
+  },
+  "formd:000215496726000001": {
+    "first_seen": "2026-09-12",
+    "name": "SKINSYNC AI INC.",
+    "source": "Form D"
+  },
+  "formd:000215502526000001": {
+    "first_seen": "2026-09-12",
+    "name": "NJDyne FR LLC",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -4289,6 +4384,11 @@
     "name": "Meteoric",
     "source": "YC"
   },
+  "yc:micora": {
+    "first_seen": "2026-09-12",
+    "name": "Micora",
+    "source": "YC"
+  },
   "yc:minicor": {
     "first_seen": "2026-07-24",
     "name": "Minicor",
@@ -5337,6 +5437,11 @@
   "yc:vorelios": {
     "first_seen": "2026-08-12",
     "name": "Vorelios",
+    "source": "YC"
+  },
+  "yc:vyra": {
+    "first_seen": "2026-09-12",
+    "name": "Vyra",
     "source": "YC"
   },
   "yc:waddle-labs": {

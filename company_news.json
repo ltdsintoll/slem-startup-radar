@@ -4,44 +4,36 @@
     "company": "NVIDIA CORP",
     "articles": [
       {
-        "title": "If You Only Own Nvidia for AI Exposure , Youre Missing Half the Trade . Here the Other Half . ",
-        "url": "https://finance.yahoo.com/technology/ai/articles/only-own-nvidia-ai-exposure-210000335.html",
+        "title": "Palantir and Nvidia Are Building a Sovereign AI Stack . Who Captures More of the Economics ? ",
+        "url": "https://finance.yahoo.com/technology/ai/articles/palantir-nvidia-building-sovereign-ai-085205506.html",
         "domain": "finance.yahoo.com",
-        "date": "2026-09-09",
+        "date": "2026-09-12",
         "sentiment_label": "нейтрально",
         "sentiment_score": 0
       },
       {
-        "title": "AGI is here , Nvidia CEO Jensen Huang has declared . Here why the market doesnt care",
-        "url": "https://fortune.com/2026/09/09/markets-agi-nvidia-singularity-wall-street/",
-        "domain": "fortune.com",
-        "date": "2026-09-09",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "With ChatGPT Astra , Human - Level AI Has Arrived , Claims Nvidia CEO - Trak . in - Indian Business of Tech , Mobile & Startups",
-        "url": "https://trak.in/stories/with-chatgpt-astra-human-level-ai-has-arrived-claims-nvidia-ceo/",
-        "domain": "trak.in",
-        "date": "2026-09-09",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "Nvidia Stock : Is It Still a Good Buy at $230 ? ",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-still-good-buy-192001219.html",
-        "domain": "finance.yahoo.com",
-        "date": "2026-09-09",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "1 Chart That Destroys The Nvidia Bear Thesis",
-        "url": "https://www.fool.com/investing/2026/09/08/1-chart-that-destroys-the-nvidia-bearish-thesis/?source=iedfolrf0000001",
+        "title": "Is Micron Stock the Next Nvidia ? The Answer May Shock Investors . ",
+        "url": "https://www.fool.com/investing/2026/09/12/micron-stock-next-nvidia-answer-may-shock-investors/",
         "domain": "fool.com",
-        "date": "2026-09-09",
+        "date": "2026-09-12",
         "sentiment_label": "нейтрально",
         "sentiment_score": 0
+      },
+      {
+        "title": "Nvidia in talks to invest in Anthropic mega IPO : sources",
+        "url": "https://www.businesstimes.com.sg/startups-tech/startups/nvidia-talks-invest-anthropics-mega-ipo-sources",
+        "domain": "businesstimes.com.sg",
+        "date": "2026-09-12",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "Amazon Triples Its NVIDIA GPU Orders to 3 Million Chips as AI Demand Surges",
+        "url": "https://finance.yahoo.com/technology/ai/articles/amazon-triples-nvidia-gpu-orders-050739503.html",
+        "domain": "finance.yahoo.com",
+        "date": "2026-09-12",
+        "sentiment_label": "позитив",
+        "sentiment_score": 1
       }
     ],
     "source": "gdelt"
@@ -55,13 +47,71 @@
   "789019": {
     "ticker": "MSFT",
     "company": "MICROSOFT CORP",
-    "articles": [],
-    "source": "no-data"
+    "articles": [
+      {
+        "title": "In 2018 , Microsoft sank 864 servers 117 feet beneath the North Sea to cool them naturally ; two years later , their failure rate was one - eighth that of land - based machines",
+        "url": "https://timesofindia.indiatimes.com/world/us/in-2018-microsoft-sank-864-servers-117-feet-beneath-the-north-sea-to-cool-them-naturally-two-years-later-their-failure-rate-was-one-eighth-that-of-land-based-machines/articleshow/134064914.cms",
+        "domain": "timesofindia.indiatimes.com",
+        "date": "2026-09-12",
+        "sentiment_label": "негатив",
+        "sentiment_score": -1
+      },
+      {
+        "title": "Xbox Hardware Revenue Drops 13 % As Microsoft AI Business Keeps Soaring",
+        "url": "https://gamerheadlines.com/xbox-hardware-revenue-drops-13-as-microsofts-ai-business-keeps-soaring/",
+        "domain": "gamerheadlines.com",
+        "date": "2026-09-12",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      }
+    ],
+    "source": "gdelt"
   },
   "320193": {
     "ticker": "AAPL",
     "company": "Apple Inc.",
-    "articles": [],
-    "source": "no-data"
+    "articles": [
+      {
+        "title": "iPhone 18 Pro , iPhone Duo launch : No iPhone 17 Pro , 17 Pro Max on Apple online store ? Here what we know",
+        "url": "https://www.livemint.com/technology/tech-news/iphone-18-pro-iphone-duo-launch-no-iphone-17-pro-17-pro-max-on-apples-online-store-heres-what-we-know-11789196956731.html",
+        "domain": "livemint.com",
+        "date": "2026-09-12",
+        "sentiment_label": "позитив",
+        "sentiment_score": 1
+      },
+      {
+        "title": "Apple fans bag  brilliant sound  AirPods for under £120 great for the gym and travel",
+        "url": "https://www.birminghammail.co.uk/whats-on/shopping/very-apple-air-pods-4-34603048",
+        "domain": "birminghammail.co.uk",
+        "date": "2026-09-12",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "Stop by Garwood Orchards for APPLE FEST this weekend on Saturday and Sunday",
+        "url": "https://wimsradio.com/2026/09/12/stop-by-garwood-orchards-for-apple-fest-this-weekend-on-saturday-and-sunday/",
+        "domain": "wimsradio.com",
+        "date": "2026-09-12",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "ICYMI : the 7 biggest tech stories of the week , from Apple iPhone Duo debut to Sono best compact speaker yet",
+        "url": "https://www.techradar.com/tech/icymi-the-7-biggest-tech-stories-of-the-week-from-apples-iphone-duo-debut-to-sonos-best-compact-speaker-yet",
+        "domain": "techradar.com",
+        "date": "2026-09-12",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "Martin Lewis says get free Apple TV worth £90 | Personal Finance | Finance",
+        "url": "https://www.express.co.uk/finance/personalfinance/2247900/martin-lewis-free-apple-tv-credit-card",
+        "domain": "express.co.uk",
+        "date": "2026-09-12",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      }
+    ],
+    "source": "gdelt"
   }
 }
