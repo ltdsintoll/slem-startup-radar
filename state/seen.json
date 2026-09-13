@@ -5014,6 +5014,11 @@
     "name": "shotwell.ai",
     "source": "YC"
   },
+  "yc:sigma-2": {
+    "first_seen": "2026-09-13",
+    "name": "Sigma",
+    "source": "YC"
+  },
   "yc:silmaril": {
     "first_seen": "2026-07-24",
     "name": "Silmaril",
@@ -5257,6 +5262,11 @@
   "yc:thomas": {
     "first_seen": "2026-07-24",
     "name": "Thomas",
+    "source": "YC"
+  },
+  "yc:tilion": {
+    "first_seen": "2026-09-13",
+    "name": "Tilion",
     "source": "YC"
   },
   "yc:tolmo": {
