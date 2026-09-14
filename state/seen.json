@@ -44,6 +44,11 @@
     "name": "TBC - The Boring Co",
     "source": "Form D"
   },
+  "formd:000181315926000003": {
+    "first_seen": "2026-09-14",
+    "name": "Hop Flyt, Inc.",
+    "source": "Form D"
+  },
   "formd:000185588826000005": {
     "first_seen": "2026-07-24",
     "name": "ASCENDIA PHARMACEUTICALS, INC.",
@@ -162,6 +167,11 @@
   "formd:000208519826000001": {
     "first_seen": "2026-07-24",
     "name": "Brimstone Grill Inc.",
+    "source": "Form D"
+  },
+  "formd:000209493826000001": {
+    "first_seen": "2026-09-14",
+    "name": "Refr Sports Inc.",
     "source": "Form D"
   },
   "formd:000210096626000011": {
@@ -477,6 +487,11 @@
   "formd:000214454626000002": {
     "first_seen": "2026-08-13",
     "name": "Them3 Labs Inc.",
+    "source": "Form D"
+  },
+  "formd:000214456126000001": {
+    "first_seen": "2026-09-14",
+    "name": "Blush Boy Corp.",
     "source": "Form D"
   },
   "formd:000214458526000001": {
@@ -2764,6 +2779,11 @@
     "name": "SAFE ON SOCIAL, INC.",
     "source": "Form D"
   },
+  "formd:000215376426000002": {
+    "first_seen": "2026-09-14",
+    "name": "COUNT Financial, Inc.",
+    "source": "Form D"
+  },
   "formd:000215377226000001": {
     "first_seen": "2026-09-10",
     "name": "Telos Astra LLC",
@@ -3002,6 +3022,11 @@
   "formd:000215496726000001": {
     "first_seen": "2026-09-12",
     "name": "SKINSYNC AI INC.",
+    "source": "Form D"
+  },
+  "formd:000215501226000001": {
+    "first_seen": "2026-09-14",
+    "name": "Aspire Group Ltd.",
     "source": "Form D"
   },
   "formd:000215502526000001": {
