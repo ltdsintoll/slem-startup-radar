@@ -69,6 +69,16 @@
     "name": "Language IO, Inc.",
     "source": "Form D"
   },
+  "formd:000191551926000003": {
+    "first_seen": "2026-09-15",
+    "name": "Equabli Holdings, Inc.",
+    "source": "Form D"
+  },
+  "formd:000193670126000003": {
+    "first_seen": "2026-09-15",
+    "name": "CMS Apollo Holdings LP",
+    "source": "Form D"
+  },
   "formd:000195297426000004": {
     "first_seen": "2026-09-10",
     "name": "Praeventix, Inc.",
@@ -112,6 +122,11 @@
   "formd:000203363726000002": {
     "first_seen": "2026-07-24",
     "name": "Unless LGH Holdings LLC",
+    "source": "Form D"
+  },
+  "formd:000203469826000001": {
+    "first_seen": "2026-09-15",
+    "name": "MSE Acquisitions, Inc.",
     "source": "Form D"
   },
   "formd:000204625626000005": {
@@ -204,9 +219,19 @@
     "name": "MyWay West End Ltd Liability Co",
     "source": "Form D"
   },
+  "formd:000211253526000003": {
+    "first_seen": "2026-09-15",
+    "name": "NeuroMuse Inc.",
+    "source": "Form D"
+  },
   "formd:000211304426000002": {
     "first_seen": "2026-07-28",
     "name": "DoneCast, Inc.",
+    "source": "Form D"
+  },
+  "formd:000212453526000002": {
+    "first_seen": "2026-09-15",
+    "name": "OpZira, Inc.",
     "source": "Form D"
   },
   "formd:000212743626000002": {
@@ -352,6 +377,11 @@
   "formd:000214237726000001": {
     "first_seen": "2026-07-27",
     "name": "MCB The Enolia Student Housing DST",
+    "source": "Form D"
+  },
+  "formd:000214274626000002": {
+    "first_seen": "2026-09-15",
+    "name": "Glauc Inc.",
     "source": "Form D"
   },
   "formd:000214276726000001": {
@@ -2574,6 +2604,11 @@
     "name": "Bevel, Inc.",
     "source": "Form D"
   },
+  "formd:000215293526000001": {
+    "first_seen": "2026-09-15",
+    "name": "Geviti Inc",
+    "source": "Form D"
+  },
   "formd:000215294026000001": {
     "first_seen": "2026-09-08",
     "name": "Malcova, Inc",
@@ -2844,6 +2879,11 @@
     "name": "Alliance Investors, LP",
     "source": "Form D"
   },
+  "formd:000215398026000001": {
+    "first_seen": "2026-09-15",
+    "name": "Chemi-Sense Systems, Corp",
+    "source": "Form D"
+  },
   "formd:000215399226000001": {
     "first_seen": "2026-09-09",
     "name": "Eletusk, Corp",
@@ -2872,6 +2912,11 @@
   "formd:000215404526000002": {
     "first_seen": "2026-09-10",
     "name": "MTM 2027 Ltd Liability Co",
+    "source": "Form D"
+  },
+  "formd:000215406026000001": {
+    "first_seen": "2026-09-15",
+    "name": "Aerovy Mobility, Inc.",
     "source": "Form D"
   },
   "formd:000215407226000001": {
@@ -2999,6 +3044,11 @@
     "name": "Main Street World Flavors, LLC",
     "source": "Form D"
   },
+  "formd:000215482326000002": {
+    "first_seen": "2026-09-15",
+    "name": "REA CAPITAL III LTD",
+    "source": "Form D"
+  },
   "formd:000215484826000001": {
     "first_seen": "2026-09-12",
     "name": "Provident Health 01-05 LLC",
@@ -3024,14 +3074,49 @@
     "name": "SKINSYNC AI INC.",
     "source": "Form D"
   },
+  "formd:000215497726000001": {
+    "first_seen": "2026-09-15",
+    "name": "Higher Powers Inc.",
+    "source": "Form D"
+  },
+  "formd:000215498426000001": {
+    "first_seen": "2026-09-15",
+    "name": "Blueberries Broadway Ltd Liability Co",
+    "source": "Form D"
+  },
   "formd:000215501226000001": {
     "first_seen": "2026-09-14",
     "name": "Aspire Group Ltd.",
     "source": "Form D"
   },
+  "formd:000215501226000002": {
+    "first_seen": "2026-09-15",
+    "name": "Aspire Group Ltd.",
+    "source": "Form D"
+  },
+  "formd:000215501426000001": {
+    "first_seen": "2026-09-15",
+    "name": "TRAXXSKILLS INC",
+    "source": "Form D"
+  },
   "formd:000215502526000001": {
     "first_seen": "2026-09-12",
     "name": "NJDyne FR LLC",
+    "source": "Form D"
+  },
+  "formd:000215507126000001": {
+    "first_seen": "2026-09-15",
+    "name": "Prodigy Puzzles Escape Rooms LLC",
+    "source": "Form D"
+  },
+  "formd:000215507426000001": {
+    "first_seen": "2026-09-15",
+    "name": "Free Beer Brewing & Distilling LLC",
+    "source": "Form D"
+  },
+  "formd:000215518226000001": {
+    "first_seen": "2026-09-15",
+    "name": "Zeely, Inc.",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -3077,6 +3162,11 @@
   "yc:agency-tool-company": {
     "first_seen": "2026-07-25",
     "name": "Agency Tool Company",
+    "source": "YC"
+  },
+  "yc:agent-37": {
+    "first_seen": "2026-09-15",
+    "name": "Agent 37",
     "source": "YC"
   },
   "yc:agent-fm": {
@@ -3337,6 +3427,11 @@
   "yc:avea-robotics": {
     "first_seen": "2026-07-24",
     "name": "Avea Robotics",
+    "source": "YC"
+  },
+  "yc:aviern": {
+    "first_seen": "2026-09-15",
+    "name": "Aviern",
     "source": "YC"
   },
   "yc:avoca-systems": {
@@ -4044,6 +4139,11 @@
     "name": "HyperProbe",
     "source": "YC"
   },
+  "yc:ignition-benefits": {
+    "first_seen": "2026-09-15",
+    "name": "Ignition Benefits",
+    "source": "YC"
+  },
   "yc:illume-labs": {
     "first_seen": "2026-07-24",
     "name": "Illume Labs",
@@ -4494,6 +4594,11 @@
     "name": "Nebula Security",
     "source": "YC"
   },
+  "yc:nebusec": {
+    "first_seen": "2026-09-15",
+    "name": "NebuSec",
+    "source": "YC"
+  },
   "yc:netter": {
     "first_seen": "2026-07-24",
     "name": "Netter",
@@ -4682,6 +4787,11 @@
   "yc:pango": {
     "first_seen": "2026-07-24",
     "name": "Pango",
+    "source": "YC"
+  },
+  "yc:papaya": {
+    "first_seen": "2026-09-15",
+    "name": "Papaya",
     "source": "YC"
   },
   "yc:parasma": {
@@ -4942,6 +5052,11 @@
   "yc:robocurve": {
     "first_seen": "2026-07-24",
     "name": "Robocurve",
+    "source": "YC"
+  },
+  "yc:roma": {
+    "first_seen": "2026-09-15",
+    "name": "Roma",
     "source": "YC"
   },
   "yc:ronanrx-inc": {
@@ -5292,6 +5407,11 @@
   "yc:tilion": {
     "first_seen": "2026-09-13",
     "name": "Tilion",
+    "source": "YC"
+  },
+  "yc:tire-swing": {
+    "first_seen": "2026-09-15",
+    "name": "Tire Swing",
     "source": "YC"
   },
   "yc:tolmo": {

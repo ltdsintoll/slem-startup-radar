@@ -277,7 +277,7 @@
   "1622345": {
     "first_seen": "2026-07-29",
     "name": "Polar Power, Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "1630212": {
     "first_seen": "2026-07-24",
@@ -487,12 +487,12 @@
   "1802369": {
     "first_seen": "2026-09-05",
     "name": "ADARx Pharmaceuticals, Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "1807887": {
     "first_seen": "2026-07-24",
     "name": "Laser Photonics Corp",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "1808377": {
     "first_seen": "2026-07-24",
@@ -717,6 +717,11 @@
   "1912966": {
     "first_seen": "2026-07-24",
     "name": "REGENTIS BIOMATERIALS LTD.",
+    "stage": "Filed"
+  },
+  "1922335": {
+    "first_seen": "2026-09-15",
+    "name": "Syra Health Corp",
     "stage": "Filed"
   },
   "1926792": {
@@ -1233,6 +1238,11 @@
     "first_seen": "2026-07-24",
     "name": "GreenVector Holdings Ltd",
     "stage": "Priced/IPO"
+  },
+  "2078149": {
+    "first_seen": "2026-09-15",
+    "name": "Veri MedTech Holdings, Inc.",
+    "stage": "Amending"
   },
   "2078856": {
     "first_seen": "2026-07-24",
@@ -2149,6 +2159,11 @@
     "name": "Hometown Financial Group, Inc./MD",
     "stage": "Filed"
   },
+  "2152813": {
+    "first_seen": "2026-09-15",
+    "name": "MFB Bancorp, Inc.",
+    "stage": "Filed"
+  },
   "2152921": {
     "first_seen": "2026-09-12",
     "name": "Rafex Gold Corp.",
@@ -2227,6 +2242,6 @@
   "95572": {
     "first_seen": "2026-08-08",
     "name": "KiNRG, Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   }
 }
