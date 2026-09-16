@@ -24,6 +24,11 @@
     "name": "Kaida BioPharma Inc.",
     "source": "Form D"
   },
+  "formd:000149315226042792": {
+    "first_seen": "2026-09-16",
+    "name": "FibroBiologics, Inc.",
+    "source": "Form D"
+  },
   "formd:000166350926000003": {
     "first_seen": "2026-09-02",
     "name": "Sift Media, Inc.",
@@ -47,6 +52,11 @@
   "formd:000181315926000003": {
     "first_seen": "2026-09-14",
     "name": "Hop Flyt, Inc.",
+    "source": "Form D"
+  },
+  "formd:000181652526000001": {
+    "first_seen": "2026-09-16",
+    "name": "Twin Health, Inc.",
     "source": "Form D"
   },
   "formd:000185588826000005": {
@@ -1469,6 +1479,11 @@
     "name": "Malted AI Ltd",
     "source": "Form D"
   },
+  "formd:000214867726000001": {
+    "first_seen": "2026-09-16",
+    "name": "Gaingels Petra Power LLC",
+    "source": "Form D"
+  },
   "formd:000214870326000002": {
     "first_seen": "2026-08-05",
     "name": "AM Sailing LP",
@@ -1847,6 +1862,11 @@
   "formd:000214969226000001": {
     "first_seen": "2026-08-13",
     "name": "Meridian Wound Care LLC",
+    "source": "Form D"
+  },
+  "formd:000214970026000001": {
+    "first_seen": "2026-09-16",
+    "name": "Gaingels General Compute LLC",
     "source": "Form D"
   },
   "formd:000214971026000001": {
@@ -2749,6 +2769,11 @@
     "name": "EB5IM Partners I, LLC",
     "source": "Form D"
   },
+  "formd:000215351526000001": {
+    "first_seen": "2026-09-16",
+    "name": "Transformational Housing Partners LLC",
+    "source": "Form D"
+  },
   "formd:000215352426000001": {
     "first_seen": "2026-09-08",
     "name": "Ellipsys Medical, Inc.",
@@ -2782,6 +2807,11 @@
   "formd:000215358226000001": {
     "first_seen": "2026-09-04",
     "name": "OSSEOLABS, INC.",
+    "source": "Form D"
+  },
+  "formd:000215358526000005": {
+    "first_seen": "2026-09-16",
+    "name": "Zaden Technologies, Inc.",
     "source": "Form D"
   },
   "formd:000215358626000001": {
@@ -3039,6 +3069,11 @@
     "name": "Benefitsbridge 01-15 LLC",
     "source": "Form D"
   },
+  "formd:000215478626000001": {
+    "first_seen": "2026-09-16",
+    "name": "Avivo LLC",
+    "source": "Form D"
+  },
   "formd:000215480726000001": {
     "first_seen": "2026-09-12",
     "name": "Main Street World Flavors, LLC",
@@ -3057,6 +3092,11 @@
   "formd:000215486926000001": {
     "first_seen": "2026-09-12",
     "name": "CSV Draftea LLC",
+    "source": "Form D"
+  },
+  "formd:000215488126000001": {
+    "first_seen": "2026-09-16",
+    "name": "Axis Mundi Technologies, Inc.",
     "source": "Form D"
   },
   "formd:000215490526000001": {
@@ -3082,6 +3122,11 @@
   "formd:000215498426000001": {
     "first_seen": "2026-09-15",
     "name": "Blueberries Broadway Ltd Liability Co",
+    "source": "Form D"
+  },
+  "formd:000215501126000001": {
+    "first_seen": "2026-09-16",
+    "name": "Scoring Factory AI Inc.",
     "source": "Form D"
   },
   "formd:000215501226000001": {
@@ -3114,9 +3159,49 @@
     "name": "Free Beer Brewing & Distilling LLC",
     "source": "Form D"
   },
+  "formd:000215508126000001": {
+    "first_seen": "2026-09-16",
+    "name": "Veerio Inc",
+    "source": "Form D"
+  },
+  "formd:000215515926000001": {
+    "first_seen": "2026-09-16",
+    "name": "ENVISION HOLDCO, LLC",
+    "source": "Form D"
+  },
   "formd:000215518226000001": {
     "first_seen": "2026-09-15",
     "name": "Zeely, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215519226000001": {
+    "first_seen": "2026-09-16",
+    "name": "TogetherMade, PBC",
+    "source": "Form D"
+  },
+  "formd:000215528826000001": {
+    "first_seen": "2026-09-16",
+    "name": "Aequum Solutions, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215529226000001": {
+    "first_seen": "2026-09-16",
+    "name": "OrchestrateX Inc",
+    "source": "Form D"
+  },
+  "formd:000215541426000001": {
+    "first_seen": "2026-09-16",
+    "name": "Code 13 Security",
+    "source": "Form D"
+  },
+  "formd:000215552326000001": {
+    "first_seen": "2026-09-16",
+    "name": "Split Second Royalties LLC",
+    "source": "Form D"
+  },
+  "formd:000215554526000001": {
+    "first_seen": "2026-09-16",
+    "name": "HardLabs Technologies, Inc.",
     "source": "Form D"
   },
   "yc:6thsense": {

@@ -389,6 +389,11 @@
     "name": "Syntiant Corp.",
     "stage": "Amending"
   },
+  "1722731": {
+    "first_seen": "2026-09-16",
+    "name": "FDCTECH, INC.",
+    "stage": "Filed"
+  },
   "1734750": {
     "first_seen": "2026-07-24",
     "name": "Corvex, Inc.",
@@ -1089,6 +1094,11 @@
     "name": "HengHong Technology Inc.",
     "stage": "Amending"
   },
+  "2050183": {
+    "first_seen": "2026-09-16",
+    "name": "LYC HEALTHCARE (CAYMAN) LTD",
+    "stage": "Amending"
+  },
   "2052443": {
     "first_seen": "2026-09-04",
     "name": "V Capital Consulting Group Ltd",
@@ -1159,6 +1169,11 @@
     "name": "Little West Holdings Inc.",
     "stage": "Amending"
   },
+  "2066353": {
+    "first_seen": "2026-09-16",
+    "name": "Canary Staked SEI ETF",
+    "stage": "Amending"
+  },
   "2067111": {
     "first_seen": "2026-07-24",
     "name": "Bitwise NEAR ETF",
@@ -1214,6 +1229,11 @@
     "name": "General Fusion Group Ltd.",
     "stage": "Filed"
   },
+  "2075036": {
+    "first_seen": "2026-09-16",
+    "name": "EvoNexus Group LTD",
+    "stage": "Amending"
+  },
   "2075109": {
     "first_seen": "2026-07-24",
     "name": "Matternet, Inc.",
@@ -1222,6 +1242,11 @@
   "2075335": {
     "first_seen": "2026-07-28",
     "name": "ROZE AI INC.",
+    "stage": "Amending"
+  },
+  "2075589": {
+    "first_seen": "2026-09-16",
+    "name": "Law's Business Group Holding Ltd",
     "stage": "Amending"
   },
   "2076148": {
@@ -1304,6 +1329,11 @@
     "name": "QumulusAI, Inc.",
     "stage": "Priced/IPO"
   },
+  "2084038": {
+    "first_seen": "2026-09-16",
+    "name": "Yi Feng Holdings Ltd.",
+    "stage": "Amending"
+  },
   "2084227": {
     "first_seen": "2026-07-24",
     "name": "Advasa Holdings, Inc.",
@@ -1377,7 +1407,7 @@
   "2091680": {
     "first_seen": "2026-08-22",
     "name": "Bitari Inc",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2092287": {
     "first_seen": "2026-07-24",
@@ -1622,7 +1652,7 @@
   "2111453": {
     "first_seen": "2026-07-24",
     "name": "Verdera Energy Corp.",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "2111838": {
     "first_seen": "2026-08-26",
@@ -1717,7 +1747,7 @@
   "2119287": {
     "first_seen": "2026-09-01",
     "name": "GLGHK Ltd",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2119292": {
     "first_seen": "2026-09-10",
@@ -1862,6 +1892,11 @@
   "2131124": {
     "first_seen": "2026-09-10",
     "name": "Elevation Acquisition Group Inc.",
+    "stage": "Filed"
+  },
+  "2131303": {
+    "first_seen": "2026-09-16",
+    "name": "SPACCircle Acquisition Corp.",
     "stage": "Filed"
   },
   "2131350": {
@@ -2037,7 +2072,7 @@
   "2141616": {
     "first_seen": "2026-08-29",
     "name": "Amaero Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2141983": {
     "first_seen": "2026-09-12",
@@ -2053,6 +2088,11 @@
     "first_seen": "2026-07-30",
     "name": "PBT Land & Minerals, Inc.",
     "stage": "Amending"
+  },
+  "2143038": {
+    "first_seen": "2026-09-16",
+    "name": "Oceanhawk Acquisition II Corp.",
+    "stage": "Filed"
   },
   "2143060": {
     "first_seen": "2026-08-25",
