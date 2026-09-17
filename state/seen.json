@@ -29,6 +29,11 @@
     "name": "FibroBiologics, Inc.",
     "source": "Form D"
   },
+  "formd:000149315226043002": {
+    "first_seen": "2026-09-17",
+    "name": "SUNGAGE FINANCIAL, LLC",
+    "source": "Form D"
+  },
   "formd:000166350926000003": {
     "first_seen": "2026-09-02",
     "name": "Sift Media, Inc.",
@@ -37,6 +42,11 @@
   "formd:000167542526000004": {
     "first_seen": "2026-07-28",
     "name": "Biosceptre International Ltd",
+    "source": "Form D"
+  },
+  "formd:000168712326000002": {
+    "first_seen": "2026-09-17",
+    "name": "SawmaSaw Cheese Co",
     "source": "Form D"
   },
   "formd:000169018326000003": {
@@ -94,6 +104,11 @@
     "name": "Praeventix, Inc.",
     "source": "Form D"
   },
+  "formd:000195751726000004": {
+    "first_seen": "2026-09-17",
+    "name": "Gravitics, Inc.",
+    "source": "Form D"
+  },
   "formd:000197056926000003": {
     "first_seen": "2026-07-27",
     "name": "Anchor 3724, LLC",
@@ -117,6 +132,11 @@
   "formd:000200402026000003": {
     "first_seen": "2026-07-24",
     "name": "DIMER INSTRUMENTS, INC.",
+    "source": "Form D"
+  },
+  "formd:000201161726000019": {
+    "first_seen": "2026-09-17",
+    "name": "SIERRA INTERNATIONAL NETWORK INC",
     "source": "Form D"
   },
   "formd:000202234026000005": {
@@ -144,6 +164,11 @@
     "name": "Thermolic Corp",
     "source": "Form D"
   },
+  "formd:000204722126000005": {
+    "first_seen": "2026-09-17",
+    "name": "CARING CLOSURES INT'L LLC",
+    "source": "Form D"
+  },
   "formd:000205288626000001": {
     "first_seen": "2026-09-10",
     "name": "Prosper Health, Inc.",
@@ -152,6 +177,11 @@
   "formd:000205561026000003": {
     "first_seen": "2026-09-04",
     "name": "Visalaw Ventures, Inc.",
+    "source": "Form D"
+  },
+  "formd:000205888226000002": {
+    "first_seen": "2026-09-17",
+    "name": "Metabowlite, Inc.",
     "source": "Form D"
   },
   "formd:000206075526000054": {
@@ -172,6 +202,11 @@
   "formd:000206721426000001": {
     "first_seen": "2026-09-04",
     "name": "IWF Productions LLC",
+    "source": "Form D"
+  },
+  "formd:000207195026000003": {
+    "first_seen": "2026-09-17",
+    "name": "Atari Interactive, Inc.",
     "source": "Form D"
   },
   "formd:000207802626000001": {
@@ -2779,6 +2814,11 @@
     "name": "Ellipsys Medical, Inc.",
     "source": "Form D"
   },
+  "formd:000215352426000002": {
+    "first_seen": "2026-09-17",
+    "name": "Ellipsys Medical, Inc.",
+    "source": "Form D"
+  },
   "formd:000215352626000001": {
     "first_seen": "2026-09-04",
     "name": "Truespire Systems, Inc.",
@@ -2842,6 +2882,11 @@
   "formd:000215369326000001": {
     "first_seen": "2026-09-09",
     "name": "SAFE ON SOCIAL, INC.",
+    "source": "Form D"
+  },
+  "formd:000215369626000001": {
+    "first_seen": "2026-09-17",
+    "name": "Volacor Inc.",
     "source": "Form D"
   },
   "formd:000215376426000002": {
@@ -3019,6 +3064,11 @@
     "name": "DIM SUM FARM LLC",
     "source": "Form D"
   },
+  "formd:000215444526000001": {
+    "first_seen": "2026-09-17",
+    "name": "500RSGP Inc.",
+    "source": "Form D"
+  },
   "formd:000215449526000002": {
     "first_seen": "2026-09-11",
     "name": "Norman Retirement, LLC",
@@ -3189,9 +3239,29 @@
     "name": "OrchestrateX Inc",
     "source": "Form D"
   },
+  "formd:000215534926000001": {
+    "first_seen": "2026-09-17",
+    "name": "Atari S.A.",
+    "source": "Form D"
+  },
+  "formd:000215538326000001": {
+    "first_seen": "2026-09-17",
+    "name": "UV Labs AI, Inc.",
+    "source": "Form D"
+  },
   "formd:000215541426000001": {
     "first_seen": "2026-09-16",
     "name": "Code 13 Security",
+    "source": "Form D"
+  },
+  "formd:000215541526000001": {
+    "first_seen": "2026-09-17",
+    "name": "Theia Imaging LLC",
+    "source": "Form D"
+  },
+  "formd:000215550826000001": {
+    "first_seen": "2026-09-17",
+    "name": "Intrinsic Labs Holdings Inc.",
     "source": "Form D"
   },
   "formd:000215552326000001": {
@@ -3202,6 +3272,16 @@
   "formd:000215554526000001": {
     "first_seen": "2026-09-16",
     "name": "HardLabs Technologies, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215568026000001": {
+    "first_seen": "2026-09-17",
+    "name": "Consolidated Towing Systems LLC",
+    "source": "Form D"
+  },
+  "formd:000215578626000001": {
+    "first_seen": "2026-09-17",
+    "name": "World Flavors Holdings, LLC",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -3572,6 +3652,11 @@
   "yc:bloomy": {
     "first_seen": "2026-07-24",
     "name": "Bloomy",
+    "source": "YC"
+  },
+  "yc:boat": {
+    "first_seen": "2026-09-17",
+    "name": "Boat",
     "source": "YC"
   },
   "yc:buildbox": {
@@ -4169,6 +4254,11 @@
     "name": "HeyClicky",
     "source": "YC"
   },
+  "yc:hickory-and-company": {
+    "first_seen": "2026-09-17",
+    "name": "Hickory & Company",
+    "source": "YC"
+  },
   "yc:hiloop": {
     "first_seen": "2026-07-30",
     "name": "hiloop",
@@ -4422,6 +4512,11 @@
   "yc:lantern-ai": {
     "first_seen": "2026-08-19",
     "name": "Lantern AI",
+    "source": "YC"
+  },
+  "yc:lark-2": {
+    "first_seen": "2026-09-17",
+    "name": "Lark",
     "source": "YC"
   },
   "yc:last-accounting-company": {
@@ -4912,6 +5007,11 @@
   "yc:perfectbit-inc": {
     "first_seen": "2026-07-24",
     "name": "PerfectBit, Inc.",
+    "source": "YC"
+  },
+  "yc:peritai": {
+    "first_seen": "2026-09-17",
+    "name": "Perit.AI",
     "source": "YC"
   },
   "yc:petrarch": {
