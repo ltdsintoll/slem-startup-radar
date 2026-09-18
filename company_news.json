@@ -62,7 +62,24 @@
   "320193": {
     "ticker": "AAPL",
     "company": "Apple Inc.",
-    "articles": [],
-    "source": "no-data"
+    "articles": [
+      {
+        "title": "Apple September Event : iPhone Duo , Apple Watch Series 12 , and AirPods 5 # 1877",
+        "url": "https://geeknewscentral.com/2026/09/12/apples-september-event-iphone-duo-apple-watch-series-12-and-airpods-5-1877/",
+        "domain": "geeknewscentral.com",
+        "date": "2026-09-13",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "Investing $20 , 000 in Apple Stock 10 Years Ago Paid Off More Than Investing the Same Amount in Amazon . Here the Better Buy for the Next Decade . ",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/investing-20-000-apple-stock-080500376.html",
+        "domain": "finance.yahoo.com",
+        "date": "2026-09-13",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      }
+    ],
+    "source": "gdelt"
   }
 }

@@ -199,6 +199,11 @@
     "name": "VERDE RESOURCES, INC.",
     "stage": "Amending"
   },
+  "1506983": {
+    "first_seen": "2026-09-18",
+    "name": "Glucotrack, Inc.",
+    "stage": "Filed"
+  },
   "1517681": {
     "first_seen": "2026-07-24",
     "name": "Propanc Biopharma, Inc.",
@@ -904,10 +909,20 @@
     "name": "Devonian Health Group Inc.",
     "stage": "Amending"
   },
+  "2003061": {
+    "first_seen": "2026-09-18",
+    "name": "Star Fashion Culture Holdings Ltd",
+    "stage": "Filed"
+  },
   "2004024": {
     "first_seen": "2026-08-20",
     "name": "Lianhe Sowell International Group Ltd",
     "stage": "Priced/IPO"
+  },
+  "2004489": {
+    "first_seen": "2026-09-18",
+    "name": "Basel Medical Group Ltd",
+    "stage": "Filed"
   },
   "2004711": {
     "first_seen": "2026-07-24",
@@ -1709,6 +1724,11 @@
     "name": "Chilwa Minerals Ltd",
     "stage": "Amending"
   },
+  "2113640": {
+    "first_seen": "2026-09-18",
+    "name": "VME Companies, Inc.",
+    "stage": "Filed"
+  },
   "2113733": {
     "first_seen": "2026-09-02",
     "name": "Bogd FT Ltd",
@@ -1716,8 +1736,8 @@
   },
   "2114145": {
     "first_seen": "2026-07-29",
-    "name": "TracX Logis Pte. Ltd.",
-    "stage": "Filed"
+    "name": "Tracx Logis Ltd.",
+    "stage": "Amending"
   },
   "2114229": {
     "first_seen": "2026-07-24",
@@ -1972,7 +1992,7 @@
   "2134090": {
     "first_seen": "2026-08-25",
     "name": "Aggreko Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2134106": {
     "first_seen": "2026-09-12",
@@ -2253,6 +2273,11 @@
     "first_seen": "2026-07-24",
     "name": "Mitesco, Inc.",
     "stage": "Amending"
+  },
+  "832489": {
+    "first_seen": "2026-09-18",
+    "name": "GeoVax Labs, Inc.",
+    "stage": "Filed"
   },
   "840715": {
     "first_seen": "2026-08-11",

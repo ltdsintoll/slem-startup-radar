@@ -119,6 +119,11 @@
     "name": "DMHJV001 INC.",
     "source": "Form D"
   },
+  "formd:000197920726000004": {
+    "first_seen": "2026-09-18",
+    "name": "UrgentIQ Inc.",
+    "source": "Form D"
+  },
   "formd:000198119126000003": {
     "first_seen": "2026-07-27",
     "name": "Veza Innovations Inc.",
@@ -204,6 +209,11 @@
     "name": "IWF Productions LLC",
     "source": "Form D"
   },
+  "formd:000207123226000001": {
+    "first_seen": "2026-09-18",
+    "name": "OpsMate AI, Inc.",
+    "source": "Form D"
+  },
   "formd:000207195026000003": {
     "first_seen": "2026-09-17",
     "name": "Atari Interactive, Inc.",
@@ -249,6 +259,11 @@
     "name": "SelectDr, Inc.",
     "source": "Form D"
   },
+  "formd:000210510426000001": {
+    "first_seen": "2026-09-18",
+    "name": "Agentic Solutions LLC",
+    "source": "Form D"
+  },
   "formd:000210964326000003": {
     "first_seen": "2026-07-24",
     "name": "Embold Therapeutics, Inc.",
@@ -277,6 +292,11 @@
   "formd:000212453526000002": {
     "first_seen": "2026-09-15",
     "name": "OpZira, Inc.",
+    "source": "Form D"
+  },
+  "formd:000212682626000002": {
+    "first_seen": "2026-09-18",
+    "name": "Trimtab Impact Inc.",
     "source": "Form D"
   },
   "formd:000212743626000002": {
@@ -2554,6 +2574,11 @@
     "name": "Forecast Bio, Inc.",
     "source": "Form D"
   },
+  "formd:000215232126000002": {
+    "first_seen": "2026-09-18",
+    "name": "NanosVet, Inc.",
+    "source": "Form D"
+  },
   "formd:000215232926000001": {
     "first_seen": "2026-08-30",
     "name": "Mollie Collective LLC",
@@ -2979,6 +3004,11 @@
     "name": "Gaingels YC S26 LLC",
     "source": "Form D"
   },
+  "formd:000215402726000003": {
+    "first_seen": "2026-09-18",
+    "name": "Gaingels YC S26 LLC",
+    "source": "Form D"
+  },
   "formd:000215403726000001": {
     "first_seen": "2026-09-09",
     "name": "Eagleford Horizontal Partnership 91, LP",
@@ -3279,9 +3309,64 @@
     "name": "Consolidated Towing Systems LLC",
     "source": "Form D"
   },
+  "formd:000215568026000003": {
+    "first_seen": "2026-09-18",
+    "name": "Consolidated Towing Systems LLC",
+    "source": "Form D"
+  },
   "formd:000215578626000001": {
     "first_seen": "2026-09-17",
     "name": "World Flavors Holdings, LLC",
+    "source": "Form D"
+  },
+  "formd:000215580426000001": {
+    "first_seen": "2026-09-18",
+    "name": "KinCap Peppertree, LLC",
+    "source": "Form D"
+  },
+  "formd:000215583926000001": {
+    "first_seen": "2026-09-18",
+    "name": "UET Products, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215584626000001": {
+    "first_seen": "2026-09-18",
+    "name": "Venture Studios LLC",
+    "source": "Form D"
+  },
+  "formd:000215584826000002": {
+    "first_seen": "2026-09-18",
+    "name": "VIRGO CAPITAL PARTNERS, LLC",
+    "source": "Form D"
+  },
+  "formd:000215585126000001": {
+    "first_seen": "2026-09-18",
+    "name": "Ionava Investors LLC",
+    "source": "Form D"
+  },
+  "formd:000215590926000001": {
+    "first_seen": "2026-09-18",
+    "name": "OralKleen, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215593926000001": {
+    "first_seen": "2026-09-18",
+    "name": "Beachfront the Movie LLC",
+    "source": "Form D"
+  },
+  "formd:000215595926000001": {
+    "first_seen": "2026-09-18",
+    "name": "INTEN Sports Medicine, LLC",
+    "source": "Form D"
+  },
+  "formd:000215596926000001": {
+    "first_seen": "2026-09-18",
+    "name": "IMACS Working Capital Facility One LLC",
+    "source": "Form D"
+  },
+  "formd:000215599326000001": {
+    "first_seen": "2026-09-18",
+    "name": "My Purpose Plan, Inc.",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -3457,6 +3542,11 @@
   "yc:applied-electrodynamics-inc": {
     "first_seen": "2026-07-29",
     "name": "Applied Electrodynamics, Inc.",
+    "source": "YC"
+  },
+  "yc:applied-kinetics": {
+    "first_seen": "2026-09-18",
+    "name": "Applied Kinetics",
     "source": "YC"
   },
   "yc:aquashield": {
@@ -4349,6 +4439,11 @@
     "name": "Infera",
     "source": "YC"
   },
+  "yc:inflection-space-systems": {
+    "first_seen": "2026-09-18",
+    "name": "Inflection Space Systems",
+    "source": "YC"
+  },
   "yc:inkbox": {
     "first_seen": "2026-07-24",
     "name": "Inkbox",
@@ -4819,6 +4914,16 @@
     "name": "Nori",
     "source": "YC"
   },
+  "yc:nxtcure-labs": {
+    "first_seen": "2026-09-18",
+    "name": "Nxtcure Labs",
+    "source": "YC"
+  },
+  "yc:oasive": {
+    "first_seen": "2026-09-18",
+    "name": "Oasive",
+    "source": "YC"
+  },
   "yc:oddpool": {
     "first_seen": "2026-07-24",
     "name": "Oddpool",
@@ -5234,6 +5339,11 @@
     "name": "River Markets",
     "source": "YC"
   },
+  "yc:rivereditor": {
+    "first_seen": "2026-09-18",
+    "name": "River",
+    "source": "YC"
+  },
   "yc:robocurve": {
     "first_seen": "2026-07-24",
     "name": "Robocurve",
@@ -5362,6 +5472,11 @@
   "yc:sinter-systems": {
     "first_seen": "2026-09-05",
     "name": "Sinter",
+    "source": "YC"
+  },
+  "yc:sintropix": {
+    "first_seen": "2026-09-18",
+    "name": "Sintropix",
     "source": "YC"
   },
   "yc:skymerse": {
