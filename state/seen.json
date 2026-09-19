@@ -3099,6 +3099,11 @@
     "name": "500RSGP Inc.",
     "source": "Form D"
   },
+  "formd:000215445926000001": {
+    "first_seen": "2026-09-19",
+    "name": "Grey Wolverine Capital LLC",
+    "source": "Form D"
+  },
   "formd:000215449526000002": {
     "first_seen": "2026-09-11",
     "name": "Norman Retirement, LLC",
@@ -3244,6 +3249,11 @@
     "name": "Veerio Inc",
     "source": "Form D"
   },
+  "formd:000215513326000001": {
+    "first_seen": "2026-09-19",
+    "name": "VTG Global Inc.",
+    "source": "Form D"
+  },
   "formd:000215515926000001": {
     "first_seen": "2026-09-16",
     "name": "ENVISION HOLDCO, LLC",
@@ -3344,6 +3354,11 @@
     "name": "Ionava Investors LLC",
     "source": "Form D"
   },
+  "formd:000215590426000001": {
+    "first_seen": "2026-09-19",
+    "name": "STARC Acquisitions, Inc.",
+    "source": "Form D"
+  },
   "formd:000215590926000001": {
     "first_seen": "2026-09-18",
     "name": "OralKleen, Inc.",
@@ -3367,6 +3382,31 @@
   "formd:000215599326000001": {
     "first_seen": "2026-09-18",
     "name": "My Purpose Plan, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215610426000001": {
+    "first_seen": "2026-09-19",
+    "name": "Love, Patrick JV, LLC",
+    "source": "Form D"
+  },
+  "formd:000215613926000001": {
+    "first_seen": "2026-09-19",
+    "name": "DR. MEDIC, LLC",
+    "source": "Form D"
+  },
+  "formd:000215616326000001": {
+    "first_seen": "2026-09-19",
+    "name": "Aran Operations LLC",
+    "source": "Form D"
+  },
+  "formd:000215618726000001": {
+    "first_seen": "2026-09-19",
+    "name": "WIP Orlando Industrial, LLC",
+    "source": "Form D"
+  },
+  "formd:000215627426000001": {
+    "first_seen": "2026-09-19",
+    "name": "Anchored Capital Investment Group LLC",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -3422,6 +3462,11 @@
   "yc:agent-fm": {
     "first_seen": "2026-08-05",
     "name": "Agent FM",
+    "source": "YC"
+  },
+  "yc:agent-relay": {
+    "first_seen": "2026-09-19",
+    "name": "Agent Relay",
     "source": "YC"
   },
   "yc:agentcard": {
@@ -4494,6 +4539,11 @@
     "name": "Inth",
     "source": "YC"
   },
+  "yc:invertix": {
+    "first_seen": "2026-09-19",
+    "name": "Invertix",
+    "source": "YC"
+  },
   "yc:isengard-industries-inc": {
     "first_seen": "2026-07-24",
     "name": "Isengard Industries Inc",
@@ -4517,6 +4567,11 @@
   "yc:juno-chat": {
     "first_seen": "2026-07-24",
     "name": "Juno",
+    "source": "YC"
+  },
+  "yc:kailash-labs": {
+    "first_seen": "2026-09-19",
+    "name": "Kailash Labs",
     "source": "YC"
   },
   "yc:kandor": {
@@ -5569,6 +5624,11 @@
     "name": "Stratum Industries",
     "source": "YC"
   },
+  "yc:streamline-systems": {
+    "first_seen": "2026-09-19",
+    "name": "Streamline Systems",
+    "source": "YC"
+  },
   "yc:studio": {
     "first_seen": "2026-08-20",
     "name": "Studio",
@@ -5882,6 +5942,11 @@
   "yc:vestris": {
     "first_seen": "2026-07-24",
     "name": "Vestris",
+    "source": "YC"
+  },
+  "yc:volaren-inc": {
+    "first_seen": "2026-09-19",
+    "name": "Volaren Inc.",
     "source": "YC"
   },
   "yc:voquill": {
