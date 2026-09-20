@@ -4189,6 +4189,11 @@
     "name": "Familiar",
     "source": "YC"
   },
+  "yc:faraday": {
+    "first_seen": "2026-09-20",
+    "name": "Faraday",
+    "source": "YC"
+  },
   "yc:finaldose": {
     "first_seen": "2026-07-24",
     "name": "FinalDose",
@@ -4307,6 +4312,11 @@
   "yc:gravy": {
     "first_seen": "2026-07-24",
     "name": "Gravy",
+    "source": "YC"
+  },
+  "yc:graypass": {
+    "first_seen": "2026-09-20",
+    "name": "GrayPass",
     "source": "YC"
   },
   "yc:greypoint-industries": {
@@ -5499,6 +5509,11 @@
     "name": "Shiraz AI",
     "source": "YC"
   },
+  "yc:shire-intelligence": {
+    "first_seen": "2026-09-20",
+    "name": "Shire Intelligence",
+    "source": "YC"
+  },
   "yc:shotwellai": {
     "first_seen": "2026-07-24",
     "name": "shotwell.ai",
@@ -5942,6 +5957,11 @@
   "yc:vestris": {
     "first_seen": "2026-07-24",
     "name": "Vestris",
+    "source": "YC"
+  },
+  "yc:viraj-aero": {
+    "first_seen": "2026-09-20",
+    "name": "Viraj Aero",
     "source": "YC"
   },
   "yc:volaren-inc": {
