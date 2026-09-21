@@ -14,9 +14,24 @@
     "name": "VECTORMAX Corp",
     "source": "Form D"
   },
+  "formd:000121390026101515": {
+    "first_seen": "2026-09-21",
+    "name": "Tenon Medical, Inc.",
+    "source": "Form D"
+  },
   "formd:000132914726000003": {
     "first_seen": "2026-09-01",
     "name": "Orthobond Corp",
+    "source": "Form D"
+  },
+  "formd:000134836226000002": {
+    "first_seen": "2026-09-21",
+    "name": "Lexaria Bioscience Corp.",
+    "source": "Form D"
+  },
+  "formd:000140387026000001": {
+    "first_seen": "2026-09-21",
+    "name": "Golden Arrow Resources Corp",
     "source": "Form D"
   },
   "formd:000149315226040893": {
@@ -134,6 +149,11 @@
     "name": "Switchboard Health, Inc.",
     "source": "Form D"
   },
+  "formd:000200162226000003": {
+    "first_seen": "2026-09-21",
+    "name": "3Helix, Inc.",
+    "source": "Form D"
+  },
   "formd:000200402026000003": {
     "first_seen": "2026-07-24",
     "name": "DIMER INSTRUMENTS, INC.",
@@ -179,6 +199,11 @@
     "name": "Prosper Health, Inc.",
     "source": "Form D"
   },
+  "formd:000205524626000003": {
+    "first_seen": "2026-09-21",
+    "name": "Next Wave Partners LLC",
+    "source": "Form D"
+  },
   "formd:000205561026000003": {
     "first_seen": "2026-09-04",
     "name": "Visalaw Ventures, Inc.",
@@ -207,6 +232,11 @@
   "formd:000206721426000001": {
     "first_seen": "2026-09-04",
     "name": "IWF Productions LLC",
+    "source": "Form D"
+  },
+  "formd:000206816726000001": {
+    "first_seen": "2026-09-21",
+    "name": "Disputed, Inc.",
     "source": "Form D"
   },
   "formd:000207123226000001": {
@@ -262,6 +292,11 @@
   "formd:000210510426000001": {
     "first_seen": "2026-09-18",
     "name": "Agentic Solutions LLC",
+    "source": "Form D"
+  },
+  "formd:000210529526000001": {
+    "first_seen": "2026-09-21",
+    "name": "Inquire, Inc.",
     "source": "Form D"
   },
   "formd:000210964326000003": {
@@ -357,6 +392,11 @@
   "formd:000213592926000002": {
     "first_seen": "2026-08-20",
     "name": "Gewang International Industrial Holding Group Inc",
+    "source": "Form D"
+  },
+  "formd:000213736126000005": {
+    "first_seen": "2026-09-21",
+    "name": "Monocacy Therapeutics Inc.",
     "source": "Form D"
   },
   "formd:000213777626000002": {
@@ -581,6 +621,11 @@
   },
   "formd:000214454626000002": {
     "first_seen": "2026-08-13",
+    "name": "Them3 Labs Inc.",
+    "source": "Form D"
+  },
+  "formd:000214454626000004": {
+    "first_seen": "2026-09-21",
     "name": "Them3 Labs Inc.",
     "source": "Form D"
   },
@@ -2319,6 +2364,11 @@
     "name": "Skan AI Mack LP",
     "source": "Form D"
   },
+  "formd:000215100326000001": {
+    "first_seen": "2026-09-21",
+    "name": "Laser Light Holdings, Ltd",
+    "source": "Form D"
+  },
   "formd:000215100426000001": {
     "first_seen": "2026-08-22",
     "name": "Ultra Robotics Corp.",
@@ -2612,6 +2662,11 @@
   "formd:000215251026000003": {
     "first_seen": "2026-09-09",
     "name": "PulsePoint EP, LLC",
+    "source": "Form D"
+  },
+  "formd:000215251926000001": {
+    "first_seen": "2026-09-21",
+    "name": "Credit Gnomes, Inc.",
     "source": "Form D"
   },
   "formd:000215254726000001": {
