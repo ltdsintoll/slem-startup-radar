@@ -14,6 +14,11 @@
     "name": "VECTORMAX Corp",
     "source": "Form D"
   },
+  "formd:000114036126037263": {
+    "first_seen": "2026-09-22",
+    "name": "OKEANOS HOLDINGS, INC.",
+    "source": "Form D"
+  },
   "formd:000121390026101515": {
     "first_seen": "2026-09-21",
     "name": "Tenon Medical, Inc.",
@@ -47,6 +52,11 @@
   "formd:000149315226043002": {
     "first_seen": "2026-09-17",
     "name": "SUNGAGE FINANCIAL, LLC",
+    "source": "Form D"
+  },
+  "formd:000164962826000003": {
+    "first_seen": "2026-09-22",
+    "name": "Edgewater Wireless Systems Inc.",
     "source": "Form D"
   },
   "formd:000166350926000003": {
@@ -112,6 +122,11 @@
   "formd:000193670126000003": {
     "first_seen": "2026-09-15",
     "name": "CMS Apollo Holdings LP",
+    "source": "Form D"
+  },
+  "formd:000195200826000001": {
+    "first_seen": "2026-09-22",
+    "name": "Westwin Elements Inc",
     "source": "Form D"
   },
   "formd:000195297426000004": {
@@ -881,6 +896,11 @@
   },
   "formd:000214684626000001": {
     "first_seen": "2026-07-31",
+    "name": "G1 Veriflow LLC",
+    "source": "Form D"
+  },
+  "formd:000214684626000002": {
+    "first_seen": "2026-09-22",
     "name": "G1 Veriflow LLC",
     "source": "Form D"
   },
@@ -2574,6 +2594,11 @@
     "name": "Gilpin Health, Inc.",
     "source": "Form D"
   },
+  "formd:000215191126000003": {
+    "first_seen": "2026-09-22",
+    "name": "Gilpin Health, Inc.",
+    "source": "Form D"
+  },
   "formd:000215191826000001": {
     "first_seen": "2026-08-26",
     "name": "PIG Elevest, LLC",
@@ -3379,6 +3404,11 @@
     "name": "Consolidated Towing Systems LLC",
     "source": "Form D"
   },
+  "formd:000215576326000001": {
+    "first_seen": "2026-09-22",
+    "name": "Seattle Neurosound Solutions, Inc.",
+    "source": "Form D"
+  },
   "formd:000215578626000001": {
     "first_seen": "2026-09-17",
     "name": "World Flavors Holdings, LLC",
@@ -3387,6 +3417,11 @@
   "formd:000215580426000001": {
     "first_seen": "2026-09-18",
     "name": "KinCap Peppertree, LLC",
+    "source": "Form D"
+  },
+  "formd:000215582226000001": {
+    "first_seen": "2026-09-22",
+    "name": "Dr. Better Sleep, Inc.",
     "source": "Form D"
   },
   "formd:000215583926000001": {
@@ -3462,6 +3497,21 @@
   "formd:000215627426000001": {
     "first_seen": "2026-09-19",
     "name": "Anchored Capital Investment Group LLC",
+    "source": "Form D"
+  },
+  "formd:000215628326000001": {
+    "first_seen": "2026-09-22",
+    "name": "KYMTC Inc.",
+    "source": "Form D"
+  },
+  "formd:000215629126000001": {
+    "first_seen": "2026-09-22",
+    "name": "Galvix Recovery Solutions Corp",
+    "source": "Form D"
+  },
+  "formd:000215639026000001": {
+    "first_seen": "2026-09-22",
+    "name": "Typewriter Therapeutics, Inc.",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -3849,6 +3899,11 @@
     "name": "Boat",
     "source": "YC"
   },
+  "yc:bryel": {
+    "first_seen": "2026-09-22",
+    "name": "Bryel",
+    "source": "YC"
+  },
   "yc:buildbox": {
     "first_seen": "2026-07-29",
     "name": "Buildbox",
@@ -4037,6 +4092,11 @@
   "yc:decawork": {
     "first_seen": "2026-07-29",
     "name": "Decawork",
+    "source": "YC"
+  },
+  "yc:decent-com": {
+    "first_seen": "2026-09-22",
+    "name": "Decent",
     "source": "YC"
   },
   "yc:deep-interactions": {
@@ -4372,6 +4432,11 @@
   "yc:graypass": {
     "first_seen": "2026-09-20",
     "name": "GrayPass",
+    "source": "YC"
+  },
+  "yc:grep-ai": {
+    "first_seen": "2026-09-22",
+    "name": "Grep AI",
     "source": "YC"
   },
   "yc:greypoint-industries": {
@@ -5902,6 +5967,11 @@
   "yc:trope": {
     "first_seen": "2026-07-24",
     "name": "Trope",
+    "source": "YC"
+  },
+  "yc:truemile": {
+    "first_seen": "2026-09-22",
+    "name": "TrueMile",
     "source": "YC"
   },
   "yc:truffle": {
