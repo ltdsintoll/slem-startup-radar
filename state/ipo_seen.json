@@ -39,6 +39,11 @@
     "name": "CURIS INC",
     "stage": "Priced/IPO"
   },
+  "1114859": {
+    "first_seen": "2026-09-23",
+    "name": "Glow Holdings, Inc.",
+    "stage": "Filed"
+  },
   "1115864": {
     "first_seen": "2026-07-30",
     "name": "ECOMINAS CORP.",
@@ -112,6 +117,11 @@
   "1370416": {
     "first_seen": "2026-07-24",
     "name": "WESTPORT FUEL SYSTEMS INC.",
+    "stage": "Filed"
+  },
+  "1371128": {
+    "first_seen": "2026-09-23",
+    "name": "NewHydrogen, Inc.",
     "stage": "Filed"
   },
   "1378140": {
@@ -293,6 +303,11 @@
     "first_seen": "2026-07-29",
     "name": "Polar Power, Inc.",
     "stage": "Amending"
+  },
+  "1624512": {
+    "first_seen": "2026-09-23",
+    "name": "Boxlight Corp",
+    "stage": "Filed"
   },
   "1630212": {
     "first_seen": "2026-07-24",
@@ -832,6 +847,11 @@
   "1956439": {
     "first_seen": "2026-07-24",
     "name": "Enhanced Group Inc.",
+    "stage": "Filed"
+  },
+  "1958133": {
+    "first_seen": "2026-09-23",
+    "name": "Decent Holding Inc.",
     "stage": "Filed"
   },
   "1958713": {
@@ -2177,7 +2197,7 @@
   "2141512": {
     "first_seen": "2026-08-27",
     "name": "Spinnova Plc",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2141616": {
     "first_seen": "2026-08-29",

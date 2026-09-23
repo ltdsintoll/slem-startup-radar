@@ -9,6 +9,11 @@
     "name": "Scorpio Gold Corp",
     "source": "Form D"
   },
+  "formd:000106299326005054": {
+    "first_seen": "2026-09-23",
+    "name": "Cantex Mine Development Corp.",
+    "source": "Form D"
+  },
   "formd:000110465926105583": {
     "first_seen": "2026-09-08",
     "name": "VECTORMAX Corp",
@@ -142,6 +147,11 @@
   "formd:000197056926000003": {
     "first_seen": "2026-07-27",
     "name": "Anchor 3724, LLC",
+    "source": "Form D"
+  },
+  "formd:000197286926000002": {
+    "first_seen": "2026-09-23",
+    "name": "Cadense, Inc.",
     "source": "Form D"
   },
   "formd:000197438326000001": {
@@ -362,6 +372,11 @@
   "formd:000213137826000002": {
     "first_seen": "2026-08-04",
     "name": "orgn.dev Inc",
+    "source": "Form D"
+  },
+  "formd:000213203226000003": {
+    "first_seen": "2026-09-23",
+    "name": "Titan OS Inc",
     "source": "Form D"
   },
   "formd:000213452926000001": {
@@ -2164,6 +2179,11 @@
     "name": "Bard & Hops Crux LLC",
     "source": "Form D"
   },
+  "formd:000215029426000001": {
+    "first_seen": "2026-09-23",
+    "name": "Naveiyra Holdings, Inc.",
+    "source": "Form D"
+  },
   "formd:000215032126000001": {
     "first_seen": "2026-08-22",
     "name": "Universal Graphene Products, Inc.",
@@ -3509,9 +3529,49 @@
     "name": "Galvix Recovery Solutions Corp",
     "source": "Form D"
   },
+  "formd:000215634326000001": {
+    "first_seen": "2026-09-23",
+    "name": "Floto, Inc.",
+    "source": "Form D"
+  },
   "formd:000215639026000001": {
     "first_seen": "2026-09-22",
     "name": "Typewriter Therapeutics, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215652026000001": {
+    "first_seen": "2026-09-23",
+    "name": "Vital Holdings Group LLC",
+    "source": "Form D"
+  },
+  "formd:000215655726000001": {
+    "first_seen": "2026-09-23",
+    "name": "Dreamport Technologies, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215657726000001": {
+    "first_seen": "2026-09-23",
+    "name": "Schon Mobility Inc",
+    "source": "Form D"
+  },
+  "formd:000215659626000001": {
+    "first_seen": "2026-09-23",
+    "name": "Perceptiq Inc.",
+    "source": "Form D"
+  },
+  "formd:000215661526000002": {
+    "first_seen": "2026-09-23",
+    "name": "BuiltOn Trades Holding Co",
+    "source": "Form D"
+  },
+  "formd:000215663526000001": {
+    "first_seen": "2026-09-23",
+    "name": "VoiceIt Technologies, Inc dba EnQuanta",
+    "source": "Form D"
+  },
+  "formd:000215665226000001": {
+    "first_seen": "2026-09-23",
+    "name": "PrescriptSure, Inc.",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -3777,6 +3837,11 @@
   "yc:aseon-labs": {
     "first_seen": "2026-07-24",
     "name": "Aseon Labs",
+    "source": "YC"
+  },
+  "yc:asim-group": {
+    "first_seen": "2026-09-23",
+    "name": "Asim",
     "source": "YC"
   },
   "yc:assemble": {
@@ -4067,6 +4132,11 @@
   "yc:cuebench": {
     "first_seen": "2026-08-15",
     "name": "CueBench",
+    "source": "YC"
+  },
+  "yc:cyclon": {
+    "first_seen": "2026-09-23",
+    "name": "Cyclon",
     "source": "YC"
   },
   "yc:daqstra": {
@@ -4677,6 +4747,11 @@
   "yc:isengard-industries-inc": {
     "first_seen": "2026-07-24",
     "name": "Isengard Industries Inc",
+    "source": "YC"
+  },
+  "yc:isoquant": {
+    "first_seen": "2026-09-23",
+    "name": "isoquant",
     "source": "YC"
   },
   "yc:jcode": {
