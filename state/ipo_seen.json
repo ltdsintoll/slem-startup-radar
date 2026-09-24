@@ -594,6 +594,11 @@
     "name": "Aveanna Healthcare Holdings, Inc.",
     "stage": "Priced/IPO"
   },
+  "1834376": {
+    "first_seen": "2026-09-24",
+    "name": "InnovAge Holding Corp.",
+    "stage": "Priced/IPO"
+  },
   "1837493": {
     "first_seen": "2026-07-24",
     "name": "QTREX Quantum Ltd.",
@@ -672,7 +677,7 @@
   "1866226": {
     "first_seen": "2026-07-24",
     "name": "Evolution Metals & Technologies Corp.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "1866501": {
     "first_seen": "2026-08-01",
@@ -992,7 +997,7 @@
   "2004489": {
     "first_seen": "2026-09-18",
     "name": "Basel Medical Group Ltd",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2004711": {
     "first_seen": "2026-07-24",
@@ -1037,7 +1042,7 @@
   "2018222": {
     "first_seen": "2026-07-24",
     "name": "707 Cayman Holdings Ltd.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2018269": {
     "first_seen": "2026-07-24",
@@ -1847,7 +1852,7 @@
   "2115191": {
     "first_seen": "2026-08-25",
     "name": "Live Oak Acquisition Corp. VI",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "2115659": {
     "first_seen": "2026-07-27",
@@ -1942,7 +1947,7 @@
   "2125056": {
     "first_seen": "2026-09-01",
     "name": "Wella Co",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2125355": {
     "first_seen": "2026-08-29",
@@ -2347,6 +2352,11 @@
   "2152921": {
     "first_seen": "2026-09-12",
     "name": "Rafex Gold Corp.",
+    "stage": "Filed"
+  },
+  "2153598": {
+    "first_seen": "2026-09-24",
+    "name": "Frazier Life Sciences Acquisition Corp. II",
     "stage": "Filed"
   },
   "2154289": {

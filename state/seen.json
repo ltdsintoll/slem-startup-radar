@@ -399,6 +399,11 @@
     "name": "BottomHalf Labs, Inc.",
     "source": "Form D"
   },
+  "formd:000213471826000089": {
+    "first_seen": "2026-09-24",
+    "name": "NeoDomes, Inc.",
+    "source": "Form D"
+  },
   "formd:000213491126000001": {
     "first_seen": "2026-08-27",
     "name": "Power-Fabric, Inc.",
@@ -3334,6 +3339,11 @@
     "name": "NJDyne FR LLC",
     "source": "Form D"
   },
+  "formd:000215506926000001": {
+    "first_seen": "2026-09-24",
+    "name": "Wander-x LLC",
+    "source": "Form D"
+  },
   "formd:000215507126000001": {
     "first_seen": "2026-09-15",
     "name": "Prodigy Puzzles Escape Rooms LLC",
@@ -3377,6 +3387,11 @@
   "formd:000215529226000001": {
     "first_seen": "2026-09-16",
     "name": "OrchestrateX Inc",
+    "source": "Form D"
+  },
+  "formd:000215534226000001": {
+    "first_seen": "2026-09-24",
+    "name": "Future42, Inc.",
     "source": "Form D"
   },
   "formd:000215534926000001": {
@@ -3464,6 +3479,16 @@
     "name": "Ionava Investors LLC",
     "source": "Form D"
   },
+  "formd:000215587626000001": {
+    "first_seen": "2026-09-24",
+    "name": "ACQUA1 LLC",
+    "source": "Form D"
+  },
+  "formd:000215588526000001": {
+    "first_seen": "2026-09-24",
+    "name": "Arcweaver Systems, Inc.",
+    "source": "Form D"
+  },
   "formd:000215590426000001": {
     "first_seen": "2026-09-19",
     "name": "STARC Acquisitions, Inc.",
@@ -3472,6 +3497,11 @@
   "formd:000215590926000001": {
     "first_seen": "2026-09-18",
     "name": "OralKleen, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215591426000001": {
+    "first_seen": "2026-09-24",
+    "name": "Cake To Go Limited Partnership",
     "source": "Form D"
   },
   "formd:000215593926000001": {
@@ -3514,6 +3544,11 @@
     "name": "WIP Orlando Industrial, LLC",
     "source": "Form D"
   },
+  "formd:000215621526000001": {
+    "first_seen": "2026-09-24",
+    "name": "BorderLogic Inc.",
+    "source": "Form D"
+  },
   "formd:000215627426000001": {
     "first_seen": "2026-09-19",
     "name": "Anchored Capital Investment Group LLC",
@@ -3539,6 +3574,11 @@
     "name": "Typewriter Therapeutics, Inc.",
     "source": "Form D"
   },
+  "formd:000215646626000001": {
+    "first_seen": "2026-09-24",
+    "name": "Anura Connect, Inc.",
+    "source": "Form D"
+  },
   "formd:000215652026000001": {
     "first_seen": "2026-09-23",
     "name": "Vital Holdings Group LLC",
@@ -3549,9 +3589,19 @@
     "name": "Dreamport Technologies, Inc.",
     "source": "Form D"
   },
+  "formd:000215656426000001": {
+    "first_seen": "2026-09-24",
+    "name": "Kiddieprise LI LLC",
+    "source": "Form D"
+  },
   "formd:000215657726000001": {
     "first_seen": "2026-09-23",
     "name": "Schon Mobility Inc",
+    "source": "Form D"
+  },
+  "formd:000215658026000001": {
+    "first_seen": "2026-09-24",
+    "name": "IGNITEIQ Inc.",
     "source": "Form D"
   },
   "formd:000215659626000001": {
@@ -3572,6 +3622,31 @@
   "formd:000215665226000001": {
     "first_seen": "2026-09-23",
     "name": "PrescriptSure, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215677026000001": {
+    "first_seen": "2026-09-24",
+    "name": "Restara Medical, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215685026000001": {
+    "first_seen": "2026-09-24",
+    "name": "Happy Camper Distilling Co.",
+    "source": "Form D"
+  },
+  "formd:000215695126000001": {
+    "first_seen": "2026-09-24",
+    "name": "Neurath Inc.",
+    "source": "Form D"
+  },
+  "formd:000215695426000001": {
+    "first_seen": "2026-09-24",
+    "name": "Uvantis Therapeutics, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215697026000001": {
+    "first_seen": "2026-09-24",
+    "name": "LENDAVO",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -3642,6 +3717,11 @@
   "yc:agentphone": {
     "first_seen": "2026-07-24",
     "name": "AgentPhone",
+    "source": "YC"
+  },
+  "yc:ageospatial": {
+    "first_seen": "2026-09-24",
+    "name": "Ageospatial",
     "source": "YC"
   },
   "yc:agnost-ai": {
@@ -4307,6 +4387,11 @@
   "yc:ekpa": {
     "first_seen": "2026-07-24",
     "name": "Ekpa",
+    "source": "YC"
+  },
+  "yc:elimentary": {
+    "first_seen": "2026-09-24",
+    "name": "Elimentary",
     "source": "YC"
   },
   "yc:elite": {
@@ -4989,6 +5074,11 @@
     "name": "Manifold",
     "source": "YC"
   },
+  "yc:mantle-2": {
+    "first_seen": "2026-09-24",
+    "name": "Mantle",
+    "source": "YC"
+  },
   "yc:manufacturingintelligence": {
     "first_seen": "2026-07-24",
     "name": "HERA",
@@ -5352,6 +5442,11 @@
   "yc:peer": {
     "first_seen": "2026-08-11",
     "name": "Peer",
+    "source": "YC"
+  },
+  "yc:pendulum-robotics": {
+    "first_seen": "2026-09-24",
+    "name": "Pendulum Robotics",
     "source": "YC"
   },
   "yc:pennant": {

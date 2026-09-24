@@ -2,8 +2,17 @@
   "1045810": {
     "ticker": "NVDA",
     "company": "NVIDIA CORP",
-    "articles": [],
-    "source": "no-data"
+    "articles": [
+      {
+        "title": "1 Unstoppable Stock to Buy Before It Joins Nvidia , Alphabet , Apple , and Microsoft in the $3 Trillion Club",
+        "url": "https://www.fool.com/investing/2026/09/24/1-stock-buy-nvidia-alphabet-microsoft-3-trillion/?source=iedfolrf0000001",
+        "domain": "fool.com",
+        "date": "2026-09-24",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      }
+    ],
+    "source": "gdelt"
   },
   "1321655": {
     "ticker": "PLTR",
@@ -14,63 +23,13 @@
   "789019": {
     "ticker": "MSFT",
     "company": "MICROSOFT CORP",
-    "articles": [
-      {
-        "title": "Microsoft new India cloud region to use effectively",
-        "url": "http://www.sierraleonetimes.com/news/279320619/microsoft-new-india-cloud-region-to-use-effectively-zero-water-for-cooling-microsoft-india-president",
-        "domain": "sierraleonetimes.com",
-        "date": "2026-09-21",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "Microsoft AI chief says regulation is not a bad thing",
-        "url": "https://www.digitimes.com/news/a20260921PD222/microsoft-regulation-silicon-valley-openai-anthropic.html",
-        "domain": "digitimes.com",
-        "date": "2026-09-21",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "India likely to emerge as global leader in number of AI projects : Microsoft India Development Center President",
-        "url": "https://aninews.in/news/business/india-likely-to-emerge-as-global-leader-in-number-of-ai-projects-microsoft-india-development-center-president20260921143627/",
-        "domain": "aninews.in",
-        "date": "2026-09-21",
-        "sentiment_label": "позитив",
-        "sentiment_score": 1
-      },
-      {
-        "title": "MeitY Secretary urges Microsoft to locate future data centres closer to power generation hubs",
-        "url": "https://economictimes.indiatimes.com/industry/cons-products/electronics/meity-secretary-urges-microsoft-to-locate-future-data-centres-closer-to-power-generation-hubs/articleshow/134385546.cms",
-        "domain": "economictimes.indiatimes.com",
-        "date": "2026-09-21",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "Microsoft launches 4th India cloud region in Hyderabad to boost AI capacity",
-        "url": "https://www.business-standard.com/industry/news/microsoft-launches-4th-india-cloud-region-in-hyderabad-to-boost-ai-capacity-126092100431_1.html",
-        "domain": "business-standard.com",
-        "date": "2026-09-21",
-        "sentiment_label": "позитив",
-        "sentiment_score": 2
-      }
-    ],
-    "source": "gdelt"
+    "articles": [],
+    "source": "no-data"
   },
   "320193": {
     "ticker": "AAPL",
     "company": "Apple Inc.",
-    "articles": [
-      {
-        "title": "Apple , Xiaomi , Qualcomm each eye edge AI ecosystem gains",
-        "url": "https://www.digitimes.com/news/a20260921PD210/apple-xiaomi-qualcomm-ai-inference-market.html",
-        "domain": "digitimes.com",
-        "date": "2026-09-21",
-        "sentiment_label": "позитив",
-        "sentiment_score": 1
-      }
-    ],
-    "source": "gdelt"
+    "articles": [],
+    "source": "no-data"
   }
 }
