@@ -29,6 +29,11 @@
     "name": "Tenon Medical, Inc.",
     "source": "Form D"
   },
+  "formd:000121390026103183": {
+    "first_seen": "2026-09-25",
+    "name": "Powell Max Ltd",
+    "source": "Form D"
+  },
   "formd:000132914726000003": {
     "first_seen": "2026-09-01",
     "name": "Orthobond Corp",
@@ -72,6 +77,11 @@
   "formd:000167542526000004": {
     "first_seen": "2026-07-28",
     "name": "Biosceptre International Ltd",
+    "source": "Form D"
+  },
+  "formd:000168316826007410": {
+    "first_seen": "2026-09-25",
+    "name": "Pao Brands Inc",
     "source": "Form D"
   },
   "formd:000168712326000002": {
@@ -209,6 +219,11 @@
     "name": "MSE Acquisitions, Inc.",
     "source": "Form D"
   },
+  "formd:000204248526000002": {
+    "first_seen": "2026-09-25",
+    "name": "EyeMacular Regeneration, Inc.",
+    "source": "Form D"
+  },
   "formd:000204625626000005": {
     "first_seen": "2026-09-01",
     "name": "Thermolic Corp",
@@ -297,6 +312,11 @@
   "formd:000209493826000001": {
     "first_seen": "2026-09-14",
     "name": "Refr Sports Inc.",
+    "source": "Form D"
+  },
+  "formd:000210088226000002": {
+    "first_seen": "2026-09-25",
+    "name": "16S Irrigation Investors LLC",
     "source": "Form D"
   },
   "formd:000210096626000011": {
@@ -2874,6 +2894,16 @@
     "name": "Imagen Rainey Support Services, LLC",
     "source": "Form D"
   },
+  "formd:000215316126000002": {
+    "first_seen": "2026-09-25",
+    "name": "Vesta Hearth Inc.",
+    "source": "Form D"
+  },
+  "formd:000215316126000003": {
+    "first_seen": "2026-09-25",
+    "name": "Vesta Hearth Inc.",
+    "source": "Form D"
+  },
   "formd:000215317426000001": {
     "first_seen": "2026-09-09",
     "name": "Rely Capital Partners, LLC",
@@ -3534,6 +3564,11 @@
     "name": "DR. MEDIC, LLC",
     "source": "Form D"
   },
+  "formd:000215615726000001": {
+    "first_seen": "2026-09-25",
+    "name": "EasyBear Inc.",
+    "source": "Form D"
+  },
   "formd:000215616326000001": {
     "first_seen": "2026-09-19",
     "name": "Aran Operations LLC",
@@ -3567,6 +3602,11 @@
   "formd:000215634326000001": {
     "first_seen": "2026-09-23",
     "name": "Floto, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215635026000001": {
+    "first_seen": "2026-09-25",
+    "name": "Steady Technologies, Inc.",
     "source": "Form D"
   },
   "formd:000215639026000001": {
@@ -3614,9 +3654,29 @@
     "name": "BuiltOn Trades Holding Co",
     "source": "Form D"
   },
+  "formd:000215662226000001": {
+    "first_seen": "2026-09-25",
+    "name": "Path Power, Inc.",
+    "source": "Form D"
+  },
   "formd:000215663526000001": {
     "first_seen": "2026-09-23",
     "name": "VoiceIt Technologies, Inc dba EnQuanta",
+    "source": "Form D"
+  },
+  "formd:000215663526000002": {
+    "first_seen": "2026-09-25",
+    "name": "VoiceIt Technologies, Inc dba EnQuanta",
+    "source": "Form D"
+  },
+  "formd:000215663526000003": {
+    "first_seen": "2026-09-25",
+    "name": "VoiceIt Technologies, Inc dba EnQuanta",
+    "source": "Form D"
+  },
+  "formd:000215663726000001": {
+    "first_seen": "2026-09-25",
+    "name": "YOUnifiedAI, Inc.",
     "source": "Form D"
   },
   "formd:000215665226000001": {
@@ -3627,6 +3687,16 @@
   "formd:000215677026000001": {
     "first_seen": "2026-09-24",
     "name": "Restara Medical, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215677626000001": {
+    "first_seen": "2026-09-25",
+    "name": "Beba Live Ltd Liability Co",
+    "source": "Form D"
+  },
+  "formd:000215678926000001": {
+    "first_seen": "2026-09-25",
+    "name": "ParentConnect Inc.",
     "source": "Form D"
   },
   "formd:000215685026000001": {
@@ -3647,6 +3717,36 @@
   "formd:000215697026000001": {
     "first_seen": "2026-09-24",
     "name": "LENDAVO",
+    "source": "Form D"
+  },
+  "formd:000215699126000001": {
+    "first_seen": "2026-09-25",
+    "name": "Mezisa Systems Inc.",
+    "source": "Form D"
+  },
+  "formd:000215699326000001": {
+    "first_seen": "2026-09-25",
+    "name": "Footnote FM, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215699726000001": {
+    "first_seen": "2026-09-25",
+    "name": "GRITFOL, LLC",
+    "source": "Form D"
+  },
+  "formd:000215715026000001": {
+    "first_seen": "2026-09-25",
+    "name": "Argonaute RNA Ltd",
+    "source": "Form D"
+  },
+  "formd:000215725126000002": {
+    "first_seen": "2026-09-25",
+    "name": "Camp Hope, LLC",
+    "source": "Form D"
+  },
+  "formd:000215728926000002": {
+    "first_seen": "2026-09-25",
+    "name": "HOME Movie, LLC",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -5662,6 +5762,11 @@
   "yc:rex-inc": {
     "first_seen": "2026-07-24",
     "name": "Rex",
+    "source": "YC"
+  },
+  "yc:rhem-labs": {
+    "first_seen": "2026-09-25",
+    "name": "Rhem Labs",
     "source": "YC"
   },
   "yc:riften": {
