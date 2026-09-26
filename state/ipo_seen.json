@@ -132,7 +132,7 @@
   "1378140": {
     "first_seen": "2026-08-26",
     "name": "Ocean Power Technologies, Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "1401914": {
     "first_seen": "2026-08-27",
@@ -202,6 +202,11 @@
   "1498148": {
     "first_seen": "2026-07-24",
     "name": "Artificial Intelligence Technology Solutions Inc.",
+    "stage": "Filed"
+  },
+  "1498403": {
+    "first_seen": "2026-09-26",
+    "name": "BioLineRx Ltd.",
     "stage": "Filed"
   },
   "1500412": {
@@ -997,7 +1002,7 @@
   "2003061": {
     "first_seen": "2026-09-18",
     "name": "Star Fashion Culture Holdings Ltd",
-    "stage": "Filed"
+    "stage": "Priced/IPO"
   },
   "2004024": {
     "first_seen": "2026-08-20",
@@ -1454,6 +1459,11 @@
     "name": "QumulusAI, Inc.",
     "stage": "Priced/IPO"
   },
+  "2084031": {
+    "first_seen": "2026-09-26",
+    "name": "Regenlab USA Inc.",
+    "stage": "Filed"
+  },
   "2084038": {
     "first_seen": "2026-09-16",
     "name": "Yi Feng Holdings Ltd.",
@@ -1647,7 +1657,7 @@
   "2098410": {
     "first_seen": "2026-07-25",
     "name": "Bluerock Acquisition Corp. II",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "2098969": {
     "first_seen": "2026-08-19",
@@ -1999,6 +2009,11 @@
     "name": "Ares Acquisition Corp III",
     "stage": "Priced/IPO"
   },
+  "2128185": {
+    "first_seen": "2026-09-26",
+    "name": "TFP Group Ltd",
+    "stage": "Filed"
+  },
   "2128462": {
     "first_seen": "2026-07-24",
     "name": "Three Lions Acquisition Corp.",
@@ -2037,7 +2052,7 @@
   "2131124": {
     "first_seen": "2026-09-10",
     "name": "Elevation Acquisition Group Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2131303": {
     "first_seen": "2026-09-16",
@@ -2347,6 +2362,11 @@
   "2149773": {
     "first_seen": "2026-09-01",
     "name": "Xiasan Dynasty Co",
+    "stage": "Filed"
+  },
+  "2149916": {
+    "first_seen": "2026-09-26",
+    "name": "TCGX Acquisition Corp. II",
     "stage": "Filed"
   },
   "2151558": {

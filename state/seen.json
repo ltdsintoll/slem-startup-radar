@@ -3159,6 +3159,11 @@
     "name": "Aerovy Mobility, Inc.",
     "source": "Form D"
   },
+  "formd:000215406326000001": {
+    "first_seen": "2026-09-26",
+    "name": "Series 89-2, a series of StartEngine Private LLC",
+    "source": "Form D"
+  },
   "formd:000215407226000001": {
     "first_seen": "2026-09-10",
     "name": "General Cybernetics Corp",
@@ -3284,6 +3289,16 @@
     "name": "Charlestowne Senior Village LLC",
     "source": "Form D"
   },
+  "formd:000215470126000001": {
+    "first_seen": "2026-09-26",
+    "name": "BYTES RESTAURANT TECHNOLOGY, INC.",
+    "source": "Form D"
+  },
+  "formd:000215470126000002": {
+    "first_seen": "2026-09-26",
+    "name": "BYTES RESTAURANT TECHNOLOGY, INC.",
+    "source": "Form D"
+  },
   "formd:000215472926000001": {
     "first_seen": "2026-09-12",
     "name": "Benefitsbridge 01-15 LLC",
@@ -3374,6 +3389,11 @@
     "name": "Wander-x LLC",
     "source": "Form D"
   },
+  "formd:000215506926000002": {
+    "first_seen": "2026-09-26",
+    "name": "Wander-x LLC",
+    "source": "Form D"
+  },
   "formd:000215507126000001": {
     "first_seen": "2026-09-15",
     "name": "Prodigy Puzzles Escape Rooms LLC",
@@ -3399,6 +3419,11 @@
     "name": "ENVISION HOLDCO, LLC",
     "source": "Form D"
   },
+  "formd:000215517026000001": {
+    "first_seen": "2026-09-26",
+    "name": "This Is Red Hook Ltd Liability Co",
+    "source": "Form D"
+  },
   "formd:000215518226000001": {
     "first_seen": "2026-09-15",
     "name": "Zeely, Inc.",
@@ -3407,6 +3432,11 @@
   "formd:000215519226000001": {
     "first_seen": "2026-09-16",
     "name": "TogetherMade, PBC",
+    "source": "Form D"
+  },
+  "formd:000215527426000001": {
+    "first_seen": "2026-09-26",
+    "name": "Jellicle Cast Album Ltd Liability Co",
     "source": "Form D"
   },
   "formd:000215528826000001": {
@@ -3459,6 +3489,11 @@
     "name": "HardLabs Technologies, Inc.",
     "source": "Form D"
   },
+  "formd:000215561326000001": {
+    "first_seen": "2026-09-26",
+    "name": "Way Biosolutions, Inc.",
+    "source": "Form D"
+  },
   "formd:000215568026000001": {
     "first_seen": "2026-09-17",
     "name": "Consolidated Towing Systems LLC",
@@ -3494,6 +3529,11 @@
     "name": "UET Products, Inc.",
     "source": "Form D"
   },
+  "formd:000215584026000001": {
+    "first_seen": "2026-09-26",
+    "name": "SpadEx inc.",
+    "source": "Form D"
+  },
   "formd:000215584626000001": {
     "first_seen": "2026-09-18",
     "name": "Venture Studios LLC",
@@ -3509,6 +3549,11 @@
     "name": "Ionava Investors LLC",
     "source": "Form D"
   },
+  "formd:000215586426000001": {
+    "first_seen": "2026-09-26",
+    "name": "Camelback Intelligence Co.",
+    "source": "Form D"
+  },
   "formd:000215587626000001": {
     "first_seen": "2026-09-24",
     "name": "ACQUA1 LLC",
@@ -3516,6 +3561,11 @@
   },
   "formd:000215588526000001": {
     "first_seen": "2026-09-24",
+    "name": "Arcweaver Systems, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215588526000003": {
+    "first_seen": "2026-09-26",
     "name": "Arcweaver Systems, Inc.",
     "source": "Form D"
   },
@@ -3554,6 +3604,11 @@
     "name": "My Purpose Plan, Inc.",
     "source": "Form D"
   },
+  "formd:000215600726000002": {
+    "first_seen": "2026-09-26",
+    "name": "Meadow AI, Inc.",
+    "source": "Form D"
+  },
   "formd:000215610426000001": {
     "first_seen": "2026-09-19",
     "name": "Love, Patrick JV, LLC",
@@ -3584,6 +3639,16 @@
     "name": "BorderLogic Inc.",
     "source": "Form D"
   },
+  "formd:000215621826000001": {
+    "first_seen": "2026-09-26",
+    "name": "Pocket Nexus, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215625526000001": {
+    "first_seen": "2026-09-26",
+    "name": "Project Indigo, Inc.",
+    "source": "Form D"
+  },
   "formd:000215627426000001": {
     "first_seen": "2026-09-19",
     "name": "Anchored Capital Investment Group LLC",
@@ -3607,6 +3672,11 @@
   "formd:000215635026000001": {
     "first_seen": "2026-09-25",
     "name": "Steady Technologies, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215635826000001": {
+    "first_seen": "2026-09-26",
+    "name": "Twenty Technologies, Inc.",
     "source": "Form D"
   },
   "formd:000215639026000001": {
@@ -3689,6 +3759,11 @@
     "name": "Restara Medical, Inc.",
     "source": "Form D"
   },
+  "formd:000215677126000001": {
+    "first_seen": "2026-09-26",
+    "name": "Converus AI, Inc.",
+    "source": "Form D"
+  },
   "formd:000215677626000001": {
     "first_seen": "2026-09-25",
     "name": "Beba Live Ltd Liability Co",
@@ -3702,6 +3777,16 @@
   "formd:000215685026000001": {
     "first_seen": "2026-09-24",
     "name": "Happy Camper Distilling Co.",
+    "source": "Form D"
+  },
+  "formd:000215687526000001": {
+    "first_seen": "2026-09-26",
+    "name": "Teyon AI Inc.",
+    "source": "Form D"
+  },
+  "formd:000215693626000001": {
+    "first_seen": "2026-09-26",
+    "name": "Neander Inc.",
     "source": "Form D"
   },
   "formd:000215695126000001": {
@@ -3734,9 +3819,24 @@
     "name": "GRITFOL, LLC",
     "source": "Form D"
   },
+  "formd:000215703226000001": {
+    "first_seen": "2026-09-26",
+    "name": "Three Bucks Two Bags One LLC",
+    "source": "Form D"
+  },
+  "formd:000215706226000001": {
+    "first_seen": "2026-09-26",
+    "name": "Lo Siento Spirits, Inc.",
+    "source": "Form D"
+  },
   "formd:000215715026000001": {
     "first_seen": "2026-09-25",
     "name": "Argonaute RNA Ltd",
+    "source": "Form D"
+  },
+  "formd:000215724926000002": {
+    "first_seen": "2026-09-26",
+    "name": "Standard Thinking, Inc.",
     "source": "Form D"
   },
   "formd:000215725126000002": {
@@ -3747,6 +3847,21 @@
   "formd:000215728926000002": {
     "first_seen": "2026-09-25",
     "name": "HOME Movie, LLC",
+    "source": "Form D"
+  },
+  "formd:000215732326000001": {
+    "first_seen": "2026-09-26",
+    "name": "TDAA Technologies Corp.",
+    "source": "Form D"
+  },
+  "formd:000215735626000001": {
+    "first_seen": "2026-09-26",
+    "name": "Prospera International Inc.",
+    "source": "Form D"
+  },
+  "formd:000215737626000001": {
+    "first_seen": "2026-09-26",
+    "name": "SANXUARY LLC",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -4814,6 +4929,11 @@
     "name": "Hubble",
     "source": "YC"
   },
+  "yc:hue": {
+    "first_seen": "2026-09-26",
+    "name": "Hue",
+    "source": "YC"
+  },
   "yc:humwork": {
     "first_seen": "2026-07-24",
     "name": "Humwork",
@@ -5309,6 +5429,11 @@
     "name": "Moving Atoms",
     "source": "YC"
   },
+  "yc:musicarena": {
+    "first_seen": "2026-09-26",
+    "name": "MusicArena",
+    "source": "YC"
+  },
   "yc:napkin-math": {
     "first_seen": "2026-07-24",
     "name": "Napkin Math",
@@ -5414,6 +5539,11 @@
     "name": "Ooak Data",
     "source": "YC"
   },
+  "yc:openhack": {
+    "first_seen": "2026-09-26",
+    "name": "OpenHack",
+    "source": "YC"
+  },
   "yc:openprose": {
     "first_seen": "2026-07-24",
     "name": "OpenProse",
@@ -5442,6 +5572,11 @@
   "yc:openwork": {
     "first_seen": "2026-07-24",
     "name": "OpenWork",
+    "source": "YC"
+  },
+  "yc:opera": {
+    "first_seen": "2026-09-26",
+    "name": "OpEra",
     "source": "YC"
   },
   "yc:operon": {
@@ -5992,6 +6127,11 @@
   "yc:speko": {
     "first_seen": "2026-07-24",
     "name": "Speko",
+    "source": "YC"
+  },
+  "yc:spine": {
+    "first_seen": "2026-09-26",
+    "name": "Spine",
     "source": "YC"
   },
   "yc:stablebrowse": {
