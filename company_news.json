@@ -4,10 +4,34 @@
     "company": "NVIDIA CORP",
     "articles": [
       {
-        "title": "1 Unstoppable Stock to Buy Before It Joins Nvidia , Alphabet , Apple , and Microsoft in the $3 Trillion Club",
-        "url": "https://www.fool.com/investing/2026/09/24/1-stock-buy-nvidia-alphabet-microsoft-3-trillion/?source=iedfolrf0000001",
+        "title": "3 Reasons Why Nvidia Fits Warren Buffett Investment Style",
+        "url": "https://www.fool.com/investing/2026/09/27/3-reasons-why-nvidia-fits-warren-buffetts-investme/",
         "domain": "fool.com",
-        "date": "2026-09-24",
+        "date": "2026-09-27",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "Kevin Durant started with a $100 , 000 investment in this AI startup eight years ago ; Nvidia $12 . 9 billion deal could make his stake worth $60 million",
+        "url": "https://economictimes.indiatimes.com/news/international/us/kevin-durant-started-with-a-100000-investment-in-this-ai-startup-eight-years-ago-nvidias-12-9-billion-deal-could-make-his-stake-worth-60-million/articleshow/134515296.cms",
+        "domain": "economictimes.indiatimes.com",
+        "date": "2026-09-27",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "Why $5 . 4trillion Nvidia is the cheapest it been in a decade for investors",
+        "url": "https://www.dailymail.com/money/markets/article-16160649/Why-5-4trillion-Nvidia-cheapest-decade-investors.html",
+        "domain": "dailymail.com",
+        "date": "2026-09-27",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "LG Electronics named Nvidia partner for AI data center cooling",
+        "url": "https://www.koreaherald.com/article/10885239",
+        "domain": "koreaherald.com",
+        "date": "2026-09-27",
         "sentiment_label": "нейтрально",
         "sentiment_score": 0
       }
@@ -23,8 +47,17 @@
   "789019": {
     "ticker": "MSFT",
     "company": "MICROSOFT CORP",
-    "articles": [],
-    "source": "no-data"
+    "articles": [
+      {
+        "title": "Microsoft prepares to retires Copilot+ PC brand just two years after launch",
+        "url": "https://www.moneycontrol.com/technology/microsoft-prepares-to-retires-copilot-pc-brand-just-two-years-after-launch-article-14039145.html",
+        "domain": "moneycontrol.com",
+        "date": "2026-09-27",
+        "sentiment_label": "позитив",
+        "sentiment_score": 1
+      }
+    ],
+    "source": "gdelt"
   },
   "320193": {
     "ticker": "AAPL",
