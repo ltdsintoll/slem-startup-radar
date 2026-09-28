@@ -537,7 +537,7 @@
   "1802369": {
     "first_seen": "2026-09-05",
     "name": "ADARx Pharmaceuticals, Inc.",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "1807887": {
     "first_seen": "2026-07-24",
@@ -2317,7 +2317,7 @@
   "2146369": {
     "first_seen": "2026-07-24",
     "name": "Londonla Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2147219": {
     "first_seen": "2026-08-07",
@@ -2462,6 +2462,11 @@
   "890394": {
     "first_seen": "2026-07-24",
     "name": "Peraso Inc.",
+    "stage": "Filed"
+  },
+  "894556": {
+    "first_seen": "2026-09-28",
+    "name": "CitroTech Inc.",
     "stage": "Filed"
   },
   "906205": {

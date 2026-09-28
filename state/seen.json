@@ -34,6 +34,16 @@
     "name": "Powell Max Ltd",
     "source": "Form D"
   },
+  "formd:000123191926001227": {
+    "first_seen": "2026-09-28",
+    "name": "Alpfa Medical, Inc.",
+    "source": "Form D"
+  },
+  "formd:000123191926001228": {
+    "first_seen": "2026-09-28",
+    "name": "PFARADIGM Health, Inc.",
+    "source": "Form D"
+  },
   "formd:000132914726000003": {
     "first_seen": "2026-09-01",
     "name": "Orthobond Corp",
@@ -249,6 +259,11 @@
     "name": "Visalaw Ventures, Inc.",
     "source": "Form D"
   },
+  "formd:000205753826000003": {
+    "first_seen": "2026-09-28",
+    "name": "Audivi AI Inc.",
+    "source": "Form D"
+  },
   "formd:000205888226000002": {
     "first_seen": "2026-09-17",
     "name": "Metabowlite, Inc.",
@@ -307,6 +322,11 @@
   "formd:000208519826000001": {
     "first_seen": "2026-07-24",
     "name": "Brimstone Grill Inc.",
+    "source": "Form D"
+  },
+  "formd:000208784626000003": {
+    "first_seen": "2026-09-28",
+    "name": "Vertical Longevity Pharmaceuticals, Inc.",
     "source": "Form D"
   },
   "formd:000209493826000001": {
@@ -2739,6 +2759,16 @@
     "name": "Credit Gnomes, Inc.",
     "source": "Form D"
   },
+  "formd:000215253826000001": {
+    "first_seen": "2026-09-28",
+    "name": "Pictura Bio US, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215253826000002": {
+    "first_seen": "2026-09-28",
+    "name": "Pictura Bio US, Inc.",
+    "source": "Form D"
+  },
   "formd:000215254726000001": {
     "first_seen": "2026-09-01",
     "name": "AimBot Media Inc.",
@@ -3324,6 +3354,11 @@
     "name": "Provident Health 01-05 LLC",
     "source": "Form D"
   },
+  "formd:000215486026000001": {
+    "first_seen": "2026-09-28",
+    "name": "CSignum Ltd.",
+    "source": "Form D"
+  },
   "formd:000215486926000001": {
     "first_seen": "2026-09-12",
     "name": "CSV Draftea LLC",
@@ -3829,6 +3864,11 @@
     "name": "Lo Siento Spirits, Inc.",
     "source": "Form D"
   },
+  "formd:000215714126000001": {
+    "first_seen": "2026-09-28",
+    "name": "Coda AI Inc",
+    "source": "Form D"
+  },
   "formd:000215715026000001": {
     "first_seen": "2026-09-25",
     "name": "Argonaute RNA Ltd",
@@ -3849,6 +3889,11 @@
     "name": "HOME Movie, LLC",
     "source": "Form D"
   },
+  "formd:000215730426000001": {
+    "first_seen": "2026-09-28",
+    "name": "Pace Pharmaceuticals, Inc.",
+    "source": "Form D"
+  },
   "formd:000215732326000001": {
     "first_seen": "2026-09-26",
     "name": "TDAA Technologies Corp.",
@@ -3862,6 +3907,11 @@
   "formd:000215737626000001": {
     "first_seen": "2026-09-26",
     "name": "SANXUARY LLC",
+    "source": "Form D"
+  },
+  "formd:000215742226000001": {
+    "first_seen": "2026-09-28",
+    "name": "Myotis Inc.",
     "source": "Form D"
   },
   "yc:6thsense": {
