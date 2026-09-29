@@ -172,7 +172,7 @@
   "1468327": {
     "first_seen": "2026-09-12",
     "name": "Rent the Runway, Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "1468929": {
     "first_seen": "2026-08-21",
@@ -312,6 +312,11 @@
   "1615219": {
     "first_seen": "2026-07-24",
     "name": "Decoy Therapeutics Inc.",
+    "stage": "Filed"
+  },
+  "1620704": {
+    "first_seen": "2026-09-29",
+    "name": "MED-X, INC.",
     "stage": "Filed"
   },
   "1622345": {
@@ -752,7 +757,7 @@
   "1893645": {
     "first_seen": "2026-09-19",
     "name": "Polyrizon Ltd.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "1893657": {
     "first_seen": "2026-08-18",
@@ -1084,6 +1089,11 @@
     "name": "Click Holdings Ltd.",
     "stage": "Filed"
   },
+  "2021880": {
+    "first_seen": "2026-09-29",
+    "name": "HMH Holding Inc",
+    "stage": "Filed"
+  },
   "2022308": {
     "first_seen": "2026-07-24",
     "name": "KIDZ AI Inc.",
@@ -1367,7 +1377,7 @@
   "2075335": {
     "first_seen": "2026-07-28",
     "name": "ROZE AI INC.",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "2075589": {
     "first_seen": "2026-09-16",
@@ -1899,6 +1909,11 @@
     "name": "Southern Cross Acquisition I Corp.",
     "stage": "Priced/IPO"
   },
+  "2116517": {
+    "first_seen": "2026-09-29",
+    "name": "MNBS Acquisition Corp.",
+    "stage": "Filed"
+  },
   "2119287": {
     "first_seen": "2026-09-01",
     "name": "GLGHK Ltd",
@@ -2399,9 +2414,19 @@
     "name": "Frazier Life Sciences Acquisition Corp. II",
     "stage": "Filed"
   },
+  "2154056": {
+    "first_seen": "2026-09-29",
+    "name": "Calm Seas Acquisition Corp.",
+    "stage": "Filed"
+  },
   "2154289": {
     "first_seen": "2026-09-22",
     "name": "Sprout Red International Ltd",
+    "stage": "Filed"
+  },
+  "2155556": {
+    "first_seen": "2026-09-29",
+    "name": "Orange Street Acquisition Corp",
     "stage": "Filed"
   },
   "351998": {

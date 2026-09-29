@@ -109,6 +109,11 @@
     "name": "TBC - The Boring Co",
     "source": "Form D"
   },
+  "formd:000175824126000003": {
+    "first_seen": "2026-09-29",
+    "name": "Tru, Inc.",
+    "source": "Form D"
+  },
   "formd:000181315926000003": {
     "first_seen": "2026-09-14",
     "name": "Hop Flyt, Inc.",
@@ -127,6 +132,11 @@
   "formd:000187166126000001": {
     "first_seen": "2026-09-01",
     "name": "CivicPlus Holdings, LLC",
+    "source": "Form D"
+  },
+  "formd:000189209526000002": {
+    "first_seen": "2026-09-29",
+    "name": "Landline Co",
     "source": "Form D"
   },
   "formd:000189317126000003": {
@@ -204,6 +214,11 @@
     "name": "DIMER INSTRUMENTS, INC.",
     "source": "Form D"
   },
+  "formd:000200736926000001": {
+    "first_seen": "2026-09-29",
+    "name": "CHERUB TECHNOLOGIES, INC.",
+    "source": "Form D"
+  },
   "formd:000201161726000019": {
     "first_seen": "2026-09-17",
     "name": "SIERRA INTERNATIONAL NETWORK INC",
@@ -269,6 +284,11 @@
     "name": "Metabowlite, Inc.",
     "source": "Form D"
   },
+  "formd:000205955526000003": {
+    "first_seen": "2026-09-29",
+    "name": "Capna Intellectual",
+    "source": "Form D"
+  },
   "formd:000206075526000054": {
     "first_seen": "2026-09-04",
     "name": "Cello Acquisition Corp.",
@@ -277,6 +297,11 @@
   "formd:000206075526000056": {
     "first_seen": "2026-09-11",
     "name": "Balanced Body Organics, Inc.",
+    "source": "Form D"
+  },
+  "formd:000206186326000003": {
+    "first_seen": "2026-09-29",
+    "name": "RenewCO2 Inc.",
     "source": "Form D"
   },
   "formd:000206497726000001": {
@@ -329,9 +354,19 @@
     "name": "Vertical Longevity Pharmaceuticals, Inc.",
     "source": "Form D"
   },
+  "formd:000208904926000001": {
+    "first_seen": "2026-09-29",
+    "name": "FlyTahoe Inc.",
+    "source": "Form D"
+  },
   "formd:000209493826000001": {
     "first_seen": "2026-09-14",
     "name": "Refr Sports Inc.",
+    "source": "Form D"
+  },
+  "formd:000209793526000001": {
+    "first_seen": "2026-09-29",
+    "name": "LASTpatient Inc.",
     "source": "Form D"
   },
   "formd:000210088226000002": {
@@ -387,6 +422,11 @@
   "formd:000211304426000002": {
     "first_seen": "2026-07-28",
     "name": "DoneCast, Inc.",
+    "source": "Form D"
+  },
+  "formd:000211900026000002": {
+    "first_seen": "2026-09-29",
+    "name": "Lantern LLC",
     "source": "Form D"
   },
   "formd:000212453526000002": {
@@ -512,6 +552,11 @@
   "formd:000214068326000001": {
     "first_seen": "2026-07-28",
     "name": "Hatchery Holdings Company, LLC",
+    "source": "Form D"
+  },
+  "formd:000214069026000002": {
+    "first_seen": "2026-09-29",
+    "name": "HAWKHILL THERAPEUTICS Ltd",
     "source": "Form D"
   },
   "formd:000214089326000001": {
@@ -2639,6 +2684,11 @@
     "name": "Harvard Digital Media Corp.",
     "source": "Form D"
   },
+  "formd:000215171826000001": {
+    "first_seen": "2026-09-29",
+    "name": "Upstream Metabolics, Inc.",
+    "source": "Form D"
+  },
   "formd:000215175226000002": {
     "first_seen": "2026-09-09",
     "name": "Fab2, Inc.",
@@ -3839,6 +3889,11 @@
     "name": "LENDAVO",
     "source": "Form D"
   },
+  "formd:000215697326000001": {
+    "first_seen": "2026-09-29",
+    "name": "Tom Adams, Inc",
+    "source": "Form D"
+  },
   "formd:000215699126000001": {
     "first_seen": "2026-09-25",
     "name": "Mezisa Systems Inc.",
@@ -3899,9 +3954,19 @@
     "name": "TDAA Technologies Corp.",
     "source": "Form D"
   },
+  "formd:000215734326000001": {
+    "first_seen": "2026-09-29",
+    "name": "BEAMLINK, INC.",
+    "source": "Form D"
+  },
   "formd:000215735626000001": {
     "first_seen": "2026-09-26",
     "name": "Prospera International Inc.",
+    "source": "Form D"
+  },
+  "formd:000215736826000001": {
+    "first_seen": "2026-09-29",
+    "name": "Definition II-F LLC",
     "source": "Form D"
   },
   "formd:000215737626000001": {
@@ -3912,6 +3977,36 @@
   "formd:000215742226000001": {
     "first_seen": "2026-09-28",
     "name": "Myotis Inc.",
+    "source": "Form D"
+  },
+  "formd:000215742226000002": {
+    "first_seen": "2026-09-29",
+    "name": "Myotis Inc.",
+    "source": "Form D"
+  },
+  "formd:000215742726000001": {
+    "first_seen": "2026-09-29",
+    "name": "Xact Bio, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215743526000001": {
+    "first_seen": "2026-09-29",
+    "name": "POPHOUSE AVATAR NETWORK INC.",
+    "source": "Form D"
+  },
+  "formd:000215748526000001": {
+    "first_seen": "2026-09-29",
+    "name": "Circlz Labs, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215749626000001": {
+    "first_seen": "2026-09-29",
+    "name": "2514 Perryton, LP",
+    "source": "Form D"
+  },
+  "formd:000215758626000001": {
+    "first_seen": "2026-09-29",
+    "name": "SIGNATURE PREMIUM BRANDS, LLC",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -4309,6 +4404,11 @@
     "name": "Boat",
     "source": "YC"
   },
+  "yc:boxesdev": {
+    "first_seen": "2026-09-29",
+    "name": "Boxes.dev",
+    "source": "YC"
+  },
   "yc:bryel": {
     "first_seen": "2026-09-22",
     "name": "Bryel",
@@ -4402,6 +4502,11 @@
   "yc:clawvisor": {
     "first_seen": "2026-07-24",
     "name": "Clawvisor",
+    "source": "YC"
+  },
+  "yc:clean": {
+    "first_seen": "2026-09-29",
+    "name": "Clean",
     "source": "YC"
   },
   "yc:click": {
@@ -4882,6 +4987,11 @@
   "yc:gutgutgoose": {
     "first_seen": "2026-07-28",
     "name": "Gutgutgoose",
+    "source": "YC"
+  },
+  "yc:habu": {
+    "first_seen": "2026-09-29",
+    "name": "HABU",
     "source": "YC"
   },
   "yc:halmos-labs": {
@@ -6479,6 +6589,11 @@
     "name": "Twolabs",
     "source": "YC"
   },
+  "yc:ufoai": {
+    "first_seen": "2026-09-29",
+    "name": "UFO.ai",
+    "source": "YC"
+  },
   "yc:ultrasonium": {
     "first_seen": "2026-08-05",
     "name": "Ultrasonium",
@@ -6547,6 +6662,11 @@
   "yc:vestris": {
     "first_seen": "2026-07-24",
     "name": "Vestris",
+    "source": "YC"
+  },
+  "yc:vexo": {
+    "first_seen": "2026-09-29",
+    "name": "Vexo",
     "source": "YC"
   },
   "yc:viraj-aero": {
