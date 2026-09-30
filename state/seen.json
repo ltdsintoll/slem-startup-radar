@@ -74,6 +74,16 @@
     "name": "SUNGAGE FINANCIAL, LLC",
     "source": "Form D"
   },
+  "formd:000149315226044965": {
+    "first_seen": "2026-09-30",
+    "name": "WeShop Holdings Ltd",
+    "source": "Form D"
+  },
+  "formd:000159573426000005": {
+    "first_seen": "2026-09-30",
+    "name": "1World Online, Inc.",
+    "source": "Form D"
+  },
   "formd:000164962826000003": {
     "first_seen": "2026-09-22",
     "name": "Edgewater Wireless Systems Inc.",
@@ -154,9 +164,19 @@
     "name": "Equabli Holdings, Inc.",
     "source": "Form D"
   },
+  "formd:000192472726000003": {
+    "first_seen": "2026-09-30",
+    "name": "ARTBnk Inc.",
+    "source": "Form D"
+  },
   "formd:000193670126000003": {
     "first_seen": "2026-09-15",
     "name": "CMS Apollo Holdings LP",
+    "source": "Form D"
+  },
+  "formd:000193808826000002": {
+    "first_seen": "2026-09-30",
+    "name": "Apogee Semiconductor, Inc.",
     "source": "Form D"
   },
   "formd:000195200826000001": {
@@ -452,6 +472,16 @@
   "formd:000213137826000002": {
     "first_seen": "2026-08-04",
     "name": "orgn.dev Inc",
+    "source": "Form D"
+  },
+  "formd:000213168426000002": {
+    "first_seen": "2026-09-30",
+    "name": "F42 Corp",
+    "source": "Form D"
+  },
+  "formd:000213168426000003": {
+    "first_seen": "2026-09-30",
+    "name": "F42 Corp",
     "source": "Form D"
   },
   "formd:000213203226000003": {
@@ -2719,6 +2749,11 @@
     "name": "PIG Elevest, LLC",
     "source": "Form D"
   },
+  "formd:000215192126000005": {
+    "first_seen": "2026-09-30",
+    "name": "Grafton Resources Inc.",
+    "source": "Form D"
+  },
   "formd:000215195926000001": {
     "first_seen": "2026-08-30",
     "name": "Cabana Health, Inc.",
@@ -3242,6 +3277,11 @@
   "formd:000215406326000001": {
     "first_seen": "2026-09-26",
     "name": "Series 89-2, a series of StartEngine Private LLC",
+    "source": "Form D"
+  },
+  "formd:000215406726000001": {
+    "first_seen": "2026-09-30",
+    "name": "Settle Data, Inc.",
     "source": "Form D"
   },
   "formd:000215407226000001": {
@@ -3779,6 +3819,11 @@
     "name": "Vital Holdings Group LLC",
     "source": "Form D"
   },
+  "formd:000215653126000001": {
+    "first_seen": "2026-09-30",
+    "name": "Intuito",
+    "source": "Form D"
+  },
   "formd:000215655726000001": {
     "first_seen": "2026-09-23",
     "name": "Dreamport Technologies, Inc.",
@@ -3954,6 +3999,11 @@
     "name": "TDAA Technologies Corp.",
     "source": "Form D"
   },
+  "formd:000215732726000001": {
+    "first_seen": "2026-09-30",
+    "name": "Dynagentic Inc.",
+    "source": "Form D"
+  },
   "formd:000215734326000001": {
     "first_seen": "2026-09-29",
     "name": "BEAMLINK, INC.",
@@ -3994,6 +4044,11 @@
     "name": "POPHOUSE AVATAR NETWORK INC.",
     "source": "Form D"
   },
+  "formd:000215747826000001": {
+    "first_seen": "2026-09-30",
+    "name": "Huettl AI, Inc.",
+    "source": "Form D"
+  },
   "formd:000215748526000001": {
     "first_seen": "2026-09-29",
     "name": "Circlz Labs, Inc.",
@@ -4007,6 +4062,26 @@
   "formd:000215758626000001": {
     "first_seen": "2026-09-29",
     "name": "SIGNATURE PREMIUM BRANDS, LLC",
+    "source": "Form D"
+  },
+  "formd:000215778026000001": {
+    "first_seen": "2026-09-30",
+    "name": "DCS AM Holdings LLC",
+    "source": "Form D"
+  },
+  "formd:000215783326000001": {
+    "first_seen": "2026-09-30",
+    "name": "Bizartha LLC",
+    "source": "Form D"
+  },
+  "formd:000215783726000001": {
+    "first_seen": "2026-09-30",
+    "name": "NWA Releaf Acquisition Holdings, LLC",
+    "source": "Form D"
+  },
+  "formd:000215785226000001": {
+    "first_seen": "2026-09-30",
+    "name": "REGENERATUS, Inc.",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -4219,6 +4294,11 @@
     "name": "Archal",
     "source": "YC"
   },
+  "yc:archangel-health": {
+    "first_seen": "2026-09-30",
+    "name": "Archangel Health",
+    "source": "YC"
+  },
   "yc:archer": {
     "first_seen": "2026-07-24",
     "name": "Archer",
@@ -4262,6 +4342,11 @@
   "yc:asakana": {
     "first_seen": "2026-09-01",
     "name": "Asakana",
+    "source": "YC"
+  },
+  "yc:ascenix": {
+    "first_seen": "2026-09-30",
+    "name": "Ascenix",
     "source": "YC"
   },
   "yc:ascii": {
@@ -4562,6 +4647,11 @@
   "yc:control-seat": {
     "first_seen": "2026-07-24",
     "name": "Control Seat",
+    "source": "YC"
+  },
+  "yc:conus": {
+    "first_seen": "2026-09-30",
+    "name": "CONUS",
     "source": "YC"
   },
   "yc:cosmic-robotics": {
@@ -5554,6 +5644,11 @@
     "name": "MOCHI.TV",
     "source": "YC"
   },
+  "yc:moda-2": {
+    "first_seen": "2026-09-30",
+    "name": "Moda",
+    "source": "YC"
+  },
   "yc:modern": {
     "first_seen": "2026-07-24",
     "name": "Modern",
@@ -5607,6 +5702,11 @@
   "yc:nebusec": {
     "first_seen": "2026-09-15",
     "name": "NebuSec",
+    "source": "YC"
+  },
+  "yc:neomatter": {
+    "first_seen": "2026-09-30",
+    "name": "Neomatter",
     "source": "YC"
   },
   "yc:netter": {
@@ -5712,6 +5812,11 @@
   "yc:openrelay": {
     "first_seen": "2026-07-24",
     "name": "OpenRelay",
+    "source": "YC"
+  },
+  "yc:openseo": {
+    "first_seen": "2026-09-30",
+    "name": "OpenSEO",
     "source": "YC"
   },
   "yc:opentag": {

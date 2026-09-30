@@ -2,41 +2,8 @@
   "1045810": {
     "ticker": "NVDA",
     "company": "NVIDIA CORP",
-    "articles": [
-      {
-        "title": "3 Reasons Why Nvidia Fits Warren Buffett Investment Style",
-        "url": "https://www.fool.com/investing/2026/09/27/3-reasons-why-nvidia-fits-warren-buffetts-investme/",
-        "domain": "fool.com",
-        "date": "2026-09-27",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "Kevin Durant started with a $100 , 000 investment in this AI startup eight years ago ; Nvidia $12 . 9 billion deal could make his stake worth $60 million",
-        "url": "https://economictimes.indiatimes.com/news/international/us/kevin-durant-started-with-a-100000-investment-in-this-ai-startup-eight-years-ago-nvidias-12-9-billion-deal-could-make-his-stake-worth-60-million/articleshow/134515296.cms",
-        "domain": "economictimes.indiatimes.com",
-        "date": "2026-09-27",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "Why $5 . 4trillion Nvidia is the cheapest it been in a decade for investors",
-        "url": "https://www.dailymail.com/money/markets/article-16160649/Why-5-4trillion-Nvidia-cheapest-decade-investors.html",
-        "domain": "dailymail.com",
-        "date": "2026-09-27",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "LG Electronics named Nvidia partner for AI data center cooling",
-        "url": "https://www.koreaherald.com/article/10885239",
-        "domain": "koreaherald.com",
-        "date": "2026-09-27",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      }
-    ],
-    "source": "gdelt"
+    "articles": [],
+    "source": "no-data"
   },
   "1321655": {
     "ticker": "PLTR",
@@ -47,22 +14,54 @@
   "789019": {
     "ticker": "MSFT",
     "company": "MICROSOFT CORP",
-    "articles": [
-      {
-        "title": "Microsoft prepares to retires Copilot+ PC brand just two years after launch",
-        "url": "https://www.moneycontrol.com/technology/microsoft-prepares-to-retires-copilot-pc-brand-just-two-years-after-launch-article-14039145.html",
-        "domain": "moneycontrol.com",
-        "date": "2026-09-27",
-        "sentiment_label": "позитив",
-        "sentiment_score": 1
-      }
-    ],
-    "source": "gdelt"
+    "articles": [],
+    "source": "no-data"
   },
   "320193": {
     "ticker": "AAPL",
     "company": "Apple Inc.",
-    "articles": [],
-    "source": "no-data"
+    "articles": [
+      {
+        "title": "Apple Pay is finally in India , but can it challenge UPI ? Here what you need to know",
+        "url": "https://www.businesstoday.in/technology/news/story/apple-pay-is-finally-in-india-but-can-it-challenge-upi-heres-what-you-need-to-know-558820-2026-09-30",
+        "domain": "businesstoday.in",
+        "date": "2026-09-30",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "Apple warns iPhone users of targeted attacks using security flaw",
+        "url": "https://www.samaa.tv/2087357655-apple-warns-iphone-users-of-targeted-attacks-using-security-flaw",
+        "domain": "samaa.tv",
+        "date": "2026-09-30",
+        "sentiment_label": "негатив",
+        "sentiment_score": -1
+      },
+      {
+        "title": " [ Photos ] Karbala : Green Belt begins grafting Sidr trees with Basrawi apple variety - Shafaqna English",
+        "url": "https://en.shafaqna.com/481107/photos-karbala-green-belt-begins-grafting-sidr-trees-with-basrawi-apple-variety/",
+        "domain": "en.shafaqna.com",
+        "date": "2026-09-30",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "Apple Pay debuts in India where UPI accounts for over 80 pc of digital payments",
+        "url": "https://www.prokerala.com/news/articles/a1818567.html",
+        "domain": "prokerala.com",
+        "date": "2026-09-30",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "Apple Pay launches in India with Axis Bank partnership",
+        "url": "https://www.vccircle.com/applepay-launches-in-india-with-axis-bank-partnership",
+        "domain": "vccircle.com",
+        "date": "2026-09-30",
+        "sentiment_label": "позитив",
+        "sentiment_score": 2
+      }
+    ],
+    "source": "gdelt"
   }
 }
