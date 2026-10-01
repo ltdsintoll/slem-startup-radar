@@ -79,6 +79,11 @@
     "name": "WeShop Holdings Ltd",
     "source": "Form D"
   },
+  "formd:000149315226045179": {
+    "first_seen": "2026-10-01",
+    "name": "Lumati Holdings, Inc.",
+    "source": "Form D"
+  },
   "formd:000159573426000005": {
     "first_seen": "2026-09-30",
     "name": "1World Online, Inc.",
@@ -179,6 +184,11 @@
     "name": "Apogee Semiconductor, Inc.",
     "source": "Form D"
   },
+  "formd:000195184426000005": {
+    "first_seen": "2026-10-01",
+    "name": "Axle Labs, Inc.",
+    "source": "Form D"
+  },
   "formd:000195200826000001": {
     "first_seen": "2026-09-22",
     "name": "Westwin Elements Inc",
@@ -247,6 +257,11 @@
   "formd:000202234026000005": {
     "first_seen": "2026-09-04",
     "name": "Verse Enterprises, Inc.",
+    "source": "Form D"
+  },
+  "formd:000203243426000003": {
+    "first_seen": "2026-10-01",
+    "name": "ALTHEA TECHNOLOGIES PBC",
     "source": "Form D"
   },
   "formd:000203259426000005": {
@@ -3614,6 +3629,11 @@
     "name": "HardLabs Technologies, Inc.",
     "source": "Form D"
   },
+  "formd:000215560926000001": {
+    "first_seen": "2026-10-01",
+    "name": "Curated Drops LLC",
+    "source": "Form D"
+  },
   "formd:000215561326000001": {
     "first_seen": "2026-09-26",
     "name": "Way Biosolutions, Inc.",
@@ -3879,6 +3899,11 @@
     "name": "YOUnifiedAI, Inc.",
     "source": "Form D"
   },
+  "formd:000215664726000001": {
+    "first_seen": "2026-10-01",
+    "name": "Cruitical, Inc.",
+    "source": "Form D"
+  },
   "formd:000215665226000001": {
     "first_seen": "2026-09-23",
     "name": "PrescriptSure, Inc.",
@@ -4064,9 +4089,29 @@
     "name": "SIGNATURE PREMIUM BRANDS, LLC",
     "source": "Form D"
   },
+  "formd:000215768926000001": {
+    "first_seen": "2026-10-01",
+    "name": "McAllen Digestive Surgery Center, LLC",
+    "source": "Form D"
+  },
+  "formd:000215777026000001": {
+    "first_seen": "2026-10-01",
+    "name": "Westfield Fluid Controls, Inc.",
+    "source": "Form D"
+  },
   "formd:000215778026000001": {
     "first_seen": "2026-09-30",
     "name": "DCS AM Holdings LLC",
+    "source": "Form D"
+  },
+  "formd:000215779026000001": {
+    "first_seen": "2026-10-01",
+    "name": "Westfield Hydraulics, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215779126000001": {
+    "first_seen": "2026-10-01",
+    "name": "RunLoyal, Inc.",
     "source": "Form D"
   },
   "formd:000215783326000001": {
@@ -4804,6 +4849,11 @@
     "name": "Drip",
     "source": "YC"
   },
+  "yc:dydema": {
+    "first_seen": "2026-10-01",
+    "name": "Dydema",
+    "source": "YC"
+  },
   "yc:earendil-robotics": {
     "first_seen": "2026-07-24",
     "name": "Earendil Robotics",
@@ -5187,6 +5237,11 @@
   "yc:humwork": {
     "first_seen": "2026-07-24",
     "name": "Humwork",
+    "source": "YC"
+  },
+  "yc:hundred": {
+    "first_seen": "2026-10-01",
+    "name": "Hundred",
     "source": "YC"
   },
   "yc:huscarl": {
@@ -6727,6 +6782,11 @@
   "yc:userlens": {
     "first_seen": "2026-07-24",
     "name": "Userlens",
+    "source": "YC"
+  },
+  "yc:useterse": {
+    "first_seen": "2026-10-01",
+    "name": "Terse",
     "source": "YC"
   },
   "yc:valctrl": {
