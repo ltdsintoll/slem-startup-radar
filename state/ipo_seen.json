@@ -654,6 +654,11 @@
     "name": "Zapata Quantum, Inc.",
     "stage": "Amending"
   },
+  "1848275": {
+    "first_seen": "2026-10-02",
+    "name": "TOP Financial Group Ltd",
+    "stage": "Filed"
+  },
   "1849380": {
     "first_seen": "2026-07-24",
     "name": "OneMedNet Corp",
@@ -692,6 +697,11 @@
   "1862463": {
     "first_seen": "2026-07-24",
     "name": "ALPHA MODUS HOLDINGS, INC.",
+    "stage": "Filed"
+  },
+  "1864531": {
+    "first_seen": "2026-10-02",
+    "name": "VSEE HEALTH, INC.",
     "stage": "Filed"
   },
   "1866226": {
@@ -737,6 +747,11 @@
   "1885408": {
     "first_seen": "2026-07-24",
     "name": "Nexera Technologies Ltd",
+    "stage": "Filed"
+  },
+  "1888014": {
+    "first_seen": "2026-10-02",
+    "name": "AKANDA CORP.",
     "stage": "Filed"
   },
   "1889123": {
@@ -802,6 +817,11 @@
   "1912966": {
     "first_seen": "2026-07-24",
     "name": "REGENTIS BIOMATERIALS LTD.",
+    "stage": "Filed"
+  },
+  "1921603": {
+    "first_seen": "2026-10-02",
+    "name": "WhiteHawk Minerals Corp.",
     "stage": "Filed"
   },
   "1922335": {
@@ -2319,6 +2339,11 @@
     "name": "Lucens Capital Acquisition Corp I",
     "stage": "Filed"
   },
+  "2143673": {
+    "first_seen": "2026-10-02",
+    "name": "Uranium Royalty Corp.",
+    "stage": "Filed"
+  },
   "2143850": {
     "first_seen": "2026-09-25",
     "name": "CITY THERAPEUTICS, INC.",
@@ -2397,7 +2422,7 @@
   "2148436": {
     "first_seen": "2026-08-08",
     "name": "Southport Acquisition Corp. II",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "2149294": {
     "first_seen": "2026-08-11",
@@ -2412,6 +2437,11 @@
   "2149916": {
     "first_seen": "2026-09-26",
     "name": "TCGX Acquisition Corp. II",
+    "stage": "Filed"
+  },
+  "2150455": {
+    "first_seen": "2026-10-02",
+    "name": "POP GLOBAL ACQUISITION Ltd",
     "stage": "Filed"
   },
   "2151558": {

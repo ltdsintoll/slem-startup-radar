@@ -259,6 +259,11 @@
     "name": "Verse Enterprises, Inc.",
     "source": "Form D"
   },
+  "formd:000202440626000002": {
+    "first_seen": "2026-10-02",
+    "name": "Shoreline Bespoke Vehicles Inc.",
+    "source": "Form D"
+  },
   "formd:000203243426000003": {
     "first_seen": "2026-10-01",
     "name": "ALTHEA TECHNOLOGIES PBC",
@@ -319,6 +324,11 @@
     "name": "Metabowlite, Inc.",
     "source": "Form D"
   },
+  "formd:000205902026000004": {
+    "first_seen": "2026-10-02",
+    "name": "NETTA STARTUP STUDIO LLC",
+    "source": "Form D"
+  },
   "formd:000205955526000003": {
     "first_seen": "2026-09-29",
     "name": "Capna Intellectual",
@@ -331,6 +341,11 @@
   },
   "formd:000206075526000056": {
     "first_seen": "2026-09-11",
+    "name": "Balanced Body Organics, Inc.",
+    "source": "Form D"
+  },
+  "formd:000206075526000060": {
+    "first_seen": "2026-10-02",
     "name": "Balanced Body Organics, Inc.",
     "source": "Form D"
   },
@@ -3304,6 +3319,11 @@
     "name": "General Cybernetics Corp",
     "source": "Form D"
   },
+  "formd:000215407726000001": {
+    "first_seen": "2026-10-02",
+    "name": "TraceFrame, Inc.",
+    "source": "Form D"
+  },
   "formd:000215410626000001": {
     "first_seen": "2026-09-12",
     "name": "Cargo Produce Inc.",
@@ -3864,6 +3884,11 @@
     "name": "IGNITEIQ Inc.",
     "source": "Form D"
   },
+  "formd:000215658426000001": {
+    "first_seen": "2026-10-02",
+    "name": "Fuego Racing LLC",
+    "source": "Form D"
+  },
   "formd:000215659626000001": {
     "first_seen": "2026-09-23",
     "name": "Perceptiq Inc.",
@@ -3984,6 +4009,11 @@
     "name": "Three Bucks Two Bags One LLC",
     "source": "Form D"
   },
+  "formd:000215703426000001": {
+    "first_seen": "2026-10-02",
+    "name": "Liora Life Sciences, LLC",
+    "source": "Form D"
+  },
   "formd:000215706226000001": {
     "first_seen": "2026-09-26",
     "name": "Lo Siento Spirits, Inc.",
@@ -3997,6 +4027,16 @@
   "formd:000215715026000001": {
     "first_seen": "2026-09-25",
     "name": "Argonaute RNA Ltd",
+    "source": "Form D"
+  },
+  "formd:000215720826000001": {
+    "first_seen": "2026-10-02",
+    "name": "Depo Technologies, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215722226000001": {
+    "first_seen": "2026-10-02",
+    "name": "Mosh Technologies Inc.",
     "source": "Form D"
   },
   "formd:000215724926000002": {
@@ -4069,6 +4109,11 @@
     "name": "POPHOUSE AVATAR NETWORK INC.",
     "source": "Form D"
   },
+  "formd:000215745426000001": {
+    "first_seen": "2026-10-02",
+    "name": "Ligeia, inc.",
+    "source": "Form D"
+  },
   "formd:000215747826000001": {
     "first_seen": "2026-09-30",
     "name": "Huettl AI, Inc.",
@@ -4084,6 +4129,16 @@
     "name": "2514 Perryton, LP",
     "source": "Form D"
   },
+  "formd:000215755726000003": {
+    "first_seen": "2026-10-02",
+    "name": "LigaSys Inc.",
+    "source": "Form D"
+  },
+  "formd:000215756626000001": {
+    "first_seen": "2026-10-02",
+    "name": "CAD Therapeutics, Inc.",
+    "source": "Form D"
+  },
   "formd:000215758626000001": {
     "first_seen": "2026-09-29",
     "name": "SIGNATURE PREMIUM BRANDS, LLC",
@@ -4094,6 +4149,11 @@
     "name": "McAllen Digestive Surgery Center, LLC",
     "source": "Form D"
   },
+  "formd:000215775726000001": {
+    "first_seen": "2026-10-02",
+    "name": "Zaps Worldwide, Inc.",
+    "source": "Form D"
+  },
   "formd:000215777026000001": {
     "first_seen": "2026-10-01",
     "name": "Westfield Fluid Controls, Inc.",
@@ -4102,6 +4162,11 @@
   "formd:000215778026000001": {
     "first_seen": "2026-09-30",
     "name": "DCS AM Holdings LLC",
+    "source": "Form D"
+  },
+  "formd:000215778126000001": {
+    "first_seen": "2026-10-02",
+    "name": "Florin Broadway Ltd Liability Co",
     "source": "Form D"
   },
   "formd:000215779026000001": {
@@ -4127,6 +4192,41 @@
   "formd:000215785226000001": {
     "first_seen": "2026-09-30",
     "name": "REGENERATUS, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215793726000001": {
+    "first_seen": "2026-10-02",
+    "name": "Smash IP Holdings LLC",
+    "source": "Form D"
+  },
+  "formd:000215793826000001": {
+    "first_seen": "2026-10-02",
+    "name": "Smash Franchising LLC",
+    "source": "Form D"
+  },
+  "formd:000215799726000001": {
+    "first_seen": "2026-10-02",
+    "name": "Alaris AI, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215800526000001": {
+    "first_seen": "2026-10-02",
+    "name": "Numerant, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215803226000001": {
+    "first_seen": "2026-10-02",
+    "name": "JABNE TabSense, LLC",
+    "source": "Form D"
+  },
+  "formd:000215823426000001": {
+    "first_seen": "2026-10-02",
+    "name": "Confirm Global, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215826726000001": {
+    "first_seen": "2026-10-02",
+    "name": "Urza Systems, Inc.",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -5042,6 +5142,11 @@
   "yc:general-aviation": {
     "first_seen": "2026-07-24",
     "name": "General Aviation",
+    "source": "YC"
+  },
+  "yc:general-context-labs": {
+    "first_seen": "2026-10-02",
+    "name": "General Context Labs",
     "source": "YC"
   },
   "yc:general-instinct": {
@@ -6642,6 +6747,11 @@
   "yc:tire-swing": {
     "first_seen": "2026-09-15",
     "name": "Tire Swing",
+    "source": "YC"
+  },
+  "yc:tokenless": {
+    "first_seen": "2026-10-02",
+    "name": "Tokenless",
     "source": "YC"
   },
   "yc:tolmo": {
