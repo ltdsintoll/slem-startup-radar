@@ -8,8 +8,25 @@
   "1321655": {
     "ticker": "PLTR",
     "company": "Palantir Technologies Inc.",
-    "articles": [],
-    "source": "no-data"
+    "articles": [
+      {
+        "title": "ServiceNow vs . Palantir Technologies : Which Tech Stock Is a Better Buy in 2026 ? ",
+        "url": "https://www.fool.com/coverage/better-buy/2026/09/30/servicenow-vs-palantir-technologies-which-tech-stock-is-a-better-buy-in-2026/",
+        "domain": "fool.com",
+        "date": "2026-10-01",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "Direxion Daily PLTR Bear 1X ETF ( NASDAQ : PLTD ) Short Interest Update",
+        "url": "https://www.themarketsdaily.com/2026/09/30/direxion-daily-pltr-bear-1x-etf-nasdaqpltd-short-interest-update.html",
+        "domain": "themarketsdaily.com",
+        "date": "2026-09-30",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      }
+    ],
+    "source": "gdelt"
   },
   "789019": {
     "ticker": "MSFT",
@@ -22,44 +39,28 @@
     "company": "Apple Inc.",
     "articles": [
       {
-        "title": "Apple Pay is finally in India , but can it challenge UPI ? Here what you need to know",
-        "url": "https://www.businesstoday.in/technology/news/story/apple-pay-is-finally-in-india-but-can-it-challenge-upi-heres-what-you-need-to-know-558820-2026-09-30",
-        "domain": "businesstoday.in",
-        "date": "2026-09-30",
+        "title": "For Sale ( 10 Pieces ) New Apple iPhone Duo Original 256GB Unlocked $18 , 990CAD",
+        "url": "http://www.dhal3.com/vb/showthread.php?s=a48978281dc8066f139d02eb270439fb&p=1672275",
+        "domain": "dhal3.com",
+        "date": "2026-10-02",
         "sentiment_label": "нейтрально",
         "sentiment_score": 0
       },
       {
-        "title": "Apple warns iPhone users of targeted attacks using security flaw",
-        "url": "https://www.samaa.tv/2087357655-apple-warns-iphone-users-of-targeted-attacks-using-security-flaw",
-        "domain": "samaa.tv",
-        "date": "2026-09-30",
-        "sentiment_label": "негатив",
-        "sentiment_score": -1
-      },
-      {
-        "title": " [ Photos ] Karbala : Green Belt begins grafting Sidr trees with Basrawi apple variety - Shafaqna English",
-        "url": "https://en.shafaqna.com/481107/photos-karbala-green-belt-begins-grafting-sidr-trees-with-basrawi-apple-variety/",
-        "domain": "en.shafaqna.com",
-        "date": "2026-09-30",
+        "title": "Apple reveals iPhone Duo has a  replaceable  display layer what it means for you",
+        "url": "https://www.tomsguide.com/phones/iphones/apple-reveals-iphone-duo-has-a-replaceable-display-layer-what-it-means-for-you",
+        "domain": "tomsguide.com",
+        "date": "2026-10-02",
         "sentiment_label": "нейтрально",
         "sentiment_score": 0
       },
       {
-        "title": "Apple Pay debuts in India where UPI accounts for over 80 pc of digital payments",
-        "url": "https://www.prokerala.com/news/articles/a1818567.html",
-        "domain": "prokerala.com",
-        "date": "2026-09-30",
+        "title": "For Sale ( 20 Pieces ) New Apple iPhone Duo Original 256GB Unlocked $35 , 989CAD",
+        "url": "http://www.dhal3.com/vb/showthread.php?s=cce43d22b4e241e5dc7e80a9a6e2d021&p=1672277",
+        "domain": "dhal3.com",
+        "date": "2026-10-02",
         "sentiment_label": "нейтрально",
         "sentiment_score": 0
-      },
-      {
-        "title": "Apple Pay launches in India with Axis Bank partnership",
-        "url": "https://www.vccircle.com/applepay-launches-in-india-with-axis-bank-partnership",
-        "domain": "vccircle.com",
-        "date": "2026-09-30",
-        "sentiment_label": "позитив",
-        "sentiment_score": 2
       }
     ],
     "source": "gdelt"

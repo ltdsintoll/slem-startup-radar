@@ -2894,8 +2894,23 @@
     "name": "Voices of History Foundation",
     "source": "Form D"
   },
+  "formd:000215258426000002": {
+    "first_seen": "2026-10-03",
+    "name": "American Fertilizer, LLC",
+    "source": "Form D"
+  },
+  "formd:000215258426000003": {
+    "first_seen": "2026-10-03",
+    "name": "American Fertilizer, LLC",
+    "source": "Form D"
+  },
   "formd:000215259426000001": {
     "first_seen": "2026-09-01",
+    "name": "Micdrop LLC",
+    "source": "Form D"
+  },
+  "formd:000215259426000002": {
+    "first_seen": "2026-10-03",
     "name": "Micdrop LLC",
     "source": "Form D"
   },
@@ -3479,6 +3494,11 @@
     "name": "Provident Health 01-05 LLC",
     "source": "Form D"
   },
+  "formd:000215485826000005": {
+    "first_seen": "2026-10-03",
+    "name": "NETWORKX IT Inc.",
+    "source": "Form D"
+  },
   "formd:000215486026000001": {
     "first_seen": "2026-09-28",
     "name": "CSignum Ltd.",
@@ -3542,6 +3562,11 @@
   "formd:000215502526000001": {
     "first_seen": "2026-09-12",
     "name": "NJDyne FR LLC",
+    "source": "Form D"
+  },
+  "formd:000215504326000001": {
+    "first_seen": "2026-10-03",
+    "name": "Smirta Innovations Inc",
     "source": "Form D"
   },
   "formd:000215506926000001": {
@@ -3674,6 +3699,11 @@
     "name": "Seattle Neurosound Solutions, Inc.",
     "source": "Form D"
   },
+  "formd:000215577426000001": {
+    "first_seen": "2026-10-03",
+    "name": "Xcelerated Recovery LLC",
+    "source": "Form D"
+  },
   "formd:000215578626000001": {
     "first_seen": "2026-09-17",
     "name": "World Flavors Holdings, LLC",
@@ -3789,9 +3819,19 @@
     "name": "EasyBear Inc.",
     "source": "Form D"
   },
+  "formd:000215616026000001": {
+    "first_seen": "2026-10-03",
+    "name": "Superstorefront Inc.",
+    "source": "Form D"
+  },
   "formd:000215616326000001": {
     "first_seen": "2026-09-19",
     "name": "Aran Operations LLC",
+    "source": "Form D"
+  },
+  "formd:000215617926000001": {
+    "first_seen": "2026-10-03",
+    "name": "Zeus Robotics Inc.",
     "source": "Form D"
   },
   "formd:000215618726000001": {
@@ -3879,6 +3919,11 @@
     "name": "Schon Mobility Inc",
     "source": "Form D"
   },
+  "formd:000215657826000001": {
+    "first_seen": "2026-10-03",
+    "name": "VeriMedic, Inc.",
+    "source": "Form D"
+  },
   "formd:000215658026000001": {
     "first_seen": "2026-09-24",
     "name": "IGNITEIQ Inc.",
@@ -3952,6 +3997,11 @@
   "formd:000215678926000001": {
     "first_seen": "2026-09-25",
     "name": "ParentConnect Inc.",
+    "source": "Form D"
+  },
+  "formd:000215681726000001": {
+    "first_seen": "2026-10-03",
+    "name": "2026 LRF Yearling Package LLC",
     "source": "Form D"
   },
   "formd:000215685026000001": {
@@ -4049,6 +4099,11 @@
     "name": "Camp Hope, LLC",
     "source": "Form D"
   },
+  "formd:000215728226000002": {
+    "first_seen": "2026-10-03",
+    "name": "General Intuition Holding B.V.",
+    "source": "Form D"
+  },
   "formd:000215728926000002": {
     "first_seen": "2026-09-25",
     "name": "HOME Movie, LLC",
@@ -4089,6 +4144,11 @@
     "name": "SANXUARY LLC",
     "source": "Form D"
   },
+  "formd:000215742126000001": {
+    "first_seen": "2026-10-03",
+    "name": "Carebility, Inc.",
+    "source": "Form D"
+  },
   "formd:000215742226000001": {
     "first_seen": "2026-09-28",
     "name": "Myotis Inc.",
@@ -4107,6 +4167,11 @@
   "formd:000215743526000001": {
     "first_seen": "2026-09-29",
     "name": "POPHOUSE AVATAR NETWORK INC.",
+    "source": "Form D"
+  },
+  "formd:000215743926000001": {
+    "first_seen": "2026-10-03",
+    "name": "VeriLeaf, Inc.",
     "source": "Form D"
   },
   "formd:000215745426000001": {
@@ -4129,6 +4194,16 @@
     "name": "2514 Perryton, LP",
     "source": "Form D"
   },
+  "formd:000215755126000001": {
+    "first_seen": "2026-10-03",
+    "name": "Altay Therapeutics, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215755526000001": {
+    "first_seen": "2026-10-03",
+    "name": "ZymoChem, Inc.",
+    "source": "Form D"
+  },
   "formd:000215755726000003": {
     "first_seen": "2026-10-02",
     "name": "LigaSys Inc.",
@@ -4137,6 +4212,11 @@
   "formd:000215756626000001": {
     "first_seen": "2026-10-02",
     "name": "CAD Therapeutics, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215757026000001": {
+    "first_seen": "2026-10-03",
+    "name": "Vantage Health, Inc.",
     "source": "Form D"
   },
   "formd:000215758626000001": {
@@ -4194,6 +4274,11 @@
     "name": "REGENERATUS, Inc.",
     "source": "Form D"
   },
+  "formd:000215792526000001": {
+    "first_seen": "2026-10-03",
+    "name": "CROSSCALE INC",
+    "source": "Form D"
+  },
   "formd:000215793726000001": {
     "first_seen": "2026-10-02",
     "name": "Smash IP Holdings LLC",
@@ -4219,6 +4304,11 @@
     "name": "JABNE TabSense, LLC",
     "source": "Form D"
   },
+  "formd:000215819326000001": {
+    "first_seen": "2026-10-03",
+    "name": "Capintra Settlement Exchange Ltd",
+    "source": "Form D"
+  },
   "formd:000215823426000001": {
     "first_seen": "2026-10-02",
     "name": "Confirm Global, Inc.",
@@ -4227,6 +4317,26 @@
   "formd:000215826726000001": {
     "first_seen": "2026-10-02",
     "name": "Urza Systems, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215836126000001": {
+    "first_seen": "2026-10-03",
+    "name": "Renovare Therapeutics, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215836326000001": {
+    "first_seen": "2026-10-03",
+    "name": "ALTIUS ORTHOPEDICS, INC.",
+    "source": "Form D"
+  },
+  "formd:000215840026000001": {
+    "first_seen": "2026-10-03",
+    "name": "Photonic Muscle LLC",
+    "source": "Form D"
+  },
+  "formd:000215842226000001": {
+    "first_seen": "2026-10-03",
+    "name": "Nordic 15 LLC",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -6139,6 +6249,11 @@
     "name": "Petrarch",
     "source": "YC"
   },
+  "yc:petrichor-bio": {
+    "first_seen": "2026-10-03",
+    "name": "Petrichor Bio",
+    "source": "YC"
+  },
   "yc:plan0-ai": {
     "first_seen": "2026-07-24",
     "name": "PLAN0 AI",
@@ -6394,6 +6509,11 @@
     "name": "Runtime",
     "source": "YC"
   },
+  "yc:rystic": {
+    "first_seen": "2026-10-03",
+    "name": "Rystic",
+    "source": "YC"
+  },
   "yc:saffron": {
     "first_seen": "2026-07-24",
     "name": "Saffron",
@@ -6477,6 +6597,11 @@
   "yc:sigma-2": {
     "first_seen": "2026-09-13",
     "name": "Sigma",
+    "source": "YC"
+  },
+  "yc:silica": {
+    "first_seen": "2026-10-03",
+    "name": "Silica",
     "source": "YC"
   },
   "yc:silmaril": {
