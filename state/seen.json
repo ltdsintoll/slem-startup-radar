@@ -3194,6 +3194,11 @@
     "name": "Grove SV LLC",
     "source": "Form D"
   },
+  "formd:000215365526000002": {
+    "first_seen": "2026-10-05",
+    "name": "Henshin AI, Inc.",
+    "source": "Form D"
+  },
   "formd:000215367026000001": {
     "first_seen": "2026-09-04",
     "name": "Protocol Labs LLC",
@@ -3457,6 +3462,11 @@
   "formd:000215465326000001": {
     "first_seen": "2026-09-12",
     "name": "Charlestowne Senior Village LLC",
+    "source": "Form D"
+  },
+  "formd:000215465426000001": {
+    "first_seen": "2026-10-05",
+    "name": "Dating Diaries Inc.",
     "source": "Form D"
   },
   "formd:000215470126000001": {
@@ -4302,6 +4312,11 @@
   "formd:000215803226000001": {
     "first_seen": "2026-10-02",
     "name": "JABNE TabSense, LLC",
+    "source": "Form D"
+  },
+  "formd:000215817526000001": {
+    "first_seen": "2026-10-05",
+    "name": "Kepler Defense Industries, Inc.",
     "source": "Form D"
   },
   "formd:000215819326000001": {
