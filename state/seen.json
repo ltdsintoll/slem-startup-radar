@@ -1,4 +1,9 @@
 {
+  "formd:000095017226000226": {
+    "first_seen": "2026-10-06",
+    "name": "Lyniate US Holdings LP",
+    "source": "Form D"
+  },
   "formd:000101410826000042": {
     "first_seen": "2026-07-27",
     "name": "Asher Health, Inc.",
@@ -32,6 +37,11 @@
   "formd:000121390026103183": {
     "first_seen": "2026-09-25",
     "name": "Powell Max Ltd",
+    "source": "Form D"
+  },
+  "formd:000121390026106928": {
+    "first_seen": "2026-10-06",
+    "name": "EigenQ Inc",
     "source": "Form D"
   },
   "formd:000123191926001227": {
@@ -84,6 +94,11 @@
     "name": "Lumati Holdings, Inc.",
     "source": "Form D"
   },
+  "formd:000159521526000002": {
+    "first_seen": "2026-10-06",
+    "name": "Rakuten Medical, Inc.",
+    "source": "Form D"
+  },
   "formd:000159573426000005": {
     "first_seen": "2026-09-30",
     "name": "1World Online, Inc.",
@@ -109,6 +124,11 @@
     "name": "Pao Brands Inc",
     "source": "Form D"
   },
+  "formd:000168600026000001": {
+    "first_seen": "2026-10-06",
+    "name": "Japan Gold Corp.",
+    "source": "Form D"
+  },
   "formd:000168712326000002": {
     "first_seen": "2026-09-17",
     "name": "SawmaSaw Cheese Co",
@@ -127,6 +147,11 @@
   "formd:000175824126000003": {
     "first_seen": "2026-09-29",
     "name": "Tru, Inc.",
+    "source": "Form D"
+  },
+  "formd:000180569826000001": {
+    "first_seen": "2026-10-06",
+    "name": "EIKONOKLASTES THERAPEUTICS, INC.",
     "source": "Form D"
   },
   "formd:000181315926000003": {
@@ -184,6 +209,11 @@
     "name": "Apogee Semiconductor, Inc.",
     "source": "Form D"
   },
+  "formd:000194738326000004": {
+    "first_seen": "2026-10-06",
+    "name": "ROXBERRY NATURALS, INC.",
+    "source": "Form D"
+  },
   "formd:000195184426000005": {
     "first_seen": "2026-10-01",
     "name": "Axle Labs, Inc.",
@@ -202,6 +232,11 @@
   "formd:000195751726000004": {
     "first_seen": "2026-09-17",
     "name": "Gravitics, Inc.",
+    "source": "Form D"
+  },
+  "formd:000196783926000003": {
+    "first_seen": "2026-10-06",
+    "name": "Right-Hand Cyber Security, Inc.",
     "source": "Form D"
   },
   "formd:000197056926000003": {
@@ -229,6 +264,11 @@
     "name": "Veza Innovations Inc.",
     "source": "Form D"
   },
+  "formd:000199961326000006": {
+    "first_seen": "2026-10-06",
+    "name": "Faradyne Power Systems Corp.",
+    "source": "Form D"
+  },
   "formd:000200043126000001": {
     "first_seen": "2026-09-04",
     "name": "Switchboard Health, Inc.",
@@ -252,6 +292,11 @@
   "formd:000201161726000019": {
     "first_seen": "2026-09-17",
     "name": "SIERRA INTERNATIONAL NETWORK INC",
+    "source": "Form D"
+  },
+  "formd:000201395826000004": {
+    "first_seen": "2026-10-06",
+    "name": "PDW Holdings, Inc.",
     "source": "Form D"
   },
   "formd:000202234026000005": {
@@ -429,6 +474,11 @@
     "name": "Aslan Housing Foundation",
     "source": "Form D"
   },
+  "formd:000210205926000001": {
+    "first_seen": "2026-10-06",
+    "name": "PrimoSure, LLC",
+    "source": "Form D"
+  },
   "formd:000210246826000001": {
     "first_seen": "2026-07-28",
     "name": "SRO Album LLC",
@@ -544,6 +594,11 @@
     "name": "NeoDomes, Inc.",
     "source": "Form D"
   },
+  "formd:000213471826000092": {
+    "first_seen": "2026-10-06",
+    "name": "Larkspire, Inc.",
+    "source": "Form D"
+  },
   "formd:000213491126000001": {
     "first_seen": "2026-08-27",
     "name": "Power-Fabric, Inc.",
@@ -637,6 +692,11 @@
   "formd:000214159826000001": {
     "first_seen": "2026-08-04",
     "name": "Quantum Network Technologies, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214172226000004": {
+    "first_seen": "2026-10-06",
+    "name": "ORGN Technologies Inc.",
     "source": "Form D"
   },
   "formd:000214176426000001": {
@@ -2029,6 +2089,11 @@
     "name": "ACERVAS, INC.",
     "source": "Form D"
   },
+  "formd:000214928326000002": {
+    "first_seen": "2026-10-06",
+    "name": "ACERVAS, INC.",
+    "source": "Form D"
+  },
   "formd:000214929026000001": {
     "first_seen": "2026-08-08",
     "name": "Veyl Technologies, Inc.",
@@ -2416,6 +2481,11 @@
   },
   "formd:000215058126000001": {
     "first_seen": "2026-08-18",
+    "name": "ProSentra, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215058126000002": {
+    "first_seen": "2026-10-06",
     "name": "ProSentra, Inc.",
     "source": "Form D"
   },
@@ -4324,6 +4394,11 @@
     "name": "Capintra Settlement Exchange Ltd",
     "source": "Form D"
   },
+  "formd:000215821326000001": {
+    "first_seen": "2026-10-06",
+    "name": "dodo Island AI, Inc.",
+    "source": "Form D"
+  },
   "formd:000215823426000001": {
     "first_seen": "2026-10-02",
     "name": "Confirm Global, Inc.",
@@ -4352,6 +4427,36 @@
   "formd:000215842226000001": {
     "first_seen": "2026-10-03",
     "name": "Nordic 15 LLC",
+    "source": "Form D"
+  },
+  "formd:000215865526000001": {
+    "first_seen": "2026-10-06",
+    "name": "Chateau Capital AXS1 LLC",
+    "source": "Form D"
+  },
+  "formd:000215865626000001": {
+    "first_seen": "2026-10-06",
+    "name": "Goated Ventures Inc.",
+    "source": "Form D"
+  },
+  "formd:000215870626000001": {
+    "first_seen": "2026-10-06",
+    "name": "Notes Frequencies, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215874426000001": {
+    "first_seen": "2026-10-06",
+    "name": "Rivn Technologies Inc.",
+    "source": "Form D"
+  },
+  "formd:000215875126000001": {
+    "first_seen": "2026-10-06",
+    "name": "Haah, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215875126000002": {
+    "first_seen": "2026-10-06",
+    "name": "Haah, Inc.",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -5639,6 +5744,11 @@
     "name": "KelAI",
     "source": "YC"
   },
+  "yc:keres": {
+    "first_seen": "2026-10-06",
+    "name": "Keres",
+    "source": "YC"
+  },
   "yc:keyframe-labs": {
     "first_seen": "2026-07-24",
     "name": "Keyframe Labs",
@@ -5869,6 +5979,11 @@
     "name": "Mass Magnetics",
     "source": "YC"
   },
+  "yc:melty-gg": {
+    "first_seen": "2026-10-06",
+    "name": "Melty",
+    "source": "YC"
+  },
   "yc:memoir": {
     "first_seen": "2026-07-24",
     "name": "Memoir",
@@ -6084,6 +6199,11 @@
     "name": "Ooak Data",
     "source": "YC"
   },
+  "yc:open-actuation": {
+    "first_seen": "2026-10-06",
+    "name": "Open Actuation",
+    "source": "YC"
+  },
   "yc:openhack": {
     "first_seen": "2026-09-26",
     "name": "OpenHack",
@@ -6282,6 +6402,11 @@
   "yc:plena-health": {
     "first_seen": "2026-07-24",
     "name": "Plena Health",
+    "source": "YC"
+  },
+  "yc:ploid": {
+    "first_seen": "2026-10-06",
+    "name": "Ploid",
     "source": "YC"
   },
   "yc:ploy": {
@@ -6972,6 +7097,11 @@
   "yc:trybloom": {
     "first_seen": "2026-07-24",
     "name": "Bloom",
+    "source": "YC"
+  },
+  "yc:trylatent": {
+    "first_seen": "2026-10-06",
+    "name": "Latent",
     "source": "YC"
   },
   "yc:trynearby": {

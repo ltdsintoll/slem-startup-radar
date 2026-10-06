@@ -549,6 +549,11 @@
     "name": "ADARx Pharmaceuticals, Inc.",
     "stage": "Priced/IPO"
   },
+  "1806540": {
+    "first_seen": "2026-10-06",
+    "name": "Lycia Therapeutics, Inc.",
+    "stage": "Filed"
+  },
   "1807887": {
     "first_seen": "2026-07-24",
     "name": "Laser Photonics Corp",
@@ -1967,6 +1972,11 @@
   "2116517": {
     "first_seen": "2026-09-29",
     "name": "MNBS Acquisition Corp.",
+    "stage": "Filed"
+  },
+  "2118192": {
+    "first_seen": "2026-10-06",
+    "name": "DayOne Data Centers Ltd",
     "stage": "Filed"
   },
   "2119287": {
