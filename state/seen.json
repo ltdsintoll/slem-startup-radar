@@ -454,6 +454,11 @@
     "name": "FlyTahoe Inc.",
     "source": "Form D"
   },
+  "formd:000209150926000001": {
+    "first_seen": "2026-10-07",
+    "name": "Cowrie Creek, Inc.",
+    "source": "Form D"
+  },
   "formd:000209493826000001": {
     "first_seen": "2026-09-14",
     "name": "Refr Sports Inc.",
@@ -567,6 +572,11 @@
   "formd:000213203226000003": {
     "first_seen": "2026-09-23",
     "name": "Titan OS Inc",
+    "source": "Form D"
+  },
+  "formd:000213374826000001": {
+    "first_seen": "2026-10-07",
+    "name": "Reltek, Inc.",
     "source": "Form D"
   },
   "formd:000213452926000001": {
@@ -1636,6 +1646,11 @@
   },
   "formd:000214828026000001": {
     "first_seen": "2026-08-05",
+    "name": "Faex Technologies Inc.",
+    "source": "Form D"
+  },
+  "formd:000214828026000002": {
+    "first_seen": "2026-10-07",
     "name": "Faex Technologies Inc.",
     "source": "Form D"
   },
@@ -4429,6 +4444,36 @@
     "name": "Nordic 15 LLC",
     "source": "Form D"
   },
+  "formd:000215849826000001": {
+    "first_seen": "2026-10-07",
+    "name": "Gradatim QP I, a series of Wefunds LLC",
+    "source": "Form D"
+  },
+  "formd:000215850026000001": {
+    "first_seen": "2026-10-07",
+    "name": "Accelerator QP I, a series of Wefunds LLC",
+    "source": "Form D"
+  },
+  "formd:000215851226000001": {
+    "first_seen": "2026-10-07",
+    "name": "Tarpestry Co. I, a series of Capitalize Investments LLC",
+    "source": "Form D"
+  },
+  "formd:000215851526000001": {
+    "first_seen": "2026-10-07",
+    "name": "Grounded Health I, a series of Capitalize Investments LLC",
+    "source": "Form D"
+  },
+  "formd:000215858626000001": {
+    "first_seen": "2026-10-07",
+    "name": "Metabolica, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215863526000001": {
+    "first_seen": "2026-10-07",
+    "name": "Cytonus Therapeutics I I, a series of Capitalize Investments LLC",
+    "source": "Form D"
+  },
   "formd:000215865526000001": {
     "first_seen": "2026-10-06",
     "name": "Chateau Capital AXS1 LLC",
@@ -4437,6 +4482,11 @@
   "formd:000215865626000001": {
     "first_seen": "2026-10-06",
     "name": "Goated Ventures Inc.",
+    "source": "Form D"
+  },
+  "formd:000215870526000001": {
+    "first_seen": "2026-10-07",
+    "name": "Kidsy I, a series of Capitalize Investments LLC",
     "source": "Form D"
   },
   "formd:000215870626000001": {
@@ -4459,6 +4509,56 @@
     "name": "Haah, Inc.",
     "source": "Form D"
   },
+  "formd:000215880726000001": {
+    "first_seen": "2026-10-07",
+    "name": "Gallery Haus Investors, LLC",
+    "source": "Form D"
+  },
+  "formd:000215883726000001": {
+    "first_seen": "2026-10-07",
+    "name": "BA Enterprises Group Inc.",
+    "source": "Form D"
+  },
+  "formd:000215884126000001": {
+    "first_seen": "2026-10-07",
+    "name": "PIG ELEVEST 70, LLC",
+    "source": "Form D"
+  },
+  "formd:000215885126000001": {
+    "first_seen": "2026-10-07",
+    "name": "SafeGifts.world Inc.",
+    "source": "Form D"
+  },
+  "formd:000215885526000001": {
+    "first_seen": "2026-10-07",
+    "name": "Dajji Tractian Investment LLC",
+    "source": "Form D"
+  },
+  "formd:000215900126000001": {
+    "first_seen": "2026-10-07",
+    "name": "Lumie Group Inc.",
+    "source": "Form D"
+  },
+  "formd:000215904226000001": {
+    "first_seen": "2026-10-07",
+    "name": "Channel Companion LLC",
+    "source": "Form D"
+  },
+  "formd:000215907326000001": {
+    "first_seen": "2026-10-07",
+    "name": "POF Lucky Holdings, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215907326000002": {
+    "first_seen": "2026-10-07",
+    "name": "POF Lucky Holdings, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215907326000003": {
+    "first_seen": "2026-10-07",
+    "name": "POF Lucky Holdings, Inc.",
+    "source": "Form D"
+  },
   "yc:6thsense": {
     "first_seen": "2026-07-24",
     "name": "6thSense",
@@ -4477,6 +4577,11 @@
   "yc:abinitio-bio": {
     "first_seen": "2026-07-24",
     "name": "AbInitio Bio",
+    "source": "YC"
+  },
+  "yc:acyclic": {
+    "first_seen": "2026-10-07",
+    "name": "Acyclic Labs",
     "source": "YC"
   },
   "yc:adialante": {
@@ -6439,6 +6544,11 @@
     "name": "Praxis Robotics",
     "source": "YC"
   },
+  "yc:preload": {
+    "first_seen": "2026-10-07",
+    "name": "Preload",
+    "source": "YC"
+  },
   "yc:prescience-inc": {
     "first_seen": "2026-07-24",
     "name": "Prescience, Inc.",
@@ -6564,6 +6674,11 @@
     "name": "Replicas",
     "source": "YC"
   },
+  "yc:resin-technologies": {
+    "first_seen": "2026-10-07",
+    "name": "Resin Technologies",
+    "source": "YC"
+  },
   "yc:result": {
     "first_seen": "2026-07-24",
     "name": "Result",
@@ -6652,6 +6767,11 @@
   "yc:rystic": {
     "first_seen": "2026-10-03",
     "name": "Rystic",
+    "source": "YC"
+  },
+  "yc:saccade": {
+    "first_seen": "2026-10-07",
+    "name": "Saccade",
     "source": "YC"
   },
   "yc:saffron": {
