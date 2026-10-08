@@ -384,6 +384,11 @@
     "name": "Moleculin Biotech, Inc.",
     "stage": "Amending"
   },
+  "1660851": {
+    "first_seen": "2026-10-08",
+    "name": "FireFly Robotics, Inc.",
+    "stage": "Filed"
+  },
   "1670747": {
     "first_seen": "2026-08-13",
     "name": "BirchBioMed Inc.",
@@ -542,7 +547,7 @@
   "1793497": {
     "first_seen": "2026-08-18",
     "name": "VS Trust",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "1795851": {
     "first_seen": "2026-07-24",
@@ -917,7 +922,7 @@
   "1954227": {
     "first_seen": "2026-07-24",
     "name": "Elements Ventures Group Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "1956439": {
     "first_seen": "2026-07-24",
@@ -1012,7 +1017,7 @@
   "1997038": {
     "first_seen": "2026-09-22",
     "name": "Iambic Therapeutics, Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "1997182": {
     "first_seen": "2026-07-24",
@@ -2142,7 +2147,7 @@
   "2131072": {
     "first_seen": "2026-09-10",
     "name": "Harbour Island Acquisition Corp. I",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2131124": {
     "first_seen": "2026-09-10",
@@ -2172,6 +2177,11 @@
   "2131813": {
     "first_seen": "2026-10-07",
     "name": "newcleo plc",
+    "stage": "Filed"
+  },
+  "2132065": {
+    "first_seen": "2026-10-08",
+    "name": "Centinel Spine Holdco, Inc.",
     "stage": "Filed"
   },
   "2132582": {

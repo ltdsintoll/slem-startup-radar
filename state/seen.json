@@ -239,6 +239,11 @@
     "name": "Right-Hand Cyber Security, Inc.",
     "source": "Form D"
   },
+  "formd:000196821226000005": {
+    "first_seen": "2026-10-08",
+    "name": "Fenix Space, Inc.",
+    "source": "Form D"
+  },
   "formd:000197056926000003": {
     "first_seen": "2026-07-27",
     "name": "Anchor 3724, LLC",
@@ -432,6 +437,11 @@
   "formd:000207891426000001": {
     "first_seen": "2026-07-27",
     "name": "Point Reyes Partners, LLC",
+    "source": "Form D"
+  },
+  "formd:000207972826000001": {
+    "first_seen": "2026-10-08",
+    "name": "CoTec Holdings Corp.",
     "source": "Form D"
   },
   "formd:000208300126000001": {
@@ -2117,6 +2127,11 @@
   "formd:000214930126000001": {
     "first_seen": "2026-08-08",
     "name": "CloneTech, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214930426000001": {
+    "first_seen": "2026-10-08",
+    "name": "Mindset Innovation II, Inc.",
     "source": "Form D"
   },
   "formd:000214934126000001": {
@@ -3964,6 +3979,11 @@
     "name": "Galvix Recovery Solutions Corp",
     "source": "Form D"
   },
+  "formd:000215630126000001": {
+    "first_seen": "2026-10-08",
+    "name": "Kitchenoid Inc",
+    "source": "Form D"
+  },
   "formd:000215634326000001": {
     "first_seen": "2026-09-23",
     "name": "Floto, Inc.",
@@ -4474,6 +4494,11 @@
     "name": "Cytonus Therapeutics I I, a series of Capitalize Investments LLC",
     "source": "Form D"
   },
+  "formd:000215864826000001": {
+    "first_seen": "2026-10-08",
+    "name": "Ayvera AI Inc.",
+    "source": "Form D"
+  },
   "formd:000215865526000001": {
     "first_seen": "2026-10-06",
     "name": "Chateau Capital AXS1 LLC",
@@ -4557,6 +4582,41 @@
   "formd:000215907326000003": {
     "first_seen": "2026-10-07",
     "name": "POF Lucky Holdings, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215908326000001": {
+    "first_seen": "2026-10-08",
+    "name": "Vision Combine Corp",
+    "source": "Form D"
+  },
+  "formd:000215909326000001": {
+    "first_seen": "2026-10-08",
+    "name": "AERSTREAM INC",
+    "source": "Form D"
+  },
+  "formd:000215917826000001": {
+    "first_seen": "2026-10-08",
+    "name": "Luminal AI, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215924326000001": {
+    "first_seen": "2026-10-08",
+    "name": "DTV ENTERPRISES, INC.",
+    "source": "Form D"
+  },
+  "formd:000215927626000001": {
+    "first_seen": "2026-10-08",
+    "name": "Capsage, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215937426000001": {
+    "first_seen": "2026-10-08",
+    "name": "Scholar Education, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215937626000001": {
+    "first_seen": "2026-10-08",
+    "name": "AgentTeams, Inc.",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -5162,6 +5222,11 @@
   "yc:daqstra": {
     "first_seen": "2026-07-24",
     "name": "Daqstra",
+    "source": "YC"
+  },
+  "yc:databuddy": {
+    "first_seen": "2026-10-08",
+    "name": "Databuddy",
     "source": "YC"
   },
   "yc:datoric": {
@@ -6559,6 +6624,11 @@
     "name": "primitive",
     "source": "YC"
   },
+  "yc:primordiant": {
+    "first_seen": "2026-10-08",
+    "name": "Primordiant (Formerly SuperRadiant)",
+    "source": "YC"
+  },
   "yc:princeps": {
     "first_seen": "2026-08-14",
     "name": "PRINCEPS",
@@ -7289,6 +7359,11 @@
     "name": "Terse",
     "source": "YC"
   },
+  "yc:uxduck": {
+    "first_seen": "2026-10-08",
+    "name": "UXDuck",
+    "source": "YC"
+  },
   "yc:valctrl": {
     "first_seen": "2026-07-24",
     "name": "ValCtrl",
@@ -7352,6 +7427,11 @@
   "yc:vorelios": {
     "first_seen": "2026-08-12",
     "name": "Vorelios",
+    "source": "YC"
+  },
+  "yc:voyager": {
+    "first_seen": "2026-10-08",
+    "name": "Voyager",
     "source": "YC"
   },
   "yc:vyra": {
