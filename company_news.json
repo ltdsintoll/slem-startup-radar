@@ -10,22 +10,6 @@
         "date": "2026-10-06",
         "sentiment_label": "позитив",
         "sentiment_score": 1
-      },
-      {
-        "title": "Nvidia unveils record $150 billion buyback increase",
-        "url": "http://www.texasguardian.com/news/279338424/nvidia-unveils-record-usd150-billion-buyback-increase",
-        "domain": "texasguardian.com",
-        "date": "2026-10-02",
-        "sentiment_label": "позитив",
-        "sentiment_score": 1
-      },
-      {
-        "title": "Amazon Eyes $8 Billion Nvidia Chip Spinoff to Fund AI Expansion",
-        "url": "http://www.econotimes.com/Amazon-Eyes-8-Billion-Nvidia-Chip-Spinoff-to-Fund-AI-Expansion-1753760",
-        "domain": "econotimes.com",
-        "date": "2026-10-02",
-        "sentiment_label": "позитив",
-        "sentiment_score": 1
       }
     ],
     "source": "gdelt"
@@ -45,7 +29,16 @@
   "320193": {
     "ticker": "AAPL",
     "company": "Apple Inc.",
-    "articles": [],
-    "source": "no-data"
+    "articles": [
+      {
+        "title": "Apple offers free iPhone 18 Pro Max replacements - check how",
+        "url": "https://www.samaa.tv/2087357992-apple-offers-free-iphone-18-pro-max-replacements-check-how",
+        "domain": "samaa.tv",
+        "date": "2026-10-06",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      }
+    ],
+    "source": "gdelt"
   }
 }

@@ -69,6 +69,11 @@
     "name": "Golden Arrow Resources Corp",
     "source": "Form D"
   },
+  "formd:000146379026000001": {
+    "first_seen": "2026-10-09",
+    "name": "Surgical Caregivers of Fort Worth, LLC",
+    "source": "Form D"
+  },
   "formd:000149315226040893": {
     "first_seen": "2026-09-01",
     "name": "Kaida BioPharma Inc.",
@@ -147,6 +152,11 @@
   "formd:000175824126000003": {
     "first_seen": "2026-09-29",
     "name": "Tru, Inc.",
+    "source": "Form D"
+  },
+  "formd:000178512826000004": {
+    "first_seen": "2026-10-09",
+    "name": "AMIRA LEARNING INC",
     "source": "Form D"
   },
   "formd:000180569826000001": {
@@ -2039,6 +2049,11 @@
     "name": "DMJC COLOSSAL LLC",
     "source": "Form D"
   },
+  "formd:000214916026000001": {
+    "first_seen": "2026-10-09",
+    "name": "CulinaryOne, LLC",
+    "source": "Form D"
+  },
   "formd:000214916226000001": {
     "first_seen": "2026-08-14",
     "name": "3852.ai Inc",
@@ -3599,6 +3614,11 @@
     "name": "REA CAPITAL III LTD",
     "source": "Form D"
   },
+  "formd:000215483926000001": {
+    "first_seen": "2026-10-09",
+    "name": "HTD Health, Inc.",
+    "source": "Form D"
+  },
   "formd:000215484826000001": {
     "first_seen": "2026-09-12",
     "name": "Provident Health 01-05 LLC",
@@ -4454,6 +4474,11 @@
     "name": "ALTIUS ORTHOPEDICS, INC.",
     "source": "Form D"
   },
+  "formd:000215838726000001": {
+    "first_seen": "2026-10-09",
+    "name": "Tall City Title, LLC",
+    "source": "Form D"
+  },
   "formd:000215840026000001": {
     "first_seen": "2026-10-03",
     "name": "Photonic Muscle LLC",
@@ -4594,6 +4619,11 @@
     "name": "AERSTREAM INC",
     "source": "Form D"
   },
+  "formd:000215913426000001": {
+    "first_seen": "2026-10-09",
+    "name": "Atmos Clinic, Inc.",
+    "source": "Form D"
+  },
   "formd:000215917826000001": {
     "first_seen": "2026-10-08",
     "name": "Luminal AI, Inc.",
@@ -4609,6 +4639,11 @@
     "name": "Capsage, Inc.",
     "source": "Form D"
   },
+  "formd:000215937126000001": {
+    "first_seen": "2026-10-09",
+    "name": "NOVASPARK ENERGY Corp",
+    "source": "Form D"
+  },
   "formd:000215937426000001": {
     "first_seen": "2026-10-08",
     "name": "Scholar Education, Inc.",
@@ -4617,6 +4652,21 @@
   "formd:000215937626000001": {
     "first_seen": "2026-10-08",
     "name": "AgentTeams, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215946226000001": {
+    "first_seen": "2026-10-09",
+    "name": "Olive & M LLC",
+    "source": "Form D"
+  },
+  "formd:000215952926000001": {
+    "first_seen": "2026-10-09",
+    "name": "Sky Analytica Corp",
+    "source": "Form D"
+  },
+  "formd:000215955026000001": {
+    "first_seen": "2026-10-09",
+    "name": "Park Golf LLC",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -4949,6 +4999,11 @@
     "name": "Audun",
     "source": "YC"
   },
+  "yc:autoresearch-inc": {
+    "first_seen": "2026-10-09",
+    "name": "Autoresearch, Inc.",
+    "source": "YC"
+  },
   "yc:autostep": {
     "first_seen": "2026-07-24",
     "name": "Autostep",
@@ -5167,6 +5222,11 @@
   "yc:complir": {
     "first_seen": "2026-07-24",
     "name": "Complir",
+    "source": "YC"
+  },
+  "yc:composal": {
+    "first_seen": "2026-10-09",
+    "name": "Composal",
     "source": "YC"
   },
   "yc:computable": {
@@ -6684,6 +6744,11 @@
     "name": "Quippy",
     "source": "YC"
   },
+  "yc:quivly-ai": {
+    "first_seen": "2026-10-09",
+    "name": "Quivly AI",
+    "source": "YC"
+  },
   "yc:radley": {
     "first_seen": "2026-08-07",
     "name": "Radley",
@@ -7017,6 +7082,11 @@
   "yc:stablebrowse": {
     "first_seen": "2026-07-24",
     "name": "StableBrowse",
+    "source": "YC"
+  },
+  "yc:stacktrace": {
+    "first_seen": "2026-10-09",
+    "name": "Stacktrace",
     "source": "YC"
   },
   "yc:stage": {
