@@ -4074,6 +4074,11 @@
     "name": "Perceptiq Inc.",
     "source": "Form D"
   },
+  "formd:000215661026000001": {
+    "first_seen": "2026-10-10",
+    "name": "Athanor Compute, Inc.",
+    "source": "Form D"
+  },
   "formd:000215661526000002": {
     "first_seen": "2026-09-23",
     "name": "BuiltOn Trades Holding Co",
@@ -4259,6 +4264,11 @@
     "name": "Dynagentic Inc.",
     "source": "Form D"
   },
+  "formd:000215733126000001": {
+    "first_seen": "2026-10-10",
+    "name": "Nursient, Inc.",
+    "source": "Form D"
+  },
   "formd:000215734326000001": {
     "first_seen": "2026-09-29",
     "name": "BEAMLINK, INC.",
@@ -4309,6 +4319,11 @@
     "name": "VeriLeaf, Inc.",
     "source": "Form D"
   },
+  "formd:000215744826000001": {
+    "first_seen": "2026-10-10",
+    "name": "222 Show Ltd Liability Co",
+    "source": "Form D"
+  },
   "formd:000215745426000001": {
     "first_seen": "2026-10-02",
     "name": "Ligeia, inc.",
@@ -4342,6 +4357,11 @@
   "formd:000215755726000003": {
     "first_seen": "2026-10-02",
     "name": "LigaSys Inc.",
+    "source": "Form D"
+  },
+  "formd:000215756126000002": {
+    "first_seen": "2026-10-10",
+    "name": "ClearOffice Inc.",
     "source": "Form D"
   },
   "formd:000215756626000001": {
@@ -4434,6 +4454,11 @@
     "name": "Numerant, Inc.",
     "source": "Form D"
   },
+  "formd:000215803026000001": {
+    "first_seen": "2026-10-10",
+    "name": "RAKIYA SYSTEMS, INC.",
+    "source": "Form D"
+  },
   "formd:000215803226000001": {
     "first_seen": "2026-10-02",
     "name": "JABNE TabSense, LLC",
@@ -4447,6 +4472,11 @@
   "formd:000215819326000001": {
     "first_seen": "2026-10-03",
     "name": "Capintra Settlement Exchange Ltd",
+    "source": "Form D"
+  },
+  "formd:000215820326000001": {
+    "first_seen": "2026-10-10",
+    "name": "Anuwell, Inc.",
     "source": "Form D"
   },
   "formd:000215821326000001": {
@@ -4524,6 +4554,11 @@
     "name": "Ayvera AI Inc.",
     "source": "Form D"
   },
+  "formd:000215865026000002": {
+    "first_seen": "2026-10-10",
+    "name": "Innoven Energy LLC",
+    "source": "Form D"
+  },
   "formd:000215865526000001": {
     "first_seen": "2026-10-06",
     "name": "Chateau Capital AXS1 LLC",
@@ -4559,9 +4594,19 @@
     "name": "Haah, Inc.",
     "source": "Form D"
   },
+  "formd:000215877926000001": {
+    "first_seen": "2026-10-10",
+    "name": "Big Blue Technologies, Inc.",
+    "source": "Form D"
+  },
   "formd:000215880726000001": {
     "first_seen": "2026-10-07",
     "name": "Gallery Haus Investors, LLC",
+    "source": "Form D"
+  },
+  "formd:000215883326000001": {
+    "first_seen": "2026-10-10",
+    "name": "Software Development Associates Inc.",
     "source": "Form D"
   },
   "formd:000215883726000001": {
@@ -4584,9 +4629,19 @@
     "name": "Dajji Tractian Investment LLC",
     "source": "Form D"
   },
+  "formd:000215888926000001": {
+    "first_seen": "2026-10-10",
+    "name": "ProgressPath AI",
+    "source": "Form D"
+  },
   "formd:000215900126000001": {
     "first_seen": "2026-10-07",
     "name": "Lumie Group Inc.",
+    "source": "Form D"
+  },
+  "formd:000215903726000001": {
+    "first_seen": "2026-10-10",
+    "name": "Liftline Corp.",
     "source": "Form D"
   },
   "formd:000215904226000001": {
@@ -4624,6 +4679,11 @@
     "name": "Atmos Clinic, Inc.",
     "source": "Form D"
   },
+  "formd:000215914026000001": {
+    "first_seen": "2026-10-10",
+    "name": "Ritrova Inc.",
+    "source": "Form D"
+  },
   "formd:000215917826000001": {
     "first_seen": "2026-10-08",
     "name": "Luminal AI, Inc.",
@@ -4637,6 +4697,26 @@
   "formd:000215927626000001": {
     "first_seen": "2026-10-08",
     "name": "Capsage, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215928826000001": {
+    "first_seen": "2026-10-10",
+    "name": "SAGEPILOT AI, INC.",
+    "source": "Form D"
+  },
+  "formd:000215929026000001": {
+    "first_seen": "2026-10-10",
+    "name": "COPPERPILOT, INC.",
+    "source": "Form D"
+  },
+  "formd:000215929926000001": {
+    "first_seen": "2026-10-10",
+    "name": "Varimax Holdings, LLC",
+    "source": "Form D"
+  },
+  "formd:000215936126000001": {
+    "first_seen": "2026-10-10",
+    "name": "Lux Investors LLC",
     "source": "Form D"
   },
   "formd:000215937126000001": {
@@ -4654,6 +4734,16 @@
     "name": "AgentTeams, Inc.",
     "source": "Form D"
   },
+  "formd:000215939626000001": {
+    "first_seen": "2026-10-10",
+    "name": "Webaroo LLC",
+    "source": "Form D"
+  },
+  "formd:000215943626000001": {
+    "first_seen": "2026-10-10",
+    "name": "Terribly Kind People Ltd Liability Co",
+    "source": "Form D"
+  },
   "formd:000215946226000001": {
     "first_seen": "2026-10-09",
     "name": "Olive & M LLC",
@@ -4667,6 +4757,21 @@
   "formd:000215955026000001": {
     "first_seen": "2026-10-09",
     "name": "Park Golf LLC",
+    "source": "Form D"
+  },
+  "formd:000215956426000001": {
+    "first_seen": "2026-10-10",
+    "name": "Deep Economy I, LLC",
+    "source": "Form D"
+  },
+  "formd:000215957026000001": {
+    "first_seen": "2026-10-10",
+    "name": "Rapid Brain Labs Co",
+    "source": "Form D"
+  },
+  "formd:000215984226000001": {
+    "first_seen": "2026-10-10",
+    "name": "Hard Pill To Swallow, Inc.",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -5112,6 +5217,11 @@
   "yc:callbook-ai": {
     "first_seen": "2026-08-19",
     "name": "Callbook AI",
+    "source": "YC"
+  },
+  "yc:capto": {
+    "first_seen": "2026-10-10",
+    "name": "Capto",
     "source": "YC"
   },
   "yc:capveon": {
@@ -6314,6 +6424,11 @@
     "name": "Moving Atoms",
     "source": "YC"
   },
+  "yc:munito-ai": {
+    "first_seen": "2026-10-10",
+    "name": "Munito AI",
+    "source": "YC"
+  },
   "yc:musicarena": {
     "first_seen": "2026-09-26",
     "name": "MusicArena",
@@ -6322,6 +6437,11 @@
   "yc:napkin-math": {
     "first_seen": "2026-07-24",
     "name": "Napkin Math",
+    "source": "YC"
+  },
+  "yc:native": {
+    "first_seen": "2026-10-10",
+    "name": "Native",
     "source": "YC"
   },
   "yc:nebula-security": {
@@ -7257,6 +7377,11 @@
   "yc:the-subvocal-company": {
     "first_seen": "2026-08-30",
     "name": "The Subvocal Company",
+    "source": "YC"
+  },
+  "yc:theseus-robotics": {
+    "first_seen": "2026-10-10",
+    "name": "Theseus Robotics",
     "source": "YC"
   },
   "yc:thomas": {
