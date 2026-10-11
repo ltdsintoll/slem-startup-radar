@@ -6894,6 +6894,11 @@
     "name": "Rational",
     "source": "YC"
   },
+  "yc:ratlog": {
+    "first_seen": "2026-10-11",
+    "name": "RATLOG",
+    "source": "YC"
+  },
   "yc:realpact": {
     "first_seen": "2026-07-24",
     "name": "RealPact",
