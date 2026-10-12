@@ -5259,6 +5259,11 @@
     "name": "CharacterQuilt",
     "source": "YC"
   },
+  "yc:chempilotai": {
+    "first_seen": "2026-10-12",
+    "name": "ChemPilot.ai",
+    "source": "YC"
+  },
   "yc:chert": {
     "first_seen": "2026-07-24",
     "name": "Chert",
@@ -6997,6 +7002,11 @@
   "yc:robocurve": {
     "first_seen": "2026-07-24",
     "name": "Robocurve",
+    "source": "YC"
+  },
+  "yc:rodeo-robotics": {
+    "first_seen": "2026-10-12",
+    "name": "Rodeo Robotics",
     "source": "YC"
   },
   "yc:roma": {

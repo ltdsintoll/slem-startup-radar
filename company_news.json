@@ -4,6 +4,22 @@
     "company": "NVIDIA CORP",
     "articles": [
       {
+        "title": "Microsoft , Nvidia push AI agents onto personal computers",
+        "url": "http://www.argentinastar.com/news/279358260/microsoft-nvidia-push-ai-agents-onto-personal-computers",
+        "domain": "argentinastar.com",
+        "date": "2026-10-10",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "Super Micro contractor pleads guilty in scheme to divert AI servers with Nvidia chips to China",
+        "url": "https://www.asiaone.com/world/super-micro-contractor-pleads-guilty-scheme-divert-ai-servers-nvidia-chips-china",
+        "domain": "asiaone.com",
+        "date": "2026-10-10",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
         "title": "The Overlooked AI Stock Poised to Outperform Nvidia and Palantir",
         "url": "https://www.fool.com/investing/2026/10/06/the-overlooked-ai-stock-poised-to-outperform-nvidi/?source=iedfolrf0000001",
         "domain": "fool.com",
