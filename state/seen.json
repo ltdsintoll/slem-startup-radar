@@ -44,6 +44,11 @@
     "name": "EigenQ Inc",
     "source": "Form D"
   },
+  "formd:000121390026108655": {
+    "first_seen": "2026-10-13",
+    "name": "Hygia Technologies, Inc.",
+    "source": "Form D"
+  },
   "formd:000123191926001227": {
     "first_seen": "2026-09-28",
     "name": "Alpfa Medical, Inc.",
@@ -99,6 +104,16 @@
     "name": "Lumati Holdings, Inc.",
     "source": "Form D"
   },
+  "formd:000149315226046663": {
+    "first_seen": "2026-10-13",
+    "name": "FibroBiologics, Inc.",
+    "source": "Form D"
+  },
+  "formd:000149315226046749": {
+    "first_seen": "2026-10-13",
+    "name": "Julong Holding Ltd",
+    "source": "Form D"
+  },
   "formd:000159521526000002": {
     "first_seen": "2026-10-06",
     "name": "Rakuten Medical, Inc.",
@@ -147,6 +162,11 @@
   "formd:000173763026000003": {
     "first_seen": "2026-09-10",
     "name": "TBC - The Boring Co",
+    "source": "Form D"
+  },
+  "formd:000175335126000001": {
+    "first_seen": "2026-10-13",
+    "name": "EpiVario Inc.",
     "source": "Form D"
   },
   "formd:000175824126000003": {
@@ -414,6 +434,11 @@
     "name": "RenewCO2 Inc.",
     "source": "Form D"
   },
+  "formd:000206235726000471": {
+    "first_seen": "2026-10-13",
+    "name": "Warner Music Group Corp.",
+    "source": "Form D"
+  },
   "formd:000206497726000001": {
     "first_seen": "2026-09-04",
     "name": "Labs Companies, Inc.",
@@ -479,6 +504,11 @@
     "name": "Cowrie Creek, Inc.",
     "source": "Form D"
   },
+  "formd:000209247926000001": {
+    "first_seen": "2026-10-13",
+    "name": "Opportunity TV, Inc.",
+    "source": "Form D"
+  },
   "formd:000209493826000001": {
     "first_seen": "2026-09-14",
     "name": "Refr Sports Inc.",
@@ -501,6 +531,11 @@
   },
   "formd:000210205926000001": {
     "first_seen": "2026-10-06",
+    "name": "PrimoSure, LLC",
+    "source": "Form D"
+  },
+  "formd:000210205926000002": {
+    "first_seen": "2026-10-13",
     "name": "PrimoSure, LLC",
     "source": "Form D"
   },
@@ -627,6 +662,11 @@
   "formd:000213471826000092": {
     "first_seen": "2026-10-06",
     "name": "Larkspire, Inc.",
+    "source": "Form D"
+  },
+  "formd:000213475826000005": {
+    "first_seen": "2026-10-13",
+    "name": "Weston AI, Inc.",
     "source": "Form D"
   },
   "formd:000213491126000001": {
@@ -2769,6 +2809,11 @@
     "name": "Payloop, Inc.",
     "source": "Form D"
   },
+  "formd:000215131126000001": {
+    "first_seen": "2026-10-13",
+    "name": "Gaingels Rebellion LLC",
+    "source": "Form D"
+  },
   "formd:000215141426000001": {
     "first_seen": "2026-08-22",
     "name": "Yeild, Inc.",
@@ -3057,6 +3102,11 @@
   "formd:000215277826000001": {
     "first_seen": "2026-09-02",
     "name": "Neo Agent Inc.",
+    "source": "Form D"
+  },
+  "formd:000215277926000002": {
+    "first_seen": "2026-10-13",
+    "name": "Curiosity Brewing Co LLC",
     "source": "Form D"
   },
   "formd:000215282626000001": {
@@ -4494,6 +4544,11 @@
     "name": "Urza Systems, Inc.",
     "source": "Form D"
   },
+  "formd:000215831926000002": {
+    "first_seen": "2026-10-13",
+    "name": "Particle Horizon, Inc.",
+    "source": "Form D"
+  },
   "formd:000215836126000001": {
     "first_seen": "2026-10-03",
     "name": "Renovare Therapeutics, Inc.",
@@ -4567,6 +4622,11 @@
   "formd:000215865626000001": {
     "first_seen": "2026-10-06",
     "name": "Goated Ventures Inc.",
+    "source": "Form D"
+  },
+  "formd:000215867926000001": {
+    "first_seen": "2026-10-13",
+    "name": "SAAZ Micro, Inc.",
     "source": "Form D"
   },
   "formd:000215870526000001": {
@@ -4769,9 +4829,24 @@
     "name": "Rapid Brain Labs Co",
     "source": "Form D"
   },
+  "formd:000215957526000001": {
+    "first_seen": "2026-10-13",
+    "name": "Frictionworx Inc.",
+    "source": "Form D"
+  },
+  "formd:000215966826000001": {
+    "first_seen": "2026-10-13",
+    "name": "FutureWorks Technologies, Inc.",
+    "source": "Form D"
+  },
   "formd:000215984226000001": {
     "first_seen": "2026-10-10",
     "name": "Hard Pill To Swallow, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215985926000001": {
+    "first_seen": "2026-10-13",
+    "name": "Aphrodite Media, Inc.",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -6774,6 +6849,16 @@
     "name": "PokerClubHub",
     "source": "YC"
   },
+  "yc:polemos-industries": {
+    "first_seen": "2026-10-13",
+    "name": "Polemos Industries",
+    "source": "YC"
+  },
+  "yc:pomerado": {
+    "first_seen": "2026-10-13",
+    "name": "Pomerado",
+    "source": "YC"
+  },
   "yc:pops": {
     "first_seen": "2026-07-24",
     "name": "Pops",
@@ -6912,6 +6997,11 @@
   "yc:reasonblocks": {
     "first_seen": "2026-07-24",
     "name": "ReasonBlocks",
+    "source": "YC"
+  },
+  "yc:reconero": {
+    "first_seen": "2026-10-13",
+    "name": "Reconero",
     "source": "YC"
   },
   "yc:redoubt-insurance": {
@@ -7149,6 +7239,11 @@
     "name": "Simulithic",
     "source": "YC"
   },
+  "yc:sintem": {
+    "first_seen": "2026-10-13",
+    "name": "Sintem",
+    "source": "YC"
+  },
   "yc:sinter-systems": {
     "first_seen": "2026-09-05",
     "name": "Sinter",
@@ -7297,6 +7392,11 @@
   "yc:surtr-defense-systems": {
     "first_seen": "2026-07-24",
     "name": "Surtr Defense Systems",
+    "source": "YC"
+  },
+  "yc:sutrix": {
+    "first_seen": "2026-10-13",
+    "name": "Sutrix",
     "source": "YC"
   },
   "yc:synapse-semiconductor": {
