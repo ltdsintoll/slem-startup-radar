@@ -242,7 +242,7 @@
   "1506983": {
     "first_seen": "2026-09-18",
     "name": "Glucotrack, Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "1517681": {
     "first_seen": "2026-07-24",
@@ -658,6 +658,11 @@
     "first_seen": "2026-09-24",
     "name": "InnovAge Holding Corp.",
     "stage": "Priced/IPO"
+  },
+  "1834868": {
+    "first_seen": "2026-10-14",
+    "name": "Alternative Ballistics Corp",
+    "stage": "Filed"
   },
   "1837493": {
     "first_seen": "2026-07-24",
@@ -1694,6 +1699,11 @@
     "name": "Avalanche Treasury Corp",
     "stage": "Amending"
   },
+  "2093536": {
+    "first_seen": "2026-10-14",
+    "name": "Arxis, Inc.",
+    "stage": "Filed"
+  },
   "2093976": {
     "first_seen": "2026-07-24",
     "name": "Neucleus Group Ltd",
@@ -2344,6 +2354,11 @@
     "name": "Primagrove Ltd",
     "stage": "Filed"
   },
+  "2138170": {
+    "first_seen": "2026-10-14",
+    "name": "Spring Valley Acquisition Corp. V",
+    "stage": "Amending"
+  },
   "2138186": {
     "first_seen": "2026-07-24",
     "name": "Narragansett Bancorp, Inc.",
@@ -2604,9 +2619,19 @@
     "name": "Orange Street Acquisition Corp",
     "stage": "Filed"
   },
+  "2156779": {
+    "first_seen": "2026-10-14",
+    "name": "EuroSPAC Acquisition Corp.",
+    "stage": "Filed"
+  },
   "2158471": {
     "first_seen": "2026-10-07",
     "name": "Winklevoss Zcash ETF",
+    "stage": "Filed"
+  },
+  "2159678": {
+    "first_seen": "2026-10-14",
+    "name": "Apex Treasury Corp II",
     "stage": "Filed"
   },
   "351998": {

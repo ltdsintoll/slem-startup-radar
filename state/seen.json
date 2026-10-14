@@ -49,6 +49,11 @@
     "name": "Hygia Technologies, Inc.",
     "source": "Form D"
   },
+  "formd:000121390026109190": {
+    "first_seen": "2026-10-14",
+    "name": "Tempest Therapeutics, Inc.",
+    "source": "Form D"
+  },
   "formd:000123191926001227": {
     "first_seen": "2026-09-28",
     "name": "Alpfa Medical, Inc.",
@@ -72,6 +77,11 @@
   "formd:000140387026000001": {
     "first_seen": "2026-09-21",
     "name": "Golden Arrow Resources Corp",
+    "source": "Form D"
+  },
+  "formd:000142428826000006": {
+    "first_seen": "2026-10-14",
+    "name": "AFFINITY BIOSENSORS LLC",
     "source": "Form D"
   },
   "formd:000146379026000001": {
@@ -112,6 +122,11 @@
   "formd:000149315226046749": {
     "first_seen": "2026-10-13",
     "name": "Julong Holding Ltd",
+    "source": "Form D"
+  },
+  "formd:000151841926000006": {
+    "first_seen": "2026-10-14",
+    "name": "Quarterhill Inc.",
     "source": "Form D"
   },
   "formd:000159521526000002": {
@@ -297,6 +312,11 @@
   "formd:000198119126000003": {
     "first_seen": "2026-07-27",
     "name": "Veza Innovations Inc.",
+    "source": "Form D"
+  },
+  "formd:000199534926000004": {
+    "first_seen": "2026-10-14",
+    "name": "Enthos Circular Feed Technologies, Inc.",
     "source": "Form D"
   },
   "formd:000199961326000006": {
@@ -707,6 +727,11 @@
   "formd:000213785726000002": {
     "first_seen": "2026-08-18",
     "name": "Dexterity, Inc.",
+    "source": "Form D"
+  },
+  "formd:000213904226000002": {
+    "first_seen": "2026-10-14",
+    "name": "4hash Inc.",
     "source": "Form D"
   },
   "formd:000213949526000002": {
@@ -3304,6 +3329,11 @@
     "name": "Ellipsys Medical, Inc.",
     "source": "Form D"
   },
+  "formd:000215352426000004": {
+    "first_seen": "2026-10-14",
+    "name": "Ellipsys Medical, Inc.",
+    "source": "Form D"
+  },
   "formd:000215352626000001": {
     "first_seen": "2026-09-04",
     "name": "Truespire Systems, Inc.",
@@ -4744,6 +4774,11 @@
     "name": "Ritrova Inc.",
     "source": "Form D"
   },
+  "formd:000215914226000001": {
+    "first_seen": "2026-10-14",
+    "name": "Cerebro Labs Inc.",
+    "source": "Form D"
+  },
   "formd:000215917826000001": {
     "first_seen": "2026-10-08",
     "name": "Luminal AI, Inc.",
@@ -4847,6 +4882,36 @@
   "formd:000215985926000001": {
     "first_seen": "2026-10-13",
     "name": "Aphrodite Media, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215994526000001": {
+    "first_seen": "2026-10-14",
+    "name": "Factored, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216001826000001": {
+    "first_seen": "2026-10-14",
+    "name": "LEVEL ONE LABS, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216004526000001": {
+    "first_seen": "2026-10-14",
+    "name": "Iron Spur Estate & Stables, LLC",
+    "source": "Form D"
+  },
+  "formd:000216008626000001": {
+    "first_seen": "2026-10-14",
+    "name": "Poppins Inc",
+    "source": "Form D"
+  },
+  "formd:000216008726000001": {
+    "first_seen": "2026-10-14",
+    "name": "ExBrain, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216009026000001": {
+    "first_seen": "2026-10-14",
+    "name": "C&R Auto Inc.",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -5317,6 +5382,11 @@
   "yc:caution": {
     "first_seen": "2026-08-03",
     "name": "Caution",
+    "source": "YC"
+  },
+  "yc:caveman": {
+    "first_seen": "2026-10-14",
+    "name": "Caveman",
     "source": "YC"
   },
   "yc:centralcoms": {
@@ -5837,6 +5907,11 @@
   "yc:govguard": {
     "first_seen": "2026-07-24",
     "name": "GovGuard",
+    "source": "YC"
+  },
+  "yc:gradon": {
+    "first_seen": "2026-10-14",
+    "name": "Gradon",
     "source": "YC"
   },
   "yc:graphify-labs": {
@@ -7122,6 +7197,11 @@
   "yc:runtime": {
     "first_seen": "2026-07-24",
     "name": "Runtime",
+    "source": "YC"
+  },
+  "yc:runtimesi": {
+    "first_seen": "2026-10-14",
+    "name": "Runtime.si",
     "source": "YC"
   },
   "yc:rystic": {
