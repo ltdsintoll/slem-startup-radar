@@ -189,6 +189,16 @@
     "name": "Tru, Inc.",
     "source": "Form D"
   },
+  "formd:000177504226000010": {
+    "first_seen": "2026-10-15",
+    "name": "Hockey Parent Holdings, L.P.",
+    "source": "Form D"
+  },
+  "formd:000178179826000003": {
+    "first_seen": "2026-10-15",
+    "name": "Light Wave Ownership Path, LLC",
+    "source": "Form D"
+  },
   "formd:000178512826000004": {
     "first_seen": "2026-10-09",
     "name": "AMIRA LEARNING INC",
@@ -207,6 +217,16 @@
   "formd:000181652526000001": {
     "first_seen": "2026-09-16",
     "name": "Twin Health, Inc.",
+    "source": "Form D"
+  },
+  "formd:000182083226000002": {
+    "first_seen": "2026-10-15",
+    "name": "AeroShield Materials, Inc.",
+    "source": "Form D"
+  },
+  "formd:000185317526000003": {
+    "first_seen": "2026-10-15",
+    "name": "LiveSwitch Inc",
     "source": "Form D"
   },
   "formd:000185588826000005": {
@@ -414,6 +434,11 @@
     "name": "Visalaw Ventures, Inc.",
     "source": "Form D"
   },
+  "formd:000205753426000003": {
+    "first_seen": "2026-10-15",
+    "name": "Cofertility, Inc.",
+    "source": "Form D"
+  },
   "formd:000205753826000003": {
     "first_seen": "2026-09-28",
     "name": "Audivi AI Inc.",
@@ -607,6 +632,11 @@
   "formd:000211900026000002": {
     "first_seen": "2026-09-29",
     "name": "Lantern LLC",
+    "source": "Form D"
+  },
+  "formd:000212332226000003": {
+    "first_seen": "2026-10-15",
+    "name": "Air Control Concepts Holdings, L.P.",
     "source": "Form D"
   },
   "formd:000212453526000002": {
@@ -3449,6 +3479,11 @@
     "name": "SUPR Natural, Inc.",
     "source": "Form D"
   },
+  "formd:000215388426000001": {
+    "first_seen": "2026-10-15",
+    "name": "Remitian Inc.",
+    "source": "Form D"
+  },
   "formd:000215392226000001": {
     "first_seen": "2026-09-10",
     "name": "ZT Technology PE 1, LLC",
@@ -4509,6 +4544,11 @@
     "name": "REGENERATUS, Inc.",
     "source": "Form D"
   },
+  "formd:000215788626000001": {
+    "first_seen": "2026-10-15",
+    "name": "ADA Payments Technologies, Inc.",
+    "source": "Form D"
+  },
   "formd:000215792526000001": {
     "first_seen": "2026-10-03",
     "name": "CROSSCALE INC",
@@ -4809,6 +4849,11 @@
     "name": "Varimax Holdings, LLC",
     "source": "Form D"
   },
+  "formd:000215933626000001": {
+    "first_seen": "2026-10-15",
+    "name": "HERD-I, INC.",
+    "source": "Form D"
+  },
   "formd:000215936126000001": {
     "first_seen": "2026-10-10",
     "name": "Lux Investors LLC",
@@ -4842,6 +4887,11 @@
   "formd:000215946226000001": {
     "first_seen": "2026-10-09",
     "name": "Olive & M LLC",
+    "source": "Form D"
+  },
+  "formd:000215952826000001": {
+    "first_seen": "2026-10-15",
+    "name": "Life Stylistic, Inc.",
     "source": "Form D"
   },
   "formd:000215952926000001": {
@@ -4912,6 +4962,16 @@
   "formd:000216009026000001": {
     "first_seen": "2026-10-14",
     "name": "C&R Auto Inc.",
+    "source": "Form D"
+  },
+  "formd:000216023826000001": {
+    "first_seen": "2026-10-15",
+    "name": "UnityCore, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216034526000001": {
+    "first_seen": "2026-10-15",
+    "name": "IntegriTech, LLC",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -5052,6 +5112,11 @@
   "yc:almanac": {
     "first_seen": "2026-07-24",
     "name": "Almanac",
+    "source": "YC"
+  },
+  "yc:altair-health": {
+    "first_seen": "2026-10-15",
+    "name": "Altair Health",
     "source": "YC"
   },
   "yc:amboras": {
@@ -5912,6 +5977,11 @@
   "yc:gradon": {
     "first_seen": "2026-10-14",
     "name": "Gradon",
+    "source": "YC"
+  },
+  "yc:graphide": {
+    "first_seen": "2026-10-15",
+    "name": "Graphide",
     "source": "YC"
   },
   "yc:graphify-labs": {
@@ -6942,6 +7012,11 @@
   "yc:poth-labs": {
     "first_seen": "2026-07-24",
     "name": "Poth Labs",
+    "source": "YC"
+  },
+  "yc:praxis": {
+    "first_seen": "2026-10-15",
+    "name": "Praxis",
     "source": "YC"
   },
   "yc:praxis-ai-2": {

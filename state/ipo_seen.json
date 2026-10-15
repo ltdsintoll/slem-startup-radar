@@ -32,7 +32,7 @@
   "1070965": {
     "first_seen": "2026-10-03",
     "name": "GEORGIA BANKING CO INC",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "1074828": {
     "first_seen": "2026-07-24",
@@ -382,7 +382,7 @@
   "1652935": {
     "first_seen": "2026-10-07",
     "name": "ACTUATE THERAPEUTICS, INC.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "1658678": {
     "first_seen": "2026-07-30",
@@ -2599,10 +2599,15 @@
     "name": "Rafex Gold Corp.",
     "stage": "Filed"
   },
+  "2153476": {
+    "first_seen": "2026-10-15",
+    "name": "Tattvance Corp",
+    "stage": "Filed"
+  },
   "2153598": {
     "first_seen": "2026-09-24",
     "name": "Frazier Life Sciences Acquisition Corp. II",
-    "stage": "Filed"
+    "stage": "Priced/IPO"
   },
   "2154056": {
     "first_seen": "2026-09-29",
