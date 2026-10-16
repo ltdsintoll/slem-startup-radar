@@ -64,6 +64,11 @@
     "name": "PFARADIGM Health, Inc.",
     "source": "Form D"
   },
+  "formd:000123191926001462": {
+    "first_seen": "2026-10-16",
+    "name": "Memazing, Inc.",
+    "source": "Form D"
+  },
   "formd:000132914726000003": {
     "first_seen": "2026-09-01",
     "name": "Orthobond Corp",
@@ -77,6 +82,11 @@
   "formd:000140387026000001": {
     "first_seen": "2026-09-21",
     "name": "Golden Arrow Resources Corp",
+    "source": "Form D"
+  },
+  "formd:000140801226000003": {
+    "first_seen": "2026-10-16",
+    "name": "J3 BIOSCIENCE, INC.",
     "source": "Form D"
   },
   "formd:000142428826000006": {
@@ -4194,6 +4204,11 @@
     "name": "Athanor Compute, Inc.",
     "source": "Form D"
   },
+  "formd:000215661326000001": {
+    "first_seen": "2026-10-16",
+    "name": "Poseidon Marine Mechanics, LLC",
+    "source": "Form D"
+  },
   "formd:000215661526000002": {
     "first_seen": "2026-09-23",
     "name": "BuiltOn Trades Holding Co",
@@ -4969,9 +4984,34 @@
     "name": "UnityCore, Inc.",
     "source": "Form D"
   },
+  "formd:000216031726000001": {
+    "first_seen": "2026-10-16",
+    "name": "Bloodstock Investments 2026, LLC",
+    "source": "Form D"
+  },
   "formd:000216034526000001": {
     "first_seen": "2026-10-15",
     "name": "IntegriTech, LLC",
+    "source": "Form D"
+  },
+  "formd:000216035526000001": {
+    "first_seen": "2026-10-16",
+    "name": "StrikeArc Labs Inc.",
+    "source": "Form D"
+  },
+  "formd:000216036926000001": {
+    "first_seen": "2026-10-16",
+    "name": "Exotics Network, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216038226000001": {
+    "first_seen": "2026-10-16",
+    "name": "Mercer MotorWorks, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216040126000001": {
+    "first_seen": "2026-10-16",
+    "name": "Jaccard, Inc",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -5002,6 +5042,11 @@
   "yc:adialante": {
     "first_seen": "2026-07-24",
     "name": "Adialante",
+    "source": "YC"
+  },
+  "yc:adsideai": {
+    "first_seen": "2026-10-16",
+    "name": "Adside.ai",
     "source": "YC"
   },
   "yc:advanced-metal-research": {
@@ -5869,6 +5914,11 @@
     "name": "Financial Datasets",
     "source": "YC"
   },
+  "yc:fire-wallet": {
+    "first_seen": "2026-10-16",
+    "name": "Fire Wallet",
+    "source": "YC"
+  },
   "yc:floracene": {
     "first_seen": "2026-07-24",
     "name": "Floracene",
@@ -6734,6 +6784,16 @@
     "name": "Oasive",
     "source": "YC"
   },
+  "yc:obia": {
+    "first_seen": "2026-10-16",
+    "name": "Obia",
+    "source": "YC"
+  },
+  "yc:obsessiondb": {
+    "first_seen": "2026-10-16",
+    "name": "ObsessionDB",
+    "source": "YC"
+  },
   "yc:oddpool": {
     "first_seen": "2026-07-24",
     "name": "Oddpool",
@@ -6914,6 +6974,11 @@
     "name": "Parasma",
     "source": "YC"
   },
+  "yc:particularity": {
+    "first_seen": "2026-10-16",
+    "name": "Particularity",
+    "source": "YC"
+  },
   "yc:pavoot": {
     "first_seen": "2026-07-24",
     "name": "Pavoot",
@@ -6957,6 +7022,11 @@
   "yc:petrarch": {
     "first_seen": "2026-07-24",
     "name": "Petrarch",
+    "source": "YC"
+  },
+  "yc:petrichor": {
+    "first_seen": "2026-10-16",
+    "name": "Petrichor",
     "source": "YC"
   },
   "yc:petrichor-bio": {
@@ -7662,6 +7732,11 @@
   "yc:tilion": {
     "first_seen": "2026-09-13",
     "name": "Tilion",
+    "source": "YC"
+  },
+  "yc:tilo": {
+    "first_seen": "2026-10-16",
+    "name": "Tilo",
     "source": "YC"
   },
   "yc:tire-swing": {

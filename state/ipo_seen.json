@@ -337,7 +337,7 @@
   "1620704": {
     "first_seen": "2026-09-29",
     "name": "MED-X, INC.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "1622345": {
     "first_seen": "2026-07-29",
@@ -1047,7 +1047,7 @@
   "1997038": {
     "first_seen": "2026-09-22",
     "name": "Iambic Therapeutics, Inc.",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "1997182": {
     "first_seen": "2026-07-24",
@@ -1258,6 +1258,11 @@
     "first_seen": "2026-10-03",
     "name": "Vertical Data Inc.",
     "stage": "Filed"
+  },
+  "2033315": {
+    "first_seen": "2026-10-16",
+    "name": "KBAT Group Inc.",
+    "stage": "Amending"
   },
   "2033383": {
     "first_seen": "2026-10-07",
@@ -2062,7 +2067,7 @@
   "2120204": {
     "first_seen": "2026-09-12",
     "name": "Hao Feng Group Ltd.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2120528": {
     "first_seen": "2026-09-01",
@@ -2417,7 +2422,7 @@
   "2141616": {
     "first_seen": "2026-08-29",
     "name": "Amaero Inc.",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "2141983": {
     "first_seen": "2026-09-12",
@@ -2624,6 +2629,11 @@
     "name": "Orange Street Acquisition Corp",
     "stage": "Filed"
   },
+  "2155673": {
+    "first_seen": "2026-10-16",
+    "name": "Cashlin",
+    "stage": "Filed"
+  },
   "2156779": {
     "first_seen": "2026-10-14",
     "name": "EuroSPAC Acquisition Corp.",
@@ -2698,6 +2708,11 @@
     "first_seen": "2026-08-22",
     "name": "TRINITY BIOTECH PLC",
     "stage": "Amending"
+  },
+  "888981": {
+    "first_seen": "2026-10-16",
+    "name": "NOCOPI TECHNOLOGIES INC/MD/",
+    "stage": "Filed"
   },
   "890394": {
     "first_seen": "2026-07-24",
