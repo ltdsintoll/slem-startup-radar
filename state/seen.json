@@ -2704,6 +2704,11 @@
     "name": "Polt AI, Inc.",
     "source": "Form D"
   },
+  "formd:000215077726000002": {
+    "first_seen": "2026-10-17",
+    "name": "Polt AI, Inc.",
+    "source": "Form D"
+  },
   "formd:000215081226000001": {
     "first_seen": "2026-08-21",
     "name": "USA Made in America Inc.",
@@ -3047,6 +3052,11 @@
   "formd:000215224526000001": {
     "first_seen": "2026-08-27",
     "name": "Quantum Spvg1 LLC",
+    "source": "Form D"
+  },
+  "formd:000215227426000001": {
+    "first_seen": "2026-10-17",
+    "name": "Sixer, Inc.",
     "source": "Form D"
   },
   "formd:000215231426000001": {
@@ -3869,6 +3879,11 @@
     "name": "Zeely, Inc.",
     "source": "Form D"
   },
+  "formd:000215518226000002": {
+    "first_seen": "2026-10-17",
+    "name": "Zeely, Inc.",
+    "source": "Form D"
+  },
   "formd:000215519226000001": {
     "first_seen": "2026-09-16",
     "name": "TogetherMade, PBC",
@@ -4197,6 +4212,11 @@
   "formd:000215659626000001": {
     "first_seen": "2026-09-23",
     "name": "Perceptiq Inc.",
+    "source": "Form D"
+  },
+  "formd:000215660726000001": {
+    "first_seen": "2026-10-17",
+    "name": "Accountally LLC",
     "source": "Form D"
   },
   "formd:000215661026000001": {
@@ -4844,6 +4864,11 @@
     "name": "DTV ENTERPRISES, INC.",
     "source": "Form D"
   },
+  "formd:000215925626000001": {
+    "first_seen": "2026-10-17",
+    "name": "1921 Technologies Inc.",
+    "source": "Form D"
+  },
   "formd:000215927626000001": {
     "first_seen": "2026-10-08",
     "name": "Capsage, Inc.",
@@ -4867,6 +4892,11 @@
   "formd:000215933626000001": {
     "first_seen": "2026-10-15",
     "name": "HERD-I, INC.",
+    "source": "Form D"
+  },
+  "formd:000215934726000001": {
+    "first_seen": "2026-10-17",
+    "name": "Cornwallis Durham, L.L.C.",
     "source": "Form D"
   },
   "formd:000215936126000001": {
@@ -4939,9 +4969,29 @@
     "name": "FutureWorks Technologies, Inc.",
     "source": "Form D"
   },
+  "formd:000215970426000001": {
+    "first_seen": "2026-10-17",
+    "name": "VisiCX, Inc",
+    "source": "Form D"
+  },
+  "formd:000215970426000002": {
+    "first_seen": "2026-10-17",
+    "name": "VisiCX, Inc",
+    "source": "Form D"
+  },
+  "formd:000215984126000001": {
+    "first_seen": "2026-10-17",
+    "name": "SC RIVER INV LLC",
+    "source": "Form D"
+  },
   "formd:000215984226000001": {
     "first_seen": "2026-10-10",
     "name": "Hard Pill To Swallow, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215984426000001": {
+    "first_seen": "2026-10-17",
+    "name": "Narratives Interactive Inc.",
     "source": "Form D"
   },
   "formd:000215985926000001": {
@@ -4957,6 +5007,11 @@
   "formd:000216001826000001": {
     "first_seen": "2026-10-14",
     "name": "LEVEL ONE LABS, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216002826000002": {
+    "first_seen": "2026-10-17",
+    "name": "Motaris Inc.",
     "source": "Form D"
   },
   "formd:000216004526000001": {
@@ -4979,9 +5034,19 @@
     "name": "C&R Auto Inc.",
     "source": "Form D"
   },
+  "formd:000216011626000001": {
+    "first_seen": "2026-10-17",
+    "name": "Vernex, Inc.",
+    "source": "Form D"
+  },
   "formd:000216023826000001": {
     "first_seen": "2026-10-15",
     "name": "UnityCore, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216027526000001": {
+    "first_seen": "2026-10-17",
+    "name": "Lamina Surgical, Inc.",
     "source": "Form D"
   },
   "formd:000216031726000001": {
@@ -5012,6 +5077,11 @@
   "formd:000216040126000001": {
     "first_seen": "2026-10-16",
     "name": "Jaccard, Inc",
+    "source": "Form D"
+  },
+  "formd:000216056926000001": {
+    "first_seen": "2026-10-17",
+    "name": "Knowable Labs, Inc.",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -5347,6 +5417,11 @@
   "yc:atrisa": {
     "first_seen": "2026-07-24",
     "name": "Atrisa",
+    "source": "YC"
+  },
+  "yc:aucert": {
+    "first_seen": "2026-10-17",
+    "name": "Aucert",
     "source": "YC"
   },
   "yc:audun": {

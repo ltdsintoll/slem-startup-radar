@@ -172,7 +172,7 @@
   "1425627": {
     "first_seen": "2026-09-10",
     "name": "SOBR Safe, Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "1435617": {
     "first_seen": "2026-07-25",
@@ -784,6 +784,11 @@
     "name": "Prenetics Global Ltd",
     "stage": "Amending"
   },
+  "1880343": {
+    "first_seen": "2026-10-17",
+    "name": "AMAZE HOLDINGS, INC.",
+    "stage": "Filed"
+  },
   "1880995": {
     "first_seen": "2026-07-24",
     "name": "Alopexx, Inc.",
@@ -1099,6 +1104,11 @@
     "name": "Lianhe Sowell International Group Ltd",
     "stage": "Priced/IPO"
   },
+  "2004385": {
+    "first_seen": "2026-10-17",
+    "name": "FG Holdings Ltd",
+    "stage": "Amending"
+  },
   "2004489": {
     "first_seen": "2026-09-18",
     "name": "Basel Medical Group Ltd",
@@ -1283,6 +1293,11 @@
     "first_seen": "2026-07-24",
     "name": "VisionWave Holdings, Inc.",
     "stage": "Amending"
+  },
+  "2039060": {
+    "first_seen": "2026-10-17",
+    "name": "Robin Energy Ltd.",
+    "stage": "Filed"
   },
   "2044950": {
     "first_seen": "2026-10-10",
@@ -1572,6 +1587,11 @@
   "2083125": {
     "first_seen": "2026-07-31",
     "name": "PRESIDIO PRODUCTION Co  (FTW, FTW-WT)",
+    "stage": "Amending"
+  },
+  "2083345": {
+    "first_seen": "2026-10-17",
+    "name": "Optimal AI Ltd",
     "stage": "Amending"
   },
   "2083843": {
@@ -2472,7 +2492,7 @@
   "2143850": {
     "first_seen": "2026-09-25",
     "name": "CITY THERAPEUTICS, INC.",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "2144182": {
     "first_seen": "2026-07-24",
@@ -2567,6 +2587,11 @@
   "2149916": {
     "first_seen": "2026-09-26",
     "name": "TCGX Acquisition Corp. II",
+    "stage": "Priced/IPO"
+  },
+  "2150122": {
+    "first_seen": "2026-10-17",
+    "name": "Talyxor Corp",
     "stage": "Filed"
   },
   "2150455": {
@@ -2582,7 +2607,7 @@
   "2151808": {
     "first_seen": "2026-10-07",
     "name": "TANG CAPITAL ACQUISITION CORP.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2151905": {
     "first_seen": "2026-09-01",
