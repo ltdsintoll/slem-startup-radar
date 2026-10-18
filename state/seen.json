@@ -7574,6 +7574,11 @@
     "name": "Snap Poker",
     "source": "YC"
   },
+  "yc:snowstone": {
+    "first_seen": "2026-10-18",
+    "name": "Snowstone",
+    "source": "YC"
+  },
   "yc:solo-labs": {
     "first_seen": "2026-08-07",
     "name": "Solo Labs",

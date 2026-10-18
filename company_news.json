@@ -8,57 +8,57 @@
   "1321655": {
     "ticker": "PLTR",
     "company": "Palantir Technologies Inc.",
-    "articles": [],
-    "source": "no-data"
-  },
-  "789019": {
-    "ticker": "MSFT",
-    "company": "MICROSOFT CORP",
     "articles": [
       {
-        "title": "Microsoft , Nvidia push AI agents onto personal computers",
-        "url": "http://www.argentinastar.com/news/279358260/microsoft-nvidia-push-ai-agents-onto-personal-computers",
-        "domain": "argentinastar.com",
-        "date": "2026-10-10",
+        "title": "Palantir Technologies Inc . ( NASDAQ : PLTR ) Settles Police Suit , No Deal Yet",
+        "url": "https://www.themarketsdaily.com/2026/10/17/palantir-technologies-inc-nasdaq-pltr-settles-police-suit-no-deal-yet.html",
+        "domain": "themarketsdaily.com",
+        "date": "2026-10-17",
+        "sentiment_label": "негатив",
+        "sentiment_score": -1
+      },
+      {
+        "title": "Palantir Technologies ( NASDAQ : PLTR ) Deploys Foundry And AIP Platforms Inside Commercial Banking With Customers Bank Deal",
+        "url": "https://www.foreignpolicyjournal.com/2026/10/16/palantir-technologies-nasdaq-pltr-deploys-foundry-and-aip-platforms-inside-commercial-banking-with-customers-bank-deal/",
+        "domain": "foreignpolicyjournal.com",
+        "date": "2026-10-16",
         "sentiment_label": "нейтрально",
         "sentiment_score": 0
       }
     ],
     "source": "gdelt"
   },
+  "789019": {
+    "ticker": "MSFT",
+    "company": "MICROSOFT CORP",
+    "articles": [],
+    "source": "no-data"
+  },
   "320193": {
     "ticker": "AAPL",
     "company": "Apple Inc.",
     "articles": [
       {
-        "title": "Apple October 2026 launches : Touchscreen MacBook Pro , iPad Mini , M6 iMac , and more expected this month",
-        "url": "https://www.businesstoday.in/technology/news/story/apple-october-2026-launches-touchscreen-macbook-pro-ipad-mini-m6-imac-and-more-expected-this-month-561759-2026-10-15",
-        "domain": "businesstoday.in",
-        "date": "2026-10-15",
-        "sentiment_label": "позитив",
-        "sentiment_score": 1
-      },
-      {
-        "title": "Apple Intelligence gets China approval , beta version coming later this October , Tim Cook says",
-        "url": "https://www.moneycontrol.com/news/business/apple-intelligence-gets-china-approval-beta-version-coming-later-this-october-tim-cook-says-14053020.html",
-        "domain": "moneycontrol.com",
-        "date": "2026-10-15",
-        "sentiment_label": "позитив",
-        "sentiment_score": 1
-      },
-      {
-        "title": "Can Apple Overtake Nvidia as the World Largest Company in 2027 ? ",
-        "url": "https://www.aol.com/articles/apple-overtake-nvidia-worlds-largest-075000000.html",
-        "domain": "aol.com",
-        "date": "2026-10-15",
+        "title": "Apple Pay debuts in India : how it works , features , and key limitations",
+        "url": "https://www.livemint.com/money/personal-finance/apple-pay-debuts-in-india-how-it-works-features-and-key-limitations-11792297454132.html",
+        "domain": "livemint.com",
+        "date": "2026-10-18",
         "sentiment_label": "нейтрально",
         "sentiment_score": 0
       },
       {
-        "title": "Apple Intelligence is finally coming to China , but without Siri AI",
-        "url": "https://www.gsmarena.com/apple_intelligence_is_finally_coming_to_china_but_without_siri_ai-news-75058.php",
-        "domain": "gsmarena.com",
-        "date": "2026-10-15",
+        "title": "Get three wallet - size Apple Find My trackers that recharge wirelessly for $50 . 99",
+        "url": "https://www.macworld.com/article/3262877/get-three-wallet-size-apple-find-my-trackers-that-recharge-wirelessly-for-50-99.html",
+        "domain": "macworld.com",
+        "date": "2026-10-18",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "The Apple iPhone 18 Pro is ( almost ) free this weekend how to claim",
+        "url": "https://mashable.com/tech/oct-18-free-apple-iphone-18-deal",
+        "domain": "mashable.com",
+        "date": "2026-10-18",
         "sentiment_label": "нейтрально",
         "sentiment_score": 0
       }
