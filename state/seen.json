@@ -9,6 +9,11 @@
     "name": "Asher Health, Inc.",
     "source": "Form D"
   },
+  "formd:000101974226000002": {
+    "first_seen": "2026-10-19",
+    "name": "BARKSDALE RESOURCES CORP.",
+    "source": "Form D"
+  },
   "formd:000106299326003839": {
     "first_seen": "2026-07-27",
     "name": "Scorpio Gold Corp",
@@ -304,6 +309,11 @@
     "name": "Praeventix, Inc.",
     "source": "Form D"
   },
+  "formd:000195598926000003": {
+    "first_seen": "2026-10-19",
+    "name": "Youtopia Marketplace, LLC",
+    "source": "Form D"
+  },
   "formd:000195751726000004": {
     "first_seen": "2026-09-17",
     "name": "Gravitics, Inc.",
@@ -424,6 +434,11 @@
     "name": "Thermolic Corp",
     "source": "Form D"
   },
+  "formd:000204710026000003": {
+    "first_seen": "2026-10-19",
+    "name": "MyVillage, Inc.",
+    "source": "Form D"
+  },
   "formd:000204722126000005": {
     "first_seen": "2026-09-17",
     "name": "CARING CLOSURES INT'L LLC",
@@ -534,6 +549,11 @@
     "name": "CoTec Holdings Corp.",
     "source": "Form D"
   },
+  "formd:000208100826000002": {
+    "first_seen": "2026-10-19",
+    "name": "Precision IO Group Inc.",
+    "source": "Form D"
+  },
   "formd:000208300126000001": {
     "first_seen": "2026-07-24",
     "name": "Eleven Wellness, Inc.",
@@ -637,6 +657,11 @@
   "formd:000211304426000002": {
     "first_seen": "2026-07-28",
     "name": "DoneCast, Inc.",
+    "source": "Form D"
+  },
+  "formd:000211541426000002": {
+    "first_seen": "2026-10-19",
+    "name": "Mikri Inc.",
     "source": "Form D"
   },
   "formd:000211900026000002": {
@@ -767,6 +792,11 @@
   "formd:000213785726000002": {
     "first_seen": "2026-08-18",
     "name": "Dexterity, Inc.",
+    "source": "Form D"
+  },
+  "formd:000213821826000002": {
+    "first_seen": "2026-10-19",
+    "name": "Solfera Inc",
     "source": "Form D"
   },
   "formd:000213904226000002": {
@@ -4979,6 +5009,11 @@
     "name": "VisiCX, Inc",
     "source": "Form D"
   },
+  "formd:000215978826000001": {
+    "first_seen": "2026-10-19",
+    "name": "Saro Robotics Inc.",
+    "source": "Form D"
+  },
   "formd:000215984126000001": {
     "first_seen": "2026-10-17",
     "name": "SC RIVER INV LLC",
@@ -5082,6 +5117,26 @@
   "formd:000216056926000001": {
     "first_seen": "2026-10-17",
     "name": "Knowable Labs, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216060226000001": {
+    "first_seen": "2026-10-19",
+    "name": "Glows Heavy LLC",
+    "source": "Form D"
+  },
+  "formd:000216060226000002": {
+    "first_seen": "2026-10-19",
+    "name": "Glows Heavy LLC",
+    "source": "Form D"
+  },
+  "formd:000216064326000001": {
+    "first_seen": "2026-10-19",
+    "name": "Altoona Development Ltd Liability Co",
+    "source": "Form D"
+  },
+  "formd:000216068726000001": {
+    "first_seen": "2026-10-19",
+    "name": "Nice Robotics, Inc.",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -7797,6 +7852,11 @@
   "yc:the-subvocal-company": {
     "first_seen": "2026-08-30",
     "name": "The Subvocal Company",
+    "source": "YC"
+  },
+  "yc:theo": {
+    "first_seen": "2026-10-19",
+    "name": "Theo",
     "source": "YC"
   },
   "yc:theseus-robotics": {
