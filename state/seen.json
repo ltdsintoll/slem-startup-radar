@@ -394,6 +394,11 @@
     "name": "PDW Holdings, Inc.",
     "source": "Form D"
   },
+  "formd:000201759226000002": {
+    "first_seen": "2026-10-20",
+    "name": "Ascertain Systems, Inc.",
+    "source": "Form D"
+  },
   "formd:000202234026000005": {
     "first_seen": "2026-09-04",
     "name": "Verse Enterprises, Inc.",
@@ -662,6 +667,11 @@
   "formd:000211541426000002": {
     "first_seen": "2026-10-19",
     "name": "Mikri Inc.",
+    "source": "Form D"
+  },
+  "formd:000211626426000003": {
+    "first_seen": "2026-10-20",
+    "name": "SecondAppraisal Inc",
     "source": "Form D"
   },
   "formd:000211900026000002": {
@@ -4964,6 +4974,11 @@
     "name": "Olive & M LLC",
     "source": "Form D"
   },
+  "formd:000215946626000001": {
+    "first_seen": "2026-10-20",
+    "name": "Localposh.com, Inc.",
+    "source": "Form D"
+  },
   "formd:000215952826000001": {
     "first_seen": "2026-10-15",
     "name": "Life Stylistic, Inc.",
@@ -4999,6 +5014,11 @@
     "name": "FutureWorks Technologies, Inc.",
     "source": "Form D"
   },
+  "formd:000215968226000001": {
+    "first_seen": "2026-10-20",
+    "name": "Omnishot.ai Inc.",
+    "source": "Form D"
+  },
   "formd:000215970426000001": {
     "first_seen": "2026-10-17",
     "name": "VisiCX, Inc",
@@ -5032,6 +5052,11 @@
   "formd:000215985926000001": {
     "first_seen": "2026-10-13",
     "name": "Aphrodite Media, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215987726000001": {
+    "first_seen": "2026-10-20",
+    "name": "POP-UP FRONTS LTD",
     "source": "Form D"
   },
   "formd:000215994526000001": {
@@ -5079,6 +5104,31 @@
     "name": "UnityCore, Inc.",
     "source": "Form D"
   },
+  "formd:000216024226000001": {
+    "first_seen": "2026-10-20",
+    "name": "Moonraker Mining I, LLC",
+    "source": "Form D"
+  },
+  "formd:000216024226000002": {
+    "first_seen": "2026-10-20",
+    "name": "Moonraker Mining I, LLC",
+    "source": "Form D"
+  },
+  "formd:000216024226000003": {
+    "first_seen": "2026-10-20",
+    "name": "Moonraker Mining I, LLC",
+    "source": "Form D"
+  },
+  "formd:000216024226000004": {
+    "first_seen": "2026-10-20",
+    "name": "Moonraker Mining I, LLC",
+    "source": "Form D"
+  },
+  "formd:000216027326000001": {
+    "first_seen": "2026-10-20",
+    "name": "nectarflow LLC",
+    "source": "Form D"
+  },
   "formd:000216027526000001": {
     "first_seen": "2026-10-17",
     "name": "Lamina Surgical, Inc.",
@@ -5086,6 +5136,11 @@
   },
   "formd:000216031726000001": {
     "first_seen": "2026-10-16",
+    "name": "Bloodstock Investments 2026, LLC",
+    "source": "Form D"
+  },
+  "formd:000216031726000002": {
+    "first_seen": "2026-10-20",
     "name": "Bloodstock Investments 2026, LLC",
     "source": "Form D"
   },
@@ -5114,6 +5169,21 @@
     "name": "Jaccard, Inc",
     "source": "Form D"
   },
+  "formd:000216045826000001": {
+    "first_seen": "2026-10-20",
+    "name": "VERIFREIGHT, INC.",
+    "source": "Form D"
+  },
+  "formd:000216052126000002": {
+    "first_seen": "2026-10-20",
+    "name": "Island Health Partners, LLC",
+    "source": "Form D"
+  },
+  "formd:000216053626000001": {
+    "first_seen": "2026-10-20",
+    "name": "Project Evergreen TopCo LP",
+    "source": "Form D"
+  },
   "formd:000216056926000001": {
     "first_seen": "2026-10-17",
     "name": "Knowable Labs, Inc.",
@@ -5129,6 +5199,11 @@
     "name": "Glows Heavy LLC",
     "source": "Form D"
   },
+  "formd:000216063026000001": {
+    "first_seen": "2026-10-20",
+    "name": "SunMoon Maui Citruscello LLC",
+    "source": "Form D"
+  },
   "formd:000216064326000001": {
     "first_seen": "2026-10-19",
     "name": "Altoona Development Ltd Liability Co",
@@ -5137,6 +5212,46 @@
   "formd:000216068726000001": {
     "first_seen": "2026-10-19",
     "name": "Nice Robotics, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216068726000002": {
+    "first_seen": "2026-10-20",
+    "name": "Nice Robotics, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216071626000001": {
+    "first_seen": "2026-10-20",
+    "name": "Sigil Health Inc.",
+    "source": "Form D"
+  },
+  "formd:000216076826000001": {
+    "first_seen": "2026-10-20",
+    "name": "Theravie Pharma, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216077126000001": {
+    "first_seen": "2026-10-20",
+    "name": "Satlyt Inc.",
+    "source": "Form D"
+  },
+  "formd:000216078226000001": {
+    "first_seen": "2026-10-20",
+    "name": "Sports Innovation Group Inc.",
+    "source": "Form D"
+  },
+  "formd:000216081126000001": {
+    "first_seen": "2026-10-20",
+    "name": "Crown Topco, LLC",
+    "source": "Form D"
+  },
+  "formd:000216084226000001": {
+    "first_seen": "2026-10-20",
+    "name": "Alercell Inc",
+    "source": "Form D"
+  },
+  "formd:000216087426000001": {
+    "first_seen": "2026-10-20",
+    "name": "Kippy Studios, Inc.",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -5402,6 +5517,11 @@
   "yc:armature": {
     "first_seen": "2026-07-24",
     "name": "Armature",
+    "source": "YC"
+  },
+  "yc:armorer-labs": {
+    "first_seen": "2026-10-20",
+    "name": "Armorer Labs",
     "source": "YC"
   },
   "yc:arzana": {
@@ -6467,6 +6587,11 @@
   "yc:kailash-labs": {
     "first_seen": "2026-09-19",
     "name": "Kailash Labs",
+    "source": "YC"
+  },
+  "yc:kairos-health": {
+    "first_seen": "2026-10-20",
+    "name": "Kairos Health",
     "source": "YC"
   },
   "yc:kandor": {
@@ -7734,6 +7859,11 @@
     "name": "Sunflower",
     "source": "YC"
   },
+  "yc:super-powers-mobility-spm": {
+    "first_seen": "2026-10-20",
+    "name": "Super Powers Mobility (SPM)",
+    "source": "YC"
+  },
   "yc:superlog": {
     "first_seen": "2026-07-24",
     "name": "Superlog",
@@ -8172,6 +8302,11 @@
   "yc:workers-io": {
     "first_seen": "2026-08-29",
     "name": "Workers IO",
+    "source": "YC"
+  },
+  "yc:yam": {
+    "first_seen": "2026-10-20",
+    "name": "Yam",
     "source": "YC"
   },
   "yc:youart": {

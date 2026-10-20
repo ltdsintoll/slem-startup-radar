@@ -582,7 +582,7 @@
   "1806540": {
     "first_seen": "2026-10-06",
     "name": "Lycia Therapeutics, Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "1807887": {
     "first_seen": "2026-07-24",
@@ -628,6 +628,11 @@
     "first_seen": "2026-07-24",
     "name": "Banzai International, Inc.",
     "stage": "Amending"
+  },
+  "1826892": {
+    "first_seen": "2026-10-20",
+    "name": "BioAtla, Inc.",
+    "stage": "Filed"
   },
   "1827635": {
     "first_seen": "2026-08-08",
@@ -1779,6 +1784,11 @@
     "name": "Gold Stone Technical Inc.",
     "stage": "Amending"
   },
+  "2096362": {
+    "first_seen": "2026-10-20",
+    "name": "AIAI Holdings Corp",
+    "stage": "Filed"
+  },
   "2096861": {
     "first_seen": "2026-07-24",
     "name": "Sinda Ltd.",
@@ -1828,6 +1838,11 @@
     "first_seen": "2026-08-05",
     "name": "East West Ave Acquisition Corp.",
     "stage": "Priced/IPO"
+  },
+  "2100713": {
+    "first_seen": "2026-10-20",
+    "name": "iStep Learning plc",
+    "stage": "Filed"
   },
   "2100805": {
     "first_seen": "2026-08-12",
