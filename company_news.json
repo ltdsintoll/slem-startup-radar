@@ -8,25 +8,8 @@
   "1321655": {
     "ticker": "PLTR",
     "company": "Palantir Technologies Inc.",
-    "articles": [
-      {
-        "title": "Palantir Technologies Inc . ( NASDAQ : PLTR ) Settles Police Suit , No Deal Yet",
-        "url": "https://www.themarketsdaily.com/2026/10/17/palantir-technologies-inc-nasdaq-pltr-settles-police-suit-no-deal-yet.html",
-        "domain": "themarketsdaily.com",
-        "date": "2026-10-17",
-        "sentiment_label": "негатив",
-        "sentiment_score": -1
-      },
-      {
-        "title": "Palantir Technologies ( NASDAQ : PLTR ) Deploys Foundry And AIP Platforms Inside Commercial Banking With Customers Bank Deal",
-        "url": "https://www.foreignpolicyjournal.com/2026/10/16/palantir-technologies-nasdaq-pltr-deploys-foundry-and-aip-platforms-inside-commercial-banking-with-customers-bank-deal/",
-        "domain": "foreignpolicyjournal.com",
-        "date": "2026-10-16",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      }
-    ],
-    "source": "gdelt"
+    "articles": [],
+    "source": "no-data"
   },
   "789019": {
     "ticker": "MSFT",
@@ -37,32 +20,7 @@
   "320193": {
     "ticker": "AAPL",
     "company": "Apple Inc.",
-    "articles": [
-      {
-        "title": "Apple Pay debuts in India : how it works , features , and key limitations",
-        "url": "https://www.livemint.com/money/personal-finance/apple-pay-debuts-in-india-how-it-works-features-and-key-limitations-11792297454132.html",
-        "domain": "livemint.com",
-        "date": "2026-10-18",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "Get three wallet - size Apple Find My trackers that recharge wirelessly for $50 . 99",
-        "url": "https://www.macworld.com/article/3262877/get-three-wallet-size-apple-find-my-trackers-that-recharge-wirelessly-for-50-99.html",
-        "domain": "macworld.com",
-        "date": "2026-10-18",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "The Apple iPhone 18 Pro is ( almost ) free this weekend how to claim",
-        "url": "https://mashable.com/tech/oct-18-free-apple-iphone-18-deal",
-        "domain": "mashable.com",
-        "date": "2026-10-18",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      }
-    ],
-    "source": "gdelt"
+    "articles": [],
+    "source": "no-data"
   }
 }

@@ -602,7 +602,7 @@
   "1814067": {
     "first_seen": "2026-09-12",
     "name": "Lixiang Education Holding Co. Ltd.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "1814215": {
     "first_seen": "2026-07-24",
@@ -959,6 +959,11 @@
     "name": "C3is Inc.",
     "stage": "Priced/IPO"
   },
+  "1953988": {
+    "first_seen": "2026-10-21",
+    "name": "Helio Corp /FL/",
+    "stage": "Filed"
+  },
   "1954227": {
     "first_seen": "2026-07-24",
     "name": "Elements Ventures Group Inc.",
@@ -1048,6 +1053,11 @@
     "first_seen": "2026-07-24",
     "name": "3 E Network Technology Group Ltd",
     "stage": "Amending"
+  },
+  "1995075": {
+    "first_seen": "2026-10-21",
+    "name": "Megan Holdings Ltd.",
+    "stage": "Filed"
   },
   "1995704": {
     "first_seen": "2026-07-24",
@@ -1207,7 +1217,7 @@
   "2023153": {
     "first_seen": "2026-08-26",
     "name": "HomesToLife Ltd",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2024258": {
     "first_seen": "2026-07-24",
@@ -1653,6 +1663,11 @@
     "first_seen": "2026-07-24",
     "name": "Yesil Global Enerji A.S.",
     "stage": "Amending"
+  },
+  "2087307": {
+    "first_seen": "2026-10-21",
+    "name": "Sensing4D AI Ltd",
+    "stage": "Filed"
   },
   "2087398": {
     "first_seen": "2026-09-25",
@@ -2471,8 +2486,8 @@
   },
   "2142699": {
     "first_seen": "2026-09-12",
-    "name": "FutureCore Acquisition Corp",
-    "stage": "Filed"
+    "name": "FuturePeak Acquisition Corp",
+    "stage": "Amending"
   },
   "2142855": {
     "first_seen": "2026-07-30",
@@ -2722,6 +2737,11 @@
   "802257": {
     "first_seen": "2026-07-24",
     "name": "Mitesco, Inc.",
+    "stage": "Amending"
+  },
+  "832370": {
+    "first_seen": "2026-10-21",
+    "name": "Ealixir, Inc.",
     "stage": "Amending"
   },
   "832489": {

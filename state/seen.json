@@ -194,6 +194,11 @@
     "name": "TBC - The Boring Co",
     "source": "Form D"
   },
+  "formd:000174903626000002": {
+    "first_seen": "2026-10-21",
+    "name": "Cognixion Corp",
+    "source": "Form D"
+  },
   "formd:000175335126000001": {
     "first_seen": "2026-10-13",
     "name": "EpiVario Inc.",
@@ -449,6 +454,11 @@
     "name": "CARING CLOSURES INT'L LLC",
     "source": "Form D"
   },
+  "formd:000205110426000003": {
+    "first_seen": "2026-10-21",
+    "name": "Land Therapeutics Inc.",
+    "source": "Form D"
+  },
   "formd:000205288626000001": {
     "first_seen": "2026-09-10",
     "name": "Prosper Health, Inc.",
@@ -502,6 +512,11 @@
   "formd:000206075526000060": {
     "first_seen": "2026-10-02",
     "name": "Balanced Body Organics, Inc.",
+    "source": "Form D"
+  },
+  "formd:000206075526000061": {
+    "first_seen": "2026-10-21",
+    "name": "Conexeu Sciences Inc.",
     "source": "Form D"
   },
   "formd:000206186326000003": {
@@ -727,6 +742,11 @@
   "formd:000213374826000001": {
     "first_seen": "2026-10-07",
     "name": "Reltek, Inc.",
+    "source": "Form D"
+  },
+  "formd:000213441226000001": {
+    "first_seen": "2026-10-21",
+    "name": "DPEG SPAC, LP",
     "source": "Form D"
   },
   "formd:000213452926000001": {
@@ -1749,6 +1769,11 @@
     "name": "WorldRelay, Inc.",
     "source": "Form D"
   },
+  "formd:000214820126000002": {
+    "first_seen": "2026-10-21",
+    "name": "Naba Health, Inc.",
+    "source": "Form D"
+  },
   "formd:000214820926000002": {
     "first_seen": "2026-08-04",
     "name": "Senza Research, Inc.",
@@ -2101,6 +2126,11 @@
   },
   "formd:000214892526000001": {
     "first_seen": "2026-08-15",
+    "name": "Govably, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214892526000002": {
+    "first_seen": "2026-10-21",
     "name": "Govably, Inc.",
     "source": "Form D"
   },
@@ -4629,6 +4659,11 @@
     "name": "CROSSCALE INC",
     "source": "Form D"
   },
+  "formd:000215792826000001": {
+    "first_seen": "2026-10-21",
+    "name": "WaveDivision Capital XIX, LLC",
+    "source": "Form D"
+  },
   "formd:000215793726000001": {
     "first_seen": "2026-10-02",
     "name": "Smash IP Holdings LLC",
@@ -4657,6 +4692,11 @@
   "formd:000215803226000001": {
     "first_seen": "2026-10-02",
     "name": "JABNE TabSense, LLC",
+    "source": "Form D"
+  },
+  "formd:000215808526000001": {
+    "first_seen": "2026-10-21",
+    "name": "Ritually, Inc.",
     "source": "Form D"
   },
   "formd:000215817526000001": {
@@ -5219,6 +5259,11 @@
     "name": "Nice Robotics, Inc.",
     "source": "Form D"
   },
+  "formd:000216069226000001": {
+    "first_seen": "2026-10-21",
+    "name": "Worth Alliance LLC",
+    "source": "Form D"
+  },
   "formd:000216071626000001": {
     "first_seen": "2026-10-20",
     "name": "Sigil Health Inc.",
@@ -5252,6 +5297,21 @@
   "formd:000216087426000001": {
     "first_seen": "2026-10-20",
     "name": "Kippy Studios, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216095926000001": {
+    "first_seen": "2026-10-21",
+    "name": "Granted Inc.",
+    "source": "Form D"
+  },
+  "formd:000216097926000001": {
+    "first_seen": "2026-10-21",
+    "name": "Hideout House Acadia, LLC",
+    "source": "Form D"
+  },
+  "formd:000216127826000001": {
+    "first_seen": "2026-10-21",
+    "name": "53 Maine Associates LLC",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -5599,6 +5659,11 @@
     "name": "Aucert",
     "source": "YC"
   },
+  "yc:audora": {
+    "first_seen": "2026-10-21",
+    "name": "Audora",
+    "source": "YC"
+  },
   "yc:audun": {
     "first_seen": "2026-08-08",
     "name": "Audun",
@@ -5759,6 +5824,11 @@
     "name": "Cerenovus",
     "source": "YC"
   },
+  "yc:cesara": {
+    "first_seen": "2026-10-21",
+    "name": "Cesara",
+    "source": "YC"
+  },
   "yc:characterquilt": {
     "first_seen": "2026-07-24",
     "name": "CharacterQuilt",
@@ -5792,6 +5862,11 @@
   "yc:cignara": {
     "first_seen": "2026-07-24",
     "name": "Cignara",
+    "source": "YC"
+  },
+  "yc:claimkit": {
+    "first_seen": "2026-10-21",
+    "name": "ClaimKit",
     "source": "YC"
   },
   "yc:clara-2": {
@@ -6639,6 +6714,11 @@
     "name": "Kinro",
     "source": "YC"
   },
+  "yc:kiwi": {
+    "first_seen": "2026-10-21",
+    "name": "Kiwi",
+    "source": "YC"
+  },
   "yc:klaimee": {
     "first_seen": "2026-07-24",
     "name": "Klaimee",
@@ -7054,6 +7134,11 @@
     "name": "Oddpool",
     "source": "YC"
   },
+  "yc:odin-robotics": {
+    "first_seen": "2026-10-21",
+    "name": "Odin Robotics",
+    "source": "YC"
+  },
   "yc:olam-labs": {
     "first_seen": "2026-07-24",
     "name": "Olam Labs",
@@ -7152,6 +7237,11 @@
   "yc:orchestra": {
     "first_seen": "2026-09-07",
     "name": "Orchestra",
+    "source": "YC"
+  },
+  "yc:orgo": {
+    "first_seen": "2026-10-21",
+    "name": "Orgo",
     "source": "YC"
   },
   "yc:ornadyne": {
@@ -7287,6 +7377,11 @@
   "yc:petrichor-bio": {
     "first_seen": "2026-10-03",
     "name": "Petrichor Bio",
+    "source": "YC"
+  },
+  "yc:phone-harness": {
+    "first_seen": "2026-10-21",
+    "name": "Phone Harness",
     "source": "YC"
   },
   "yc:plan0-ai": {
@@ -7894,6 +7989,11 @@
     "name": "Synapse Semiconductor",
     "source": "YC"
   },
+  "yc:synara": {
+    "first_seen": "2026-10-21",
+    "name": "Synara",
+    "source": "YC"
+  },
   "yc:synphony": {
     "first_seen": "2026-07-24",
     "name": "Synphony",
@@ -8292,6 +8392,11 @@
   "yc:wondering": {
     "first_seen": "2026-07-28",
     "name": "Wondering",
+    "source": "YC"
+  },
+  "yc:wondersearch": {
+    "first_seen": "2026-10-21",
+    "name": "Wondersearch",
     "source": "YC"
   },
   "yc:wondertx": {
