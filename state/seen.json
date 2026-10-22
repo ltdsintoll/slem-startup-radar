@@ -24,6 +24,11 @@
     "name": "Cantex Mine Development Corp.",
     "source": "Form D"
   },
+  "formd:000106299326005471": {
+    "first_seen": "2026-10-22",
+    "name": "Blende Silver Corp",
+    "source": "Form D"
+  },
   "formd:000110465926105583": {
     "first_seen": "2026-09-08",
     "name": "VECTORMAX Corp",
@@ -32,6 +37,11 @@
   "formd:000114036126037263": {
     "first_seen": "2026-09-22",
     "name": "OKEANOS HOLDINGS, INC.",
+    "source": "Form D"
+  },
+  "formd:000118518526004901": {
+    "first_seen": "2026-10-22",
+    "name": "RUI Holdings Inc",
     "source": "Form D"
   },
   "formd:000121390026101515": {
@@ -442,6 +452,11 @@
   "formd:000204625626000005": {
     "first_seen": "2026-09-01",
     "name": "Thermolic Corp",
+    "source": "Form D"
+  },
+  "formd:000204679326000005": {
+    "first_seen": "2026-10-22",
+    "name": "Town.com, Inc.",
     "source": "Form D"
   },
   "formd:000204710026000003": {
@@ -3679,6 +3694,11 @@
     "name": "DTC Residences Mezz Lender LLC",
     "source": "Form D"
   },
+  "formd:000215420926000002": {
+    "first_seen": "2026-10-22",
+    "name": "Life Impact Partners 1 LLC",
+    "source": "Form D"
+  },
   "formd:000215423926000001": {
     "first_seen": "2026-09-10",
     "name": "Monteforte Group, LLC",
@@ -4949,6 +4969,11 @@
     "name": "1921 Technologies Inc.",
     "source": "Form D"
   },
+  "formd:000215926426000001": {
+    "first_seen": "2026-10-22",
+    "name": "Gale Force Aesthetics, Inc.",
+    "source": "Form D"
+  },
   "formd:000215927626000001": {
     "first_seen": "2026-10-08",
     "name": "Capsage, Inc.",
@@ -5284,6 +5309,11 @@
     "name": "Sports Innovation Group Inc.",
     "source": "Form D"
   },
+  "formd:000216080226000001": {
+    "first_seen": "2026-10-22",
+    "name": "LeanBio Therapeutics, Inc.",
+    "source": "Form D"
+  },
   "formd:000216081126000001": {
     "first_seen": "2026-10-20",
     "name": "Crown Topco, LLC",
@@ -5309,9 +5339,54 @@
     "name": "Hideout House Acadia, LLC",
     "source": "Form D"
   },
+  "formd:000216115326000001": {
+    "first_seen": "2026-10-22",
+    "name": "Arkaea Media Group Inc.",
+    "source": "Form D"
+  },
+  "formd:000216121026000001": {
+    "first_seen": "2026-10-22",
+    "name": "PRhobe Inc.",
+    "source": "Form D"
+  },
+  "formd:000216125026000001": {
+    "first_seen": "2026-10-22",
+    "name": "Northern Peak S11 LLC",
+    "source": "Form D"
+  },
+  "formd:000216126726000001": {
+    "first_seen": "2026-10-22",
+    "name": "Swa Technology Inc.",
+    "source": "Form D"
+  },
   "formd:000216127826000001": {
     "first_seen": "2026-10-21",
     "name": "53 Maine Associates LLC",
+    "source": "Form D"
+  },
+  "formd:000216128826000001": {
+    "first_seen": "2026-10-22",
+    "name": "Boltz, PBC",
+    "source": "Form D"
+  },
+  "formd:000216129226000001": {
+    "first_seen": "2026-10-22",
+    "name": "Gwaihir Robotics, Corp.",
+    "source": "Form D"
+  },
+  "formd:000216133626000001": {
+    "first_seen": "2026-10-22",
+    "name": "StreamShip Technologies Inc.",
+    "source": "Form D"
+  },
+  "formd:000216133726000001": {
+    "first_seen": "2026-10-22",
+    "name": "Deanna Labs, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216150826000001": {
+    "first_seen": "2026-10-22",
+    "name": "RF Gaming Systems, Inc.",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -6492,6 +6567,11 @@
   "yc:hopper": {
     "first_seen": "2026-09-05",
     "name": "Hopper",
+    "source": "YC"
+  },
+  "yc:horizontal": {
+    "first_seen": "2026-10-22",
+    "name": "horizontal.",
     "source": "YC"
   },
   "yc:hub": {
@@ -7872,6 +7952,11 @@
   "yc:spaceflow-technologies-inc": {
     "first_seen": "2026-08-03",
     "name": "SpaceFlow Technologies, Inc.",
+    "source": "YC"
+  },
+  "yc:spacesheep": {
+    "first_seen": "2026-10-22",
+    "name": "Spacesheep",
     "source": "YC"
   },
   "yc:spectre-intelligence": {
