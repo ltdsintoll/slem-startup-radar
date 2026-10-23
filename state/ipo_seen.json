@@ -347,7 +347,7 @@
   "1624512": {
     "first_seen": "2026-09-23",
     "name": "Boxlight Corp",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "1630212": {
     "first_seen": "2026-07-24",
@@ -749,6 +749,11 @@
     "name": "Giant Oak Acquisition Corp",
     "stage": "Amending"
   },
+  "1859199": {
+    "first_seen": "2026-10-23",
+    "name": "reAlpha Tech Corp.",
+    "stage": "Filed"
+  },
   "1862463": {
     "first_seen": "2026-07-24",
     "name": "ALPHA MODUS HOLDINGS, INC.",
@@ -767,7 +772,7 @@
   "1866501": {
     "first_seen": "2026-08-01",
     "name": "Wallbox N.V.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "1866816": {
     "first_seen": "2026-07-24",
@@ -927,6 +932,11 @@
   "1936817": {
     "first_seen": "2026-08-26",
     "name": "Haoxin Holdings Ltd",
+    "stage": "Filed"
+  },
+  "1937891": {
+    "first_seen": "2026-10-23",
+    "name": "AMC Robotics Corp",
     "stage": "Filed"
   },
   "1938571": {
@@ -1302,6 +1312,11 @@
   "2034588": {
     "first_seen": "2026-07-24",
     "name": "Neuro Spectrum Insights, Inc.",
+    "stage": "Amending"
+  },
+  "2036444": {
+    "first_seen": "2026-10-23",
+    "name": "Neo Aeronautics, Inc.",
     "stage": "Amending"
   },
   "2038439": {
@@ -2162,7 +2177,7 @@
   "2124080": {
     "first_seen": "2026-10-10",
     "name": "Aspen Neuroscience, Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2124122": {
     "first_seen": "2026-07-24",
@@ -2787,7 +2802,7 @@
   "894556": {
     "first_seen": "2026-09-28",
     "name": "CitroTech Inc.",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "906205": {
     "first_seen": "2026-07-24",
