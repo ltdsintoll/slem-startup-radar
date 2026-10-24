@@ -8,8 +8,33 @@
   "1321655": {
     "ticker": "PLTR",
     "company": "Palantir Technologies Inc.",
-    "articles": [],
-    "source": "no-data"
+    "articles": [
+      {
+        "title": "Stagwell ( STGW ) and Palantir ( PLTR ) Expand AI Partnership to Transform Enterprise Marketing",
+        "url": "http://www.tennesseedaily.com/news/279392240/stagwell-stgw-and-palantir-pltr-expand-ai-partnership-to-transform-enterprise-marketing",
+        "domain": "tennesseedaily.com",
+        "date": "2026-10-22",
+        "sentiment_label": "позитив",
+        "sentiment_score": 2
+      },
+      {
+        "title": "Palantir Technologies Inc . $PLTR Holdings Lifted by Robeco Institutional Asset Management B . V . ",
+        "url": "https://www.dailypolitical.com/2026/10/22/palantir-technologies-inc-pltr-holdings-lifted-by-robeco-institutional-asset-management-b-v.html",
+        "domain": "dailypolitical.com",
+        "date": "2026-10-22",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "Palantir Technologies ( NASDAQ : PLTR ) Shares Climb 4 . 7 % – Time to Buy ? ",
+        "url": "https://www.tickerreport.com/banking-finance/13629375/palantir-technologies-nasdaqpltr-shares-climb-4-7-time-to-buy.html",
+        "domain": "tickerreport.com",
+        "date": "2026-10-21",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      }
+    ],
+    "source": "gdelt"
   },
   "789019": {
     "ticker": "MSFT",

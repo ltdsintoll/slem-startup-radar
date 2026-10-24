@@ -5439,9 +5439,19 @@
     "name": "Mist Design Inc",
     "source": "Form D"
   },
+  "formd:000216149326000001": {
+    "first_seen": "2026-10-24",
+    "name": "Welara Capital Partners LLC Series 10",
+    "source": "Form D"
+  },
   "formd:000216150826000001": {
     "first_seen": "2026-10-22",
     "name": "RF Gaming Systems, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216154426000001": {
+    "first_seen": "2026-10-24",
+    "name": "Elucida Labs, Inc.",
     "source": "Form D"
   },
   "formd:000216155126000001": {
@@ -5459,6 +5469,11 @@
     "name": "PCCD Investment, LLC",
     "source": "Form D"
   },
+  "formd:000216160826000001": {
+    "first_seen": "2026-10-24",
+    "name": "Magic Mouth Co. LLC",
+    "source": "Form D"
+  },
   "formd:000216161526000001": {
     "first_seen": "2026-10-23",
     "name": "UpLearn Now, Inc.",
@@ -5474,6 +5489,11 @@
     "name": "Kanupi Inc.",
     "source": "Form D"
   },
+  "formd:000216176726000001": {
+    "first_seen": "2026-10-24",
+    "name": "Navispend, Inc.",
+    "source": "Form D"
+  },
   "formd:000216176926000001": {
     "first_seen": "2026-10-23",
     "name": "Caplens Corp",
@@ -5482,6 +5502,31 @@
   "formd:000216180226000001": {
     "first_seen": "2026-10-23",
     "name": "Cedar Lodge Ventures, LLC",
+    "source": "Form D"
+  },
+  "formd:000216181126000002": {
+    "first_seen": "2026-10-24",
+    "name": "Push Matcha, Inc",
+    "source": "Form D"
+  },
+  "formd:000216188326000001": {
+    "first_seen": "2026-10-24",
+    "name": "Tru Fit Tax & Planning Inc.",
+    "source": "Form D"
+  },
+  "formd:000216189926000001": {
+    "first_seen": "2026-10-24",
+    "name": "RSYNQ Corp",
+    "source": "Form D"
+  },
+  "formd:000216192526000001": {
+    "first_seen": "2026-10-24",
+    "name": "Advanced Glass Holdings, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216196026000001": {
+    "first_seen": "2026-10-24",
+    "name": "Opus Databento CS LLC",
     "source": "Form D"
   },
   "yc:6thsense": {
@@ -6354,6 +6399,11 @@
     "name": "Enjamb Labs",
     "source": "YC"
   },
+  "yc:epsilab-com": {
+    "first_seen": "2026-10-24",
+    "name": "Epsilab",
+    "source": "YC"
+  },
   "yc:erinys": {
     "first_seen": "2026-08-10",
     "name": "Erinys",
@@ -7014,6 +7064,11 @@
     "name": "Linzumi",
     "source": "YC"
   },
+  "yc:liquid-energy": {
+    "first_seen": "2026-10-24",
+    "name": "Liquid Energy",
+    "source": "YC"
+  },
   "yc:litmus-hiring": {
     "first_seen": "2026-07-24",
     "name": "Litmus",
@@ -7284,6 +7339,11 @@
     "name": "Nine Fives",
     "source": "YC"
   },
+  "yc:nitroduck": {
+    "first_seen": "2026-10-24",
+    "name": "Nitroduck",
+    "source": "YC"
+  },
   "yc:nodus": {
     "first_seen": "2026-09-01",
     "name": "Nodus",
@@ -7382,6 +7442,11 @@
   "yc:openrelay": {
     "first_seen": "2026-07-24",
     "name": "OpenRelay",
+    "source": "YC"
+  },
+  "yc:openscaffold": {
+    "first_seen": "2026-10-24",
+    "name": "OpenScaffold",
     "source": "YC"
   },
   "yc:openseo": {
@@ -8124,6 +8189,11 @@
     "name": "Standout",
     "source": "YC"
   },
+  "yc:stasis": {
+    "first_seen": "2026-10-24",
+    "name": "STASIS",
+    "source": "YC"
+  },
   "yc:stoa": {
     "first_seen": "2026-07-30",
     "name": "Stoa",
@@ -8327,6 +8397,11 @@
   "yc:tolmo": {
     "first_seen": "2026-07-24",
     "name": "Tolmo",
+    "source": "YC"
+  },
+  "yc:topos": {
+    "first_seen": "2026-10-24",
+    "name": "Topos",
     "source": "YC"
   },
   "yc:torus": {

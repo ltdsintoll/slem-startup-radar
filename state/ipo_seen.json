@@ -582,7 +582,7 @@
   "1806540": {
     "first_seen": "2026-10-06",
     "name": "Lycia Therapeutics, Inc.",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "1807887": {
     "first_seen": "2026-07-24",
@@ -623,6 +623,11 @@
     "first_seen": "2026-07-24",
     "name": "Phoenix Energy One, LLC  (PHXE-P)",
     "stage": "Priced/IPO"
+  },
+  "1825452": {
+    "first_seen": "2026-10-24",
+    "name": "Onfolio Holdings, Inc",
+    "stage": "Filed"
   },
   "1826011": {
     "first_seen": "2026-07-24",
@@ -1259,6 +1264,11 @@
     "name": "ENTRATA, INC.",
     "stage": "Amending"
   },
+  "2029297": {
+    "first_seen": "2026-10-24",
+    "name": "Grayscale Bittensor Trust (TAO)",
+    "stage": "Amending"
+  },
   "2030498": {
     "first_seen": "2026-07-24",
     "name": "JuNeng Technology Ltd",
@@ -1337,6 +1347,11 @@
   "2045151": {
     "first_seen": "2026-07-24",
     "name": "Tailored Brands, Inc. / DE",
+    "stage": "Amending"
+  },
+  "2046370": {
+    "first_seen": "2026-10-24",
+    "name": "Uptrend Holdings Ltd",
     "stage": "Amending"
   },
   "2048271": {
@@ -1759,6 +1774,11 @@
     "name": "Avalanche Treasury Corp",
     "stage": "Amending"
   },
+  "2092592": {
+    "first_seen": "2026-10-24",
+    "name": "Evernorth Holdings Inc.",
+    "stage": "Filed"
+  },
   "2093536": {
     "first_seen": "2026-10-14",
     "name": "Arxis, Inc.",
@@ -1897,7 +1917,7 @@
   "2103076": {
     "first_seen": "2026-10-10",
     "name": "OPAY Ltd",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2103547": {
     "first_seen": "2026-07-24",
@@ -2502,7 +2522,7 @@
   "2142627": {
     "first_seen": "2026-10-01",
     "name": "BHAV Acquisition Corp II",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2142699": {
     "first_seen": "2026-09-12",
@@ -2548,6 +2568,11 @@
     "first_seen": "2026-07-24",
     "name": "Jaovi Inc.",
     "stage": "Amending"
+  },
+  "2145089": {
+    "first_seen": "2026-10-24",
+    "name": "WINDWARD BIO GROUP AG",
+    "stage": "Filed"
   },
   "2145351": {
     "first_seen": "2026-07-24",
@@ -2667,12 +2692,12 @@
   "2152644": {
     "first_seen": "2026-09-12",
     "name": "Hometown Financial Group, Inc./MD",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2152813": {
     "first_seen": "2026-09-15",
     "name": "MFB Bancorp, Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2152921": {
     "first_seen": "2026-09-12",
