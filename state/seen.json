@@ -6004,6 +6004,11 @@
     "name": "Callbook AI",
     "source": "YC"
   },
+  "yc:canos": {
+    "first_seen": "2026-10-25",
+    "name": "Canos",
+    "source": "YC"
+  },
   "yc:capto": {
     "first_seen": "2026-10-10",
     "name": "Capto",
@@ -8622,6 +8627,11 @@
   "yc:vorelios": {
     "first_seen": "2026-08-12",
     "name": "Vorelios",
+    "source": "YC"
+  },
+  "yc:vouchwealth": {
+    "first_seen": "2026-10-25",
+    "name": "Vouch",
     "source": "YC"
   },
   "yc:voyager": {
