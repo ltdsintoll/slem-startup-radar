@@ -39,6 +39,11 @@
     "name": "OKEANOS HOLDINGS, INC.",
     "source": "Form D"
   },
+  "formd:000114036126040685": {
+    "first_seen": "2026-10-26",
+    "name": "Geophysical Technology Inc.",
+    "source": "Form D"
+  },
   "formd:000118518526004901": {
     "first_seen": "2026-10-22",
     "name": "RUI Holdings Inc",
@@ -242,6 +247,11 @@
   "formd:000180569826000001": {
     "first_seen": "2026-10-06",
     "name": "EIKONOKLASTES THERAPEUTICS, INC.",
+    "source": "Form D"
+  },
+  "formd:000180793626000002": {
+    "first_seen": "2026-10-26",
+    "name": "Else Nutrition Holdings Inc.",
     "source": "Form D"
   },
   "formd:000181315926000003": {
@@ -3864,6 +3874,11 @@
     "name": "REA CAPITAL III LTD",
     "source": "Form D"
   },
+  "formd:000215483726000001": {
+    "first_seen": "2026-10-26",
+    "name": "DEALHEAD, INC.",
+    "source": "Form D"
+  },
   "formd:000215483926000001": {
     "first_seen": "2026-10-09",
     "name": "HTD Health, Inc.",
@@ -4994,6 +5009,11 @@
     "name": "DTV ENTERPRISES, INC.",
     "source": "Form D"
   },
+  "formd:000215924426000001": {
+    "first_seen": "2026-10-26",
+    "name": "Navigate Agent, Inc",
+    "source": "Form D"
+  },
   "formd:000215925626000001": {
     "first_seen": "2026-10-17",
     "name": "1921 Technologies Inc.",
@@ -5334,6 +5354,11 @@
     "name": "Worth Alliance LLC",
     "source": "Form D"
   },
+  "formd:000216071126000001": {
+    "first_seen": "2026-10-26",
+    "name": "Warp Sciences Inc.",
+    "source": "Form D"
+  },
   "formd:000216071626000001": {
     "first_seen": "2026-10-20",
     "name": "Sigil Health Inc.",
@@ -5382,6 +5407,11 @@
   "formd:000216095926000001": {
     "first_seen": "2026-10-21",
     "name": "Granted Inc.",
+    "source": "Form D"
+  },
+  "formd:000216096426000001": {
+    "first_seen": "2026-10-26",
+    "name": "TCM Life Science Inc.",
     "source": "Form D"
   },
   "formd:000216097926000001": {
@@ -5447,6 +5477,11 @@
   "formd:000216150826000001": {
     "first_seen": "2026-10-22",
     "name": "RF Gaming Systems, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216151926000001": {
+    "first_seen": "2026-10-26",
+    "name": "Soda Bossa Beverages",
     "source": "Form D"
   },
   "formd:000216154426000001": {
