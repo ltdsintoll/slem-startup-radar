@@ -69,6 +69,11 @@
     "name": "ECOMINAS CORP.",
     "stage": "Amending"
   },
+  "1130598": {
+    "first_seen": "2026-10-27",
+    "name": "Traws Pharma, Inc.",
+    "stage": "Filed"
+  },
   "1131903": {
     "first_seen": "2026-07-24",
     "name": "SPECTRAL CAPITAL Corp",
@@ -397,7 +402,7 @@
   "1660851": {
     "first_seen": "2026-10-08",
     "name": "FireFly Robotics, Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "1670747": {
     "first_seen": "2026-08-13",
@@ -874,6 +879,11 @@
     "name": "Vogenx, Inc.",
     "stage": "Priced/IPO"
   },
+  "1907223": {
+    "first_seen": "2026-10-27",
+    "name": "Greenland Mines Ltd",
+    "stage": "Filed"
+  },
   "1907709": {
     "first_seen": "2026-10-10",
     "name": "vVARDIS Holding AG",
@@ -1028,6 +1038,11 @@
     "first_seen": "2026-07-24",
     "name": "VenHub Global, Inc.",
     "stage": "Amending"
+  },
+  "1973276": {
+    "first_seen": "2026-10-27",
+    "name": "LIS Technologies Inc",
+    "stage": "Filed"
   },
   "1976923": {
     "first_seen": "2026-08-12",
@@ -1347,6 +1362,11 @@
   "2045151": {
     "first_seen": "2026-07-24",
     "name": "Tailored Brands, Inc. / DE",
+    "stage": "Amending"
+  },
+  "2045931": {
+    "first_seen": "2026-10-27",
+    "name": "Aimei Health Technology II Co., Ltd.",
     "stage": "Amending"
   },
   "2046370": {
@@ -2284,6 +2304,11 @@
     "name": "Hall Chadwick Acquisition Corp II",
     "stage": "Amending"
   },
+  "2130357": {
+    "first_seen": "2026-10-27",
+    "name": "Anthropic, PBC",
+    "stage": "Filed"
+  },
   "2130606": {
     "first_seen": "2026-08-29",
     "name": "Obsidian Therapeutics, Inc.",
@@ -2782,6 +2807,11 @@
   "744452": {
     "first_seen": "2026-08-06",
     "name": "BNB PLUS CORP.",
+    "stage": "Filed"
+  },
+  "749647": {
+    "first_seen": "2026-10-27",
+    "name": "Imunon, Inc.",
     "stage": "Filed"
   },
   "802257": {

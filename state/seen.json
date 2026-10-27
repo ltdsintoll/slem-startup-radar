@@ -1,4 +1,9 @@
 {
+  "formd:000095010326016191": {
+    "first_seen": "2026-10-27",
+    "name": "FuriosaAI, Inc.",
+    "source": "Form D"
+  },
   "formd:000095017226000226": {
     "first_seen": "2026-10-06",
     "name": "Lyniate US Holdings LP",
@@ -209,6 +214,11 @@
     "name": "DynamiCare Health, Inc.",
     "source": "Form D"
   },
+  "formd:000171773126000004": {
+    "first_seen": "2026-10-27",
+    "name": "Commure, Inc.",
+    "source": "Form D"
+  },
   "formd:000173763026000003": {
     "first_seen": "2026-09-10",
     "name": "TBC - The Boring Co",
@@ -399,6 +409,11 @@
     "name": "Enthos Circular Feed Technologies, Inc.",
     "source": "Form D"
   },
+  "formd:000199667826000001": {
+    "first_seen": "2026-10-27",
+    "name": "Gut-Brain-Axis Therapeutics Inc.",
+    "source": "Form D"
+  },
   "formd:000199961326000006": {
     "first_seen": "2026-10-06",
     "name": "Faradyne Power Systems Corp.",
@@ -472,6 +487,11 @@
   "formd:000204248526000002": {
     "first_seen": "2026-09-25",
     "name": "EyeMacular Regeneration, Inc.",
+    "source": "Form D"
+  },
+  "formd:000204343226000001": {
+    "first_seen": "2026-10-27",
+    "name": "Receipts Depositary Corp",
     "source": "Form D"
   },
   "formd:000204625626000005": {
@@ -5424,6 +5444,11 @@
     "name": "Arkaea Media Group Inc.",
     "source": "Form D"
   },
+  "formd:000216118526000001": {
+    "first_seen": "2026-10-27",
+    "name": "Playbook Games Inc.",
+    "source": "Form D"
+  },
   "formd:000216121026000001": {
     "first_seen": "2026-10-22",
     "name": "PRhobe Inc.",
@@ -5519,6 +5544,11 @@
     "name": "Precision Exchange, Inc.",
     "source": "Form D"
   },
+  "formd:000216168526000001": {
+    "first_seen": "2026-10-27",
+    "name": "MOCEAN HOLDINGS Corp",
+    "source": "Form D"
+  },
   "formd:000216174726000001": {
     "first_seen": "2026-10-23",
     "name": "Kanupi Inc.",
@@ -5544,9 +5574,19 @@
     "name": "Push Matcha, Inc",
     "source": "Form D"
   },
+  "formd:000216187226000001": {
+    "first_seen": "2026-10-27",
+    "name": "RYCO.IO, INC.",
+    "source": "Form D"
+  },
   "formd:000216188326000001": {
     "first_seen": "2026-10-24",
     "name": "Tru Fit Tax & Planning Inc.",
+    "source": "Form D"
+  },
+  "formd:000216189026000001": {
+    "first_seen": "2026-10-27",
+    "name": "ArcLoom Infrastructure LLC",
     "source": "Form D"
   },
   "formd:000216189926000001": {
@@ -5563,6 +5603,46 @@
     "first_seen": "2026-10-24",
     "name": "Opus Databento CS LLC",
     "source": "Form D"
+  },
+  "formd:000216201726000001": {
+    "first_seen": "2026-10-27",
+    "name": "Cliffview Power LLC",
+    "source": "Form D"
+  },
+  "formd:000216205226000001": {
+    "first_seen": "2026-10-27",
+    "name": "Photogenik Inc.",
+    "source": "Form D"
+  },
+  "formd:000216206326000001": {
+    "first_seen": "2026-10-27",
+    "name": "LEAD OUT MANUFACTURING, INC.",
+    "source": "Form D"
+  },
+  "formd:000216209626000001": {
+    "first_seen": "2026-10-27",
+    "name": "Hertha Metals, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216209626000002": {
+    "first_seen": "2026-10-27",
+    "name": "Hertha Metals, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216210626000001": {
+    "first_seen": "2026-10-27",
+    "name": "Nuckle Ai Corp.",
+    "source": "Form D"
+  },
+  "formd:000216210726000001": {
+    "first_seen": "2026-10-27",
+    "name": "Hermai Inc.",
+    "source": "Form D"
+  },
+  "yc:0security": {
+    "first_seen": "2026-10-27",
+    "name": "0.security",
+    "source": "YC"
   },
   "yc:6thsense": {
     "first_seen": "2026-07-24",
@@ -5997,6 +6077,11 @@
   "yc:blaise": {
     "first_seen": "2026-07-24",
     "name": "Blaise",
+    "source": "YC"
+  },
+  "yc:blinka": {
+    "first_seen": "2026-10-27",
+    "name": "Blinka",
     "source": "YC"
   },
   "yc:bloomy": {
@@ -6457,6 +6542,16 @@
   "yc:evergrove": {
     "first_seen": "2026-08-14",
     "name": "Evergrove",
+    "source": "YC"
+  },
+  "yc:everyapp": {
+    "first_seen": "2026-10-27",
+    "name": "EveryApp",
+    "source": "YC"
+  },
+  "yc:evident-machines": {
+    "first_seen": "2026-10-27",
+    "name": "Evident Machines",
     "source": "YC"
   },
   "yc:executor": {
@@ -7467,6 +7562,11 @@
   "yc:open-actuation": {
     "first_seen": "2026-10-06",
     "name": "Open Actuation",
+    "source": "YC"
+  },
+  "yc:opencrawl": {
+    "first_seen": "2026-10-27",
+    "name": "OpenCrawl",
     "source": "YC"
   },
   "yc:openhack": {
@@ -8707,6 +8807,11 @@
   "yc:whitespace": {
     "first_seen": "2026-07-24",
     "name": "Whitespace",
+    "source": "YC"
+  },
+  "yc:wingman-law": {
+    "first_seen": "2026-10-27",
+    "name": "Wingman Law",
     "source": "YC"
   },
   "yc:withai": {
