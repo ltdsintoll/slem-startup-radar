@@ -34,6 +34,11 @@
     "name": "Blende Silver Corp",
     "source": "Form D"
   },
+  "formd:000106594926000045": {
+    "first_seen": "2026-10-28",
+    "name": "WYTEC INTERNATIONAL INC",
+    "source": "Form D"
+  },
   "formd:000110465926105583": {
     "first_seen": "2026-09-08",
     "name": "VECTORMAX Corp",
@@ -364,6 +369,16 @@
     "name": "Gravitics, Inc.",
     "source": "Form D"
   },
+  "formd:000196181026000003": {
+    "first_seen": "2026-10-28",
+    "name": "Numem Inc.",
+    "source": "Form D"
+  },
+  "formd:000196783826000001": {
+    "first_seen": "2026-10-28",
+    "name": "EIWA HOLDINGS CORP",
+    "source": "Form D"
+  },
   "formd:000196783926000003": {
     "first_seen": "2026-10-06",
     "name": "Right-Hand Cyber Security, Inc.",
@@ -452,6 +467,11 @@
   "formd:000201759226000002": {
     "first_seen": "2026-10-20",
     "name": "Ascertain Systems, Inc.",
+    "source": "Form D"
+  },
+  "formd:000202062826000004": {
+    "first_seen": "2026-10-28",
+    "name": "Agape-1 Technology Inc.",
     "source": "Form D"
   },
   "formd:000202234026000005": {
@@ -654,6 +674,11 @@
     "name": "FlyTahoe Inc.",
     "source": "Form D"
   },
+  "formd:000209051426000002": {
+    "first_seen": "2026-10-28",
+    "name": "Coast Fibers, Inc.",
+    "source": "Form D"
+  },
   "formd:000209150926000001": {
     "first_seen": "2026-10-07",
     "name": "Cowrie Creek, Inc.",
@@ -669,6 +694,11 @@
     "name": "Refr Sports Inc.",
     "source": "Form D"
   },
+  "formd:000209727026000001": {
+    "first_seen": "2026-10-28",
+    "name": "Oiselle, LLC",
+    "source": "Form D"
+  },
   "formd:000209793526000001": {
     "first_seen": "2026-09-29",
     "name": "LASTpatient Inc.",
@@ -682,6 +712,11 @@
   "formd:000210096626000011": {
     "first_seen": "2026-07-27",
     "name": "Aslan Housing Foundation",
+    "source": "Form D"
+  },
+  "formd:000210139226000002": {
+    "first_seen": "2026-10-28",
+    "name": "ClinTrial Research, Inc.",
     "source": "Form D"
   },
   "formd:000210205926000001": {
@@ -712,6 +747,11 @@
   "formd:000210529526000001": {
     "first_seen": "2026-09-21",
     "name": "Inquire, Inc.",
+    "source": "Form D"
+  },
+  "formd:000210531326000002": {
+    "first_seen": "2026-10-28",
+    "name": "Eye Level Mobile Inc.",
     "source": "Form D"
   },
   "formd:000210964326000003": {
@@ -5159,6 +5199,11 @@
     "name": "Omnishot.ai Inc.",
     "source": "Form D"
   },
+  "formd:000215969226000001": {
+    "first_seen": "2026-10-28",
+    "name": "Bios US LP",
+    "source": "Form D"
+  },
   "formd:000215970426000001": {
     "first_seen": "2026-10-17",
     "name": "VisiCX, Inc",
@@ -5389,6 +5434,11 @@
     "name": "Stardust Metal Corp.",
     "source": "Form D"
   },
+  "formd:000216075126000001": {
+    "first_seen": "2026-10-28",
+    "name": "Bridgeview Innovations, Inc.",
+    "source": "Form D"
+  },
   "formd:000216076826000001": {
     "first_seen": "2026-10-20",
     "name": "Theravie Pharma, Inc.",
@@ -5549,6 +5599,11 @@
     "name": "MOCEAN HOLDINGS Corp",
     "source": "Form D"
   },
+  "formd:000216171726000001": {
+    "first_seen": "2026-10-28",
+    "name": "Oncology AI Fleet, Inc.",
+    "source": "Form D"
+  },
   "formd:000216174726000001": {
     "first_seen": "2026-10-23",
     "name": "Kanupi Inc.",
@@ -5604,6 +5659,31 @@
     "name": "Opus Databento CS LLC",
     "source": "Form D"
   },
+  "formd:000216197626000001": {
+    "first_seen": "2026-10-28",
+    "name": "Chapiter Missions Inc.",
+    "source": "Form D"
+  },
+  "formd:000216197626000002": {
+    "first_seen": "2026-10-28",
+    "name": "Chapiter Missions Inc.",
+    "source": "Form D"
+  },
+  "formd:000216197626000003": {
+    "first_seen": "2026-10-28",
+    "name": "Chapiter Missions Inc.",
+    "source": "Form D"
+  },
+  "formd:000216197626000004": {
+    "first_seen": "2026-10-28",
+    "name": "Chapiter Missions Inc.",
+    "source": "Form D"
+  },
+  "formd:000216201526000001": {
+    "first_seen": "2026-10-28",
+    "name": "Avery & Masa Media, LLC",
+    "source": "Form D"
+  },
   "formd:000216201726000001": {
     "first_seen": "2026-10-27",
     "name": "Cliffview Power LLC",
@@ -5612,6 +5692,11 @@
   "formd:000216205226000001": {
     "first_seen": "2026-10-27",
     "name": "Photogenik Inc.",
+    "source": "Form D"
+  },
+  "formd:000216205826000001": {
+    "first_seen": "2026-10-28",
+    "name": "Contrast Cube Inc.",
     "source": "Form D"
   },
   "formd:000216206326000001": {
@@ -5637,6 +5722,36 @@
   "formd:000216210726000001": {
     "first_seen": "2026-10-27",
     "name": "Hermai Inc.",
+    "source": "Form D"
+  },
+  "formd:000216218226000001": {
+    "first_seen": "2026-10-28",
+    "name": "Merged Systems Inc.",
+    "source": "Form D"
+  },
+  "formd:000216222426000001": {
+    "first_seen": "2026-10-28",
+    "name": "Hirostar USA, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216229726000001": {
+    "first_seen": "2026-10-28",
+    "name": "Luma MDX Solutions, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216236826000001": {
+    "first_seen": "2026-10-28",
+    "name": "Jamboree Games, LLC",
+    "source": "Form D"
+  },
+  "formd:000216239126000001": {
+    "first_seen": "2026-10-28",
+    "name": "Creeda, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216239126000002": {
+    "first_seen": "2026-10-28",
+    "name": "Creeda, Inc.",
     "source": "Form D"
   },
   "yc:0security": {
@@ -5742,6 +5857,11 @@
   "yc:aice": {
     "first_seen": "2026-07-24",
     "name": "AICE",
+    "source": "YC"
+  },
+  "yc:aikido-technologies": {
+    "first_seen": "2026-10-28",
+    "name": "Aikido Technologies",
     "source": "YC"
   },
   "yc:akkari": {
@@ -5882,6 +6002,11 @@
   "yc:archer": {
     "first_seen": "2026-07-24",
     "name": "Archer",
+    "source": "YC"
+  },
+  "yc:archgen-labs": {
+    "first_seen": "2026-10-28",
+    "name": "Archgen Labs",
     "source": "YC"
   },
   "yc:arctic-health": {
@@ -6039,9 +6164,19 @@
     "name": "Axelrod",
     "source": "YC"
   },
+  "yc:axonnic": {
+    "first_seen": "2026-10-28",
+    "name": "Axonnic",
+    "source": "YC"
+  },
   "yc:baud": {
     "first_seen": "2026-07-24",
     "name": "Baud",
+    "source": "YC"
+  },
+  "yc:bear-inc": {
+    "first_seen": "2026-10-28",
+    "name": "Bear",
     "source": "YC"
   },
   "yc:belvedir": {
@@ -6272,6 +6407,11 @@
   "yc:computable": {
     "first_seen": "2026-07-24",
     "name": "Computable",
+    "source": "YC"
+  },
+  "yc:confetti": {
+    "first_seen": "2026-10-28",
+    "name": "Confetti",
     "source": "YC"
   },
   "yc:conifer": {
@@ -6787,6 +6927,11 @@
   "yc:hedge": {
     "first_seen": "2026-07-24",
     "name": "Hedge",
+    "source": "YC"
+  },
+  "yc:helios-intelligence": {
+    "first_seen": "2026-10-28",
+    "name": "Helios Intelligence",
     "source": "YC"
   },
   "yc:hemlock": {
@@ -8377,6 +8522,11 @@
   "yc:superradiant": {
     "first_seen": "2026-09-09",
     "name": "SuperRadiant",
+    "source": "YC"
+  },
+  "yc:superserve": {
+    "first_seen": "2026-10-28",
+    "name": "Superserve",
     "source": "YC"
   },
   "yc:superset": {

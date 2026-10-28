@@ -169,6 +169,11 @@
     "name": "Sunshine Biopharma Inc.",
     "stage": "Priced/IPO"
   },
+  "1411690": {
+    "first_seen": "2026-10-28",
+    "name": "Bionano Genomics, Inc.",
+    "stage": "Filed"
+  },
   "1417926": {
     "first_seen": "2026-07-25",
     "name": "INVO Fertility, Inc.",
@@ -427,7 +432,7 @@
   "1698506": {
     "first_seen": "2026-10-10",
     "name": "Simwon America Corp.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "1699963": {
     "first_seen": "2026-07-24",
@@ -714,6 +719,11 @@
     "name": "SPECIFICITY, INC.",
     "stage": "Filed"
   },
+  "1842556": {
+    "first_seen": "2026-10-28",
+    "name": "EON Resources Inc.  (EONR, EONR-WT)",
+    "stage": "Amending"
+  },
   "1843714": {
     "first_seen": "2026-07-24",
     "name": "Zapata Quantum, Inc.",
@@ -893,6 +903,11 @@
     "first_seen": "2026-07-30",
     "name": "Global Interactive Technologies, Inc.",
     "stage": "Amending"
+  },
+  "1912165": {
+    "first_seen": "2026-10-28",
+    "name": "Heroic Empire Acquisition Ltd",
+    "stage": "Filed"
   },
   "1912884": {
     "first_seen": "2026-07-24",
@@ -1229,6 +1244,11 @@
     "name": "Click Holdings Ltd.",
     "stage": "Filed"
   },
+  "2020737": {
+    "first_seen": "2026-10-28",
+    "name": "Caring Brands, Inc.",
+    "stage": "Filed"
+  },
   "2021880": {
     "first_seen": "2026-09-29",
     "name": "HMH Holding Inc",
@@ -1422,7 +1442,7 @@
   "205402": {
     "first_seen": "2026-09-01",
     "name": "GRAYBAR ELECTRIC CO INC",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2055301": {
     "first_seen": "2026-08-12",
@@ -1677,7 +1697,7 @@
   "2084031": {
     "first_seen": "2026-09-26",
     "name": "Regenlab USA Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2084038": {
     "first_seen": "2026-09-16",
@@ -2332,7 +2352,7 @@
   "2131303": {
     "first_seen": "2026-09-16",
     "name": "SPACCircle Acquisition Corp.",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "2131350": {
     "first_seen": "2026-07-24",
@@ -2774,6 +2794,11 @@
     "name": "Winklevoss Zcash ETF",
     "stage": "Filed"
   },
+  "2159516": {
+    "first_seen": "2026-10-28",
+    "name": "Aupenheim Holdings Inc.",
+    "stage": "Filed"
+  },
   "2159678": {
     "first_seen": "2026-10-14",
     "name": "Apex Treasury Corp II",
@@ -2812,7 +2837,7 @@
   "749647": {
     "first_seen": "2026-10-27",
     "name": "Imunon, Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "802257": {
     "first_seen": "2026-07-24",
