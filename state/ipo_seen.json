@@ -32,7 +32,7 @@
   "1070965": {
     "first_seen": "2026-10-03",
     "name": "GEORGIA BANKING CO INC",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "1074828": {
     "first_seen": "2026-07-24",
@@ -62,7 +62,7 @@
   "1114859": {
     "first_seen": "2026-09-23",
     "name": "Glow Holdings, Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "1115864": {
     "first_seen": "2026-07-30",
@@ -777,6 +777,11 @@
   "1862463": {
     "first_seen": "2026-07-24",
     "name": "ALPHA MODUS HOLDINGS, INC.",
+    "stage": "Filed"
+  },
+  "1864055": {
+    "first_seen": "2026-10-29",
+    "name": "Abits Group Inc",
     "stage": "Filed"
   },
   "1864531": {
@@ -2234,6 +2239,11 @@
     "name": "Columbus Circle Capital Corp III",
     "stage": "Priced/IPO"
   },
+  "2123920": {
+    "first_seen": "2026-10-29",
+    "name": "Focus Media Network Ltd",
+    "stage": "Filed"
+  },
   "2123955": {
     "first_seen": "2026-07-24",
     "name": "Pinnacle Acquisition Corp",
@@ -2422,7 +2432,7 @@
   "2133939": {
     "first_seen": "2026-09-10",
     "name": "Football Manager SPAC Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2134090": {
     "first_seen": "2026-08-25",

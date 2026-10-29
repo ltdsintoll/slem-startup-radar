@@ -1,4 +1,9 @@
 {
+  "formd:000092963826004073": {
+    "first_seen": "2026-10-29",
+    "name": "Trellis Bioscience, Inc.",
+    "source": "Form D"
+  },
   "formd:000095010326016191": {
     "first_seen": "2026-10-27",
     "name": "FuriosaAI, Inc.",
@@ -42,6 +47,11 @@
   "formd:000110465926105583": {
     "first_seen": "2026-09-08",
     "name": "VECTORMAX Corp",
+    "source": "Form D"
+  },
+  "formd:000110465926119766": {
+    "first_seen": "2026-10-29",
+    "name": "Westrock Coffee Co",
     "source": "Form D"
   },
   "formd:000114036126037263": {
@@ -424,6 +434,11 @@
     "name": "Enthos Circular Feed Technologies, Inc.",
     "source": "Form D"
   },
+  "formd:000199562826000003": {
+    "first_seen": "2026-10-29",
+    "name": "ARMADILLO HOME SOLUTIONS, INC.",
+    "source": "Form D"
+  },
   "formd:000199667826000001": {
     "first_seen": "2026-10-27",
     "name": "Gut-Brain-Axis Therapeutics Inc.",
@@ -652,6 +667,11 @@
   "formd:000208100826000002": {
     "first_seen": "2026-10-19",
     "name": "Precision IO Group Inc.",
+    "source": "Form D"
+  },
+  "formd:000208289426000001": {
+    "first_seen": "2026-10-29",
+    "name": "BibleX.AI, Inc.",
     "source": "Form D"
   },
   "formd:000208300126000001": {
@@ -5584,6 +5604,11 @@
     "name": "Magic Mouth Co. LLC",
     "source": "Form D"
   },
+  "formd:000216161326000001": {
+    "first_seen": "2026-10-29",
+    "name": "Scratx Miami LLC",
+    "source": "Form D"
+  },
   "formd:000216161526000001": {
     "first_seen": "2026-10-23",
     "name": "UpLearn Now, Inc.",
@@ -5652,6 +5677,11 @@
   "formd:000216192526000001": {
     "first_seen": "2026-10-24",
     "name": "Advanced Glass Holdings, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216194026000001": {
+    "first_seen": "2026-10-29",
+    "name": "ATTX INC.",
     "source": "Form D"
   },
   "formd:000216196026000001": {
@@ -5734,9 +5764,19 @@
     "name": "Hirostar USA, Inc.",
     "source": "Form D"
   },
+  "formd:000216226626000001": {
+    "first_seen": "2026-10-29",
+    "name": "Sami & Hertzel, LLC",
+    "source": "Form D"
+  },
   "formd:000216229726000001": {
     "first_seen": "2026-10-28",
     "name": "Luma MDX Solutions, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216233426000001": {
+    "first_seen": "2026-10-29",
+    "name": "J&A Capital Management Holdings, LLC",
     "source": "Form D"
   },
   "formd:000216236826000001": {
@@ -5752,6 +5792,41 @@
   "formd:000216239126000002": {
     "first_seen": "2026-10-28",
     "name": "Creeda, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216248326000001": {
+    "first_seen": "2026-10-29",
+    "name": "Mainland HNR, LLC",
+    "source": "Form D"
+  },
+  "formd:000216250526000001": {
+    "first_seen": "2026-10-29",
+    "name": "Agilis Medical, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216253026000001": {
+    "first_seen": "2026-10-29",
+    "name": "Vasopore, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216258526000001": {
+    "first_seen": "2026-10-29",
+    "name": "AI Legal Support LLC",
+    "source": "Form D"
+  },
+  "formd:000216260626000001": {
+    "first_seen": "2026-10-29",
+    "name": "Keystone Growth Partners LP",
+    "source": "Form D"
+  },
+  "formd:000216265526000001": {
+    "first_seen": "2026-10-29",
+    "name": "LC Ventures Holdings LLC",
+    "source": "Form D"
+  },
+  "formd:000216266126000001": {
+    "first_seen": "2026-10-29",
+    "name": "Awakened Grains LLC",
     "source": "Form D"
   },
   "yc:0security": {
@@ -6272,6 +6347,11 @@
   "yc:capveon": {
     "first_seen": "2026-08-20",
     "name": "Capveon",
+    "source": "YC"
+  },
+  "yc:cardinal-square": {
+    "first_seen": "2026-10-29",
+    "name": "Cardinal Square",
     "source": "YC"
   },
   "yc:care-gp": {
@@ -6972,6 +7052,11 @@
   "yc:hickory-and-company": {
     "first_seen": "2026-09-17",
     "name": "Hickory & Company",
+    "source": "YC"
+  },
+  "yc:hillstar": {
+    "first_seen": "2026-10-29",
+    "name": "HillStar",
     "source": "YC"
   },
   "yc:hiloop": {
@@ -8224,6 +8309,11 @@
     "name": "RonanRx Inc.",
     "source": "YC"
   },
+  "yc:routerplus": {
+    "first_seen": "2026-10-29",
+    "name": "RouterPlus",
+    "source": "YC"
+  },
   "yc:rudus": {
     "first_seen": "2026-07-24",
     "name": "Rudus",
@@ -8642,6 +8732,11 @@
   "yc:the-company-company": {
     "first_seen": "2026-07-24",
     "name": "The Company Company",
+    "source": "YC"
+  },
+  "yc:the-letter-company": {
+    "first_seen": "2026-10-29",
+    "name": "The Letter Company",
     "source": "YC"
   },
   "yc:the-subvocal-company": {
