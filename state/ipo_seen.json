@@ -782,7 +782,7 @@
   "1864055": {
     "first_seen": "2026-10-29",
     "name": "Abits Group Inc",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "1864531": {
     "first_seen": "2026-10-02",
@@ -818,6 +818,11 @@
     "first_seen": "2026-08-08",
     "name": "Prenetics Global Ltd",
     "stage": "Amending"
+  },
+  "1879403": {
+    "first_seen": "2026-10-30",
+    "name": "Stratum Holdings Corp.",
+    "stage": "Filed"
   },
   "1880343": {
     "first_seen": "2026-10-17",
@@ -1107,7 +1112,7 @@
   "1995075": {
     "first_seen": "2026-10-21",
     "name": "Megan Holdings Ltd.",
-    "stage": "Filed"
+    "stage": "Priced/IPO"
   },
   "1995704": {
     "first_seen": "2026-07-24",
@@ -2579,6 +2584,11 @@
     "name": "Allarity Acquisition Corp.",
     "stage": "Amending"
   },
+  "2142104": {
+    "first_seen": "2026-10-30",
+    "name": "KAT Construction Services, Inc.",
+    "stage": "Filed"
+  },
   "2142627": {
     "first_seen": "2026-10-01",
     "name": "BHAV Acquisition Corp II",
@@ -2747,6 +2757,11 @@
   "2151905": {
     "first_seen": "2026-09-01",
     "name": "La Beaute Inc.",
+    "stage": "Filed"
+  },
+  "2152549": {
+    "first_seen": "2026-10-30",
+    "name": "Redwoods Acquisition Corp II",
     "stage": "Filed"
   },
   "2152644": {

@@ -429,6 +429,11 @@
     "name": "Veza Innovations Inc.",
     "source": "Form D"
   },
+  "formd:000198164426000004": {
+    "first_seen": "2026-10-30",
+    "name": "BROWN, BROWN & BROWN, INC.",
+    "source": "Form D"
+  },
   "formd:000199534926000004": {
     "first_seen": "2026-10-14",
     "name": "Enthos Circular Feed Technologies, Inc.",
@@ -669,6 +674,11 @@
     "name": "Precision IO Group Inc.",
     "source": "Form D"
   },
+  "formd:000208285026000007": {
+    "first_seen": "2026-10-30",
+    "name": "RESOLV TECHNOLOGY, INC.",
+    "source": "Form D"
+  },
   "formd:000208289426000001": {
     "first_seen": "2026-10-29",
     "name": "BibleX.AI, Inc.",
@@ -822,6 +832,11 @@
   "formd:000212453526000002": {
     "first_seen": "2026-09-15",
     "name": "OpZira, Inc.",
+    "source": "Form D"
+  },
+  "formd:000212531626000001": {
+    "first_seen": "2026-10-30",
+    "name": "Monroe Capital Asset-Backed Finance Company, LP",
     "source": "Form D"
   },
   "formd:000212682626000002": {
@@ -5594,6 +5609,11 @@
     "name": "Campian Inc.",
     "source": "Form D"
   },
+  "formd:000216156226000001": {
+    "first_seen": "2026-10-30",
+    "name": "CCH Partners, Inc.",
+    "source": "Form D"
+  },
   "formd:000216156726000001": {
     "first_seen": "2026-10-23",
     "name": "PCCD Investment, LLC",
@@ -5754,6 +5774,11 @@
     "name": "Hermai Inc.",
     "source": "Form D"
   },
+  "formd:000216216726000001": {
+    "first_seen": "2026-10-30",
+    "name": "thenevercompany.ai Inc.",
+    "source": "Form D"
+  },
   "formd:000216218226000001": {
     "first_seen": "2026-10-28",
     "name": "Merged Systems Inc.",
@@ -5794,9 +5819,19 @@
     "name": "Creeda, Inc.",
     "source": "Form D"
   },
+  "formd:000216240126000001": {
+    "first_seen": "2026-10-30",
+    "name": "Teos Health, LLC",
+    "source": "Form D"
+  },
   "formd:000216248326000001": {
     "first_seen": "2026-10-29",
     "name": "Mainland HNR, LLC",
+    "source": "Form D"
+  },
+  "formd:000216250026000005": {
+    "first_seen": "2026-10-30",
+    "name": "KINGPIX NETWORK LLC",
     "source": "Form D"
   },
   "formd:000216250526000001": {
@@ -5804,9 +5839,19 @@
     "name": "Agilis Medical, Inc.",
     "source": "Form D"
   },
+  "formd:000216252826000001": {
+    "first_seen": "2026-10-30",
+    "name": "Synomis, Inc.",
+    "source": "Form D"
+  },
   "formd:000216253026000001": {
     "first_seen": "2026-10-29",
     "name": "Vasopore, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216254826000001": {
+    "first_seen": "2026-10-30",
+    "name": "Part Time Nanny, Inc.",
     "source": "Form D"
   },
   "formd:000216258526000001": {
@@ -5827,6 +5872,41 @@
   "formd:000216266126000001": {
     "first_seen": "2026-10-29",
     "name": "Awakened Grains LLC",
+    "source": "Form D"
+  },
+  "formd:000216277626000001": {
+    "first_seen": "2026-10-30",
+    "name": "Drink Mockly, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216286326000002": {
+    "first_seen": "2026-10-30",
+    "name": "Ewert Inc",
+    "source": "Form D"
+  },
+  "formd:000216287026000001": {
+    "first_seen": "2026-10-30",
+    "name": "Merion Pest Control, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216291026000001": {
+    "first_seen": "2026-10-30",
+    "name": "Soliton ID, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216296026000001": {
+    "first_seen": "2026-10-30",
+    "name": "Betvisors, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216298226000001": {
+    "first_seen": "2026-10-30",
+    "name": "Now What Publishing LLC",
+    "source": "Form D"
+  },
+  "formd:000216299926000001": {
+    "first_seen": "2026-10-30",
+    "name": "General Compute Inc.",
     "source": "Form D"
   },
   "yc:0security": {
@@ -6754,6 +6834,11 @@
     "name": "Erinys",
     "source": "YC"
   },
+  "yc:ernd": {
+    "first_seen": "2026-10-30",
+    "name": "ernd",
+    "source": "YC"
+  },
   "yc:ethos-space-resources": {
     "first_seen": "2026-08-24",
     "name": "Ethos Space Resources",
@@ -6822,6 +6907,11 @@
   "yc:fire-wallet": {
     "first_seen": "2026-10-16",
     "name": "Fire Wallet",
+    "source": "YC"
+  },
+  "yc:fleety": {
+    "first_seen": "2026-10-30",
+    "name": "Fleety",
     "source": "YC"
   },
   "yc:floracene": {
@@ -7237,6 +7327,11 @@
   "yc:jcode": {
     "first_seen": "2026-08-10",
     "name": "Jcode",
+    "source": "YC"
+  },
+  "yc:jinko": {
+    "first_seen": "2026-10-30",
+    "name": "Jinko",
     "source": "YC"
   },
   "yc:jo": {
@@ -7979,6 +8074,11 @@
     "name": "Perceptron ML",
     "source": "YC"
   },
+  "yc:perceptual-labs": {
+    "first_seen": "2026-10-30",
+    "name": "Perceptual Labs",
+    "source": "YC"
+  },
   "yc:perfectbit-inc": {
     "first_seen": "2026-07-24",
     "name": "PerfectBit, Inc.",
@@ -8189,6 +8289,11 @@
     "name": "RATLOG",
     "source": "YC"
   },
+  "yc:ravenphone": {
+    "first_seen": "2026-10-30",
+    "name": "Raven",
+    "source": "YC"
+  },
   "yc:realpact": {
     "first_seen": "2026-07-24",
     "name": "RealPact",
@@ -8307,6 +8412,11 @@
   "yc:ronanrx-inc": {
     "first_seen": "2026-07-25",
     "name": "RonanRx Inc.",
+    "source": "YC"
+  },
+  "yc:routant": {
+    "first_seen": "2026-10-30",
+    "name": "Routant",
     "source": "YC"
   },
   "yc:routerplus": {
@@ -8992,6 +9102,11 @@
   "yc:viraj-aero": {
     "first_seen": "2026-09-20",
     "name": "Viraj Aero",
+    "source": "YC"
+  },
+  "yc:volaren": {
+    "first_seen": "2026-10-30",
+    "name": "Volaren",
     "source": "YC"
   },
   "yc:volaren-inc": {
