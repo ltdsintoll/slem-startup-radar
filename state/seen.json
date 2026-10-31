@@ -5439,6 +5439,11 @@
     "name": "Altoona Development Ltd Liability Co",
     "source": "Form D"
   },
+  "formd:000216067226000001": {
+    "first_seen": "2026-10-31",
+    "name": "CreateOne Inc.",
+    "source": "Form D"
+  },
   "formd:000216068726000001": {
     "first_seen": "2026-10-19",
     "name": "Nice Robotics, Inc.",
@@ -5452,6 +5457,11 @@
   "formd:000216069226000001": {
     "first_seen": "2026-10-21",
     "name": "Worth Alliance LLC",
+    "source": "Form D"
+  },
+  "formd:000216070026000001": {
+    "first_seen": "2026-10-31",
+    "name": "Tungsten Eagle Development Corp.",
     "source": "Form D"
   },
   "formd:000216071126000001": {
@@ -5524,6 +5534,11 @@
     "name": "Hideout House Acadia, LLC",
     "source": "Form D"
   },
+  "formd:000216099726000001": {
+    "first_seen": "2026-10-31",
+    "name": "GeoForge, Inc.",
+    "source": "Form D"
+  },
   "formd:000216115326000001": {
     "first_seen": "2026-10-22",
     "name": "Arkaea Media Group Inc.",
@@ -5532,6 +5547,11 @@
   "formd:000216118526000001": {
     "first_seen": "2026-10-27",
     "name": "Playbook Games Inc.",
+    "source": "Form D"
+  },
+  "formd:000216119326000001": {
+    "first_seen": "2026-10-31",
+    "name": "Blazzi LLC",
     "source": "Form D"
   },
   "formd:000216121026000001": {
@@ -5587,6 +5607,11 @@
   "formd:000216150826000001": {
     "first_seen": "2026-10-22",
     "name": "RF Gaming Systems, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216151126000001": {
+    "first_seen": "2026-10-31",
+    "name": "Padua High Ltd Liability Co",
     "source": "Form D"
   },
   "formd:000216151926000001": {
@@ -5729,6 +5754,31 @@
     "name": "Chapiter Missions Inc.",
     "source": "Form D"
   },
+  "formd:000216197626000005": {
+    "first_seen": "2026-10-31",
+    "name": "Chapiter Missions Inc.",
+    "source": "Form D"
+  },
+  "formd:000216197626000006": {
+    "first_seen": "2026-10-31",
+    "name": "Chapiter Missions Inc.",
+    "source": "Form D"
+  },
+  "formd:000216197626000007": {
+    "first_seen": "2026-10-31",
+    "name": "Chapiter Missions Inc.",
+    "source": "Form D"
+  },
+  "formd:000216197626000008": {
+    "first_seen": "2026-10-31",
+    "name": "Chapiter Missions Inc.",
+    "source": "Form D"
+  },
+  "formd:000216197626000009": {
+    "first_seen": "2026-10-31",
+    "name": "Chapiter Missions Inc.",
+    "source": "Form D"
+  },
   "formd:000216201526000001": {
     "first_seen": "2026-10-28",
     "name": "Avery & Masa Media, LLC",
@@ -5824,6 +5874,11 @@
     "name": "Teos Health, LLC",
     "source": "Form D"
   },
+  "formd:000216241226000001": {
+    "first_seen": "2026-10-31",
+    "name": "Top Choice Holdings, LLC",
+    "source": "Form D"
+  },
   "formd:000216248326000001": {
     "first_seen": "2026-10-29",
     "name": "Mainland HNR, LLC",
@@ -5874,6 +5929,11 @@
     "name": "Awakened Grains LLC",
     "source": "Form D"
   },
+  "formd:000216266926000001": {
+    "first_seen": "2026-10-31",
+    "name": "Zenith GPO Inc",
+    "source": "Form D"
+  },
   "formd:000216277626000001": {
     "first_seen": "2026-10-30",
     "name": "Drink Mockly, Inc.",
@@ -5889,9 +5949,24 @@
     "name": "Merion Pest Control, Inc.",
     "source": "Form D"
   },
+  "formd:000216288526000001": {
+    "first_seen": "2026-10-31",
+    "name": "Our Fable, Inc.",
+    "source": "Form D"
+  },
   "formd:000216291026000001": {
     "first_seen": "2026-10-30",
     "name": "Soliton ID, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216292226000001": {
+    "first_seen": "2026-10-31",
+    "name": "loopworks, LLC",
+    "source": "Form D"
+  },
+  "formd:000216295226000001": {
+    "first_seen": "2026-10-31",
+    "name": "Palimpsest Bio Corp.",
     "source": "Form D"
   },
   "formd:000216296026000001": {
@@ -5907,6 +5982,16 @@
   "formd:000216299926000001": {
     "first_seen": "2026-10-30",
     "name": "General Compute Inc.",
+    "source": "Form D"
+  },
+  "formd:000216306026000001": {
+    "first_seen": "2026-10-31",
+    "name": "Redwagon Systems Inc.",
+    "source": "Form D"
+  },
+  "formd:000216306026000002": {
+    "first_seen": "2026-10-31",
+    "name": "Redwagon Systems Inc.",
     "source": "Form D"
   },
   "yc:0security": {
@@ -6327,6 +6412,11 @@
   "yc:baud": {
     "first_seen": "2026-07-24",
     "name": "Baud",
+    "source": "YC"
+  },
+  "yc:bayworks": {
+    "first_seen": "2026-10-31",
+    "name": "Bayworks",
     "source": "YC"
   },
   "yc:bear-inc": {
@@ -7514,6 +7604,11 @@
     "name": "Lightsprint",
     "source": "YC"
   },
+  "yc:limnion": {
+    "first_seen": "2026-10-31",
+    "name": "Limnion",
+    "source": "YC"
+  },
   "yc:limrun": {
     "first_seen": "2026-07-24",
     "name": "Limrun",
@@ -8222,6 +8317,11 @@
   "yc:proprio-robotics": {
     "first_seen": "2026-07-24",
     "name": "Proprio Robotics",
+    "source": "YC"
+  },
+  "yc:proto": {
+    "first_seen": "2026-10-31",
+    "name": "Proto",
     "source": "YC"
   },
   "yc:prototypingio": {
