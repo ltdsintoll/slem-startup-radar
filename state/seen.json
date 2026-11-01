@@ -8859,6 +8859,11 @@
     "name": "Synphony",
     "source": "YC"
   },
+  "yc:taanai": {
+    "first_seen": "2026-11-01",
+    "name": "Taan.ai",
+    "source": "YC"
+  },
   "yc:taiga": {
     "first_seen": "2026-07-24",
     "name": "Taiga",
