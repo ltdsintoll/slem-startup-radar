@@ -254,6 +254,11 @@
     "name": "Tru, Inc.",
     "source": "Form D"
   },
+  "formd:000177088826000003": {
+    "first_seen": "2026-11-02",
+    "name": "ECFX, Inc.",
+    "source": "Form D"
+  },
   "formd:000177504226000010": {
     "first_seen": "2026-10-15",
     "name": "Hockey Parent Holdings, L.P.",
@@ -724,6 +729,11 @@
     "name": "Refr Sports Inc.",
     "source": "Form D"
   },
+  "formd:000209555026000003": {
+    "first_seen": "2026-11-02",
+    "name": "Definition II-A LLC",
+    "source": "Form D"
+  },
   "formd:000209727026000001": {
     "first_seen": "2026-10-28",
     "name": "Oiselle, LLC",
@@ -832,6 +842,11 @@
   "formd:000212453526000002": {
     "first_seen": "2026-09-15",
     "name": "OpZira, Inc.",
+    "source": "Form D"
+  },
+  "formd:000212466626000003": {
+    "first_seen": "2026-11-02",
+    "name": "Taxably, Inc.",
     "source": "Form D"
   },
   "formd:000212531626000001": {
@@ -3859,6 +3874,11 @@
     "name": "Legacy AI Technologies, Inc.",
     "source": "Form D"
   },
+  "formd:000215429526000001": {
+    "first_seen": "2026-11-02",
+    "name": "Phytokana Ingredients Inc.",
+    "source": "Form D"
+  },
   "formd:000215430926000001": {
     "first_seen": "2026-09-12",
     "name": "MDF AP Holdings LLC",
@@ -4664,6 +4684,16 @@
     "name": "Definition II-F LLC",
     "source": "Form D"
   },
+  "formd:000215736826000002": {
+    "first_seen": "2026-11-02",
+    "name": "Definition II-F LLC",
+    "source": "Form D"
+  },
+  "formd:000215736826000003": {
+    "first_seen": "2026-11-02",
+    "name": "Definition II-F LLC",
+    "source": "Form D"
+  },
   "formd:000215737626000001": {
     "first_seen": "2026-09-26",
     "name": "SANXUARY LLC",
@@ -5054,6 +5084,11 @@
     "name": "Channel Companion LLC",
     "source": "Form D"
   },
+  "formd:000215907226000001": {
+    "first_seen": "2026-11-02",
+    "name": "MIAMI VICE VENUS LLC",
+    "source": "Form D"
+  },
   "formd:000215907326000001": {
     "first_seen": "2026-10-07",
     "name": "POF Lucky Holdings, Inc.",
@@ -5067,6 +5102,16 @@
   "formd:000215907326000003": {
     "first_seen": "2026-10-07",
     "name": "POF Lucky Holdings, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215907826000001": {
+    "first_seen": "2026-11-02",
+    "name": "MIAMI VICE 29 TERRACE LLC",
+    "source": "Form D"
+  },
+  "formd:000215907926000001": {
+    "first_seen": "2026-11-02",
+    "name": "MIAMI VICE AXXES CAPITAL LLC",
     "source": "Form D"
   },
   "formd:000215908326000001": {
@@ -5247,6 +5292,16 @@
   "formd:000215970426000002": {
     "first_seen": "2026-10-17",
     "name": "VisiCX, Inc",
+    "source": "Form D"
+  },
+  "formd:000215978626000001": {
+    "first_seen": "2026-11-02",
+    "name": "Delos Meridian Corp.",
+    "source": "Form D"
+  },
+  "formd:000215978626000002": {
+    "first_seen": "2026-11-02",
+    "name": "Delos Meridian Corp.",
     "source": "Form D"
   },
   "formd:000215978826000001": {
@@ -5537,6 +5592,11 @@
   "formd:000216099726000001": {
     "first_seen": "2026-10-31",
     "name": "GeoForge, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216103226000001": {
+    "first_seen": "2026-11-02",
+    "name": "LOGOSFI, Inc.",
     "source": "Form D"
   },
   "formd:000216115326000001": {
@@ -5954,6 +6014,11 @@
     "name": "Our Fable, Inc.",
     "source": "Form D"
   },
+  "formd:000216289026000001": {
+    "first_seen": "2026-11-02",
+    "name": "Jana Education San Jose LLC",
+    "source": "Form D"
+  },
   "formd:000216291026000001": {
     "first_seen": "2026-10-30",
     "name": "Soliton ID, Inc.",
@@ -5962,6 +6027,11 @@
   "formd:000216292226000001": {
     "first_seen": "2026-10-31",
     "name": "loopworks, LLC",
+    "source": "Form D"
+  },
+  "formd:000216292426000001": {
+    "first_seen": "2026-11-02",
+    "name": "MOTHER EARTH FATHER GOD FILM LLC",
     "source": "Form D"
   },
   "formd:000216295226000001": {
@@ -5992,6 +6062,11 @@
   "formd:000216306026000002": {
     "first_seen": "2026-10-31",
     "name": "Redwagon Systems Inc.",
+    "source": "Form D"
+  },
+  "formd:000216318726000001": {
+    "first_seen": "2026-11-02",
+    "name": "UpLiv Technologies Inc.",
     "source": "Form D"
   },
   "yc:0security": {
@@ -6492,6 +6567,11 @@
   "yc:byteask": {
     "first_seen": "2026-09-10",
     "name": "ByteAsk",
+    "source": "YC"
+  },
+  "yc:caladh": {
+    "first_seen": "2026-11-02",
+    "name": "Caladh",
     "source": "YC"
   },
   "yc:callab-ai": {
@@ -7457,6 +7537,11 @@
   "yc:kandor": {
     "first_seen": "2026-08-16",
     "name": "Kandor",
+    "source": "YC"
+  },
+  "yc:kanopy": {
+    "first_seen": "2026-11-02",
+    "name": "Kanopy",
     "source": "YC"
   },
   "yc:kara": {
@@ -8542,6 +8627,11 @@
   "yc:runtimesi": {
     "first_seen": "2026-10-14",
     "name": "Runtime.si",
+    "source": "YC"
+  },
+  "yc:ryhla": {
+    "first_seen": "2026-11-02",
+    "name": "Ryhla",
     "source": "YC"
   },
   "yc:rystic": {
