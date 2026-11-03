@@ -1,4 +1,9 @@
 {
+  "formd:000091228226001417": {
+    "first_seen": "2026-11-03",
+    "name": "Geomorphic AI",
+    "source": "Form D"
+  },
   "formd:000092963826004073": {
     "first_seen": "2026-10-29",
     "name": "Trellis Bioscience, Inc.",
@@ -112,6 +117,11 @@
   "formd:000132914726000003": {
     "first_seen": "2026-09-01",
     "name": "Orthobond Corp",
+    "source": "Form D"
+  },
+  "formd:000133968826000003": {
+    "first_seen": "2026-11-03",
+    "name": "Lion Copper Corp.",
     "source": "Form D"
   },
   "formd:000134836226000002": {
@@ -524,9 +534,19 @@
     "name": "Unless LGH Holdings LLC",
     "source": "Form D"
   },
+  "formd:000203372726000001": {
+    "first_seen": "2026-11-03",
+    "name": "Veterinary Care Logistics, Inc.",
+    "source": "Form D"
+  },
   "formd:000203469826000001": {
     "first_seen": "2026-09-15",
     "name": "MSE Acquisitions, Inc.",
+    "source": "Form D"
+  },
+  "formd:000203729726000001": {
+    "first_seen": "2026-11-03",
+    "name": "RadioClash Inc.",
     "source": "Form D"
   },
   "formd:000204248526000002": {
@@ -632,6 +652,11 @@
   "formd:000206235726000471": {
     "first_seen": "2026-10-13",
     "name": "Warner Music Group Corp.",
+    "source": "Form D"
+  },
+  "formd:000206485626000003": {
+    "first_seen": "2026-11-03",
+    "name": "Tibaray, Inc.",
     "source": "Form D"
   },
   "formd:000206497726000001": {
@@ -5874,6 +5899,11 @@
     "name": "Hertha Metals, Inc.",
     "source": "Form D"
   },
+  "formd:000216210026000001": {
+    "first_seen": "2026-11-03",
+    "name": "CH Common Ground Group LLC",
+    "source": "Form D"
+  },
   "formd:000216210626000001": {
     "first_seen": "2026-10-27",
     "name": "Nuckle Ai Corp.",
@@ -5989,6 +6019,11 @@
     "name": "Awakened Grains LLC",
     "source": "Form D"
   },
+  "formd:000216266726000001": {
+    "first_seen": "2026-11-03",
+    "name": "EVIA Life Sciences Inc.",
+    "source": "Form D"
+  },
   "formd:000216266926000001": {
     "first_seen": "2026-10-31",
     "name": "Zenith GPO Inc",
@@ -5997,6 +6032,11 @@
   "formd:000216277626000001": {
     "first_seen": "2026-10-30",
     "name": "Drink Mockly, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216281426000001": {
+    "first_seen": "2026-11-03",
+    "name": "Sarah247, Inc.",
     "source": "Form D"
   },
   "formd:000216286326000002": {
@@ -6019,6 +6059,11 @@
     "name": "Jana Education San Jose LLC",
     "source": "Form D"
   },
+  "formd:000216290726000001": {
+    "first_seen": "2026-11-03",
+    "name": "BC Movie, LLC",
+    "source": "Form D"
+  },
   "formd:000216291026000001": {
     "first_seen": "2026-10-30",
     "name": "Soliton ID, Inc.",
@@ -6032,6 +6077,11 @@
   "formd:000216292426000001": {
     "first_seen": "2026-11-02",
     "name": "MOTHER EARTH FATHER GOD FILM LLC",
+    "source": "Form D"
+  },
+  "formd:000216294826000001": {
+    "first_seen": "2026-11-03",
+    "name": "KPK LTH LLC",
     "source": "Form D"
   },
   "formd:000216295226000001": {
@@ -6049,9 +6099,19 @@
     "name": "Now What Publishing LLC",
     "source": "Form D"
   },
+  "formd:000216299126000001": {
+    "first_seen": "2026-11-03",
+    "name": "HealthPAT Inc.",
+    "source": "Form D"
+  },
   "formd:000216299926000001": {
     "first_seen": "2026-10-30",
     "name": "General Compute Inc.",
+    "source": "Form D"
+  },
+  "formd:000216301426000001": {
+    "first_seen": "2026-11-03",
+    "name": "MoFlo Acquisitions, Inc.",
     "source": "Form D"
   },
   "formd:000216306026000001": {
@@ -6064,9 +6124,29 @@
     "name": "Redwagon Systems Inc.",
     "source": "Form D"
   },
+  "formd:000216311126000001": {
+    "first_seen": "2026-11-03",
+    "name": "Mru Aerospace, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216315726000001": {
+    "first_seen": "2026-11-03",
+    "name": "Blackshark.ai Inc.",
+    "source": "Form D"
+  },
+  "formd:000216317626000001": {
+    "first_seen": "2026-11-03",
+    "name": "KNOWN HOSPITALITY GROUP LLC",
+    "source": "Form D"
+  },
   "formd:000216318726000001": {
     "first_seen": "2026-11-02",
     "name": "UpLiv Technologies Inc.",
+    "source": "Form D"
+  },
+  "formd:000216319626000001": {
+    "first_seen": "2026-11-03",
+    "name": "Energetic Events, Inc.",
     "source": "Form D"
   },
   "yc:0security": {
