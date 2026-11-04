@@ -324,6 +324,11 @@
     "name": "CivicPlus Holdings, LLC",
     "source": "Form D"
   },
+  "formd:000189025426000003": {
+    "first_seen": "2026-11-04",
+    "name": "Allina Health Surgery Center - Brooklyn Park, LLC",
+    "source": "Form D"
+  },
   "formd:000189209526000002": {
     "first_seen": "2026-09-29",
     "name": "Landline Co",
@@ -342,6 +347,16 @@
   "formd:000191551926000003": {
     "first_seen": "2026-09-15",
     "name": "Equabli Holdings, Inc.",
+    "source": "Form D"
+  },
+  "formd:000191797326000004": {
+    "first_seen": "2026-11-04",
+    "name": "Impossible Diamond, Inc.",
+    "source": "Form D"
+  },
+  "formd:000191797326000005": {
+    "first_seen": "2026-11-04",
+    "name": "Impossible Diamond, Inc.",
     "source": "Form D"
   },
   "formd:000192472726000003": {
@@ -472,6 +487,11 @@
   "formd:000200043126000001": {
     "first_seen": "2026-09-04",
     "name": "Switchboard Health, Inc.",
+    "source": "Form D"
+  },
+  "formd:000200150726000001": {
+    "first_seen": "2026-11-04",
+    "name": "EVENERGI LABS INC.",
     "source": "Form D"
   },
   "formd:000200162226000003": {
@@ -642,6 +662,16 @@
   "formd:000206075526000061": {
     "first_seen": "2026-10-21",
     "name": "Conexeu Sciences Inc.",
+    "source": "Form D"
+  },
+  "formd:000206162826000003": {
+    "first_seen": "2026-11-04",
+    "name": "SIMSALASIM INC.",
+    "source": "Form D"
+  },
+  "formd:000206162826000004": {
+    "first_seen": "2026-11-04",
+    "name": "SIMSALASIM INC.",
     "source": "Form D"
   },
   "formd:000206186326000003": {
@@ -1189,6 +1219,11 @@
     "name": "Echoes & Ember, Inc.",
     "source": "Form D"
   },
+  "formd:000214410326000007": {
+    "first_seen": "2026-11-04",
+    "name": "Arentha, Inc.",
+    "source": "Form D"
+  },
   "formd:000214411926000001": {
     "first_seen": "2026-08-04",
     "name": "Gaingels Tasklet June 2026 LLC",
@@ -1211,6 +1246,11 @@
   },
   "formd:000214429026000001": {
     "first_seen": "2026-07-24",
+    "name": "Datifact Inc.",
+    "source": "Form D"
+  },
+  "formd:000214429026000003": {
+    "first_seen": "2026-11-04",
     "name": "Datifact Inc.",
     "source": "Form D"
   },
@@ -5719,6 +5759,11 @@
     "name": "Campian Inc.",
     "source": "Form D"
   },
+  "formd:000216155426000001": {
+    "first_seen": "2026-11-04",
+    "name": "Sigma5 Inc.",
+    "source": "Form D"
+  },
   "formd:000216156226000001": {
     "first_seen": "2026-10-30",
     "name": "CCH Partners, Inc.",
@@ -5944,6 +5989,11 @@
     "name": "J&A Capital Management Holdings, LLC",
     "source": "Form D"
   },
+  "formd:000216234726000001": {
+    "first_seen": "2026-11-04",
+    "name": "Newcoda, Inc.",
+    "source": "Form D"
+  },
   "formd:000216236826000001": {
     "first_seen": "2026-10-28",
     "name": "Jamboree Games, LLC",
@@ -6064,9 +6114,19 @@
     "name": "BC Movie, LLC",
     "source": "Form D"
   },
+  "formd:000216290926000001": {
+    "first_seen": "2026-11-04",
+    "name": "ElaiVee Ventures, LLC",
+    "source": "Form D"
+  },
   "formd:000216291026000001": {
     "first_seen": "2026-10-30",
     "name": "Soliton ID, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216291526000001": {
+    "first_seen": "2026-11-04",
+    "name": "H. PLUM PRODUCTIONS, LLC",
     "source": "Form D"
   },
   "formd:000216292226000001": {
@@ -6124,6 +6184,11 @@
     "name": "Redwagon Systems Inc.",
     "source": "Form D"
   },
+  "formd:000216310926000001": {
+    "first_seen": "2026-11-04",
+    "name": "MedRev Capital LLC",
+    "source": "Form D"
+  },
   "formd:000216311126000001": {
     "first_seen": "2026-11-03",
     "name": "Mru Aerospace, Inc.",
@@ -6147,6 +6212,16 @@
   "formd:000216319626000001": {
     "first_seen": "2026-11-03",
     "name": "Energetic Events, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216338626000001": {
+    "first_seen": "2026-11-04",
+    "name": "Yipio Inc.",
+    "source": "Form D"
+  },
+  "formd:000216352626000001": {
+    "first_seen": "2026-11-04",
+    "name": "House Fly Home Services, Inc.",
     "source": "Form D"
   },
   "yc:0security": {
@@ -6257,6 +6332,11 @@
   "yc:aikido-technologies": {
     "first_seen": "2026-10-28",
     "name": "Aikido Technologies",
+    "source": "YC"
+  },
+  "yc:ailit": {
+    "first_seen": "2026-11-04",
+    "name": "Ailit",
     "source": "YC"
   },
   "yc:akkari": {
@@ -7092,6 +7172,11 @@
   "yc:ethos-space-resources": {
     "first_seen": "2026-08-24",
     "name": "Ethos Space Resources",
+    "source": "YC"
+  },
+  "yc:evardi": {
+    "first_seen": "2026-11-04",
+    "name": "Evardi",
     "source": "YC"
   },
   "yc:evergrove": {

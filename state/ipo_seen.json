@@ -772,7 +772,7 @@
   "1859199": {
     "first_seen": "2026-10-23",
     "name": "reAlpha Tech Corp.",
-    "stage": "Filed"
+    "stage": "Priced/IPO"
   },
   "1862463": {
     "first_seen": "2026-07-24",
@@ -1259,6 +1259,11 @@
     "name": "Click Holdings Ltd.",
     "stage": "Filed"
   },
+  "2020228": {
+    "first_seen": "2026-11-04",
+    "name": "Masonglory Ltd",
+    "stage": "Filed"
+  },
   "2020737": {
     "first_seen": "2026-10-28",
     "name": "Caring Brands, Inc.",
@@ -1283,6 +1288,11 @@
     "first_seen": "2026-08-26",
     "name": "HomesToLife Ltd",
     "stage": "Amending"
+  },
+  "2023796": {
+    "first_seen": "2026-11-04",
+    "name": "Fitness Champs Holdings Ltd",
+    "stage": "Filed"
   },
   "2024258": {
     "first_seen": "2026-07-24",
