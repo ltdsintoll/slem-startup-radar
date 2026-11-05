@@ -139,6 +139,11 @@
     "name": "J3 BIOSCIENCE, INC.",
     "source": "Form D"
   },
+  "formd:000142362526000005": {
+    "first_seen": "2026-11-05",
+    "name": "MD INVESTMENT LLC",
+    "source": "Form D"
+  },
   "formd:000142428826000006": {
     "first_seen": "2026-10-14",
     "name": "AFFINITY BIOSENSORS LLC",
@@ -774,9 +779,19 @@
     "name": "Cowrie Creek, Inc.",
     "source": "Form D"
   },
+  "formd:000209232126000003": {
+    "first_seen": "2026-11-05",
+    "name": "VentureCare Partners Inc.",
+    "source": "Form D"
+  },
   "formd:000209247926000001": {
     "first_seen": "2026-10-13",
     "name": "Opportunity TV, Inc.",
+    "source": "Form D"
+  },
+  "formd:000209490926000001": {
+    "first_seen": "2026-11-05",
+    "name": "NOVA BOULDERS LLC",
     "source": "Form D"
   },
   "formd:000209493826000001": {
@@ -4944,6 +4959,11 @@
     "name": "RAKIYA SYSTEMS, INC.",
     "source": "Form D"
   },
+  "formd:000215803026000002": {
+    "first_seen": "2026-11-05",
+    "name": "RAKIYA SYSTEMS, INC.",
+    "source": "Form D"
+  },
   "formd:000215803226000001": {
     "first_seen": "2026-10-02",
     "name": "JABNE TabSense, LLC",
@@ -5232,6 +5252,11 @@
   "formd:000215927626000001": {
     "first_seen": "2026-10-08",
     "name": "Capsage, Inc.",
+    "source": "Form D"
+  },
+  "formd:000215928226000001": {
+    "first_seen": "2026-11-05",
+    "name": "Inner Grandma, Inc.",
     "source": "Form D"
   },
   "formd:000215928826000001": {
@@ -5717,6 +5742,11 @@
   "formd:000216133726000001": {
     "first_seen": "2026-10-22",
     "name": "Deanna Labs, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216136126000001": {
+    "first_seen": "2026-11-05",
+    "name": "THEZERO INC.",
     "source": "Form D"
   },
   "formd:000216139926000001": {
@@ -6214,14 +6244,49 @@
     "name": "Energetic Events, Inc.",
     "source": "Form D"
   },
+  "formd:000216322226000001": {
+    "first_seen": "2026-11-05",
+    "name": "Vuelta Holdings LP",
+    "source": "Form D"
+  },
   "formd:000216338626000001": {
     "first_seen": "2026-11-04",
     "name": "Yipio Inc.",
     "source": "Form D"
   },
+  "formd:000216349726000001": {
+    "first_seen": "2026-11-05",
+    "name": "Lift Managing Partners LLC",
+    "source": "Form D"
+  },
+  "formd:000216351426000001": {
+    "first_seen": "2026-11-05",
+    "name": "TOPWATER CATTLE Co ACQUISITION POOL 2, LLC",
+    "source": "Form D"
+  },
   "formd:000216352626000001": {
     "first_seen": "2026-11-04",
     "name": "House Fly Home Services, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216358726000001": {
+    "first_seen": "2026-11-05",
+    "name": "Giraffe Gold Holdings LLC",
+    "source": "Form D"
+  },
+  "formd:000216365326000001": {
+    "first_seen": "2026-11-05",
+    "name": "Harmonee AI Inc.",
+    "source": "Form D"
+  },
+  "formd:000216369526000001": {
+    "first_seen": "2026-11-05",
+    "name": "Krossings, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216372426000001": {
+    "first_seen": "2026-11-05",
+    "name": "PulsePoint Lake Norman ASC, LLC",
     "source": "Form D"
   },
   "yc:0security": {
@@ -6434,6 +6499,11 @@
     "name": "AnyAlpha",
     "source": "YC"
   },
+  "yc:anywhere": {
+    "first_seen": "2026-11-05",
+    "name": "Anywhere",
+    "source": "YC"
+  },
   "yc:apollo-atomics-inc": {
     "first_seen": "2026-07-24",
     "name": "Apollo Atomics, Inc.",
@@ -6637,6 +6707,11 @@
   "yc:axelrod": {
     "first_seen": "2026-07-24",
     "name": "Axelrod",
+    "source": "YC"
+  },
+  "yc:axiomat": {
+    "first_seen": "2026-11-05",
+    "name": "Axiomat",
     "source": "YC"
   },
   "yc:axonnic": {
@@ -8244,6 +8319,11 @@
     "name": "OpenHack",
     "source": "YC"
   },
+  "yc:openlake-technologies": {
+    "first_seen": "2026-11-05",
+    "name": "OpenLake Technologies",
+    "source": "YC"
+  },
   "yc:openprose": {
     "first_seen": "2026-07-24",
     "name": "OpenProse",
@@ -8302,6 +8382,11 @@
   "yc:orchestra": {
     "first_seen": "2026-09-07",
     "name": "Orchestra",
+    "source": "YC"
+  },
+  "yc:organizely": {
+    "first_seen": "2026-11-05",
+    "name": "Organizely",
     "source": "YC"
   },
   "yc:orgo": {
@@ -9302,6 +9387,11 @@
   "yc:trellistech": {
     "first_seen": "2026-07-24",
     "name": "Trellis",
+    "source": "YC"
+  },
+  "yc:trepo": {
+    "first_seen": "2026-11-05",
+    "name": "Trepo",
     "source": "YC"
   },
   "yc:trident": {

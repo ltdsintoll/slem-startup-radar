@@ -2,8 +2,33 @@
   "1045810": {
     "ticker": "NVDA",
     "company": "NVIDIA CORP",
-    "articles": [],
-    "source": "no-data"
+    "articles": [
+      {
+        "title": "S & P 500 rises as Nvidia , AI stocks rally despite Apple decline",
+        "url": "https://thebusinessjournal.com/sp-500-rises-nvidia-ai-stocks-apple-wall-street/",
+        "domain": "thebusinessjournal.com",
+        "date": "2026-11-04",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "ASUS ProArt P16 / P14 laptops with NVIDIA RTX Spark N1X processor , ProArt Mouse MD301 and ProArt Keyboard KD300 launched in India",
+        "url": "https://www.fonearena.com/blog/496283/asus-proart-p16-p14-price-india-features.html",
+        "domain": "fonearena.com",
+        "date": "2026-11-03",
+        "sentiment_label": "позитив",
+        "sentiment_score": 1
+      },
+      {
+        "title": "Nvidia Orders Partners to Reduce China Exposure",
+        "url": "http://www.bgnes.com/technology/nvidia-orders-partners-to-reduce-china-exposure",
+        "domain": "bgnes.com",
+        "date": "2026-11-03",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      }
+    ],
+    "source": "gdelt"
   },
   "1321655": {
     "ticker": "PLTR",
@@ -14,8 +39,17 @@
   "789019": {
     "ticker": "MSFT",
     "company": "MICROSOFT CORP",
-    "articles": [],
-    "source": "no-data"
+    "articles": [
+      {
+        "title": "Microsoft $25 Billion Bond Sale for AI Growth - Pragativadi I Latest Odisha News in English I Breaking News",
+        "url": "https://pragativadi.com/microsoft-25-billion-bond-sale-to-fund-innovations/",
+        "domain": "pragativadi.com",
+        "date": "2026-11-03",
+        "sentiment_label": "позитив",
+        "sentiment_score": 1
+      }
+    ],
+    "source": "gdelt"
   },
   "320193": {
     "ticker": "AAPL",
