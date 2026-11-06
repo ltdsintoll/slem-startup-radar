@@ -249,6 +249,11 @@
     "name": "Commure, Inc.",
     "source": "Form D"
   },
+  "formd:000173088126000004": {
+    "first_seen": "2026-11-06",
+    "name": "Endogenex, Inc.",
+    "source": "Form D"
+  },
   "formd:000173763026000003": {
     "first_seen": "2026-09-10",
     "name": "TBC - The Boring Co",
@@ -277,6 +282,11 @@
   "formd:000177504226000010": {
     "first_seen": "2026-10-15",
     "name": "Hockey Parent Holdings, L.P.",
+    "source": "Form D"
+  },
+  "formd:000177861426000006": {
+    "first_seen": "2026-11-06",
+    "name": "Infinite Cooling Inc.",
     "source": "Form D"
   },
   "formd:000178179826000003": {
@@ -312,6 +322,11 @@
   "formd:000182083226000002": {
     "first_seen": "2026-10-15",
     "name": "AeroShield Materials, Inc.",
+    "source": "Form D"
+  },
+  "formd:000182330326000001": {
+    "first_seen": "2026-11-06",
+    "name": "Callpod, Inc.",
     "source": "Form D"
   },
   "formd:000185317526000003": {
@@ -457,6 +472,11 @@
   "formd:000197920726000004": {
     "first_seen": "2026-09-18",
     "name": "UrgentIQ Inc.",
+    "source": "Form D"
+  },
+  "formd:000197989626000004": {
+    "first_seen": "2026-11-06",
+    "name": "LeapGreat Inc.",
     "source": "Form D"
   },
   "formd:000198119126000003": {
@@ -814,6 +834,11 @@
     "name": "LASTpatient Inc.",
     "source": "Form D"
   },
+  "formd:000210058026000001": {
+    "first_seen": "2026-11-06",
+    "name": "Multikor.ai, Inc.",
+    "source": "Form D"
+  },
   "formd:000210088226000002": {
     "first_seen": "2026-09-25",
     "name": "16S Irrigation Investors LLC",
@@ -882,6 +907,11 @@
   "formd:000211253526000003": {
     "first_seen": "2026-09-15",
     "name": "NeuroMuse Inc.",
+    "source": "Form D"
+  },
+  "formd:000211255226000002": {
+    "first_seen": "2026-11-06",
+    "name": "AlphaLitigation Inc.",
     "source": "Form D"
   },
   "formd:000211304426000002": {
@@ -2662,6 +2692,11 @@
   "formd:000214964726000001": {
     "first_seen": "2026-08-19",
     "name": "Obsidian Security, Inc.",
+    "source": "Form D"
+  },
+  "formd:000214965826000003": {
+    "first_seen": "2026-11-06",
+    "name": "Vyse Air GmbH",
     "source": "Form D"
   },
   "formd:000214969226000001": {
@@ -5474,6 +5509,11 @@
     "name": "Vernex, Inc.",
     "source": "Form D"
   },
+  "formd:000216022426000002": {
+    "first_seen": "2026-11-06",
+    "name": "Helande Innovations, Inc.",
+    "source": "Form D"
+  },
   "formd:000216023826000001": {
     "first_seen": "2026-10-15",
     "name": "UnityCore, Inc.",
@@ -6004,6 +6044,11 @@
     "name": "Hirostar USA, Inc.",
     "source": "Form D"
   },
+  "formd:000216223826000001": {
+    "first_seen": "2026-11-06",
+    "name": "Skroot Laboratory Inc.",
+    "source": "Form D"
+  },
   "formd:000216226626000001": {
     "first_seen": "2026-10-29",
     "name": "Sami & Hertzel, LLC",
@@ -6012,6 +6057,11 @@
   "formd:000216229726000001": {
     "first_seen": "2026-10-28",
     "name": "Luma MDX Solutions, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216232826000001": {
+    "first_seen": "2026-11-06",
+    "name": "Aureum Studios Inc.",
     "source": "Form D"
   },
   "formd:000216233426000001": {
@@ -6229,6 +6279,11 @@
     "name": "Blackshark.ai Inc.",
     "source": "Form D"
   },
+  "formd:000216315926000001": {
+    "first_seen": "2026-11-06",
+    "name": "Marvelous United Inc.",
+    "source": "Form D"
+  },
   "formd:000216317626000001": {
     "first_seen": "2026-11-03",
     "name": "KNOWN HOSPITALITY GROUP LLC",
@@ -6274,6 +6329,11 @@
     "name": "Giraffe Gold Holdings LLC",
     "source": "Form D"
   },
+  "formd:000216361926000002": {
+    "first_seen": "2026-11-06",
+    "name": "SF Beverages, Inc.",
+    "source": "Form D"
+  },
   "formd:000216365326000001": {
     "first_seen": "2026-11-05",
     "name": "Harmonee AI Inc.",
@@ -6287,6 +6347,26 @@
   "formd:000216372426000001": {
     "first_seen": "2026-11-05",
     "name": "PulsePoint Lake Norman ASC, LLC",
+    "source": "Form D"
+  },
+  "formd:000216375026000001": {
+    "first_seen": "2026-11-06",
+    "name": "Stealth Critical Metals Inc",
+    "source": "Form D"
+  },
+  "formd:000216375326000002": {
+    "first_seen": "2026-11-06",
+    "name": "Sanaren, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216384026000001": {
+    "first_seen": "2026-11-06",
+    "name": "Locaition Matters Inc.",
+    "source": "Form D"
+  },
+  "formd:000216409126000001": {
+    "first_seen": "2026-11-06",
+    "name": "Duck Island Project LLC",
     "source": "Form D"
   },
   "yc:0security": {
@@ -6317,6 +6397,11 @@
   "yc:acyclic": {
     "first_seen": "2026-10-07",
     "name": "Acyclic Labs",
+    "source": "YC"
+  },
+  "yc:adalat-ai": {
+    "first_seen": "2026-11-06",
+    "name": "Adalat AI",
     "source": "YC"
   },
   "yc:adialante": {
@@ -6872,6 +6957,11 @@
   "yc:cesara": {
     "first_seen": "2026-10-21",
     "name": "Cesara",
+    "source": "YC"
+  },
+  "yc:championeffect-inc": {
+    "first_seen": "2026-11-06",
+    "name": "ChampionEffect Inc.",
     "source": "YC"
   },
   "yc:characterquilt": {
@@ -8564,6 +8654,11 @@
     "name": "Ploid",
     "source": "YC"
   },
+  "yc:plover-labs": {
+    "first_seen": "2026-11-06",
+    "name": "Plover Labs",
+    "source": "YC"
+  },
   "yc:ploy": {
     "first_seen": "2026-07-24",
     "name": "Ploy",
@@ -8732,6 +8827,11 @@
   "yc:realpact": {
     "first_seen": "2026-07-24",
     "name": "RealPact",
+    "source": "YC"
+  },
+  "yc:reason-machines": {
+    "first_seen": "2026-11-06",
+    "name": "Reason Machines",
     "source": "YC"
   },
   "yc:reasonblocks": {
@@ -9537,6 +9637,11 @@
   "yc:vernius-systems-inc": {
     "first_seen": "2026-08-16",
     "name": "Vernius Systems, Inc.",
+    "source": "YC"
+  },
+  "yc:versine": {
+    "first_seen": "2026-11-06",
+    "name": "Versine",
     "source": "YC"
   },
   "yc:vestris": {
