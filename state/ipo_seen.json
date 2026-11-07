@@ -641,8 +641,8 @@
   },
   "1826011": {
     "first_seen": "2026-07-24",
-    "name": "Banzai International, Inc.",
-    "stage": "Amending"
+    "name": "Parabolic Technologies, Inc.",
+    "stage": "Priced/IPO"
   },
   "1826892": {
     "first_seen": "2026-10-20",
@@ -907,7 +907,7 @@
   "1907709": {
     "first_seen": "2026-10-10",
     "name": "vVARDIS Holding AG",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "1911545": {
     "first_seen": "2026-07-30",
@@ -927,6 +927,11 @@
   "1912966": {
     "first_seen": "2026-07-24",
     "name": "REGENTIS BIOMATERIALS LTD.",
+    "stage": "Filed"
+  },
+  "1916331": {
+    "first_seen": "2026-11-07",
+    "name": "Neo-Concept International Group Holdings Ltd",
     "stage": "Filed"
   },
   "1921603": {
@@ -1067,7 +1072,7 @@
   "1973276": {
     "first_seen": "2026-10-27",
     "name": "LIS Technologies Inc",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "1976923": {
     "first_seen": "2026-08-12",
@@ -1198,6 +1203,11 @@
     "first_seen": "2026-07-24",
     "name": "Ionic Digital Inc.",
     "stage": "Priced/IPO"
+  },
+  "2010788": {
+    "first_seen": "2026-11-07",
+    "name": "EXOZYMES INC.",
+    "stage": "Filed"
   },
   "2011617": {
     "first_seen": "2026-07-30",
@@ -2177,7 +2187,7 @@
   "2113733": {
     "first_seen": "2026-09-02",
     "name": "Bogd FT Ltd",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2114145": {
     "first_seen": "2026-07-29",
@@ -2188,6 +2198,11 @@
     "first_seen": "2026-07-24",
     "name": "Churchill Capital Corp XIII",
     "stage": "Priced/IPO"
+  },
+  "2114402": {
+    "first_seen": "2026-11-07",
+    "name": "AParadise III Acquisition Corp.",
+    "stage": "Filed"
   },
   "2115027": {
     "first_seen": "2026-07-24",
@@ -2343,6 +2358,11 @@
     "first_seen": "2026-07-24",
     "name": "Jersey Mike's Subs Inc.",
     "stage": "Priced/IPO"
+  },
+  "2127447": {
+    "first_seen": "2026-11-07",
+    "name": "Guitar Group Ltd",
+    "stage": "Filed"
   },
   "2128045": {
     "first_seen": "2026-07-24",
@@ -2508,6 +2528,11 @@
     "first_seen": "2026-08-05",
     "name": "Albatross Acquisition Corp",
     "stage": "Amending"
+  },
+  "2136246": {
+    "first_seen": "2026-11-07",
+    "name": "BEHNEH Ltd",
+    "stage": "Filed"
   },
   "2136360": {
     "first_seen": "2026-07-24",
@@ -2684,6 +2709,11 @@
     "name": "Jaovi Inc.",
     "stage": "Amending"
   },
+  "2144445": {
+    "first_seen": "2026-11-07",
+    "name": "UC Automotive Holdings Inc.",
+    "stage": "Filed"
+  },
   "2145089": {
     "first_seen": "2026-10-24",
     "name": "WINDWARD BIO GROUP AG",
@@ -2859,6 +2889,11 @@
     "name": "Cashlin",
     "stage": "Filed"
   },
+  "2156369": {
+    "first_seen": "2026-11-07",
+    "name": "Hifortune Holdings Inc",
+    "stage": "Filed"
+  },
   "2156779": {
     "first_seen": "2026-10-14",
     "name": "EuroSPAC Acquisition Corp.",
@@ -2882,6 +2917,16 @@
   "2159678": {
     "first_seen": "2026-10-14",
     "name": "Apex Treasury Corp II",
+    "stage": "Filed"
+  },
+  "2160422": {
+    "first_seen": "2026-11-07",
+    "name": "Kartoon Studios Acquisition Corp",
+    "stage": "Filed"
+  },
+  "2161470": {
+    "first_seen": "2026-11-07",
+    "name": "Holvek Technologies Corp",
     "stage": "Filed"
   },
   "351998": {

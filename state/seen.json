@@ -6169,6 +6169,16 @@
     "name": "Sarah247, Inc.",
     "source": "Form D"
   },
+  "formd:000216282426000001": {
+    "first_seen": "2026-11-07",
+    "name": "Agency Tool Co",
+    "source": "Form D"
+  },
+  "formd:000216282426000002": {
+    "first_seen": "2026-11-07",
+    "name": "Agency Tool Co",
+    "source": "Form D"
+  },
   "formd:000216286326000002": {
     "first_seen": "2026-10-30",
     "name": "Ewert Inc",
@@ -6187,6 +6197,11 @@
   "formd:000216289026000001": {
     "first_seen": "2026-11-02",
     "name": "Jana Education San Jose LLC",
+    "source": "Form D"
+  },
+  "formd:000216290526000001": {
+    "first_seen": "2026-11-07",
+    "name": "Flax Technologies, Inc.",
     "source": "Form D"
   },
   "formd:000216290726000001": {
@@ -6234,14 +6249,44 @@
     "name": "Betvisors, Inc.",
     "source": "Form D"
   },
+  "formd:000216297326000001": {
+    "first_seen": "2026-11-07",
+    "name": "Life Impact Partners 8 LLC",
+    "source": "Form D"
+  },
   "formd:000216298226000001": {
     "first_seen": "2026-10-30",
     "name": "Now What Publishing LLC",
     "source": "Form D"
   },
+  "formd:000216298926000001": {
+    "first_seen": "2026-11-07",
+    "name": "Shader Effects Inc",
+    "source": "Form D"
+  },
   "formd:000216299126000001": {
     "first_seen": "2026-11-03",
     "name": "HealthPAT Inc.",
+    "source": "Form D"
+  },
+  "formd:000216299226000001": {
+    "first_seen": "2026-11-07",
+    "name": "Life Impact Partners 2 LLC",
+    "source": "Form D"
+  },
+  "formd:000216299326000001": {
+    "first_seen": "2026-11-07",
+    "name": "Life Impact Partners 4 LLC",
+    "source": "Form D"
+  },
+  "formd:000216299426000001": {
+    "first_seen": "2026-11-07",
+    "name": "Life Impact Partners 5 LLC",
+    "source": "Form D"
+  },
+  "formd:000216299526000001": {
+    "first_seen": "2026-11-07",
+    "name": "Life Impact Partners 3 LLC",
     "source": "Form D"
   },
   "formd:000216299926000001": {
@@ -6254,6 +6299,16 @@
     "name": "MoFlo Acquisitions, Inc.",
     "source": "Form D"
   },
+  "formd:000216301726000001": {
+    "first_seen": "2026-11-07",
+    "name": "Life Impact Partners 6 LLC",
+    "source": "Form D"
+  },
+  "formd:000216302426000001": {
+    "first_seen": "2026-11-07",
+    "name": "Life Impact Partners 7 LLC",
+    "source": "Form D"
+  },
   "formd:000216306026000001": {
     "first_seen": "2026-10-31",
     "name": "Redwagon Systems Inc.",
@@ -6262,6 +6317,11 @@
   "formd:000216306026000002": {
     "first_seen": "2026-10-31",
     "name": "Redwagon Systems Inc.",
+    "source": "Form D"
+  },
+  "formd:000216307726000001": {
+    "first_seen": "2026-11-07",
+    "name": "Envex AI, Inc.",
     "source": "Form D"
   },
   "formd:000216310926000001": {
@@ -6282,6 +6342,16 @@
   "formd:000216315926000001": {
     "first_seen": "2026-11-06",
     "name": "Marvelous United Inc.",
+    "source": "Form D"
+  },
+  "formd:000216316526000001": {
+    "first_seen": "2026-11-07",
+    "name": "Command Leaders, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216316526000002": {
+    "first_seen": "2026-11-07",
+    "name": "Command Leaders, Inc.",
     "source": "Form D"
   },
   "formd:000216317626000001": {
@@ -6307,6 +6377,16 @@
   "formd:000216338626000001": {
     "first_seen": "2026-11-04",
     "name": "Yipio Inc.",
+    "source": "Form D"
+  },
+  "formd:000216346226000001": {
+    "first_seen": "2026-11-07",
+    "name": "HAWKEYE GROUP, LLC /IN/",
+    "source": "Form D"
+  },
+  "formd:000216347326000002": {
+    "first_seen": "2026-11-07",
+    "name": "PHASES OF THE MOON LLC",
     "source": "Form D"
   },
   "formd:000216349726000001": {
@@ -6359,14 +6439,74 @@
     "name": "Sanaren, Inc.",
     "source": "Form D"
   },
+  "formd:000216379726000001": {
+    "first_seen": "2026-11-07",
+    "name": "Krabby Co Inc.",
+    "source": "Form D"
+  },
   "formd:000216384026000001": {
     "first_seen": "2026-11-06",
     "name": "Locaition Matters Inc.",
     "source": "Form D"
   },
+  "formd:000216384126000001": {
+    "first_seen": "2026-11-07",
+    "name": "Armnivore LLC",
+    "source": "Form D"
+  },
+  "formd:000216390026000001": {
+    "first_seen": "2026-11-07",
+    "name": "Boring Radiology, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216391826000001": {
+    "first_seen": "2026-11-07",
+    "name": "Sunshine Buns, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216396326000001": {
+    "first_seen": "2026-11-07",
+    "name": "1DER, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216396326000002": {
+    "first_seen": "2026-11-07",
+    "name": "1DER, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216396726000002": {
+    "first_seen": "2026-11-07",
+    "name": "Lumon Solutions Marshfield, LLC",
+    "source": "Form D"
+  },
+  "formd:000216406626000001": {
+    "first_seen": "2026-11-07",
+    "name": "PVP1 Brunswick, LLC",
+    "source": "Form D"
+  },
+  "formd:000216406926000001": {
+    "first_seen": "2026-11-07",
+    "name": "OH Strongsville Marks Rd, LLC",
+    "source": "Form D"
+  },
   "formd:000216409126000001": {
     "first_seen": "2026-11-06",
     "name": "Duck Island Project LLC",
+    "source": "Form D"
+  },
+  "formd:000216415926000001": {
+    "first_seen": "2026-11-07",
+    "name": "Squawker Inc",
+    "source": "Form D"
+  },
+  "formd:000216416026000001": {
+    "first_seen": "2026-11-07",
+    "name": "GiftWellSoon, LLC",
+    "source": "Form D"
+  },
+  "formd:000216421026000001": {
+    "first_seen": "2026-11-07",
+    "name": "RABKDO LTH LLC",
     "source": "Form D"
   },
   "yc:0security": {
@@ -8854,6 +8994,11 @@
     "name": "Regbase",
     "source": "YC"
   },
+  "yc:reific": {
+    "first_seen": "2026-11-07",
+    "name": "Reific",
+    "source": "YC"
+  },
   "yc:rekursivai": {
     "first_seen": "2026-07-24",
     "name": "rekursiv.ai",
@@ -8887,6 +9032,11 @@
   "yc:rex-inc": {
     "first_seen": "2026-07-24",
     "name": "Rex",
+    "source": "YC"
+  },
+  "yc:rezora-io": {
+    "first_seen": "2026-11-07",
+    "name": "Rezora IO",
     "source": "YC"
   },
   "yc:rhem-labs": {
