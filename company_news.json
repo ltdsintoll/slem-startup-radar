@@ -4,28 +4,44 @@
     "company": "NVIDIA CORP",
     "articles": [
       {
-        "title": "S & P 500 rises as Nvidia , AI stocks rally despite Apple decline",
-        "url": "https://thebusinessjournal.com/sp-500-rises-nvidia-ai-stocks-apple-wall-street/",
-        "domain": "thebusinessjournal.com",
-        "date": "2026-11-04",
+        "title": "Who is Alice Huang ? Megaspeed executive accused of being a  Chinese spy  amid claims of a close relationship with Nvidia CEO Jensen Huang",
+        "url": "https://www.indiatimes.com/trending/who-is-alice-huang-megaspeed-executive-accused-of-being-a-chinese-spy-amid-claims-of-a-close-relationship-with-nvidia-ceo-jensen-huang/articleshow/135654253.html",
+        "domain": "indiatimes.com",
+        "date": "2026-11-08",
         "sentiment_label": "нейтрально",
         "sentiment_score": 0
       },
       {
-        "title": "ASUS ProArt P16 / P14 laptops with NVIDIA RTX Spark N1X processor , ProArt Mouse MD301 and ProArt Keyboard KD300 launched in India",
-        "url": "https://www.fonearena.com/blog/496283/asus-proart-p16-p14-price-india-features.html",
-        "domain": "fonearena.com",
-        "date": "2026-11-03",
+        "title": "Nvidia Stock Has More Than 60 % Upside According to Analyst Average Price Target . Should You Buy While the AI Trade Wobbles ? ",
+        "url": "https://www.aol.com/articles/nvidia-stock-more-60-upside-182000000.html",
+        "domain": "aol.com",
+        "date": "2026-11-07",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "Reports Show Chinese Spy Agency Recruited Woman Close to Nvidia CEO",
+        "url": "https://redstate.com/joesquire/2026/11/07/reports-show-chinese-spy-agency-recruited-woman-close-to-nvidias-ceo-n2209143",
+        "domain": "redstate.com",
+        "date": "2026-11-07",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "China reportedly recruited an executive to spy on Nvidia CEO Jensen Huang · Digg",
+        "url": "https://digg.com/tech/fjfuky00",
+        "domain": "digg.com",
+        "date": "2026-11-07",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "US approved Nvidia chip sales to China - linked firms",
+        "url": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-914132",
+        "domain": "jpost.com",
+        "date": "2026-11-07",
         "sentiment_label": "позитив",
         "sentiment_score": 1
-      },
-      {
-        "title": "Nvidia Orders Partners to Reduce China Exposure",
-        "url": "http://www.bgnes.com/technology/nvidia-orders-partners-to-reduce-china-exposure",
-        "domain": "bgnes.com",
-        "date": "2026-11-03",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
       }
     ],
     "source": "gdelt"
@@ -33,28 +49,45 @@
   "1321655": {
     "ticker": "PLTR",
     "company": "Palantir Technologies Inc.",
-    "articles": [],
-    "source": "no-data"
-  },
-  "789019": {
-    "ticker": "MSFT",
-    "company": "MICROSOFT CORP",
     "articles": [
       {
-        "title": "Microsoft $25 Billion Bond Sale for AI Growth - Pragativadi I Latest Odisha News in English I Breaking News",
-        "url": "https://pragativadi.com/microsoft-25-billion-bond-sale-to-fund-innovations/",
-        "domain": "pragativadi.com",
-        "date": "2026-11-03",
-        "sentiment_label": "позитив",
-        "sentiment_score": 1
+        "title": "Palantir Technologies Inc . $PLTR Shares Acquired by Pictet Asset Management Holding SA",
+        "url": "https://www.dailypolitical.com/2026/11/08/palantir-technologies-inc-pltr-shares-acquired-by-pictet-asset-management-holding-sa.html",
+        "domain": "dailypolitical.com",
+        "date": "2026-11-08",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
       }
     ],
     "source": "gdelt"
   },
+  "789019": {
+    "ticker": "MSFT",
+    "company": "MICROSOFT CORP",
+    "articles": [],
+    "source": "no-data"
+  },
   "320193": {
     "ticker": "AAPL",
     "company": "Apple Inc.",
-    "articles": [],
-    "source": "no-data"
+    "articles": [
+      {
+        "title": "Early Black Friday Apple deals have low prices and high stocks",
+        "url": "https://nypost.com/shopping/apple-early-black-friday-sale-deals-2026/",
+        "domain": "nypost.com",
+        "date": "2026-11-08",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "Apple £749  smooth  iPad Air M4 now 66p a day in Sky Mobile cost - split this Black Friday",
+        "url": "https://www.bristolpost.co.uk/whats-on/shopping/apple-smooth-ipad-black-friday-11230590",
+        "domain": "bristolpost.co.uk",
+        "date": "2026-11-08",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      }
+    ],
+    "source": "gdelt"
   }
 }

@@ -7214,6 +7214,11 @@
     "name": "Conifer",
     "source": "YC"
   },
+  "yc:constor": {
+    "first_seen": "2026-11-08",
+    "name": "Constor",
+    "source": "YC"
+  },
   "yc:contextdev": {
     "first_seen": "2026-07-24",
     "name": "Context.dev",
@@ -7897,6 +7902,11 @@
   "yc:inflection-space-systems": {
     "first_seen": "2026-09-18",
     "name": "Inflection Space Systems",
+    "source": "YC"
+  },
+  "yc:infraoptimal": {
+    "first_seen": "2026-11-08",
+    "name": "InfraOptimal",
     "source": "YC"
   },
   "yc:inkbox": {
