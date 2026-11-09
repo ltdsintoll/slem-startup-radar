@@ -114,6 +114,11 @@
     "name": "Memazing, Inc.",
     "source": "Form D"
   },
+  "formd:000127757526000006": {
+    "first_seen": "2026-11-09",
+    "name": "SAXON CAPITAL GROUP INC",
+    "source": "Form D"
+  },
   "formd:000132914726000003": {
     "first_seen": "2026-09-01",
     "name": "Orthobond Corp",
@@ -127,6 +132,11 @@
   "formd:000134836226000002": {
     "first_seen": "2026-09-21",
     "name": "Lexaria Bioscience Corp.",
+    "source": "Form D"
+  },
+  "formd:000137647426000697": {
+    "first_seen": "2026-11-09",
+    "name": "CARDO Compute LLC",
     "source": "Form D"
   },
   "formd:000140387026000001": {
@@ -589,6 +599,11 @@
     "name": "MSE Acquisitions, Inc.",
     "source": "Form D"
   },
+  "formd:000203723426000003": {
+    "first_seen": "2026-11-09",
+    "name": "VBASE Oil Co",
+    "source": "Form D"
+  },
   "formd:000203729726000001": {
     "first_seen": "2026-11-03",
     "name": "RadioClash Inc.",
@@ -1032,6 +1047,11 @@
   "formd:000213471826000092": {
     "first_seen": "2026-10-06",
     "name": "Larkspire, Inc.",
+    "source": "Form D"
+  },
+  "formd:000213471826000111": {
+    "first_seen": "2026-11-09",
+    "name": "Monetary Metals & Co.",
     "source": "Form D"
   },
   "formd:000213475826000005": {
@@ -5044,6 +5064,11 @@
     "name": "Particle Horizon, Inc.",
     "source": "Form D"
   },
+  "formd:000215835726000003": {
+    "first_seen": "2026-11-09",
+    "name": "ColoWatch, Inc. /MD/",
+    "source": "Form D"
+  },
   "formd:000215836126000001": {
     "first_seen": "2026-10-03",
     "name": "Renovare Therapeutics, Inc.",
@@ -5979,6 +6004,11 @@
     "name": "Chapiter Missions Inc.",
     "source": "Form D"
   },
+  "formd:000216198026000001": {
+    "first_seen": "2026-11-09",
+    "name": "Ubicloud Inc.",
+    "source": "Form D"
+  },
   "formd:000216201526000001": {
     "first_seen": "2026-10-28",
     "name": "Avery & Masa Media, LLC",
@@ -6027,6 +6057,11 @@
   "formd:000216210726000001": {
     "first_seen": "2026-10-27",
     "name": "Hermai Inc.",
+    "source": "Form D"
+  },
+  "formd:000216211426000001": {
+    "first_seen": "2026-11-09",
+    "name": "Hom3 Technologies LLC",
     "source": "Form D"
   },
   "formd:000216216726000001": {
@@ -6394,6 +6429,11 @@
     "name": "Lift Managing Partners LLC",
     "source": "Form D"
   },
+  "formd:000216350126000001": {
+    "first_seen": "2026-11-09",
+    "name": "Authentica Group, Inc.",
+    "source": "Form D"
+  },
   "formd:000216351426000001": {
     "first_seen": "2026-11-05",
     "name": "TOPWATER CATTLE Co ACQUISITION POOL 2, LLC",
@@ -6479,6 +6519,11 @@
     "name": "Lumon Solutions Marshfield, LLC",
     "source": "Form D"
   },
+  "formd:000216405626000001": {
+    "first_seen": "2026-11-09",
+    "name": "GiftBetter Inc.",
+    "source": "Form D"
+  },
   "formd:000216406626000001": {
     "first_seen": "2026-11-07",
     "name": "PVP1 Brunswick, LLC",
@@ -6504,9 +6549,19 @@
     "name": "GiftWellSoon, LLC",
     "source": "Form D"
   },
+  "formd:000216417626000001": {
+    "first_seen": "2026-11-09",
+    "name": "Glide Holdings, LLC",
+    "source": "Form D"
+  },
   "formd:000216421026000001": {
     "first_seen": "2026-11-07",
     "name": "RABKDO LTH LLC",
+    "source": "Form D"
+  },
+  "formd:000216431526000001": {
+    "first_seen": "2026-11-09",
+    "name": "Intelligent Wellness Solutions Inc.",
     "source": "Form D"
   },
   "yc:0security": {
@@ -6979,6 +7034,11 @@
     "name": "Billow AI Labs",
     "source": "YC"
   },
+  "yc:biodelivera": {
+    "first_seen": "2026-11-09",
+    "name": "BioDelivera",
+    "source": "YC"
+  },
   "yc:biostack-platforms": {
     "first_seen": "2026-07-24",
     "name": "BioStack Platforms",
@@ -7447,6 +7507,11 @@
   "yc:elite": {
     "first_seen": "2026-09-09",
     "name": "Elite",
+    "source": "YC"
+  },
+  "yc:elithia": {
+    "first_seen": "2026-11-09",
+    "name": "Elithia",
     "source": "YC"
   },
   "yc:elyra": {
@@ -8312,6 +8377,11 @@
   "yc:mentlio": {
     "first_seen": "2026-08-14",
     "name": "Mentlio",
+    "source": "YC"
+  },
+  "yc:metalcraft": {
+    "first_seen": "2026-11-09",
+    "name": "Metalcraft",
     "source": "YC"
   },
   "yc:meteoric": {
