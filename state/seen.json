@@ -4,6 +4,11 @@
     "name": "Geomorphic AI",
     "source": "Form D"
   },
+  "formd:000091228226001440": {
+    "first_seen": "2026-11-10",
+    "name": "ARC Medical Inc.",
+    "source": "Form D"
+  },
   "formd:000092963826004073": {
     "first_seen": "2026-10-29",
     "name": "Trellis Bioscience, Inc.",
@@ -26,6 +31,11 @@
   },
   "formd:000101974226000002": {
     "first_seen": "2026-10-19",
+    "name": "BARKSDALE RESOURCES CORP.",
+    "source": "Form D"
+  },
+  "formd:000101974226000003": {
+    "first_seen": "2026-11-10",
     "name": "BARKSDALE RESOURCES CORP.",
     "source": "Form D"
   },
@@ -226,6 +236,11 @@
   },
   "formd:000166350926000003": {
     "first_seen": "2026-09-02",
+    "name": "Sift Media, Inc.",
+    "source": "Form D"
+  },
+  "formd:000166350926000004": {
+    "first_seen": "2026-11-10",
     "name": "Sift Media, Inc.",
     "source": "Form D"
   },
@@ -584,6 +599,11 @@
     "name": "SleepRes, Inc.",
     "source": "Form D"
   },
+  "formd:000203286726000003": {
+    "first_seen": "2026-11-10",
+    "name": "CubaVision LLC",
+    "source": "Form D"
+  },
   "formd:000203363726000002": {
     "first_seen": "2026-07-24",
     "name": "Unless LGH Holdings LLC",
@@ -607,6 +627,11 @@
   "formd:000203729726000001": {
     "first_seen": "2026-11-03",
     "name": "RadioClash Inc.",
+    "source": "Form D"
+  },
+  "formd:000204180626000021": {
+    "first_seen": "2026-11-10",
+    "name": "V3DEO Inc.",
     "source": "Form D"
   },
   "formd:000204248526000002": {
@@ -744,6 +769,11 @@
     "name": "Disputed, Inc.",
     "source": "Form D"
   },
+  "formd:000206874226000001": {
+    "first_seen": "2026-11-10",
+    "name": "American AI Logistics, Inc.",
+    "source": "Form D"
+  },
   "formd:000207123226000001": {
     "first_seen": "2026-09-18",
     "name": "OpsMate AI, Inc.",
@@ -822,6 +852,11 @@
   "formd:000209247926000001": {
     "first_seen": "2026-10-13",
     "name": "Opportunity TV, Inc.",
+    "source": "Form D"
+  },
+  "formd:000209482026000001": {
+    "first_seen": "2026-11-10",
+    "name": "Ride N Repair, Inc.",
     "source": "Form D"
   },
   "formd:000209490926000001": {
@@ -1082,6 +1117,11 @@
   "formd:000213592926000002": {
     "first_seen": "2026-08-20",
     "name": "Gewang International Industrial Holding Group Inc",
+    "source": "Form D"
+  },
+  "formd:000213648226000003": {
+    "first_seen": "2026-11-10",
+    "name": "Telos Artifex LLC",
     "source": "Form D"
   },
   "formd:000213736126000005": {
@@ -6464,9 +6504,19 @@
     "name": "Krossings, Inc.",
     "source": "Form D"
   },
+  "formd:000216370026000001": {
+    "first_seen": "2026-11-10",
+    "name": "Film Number 1, LLC",
+    "source": "Form D"
+  },
   "formd:000216372426000001": {
     "first_seen": "2026-11-05",
     "name": "PulsePoint Lake Norman ASC, LLC",
+    "source": "Form D"
+  },
+  "formd:000216374026000001": {
+    "first_seen": "2026-11-10",
+    "name": "Happy Cow Foods Inc.",
     "source": "Form D"
   },
   "formd:000216375026000001": {
@@ -6477,6 +6527,16 @@
   "formd:000216375326000002": {
     "first_seen": "2026-11-06",
     "name": "Sanaren, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216375426000001": {
+    "first_seen": "2026-11-10",
+    "name": "GROWING SEASON LLC",
+    "source": "Form D"
+  },
+  "formd:000216377926000001": {
+    "first_seen": "2026-11-10",
+    "name": "Marble Group, Inc.",
     "source": "Form D"
   },
   "formd:000216379726000001": {
@@ -6534,9 +6594,24 @@
     "name": "OH Strongsville Marks Rd, LLC",
     "source": "Form D"
   },
+  "formd:000216408726000001": {
+    "first_seen": "2026-11-10",
+    "name": "Know-It-All Movie LLC",
+    "source": "Form D"
+  },
+  "formd:000216408826000001": {
+    "first_seen": "2026-11-10",
+    "name": "IDEW, Inc.",
+    "source": "Form D"
+  },
   "formd:000216409126000001": {
     "first_seen": "2026-11-06",
     "name": "Duck Island Project LLC",
+    "source": "Form D"
+  },
+  "formd:000216409326000001": {
+    "first_seen": "2026-11-10",
+    "name": "Flip Flow HQ Inc",
     "source": "Form D"
   },
   "formd:000216415926000001": {
@@ -6559,9 +6634,44 @@
     "name": "RABKDO LTH LLC",
     "source": "Form D"
   },
+  "formd:000216429826000001": {
+    "first_seen": "2026-11-10",
+    "name": "Talent Shares, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216429926000001": {
+    "first_seen": "2026-11-10",
+    "name": "TOWN COURT COLLECTIVE LLC",
+    "source": "Form D"
+  },
   "formd:000216431526000001": {
     "first_seen": "2026-11-09",
     "name": "Intelligent Wellness Solutions Inc.",
+    "source": "Form D"
+  },
+  "formd:000216434026000001": {
+    "first_seen": "2026-11-10",
+    "name": "Flor de Azar, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216436326000001": {
+    "first_seen": "2026-11-10",
+    "name": "BetterStory, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216440626000001": {
+    "first_seen": "2026-11-10",
+    "name": "Glowrizz Inc.",
+    "source": "Form D"
+  },
+  "formd:000216440626000002": {
+    "first_seen": "2026-11-10",
+    "name": "Glowrizz Inc.",
+    "source": "Form D"
+  },
+  "formd:000216442326000001": {
+    "first_seen": "2026-11-10",
+    "name": "D'LUX Storage, Inc.",
     "source": "Form D"
   },
   "yc:0security": {
@@ -7249,6 +7359,11 @@
     "name": "Collar",
     "source": "YC"
   },
+  "yc:colony": {
+    "first_seen": "2026-11-10",
+    "name": "Colony",
+    "source": "YC"
+  },
   "yc:complir": {
     "first_seen": "2026-07-24",
     "name": "Complir",
@@ -7327,6 +7442,11 @@
   "yc:databuddy": {
     "first_seen": "2026-10-08",
     "name": "Databuddy",
+    "source": "YC"
+  },
+  "yc:datanode": {
+    "first_seen": "2026-11-10",
+    "name": "DataNode",
     "source": "YC"
   },
   "yc:datoric": {
@@ -7719,6 +7839,11 @@
     "name": "GodHands",
     "source": "YC"
   },
+  "yc:godpack": {
+    "first_seen": "2026-11-10",
+    "name": "Godpack",
+    "source": "YC"
+  },
   "yc:gojiberry-ai": {
     "first_seen": "2026-07-24",
     "name": "Gojiberry AI",
@@ -7922,6 +8047,11 @@
   "yc:hyper-4": {
     "first_seen": "2026-07-24",
     "name": "Hyper",
+    "source": "YC"
+  },
+  "yc:hyperbench": {
+    "first_seen": "2026-11-10",
+    "name": "HyperBench",
     "source": "YC"
   },
   "yc:hyperprobe": {
@@ -8244,6 +8374,11 @@
     "name": "Limrun",
     "source": "YC"
   },
+  "yc:linklane": {
+    "first_seen": "2026-11-10",
+    "name": "LinkLane",
+    "source": "YC"
+  },
   "yc:linzumi": {
     "first_seen": "2026-07-24",
     "name": "Linzumi",
@@ -8267,6 +8402,11 @@
   "yc:luca-iq": {
     "first_seen": "2026-07-30",
     "name": "Luca IQ",
+    "source": "YC"
+  },
+  "yc:lucebox": {
+    "first_seen": "2026-11-10",
+    "name": "Lucebox",
     "source": "YC"
   },
   "yc:lumeria": {
@@ -8549,6 +8689,11 @@
     "name": "Nori",
     "source": "YC"
   },
+  "yc:nuum-robotics": {
+    "first_seen": "2026-11-10",
+    "name": "Nuum Robotics",
+    "source": "YC"
+  },
   "yc:nxtcure-labs": {
     "first_seen": "2026-09-18",
     "name": "Nxtcure Labs",
@@ -8692,6 +8837,11 @@
   "yc:orchestra": {
     "first_seen": "2026-09-07",
     "name": "Orchestra",
+    "source": "YC"
+  },
+  "yc:ordo-labs": {
+    "first_seen": "2026-11-10",
+    "name": "Ordo Labs",
     "source": "YC"
   },
   "yc:organizely": {
@@ -8882,6 +9032,11 @@
   "yc:ploy": {
     "first_seen": "2026-07-24",
     "name": "Ploy",
+    "source": "YC"
+  },
+  "yc:plyxl": {
+    "first_seen": "2026-11-10",
+    "name": "Plyxl",
     "source": "YC"
   },
   "yc:pokerclubhub": {
@@ -9179,6 +9334,11 @@
     "name": "RonanRx Inc.",
     "source": "YC"
   },
+  "yc:rote": {
+    "first_seen": "2026-11-10",
+    "name": "Rote",
+    "source": "YC"
+  },
   "yc:routant": {
     "first_seen": "2026-10-30",
     "name": "Routant",
@@ -9262,6 +9422,11 @@
   "yc:screenpipe": {
     "first_seen": "2026-07-24",
     "name": "screenpipe",
+    "source": "YC"
+  },
+  "yc:se3-labs": {
+    "first_seen": "2026-11-10",
+    "name": "SE3 Labs",
     "source": "YC"
   },
   "yc:sentient-os": {
@@ -9474,6 +9639,11 @@
     "name": "SubVysion",
     "source": "YC"
   },
+  "yc:summer-engine": {
+    "first_seen": "2026-11-10",
+    "name": "Summer Engine",
+    "source": "YC"
+  },
   "yc:sunflower": {
     "first_seen": "2026-08-12",
     "name": "Sunflower",
@@ -9597,6 +9767,11 @@
   "yc:tensr": {
     "first_seen": "2026-08-11",
     "name": "Tensr",
+    "source": "YC"
+  },
+  "yc:tesser": {
+    "first_seen": "2026-11-10",
+    "name": "Tesser",
     "source": "YC"
   },
   "yc:testerarmy": {
@@ -9909,6 +10084,11 @@
     "name": "Vorelios",
     "source": "YC"
   },
+  "yc:vorflux": {
+    "first_seen": "2026-11-10",
+    "name": "Vorflux",
+    "source": "YC"
+  },
   "yc:vouchwealth": {
     "first_seen": "2026-10-25",
     "name": "Vouch",
@@ -9987,6 +10167,11 @@
   "yc:workers-io": {
     "first_seen": "2026-08-29",
     "name": "Workers IO",
+    "source": "YC"
+  },
+  "yc:xulux": {
+    "first_seen": "2026-11-10",
+    "name": "Xulux",
     "source": "YC"
   },
   "yc:yam": {
