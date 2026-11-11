@@ -6259,6 +6259,11 @@
     "name": "Ewert Inc",
     "source": "Form D"
   },
+  "formd:000216286426000002": {
+    "first_seen": "2026-11-11",
+    "name": "Play Operating Systems, Inc.",
+    "source": "Form D"
+  },
   "formd:000216287026000001": {
     "first_seen": "2026-10-30",
     "name": "Merion Pest Control, Inc.",
@@ -6369,6 +6374,11 @@
     "name": "General Compute Inc.",
     "source": "Form D"
   },
+  "formd:000216300826000001": {
+    "first_seen": "2026-11-11",
+    "name": "For Purpose, Inc.",
+    "source": "Form D"
+  },
   "formd:000216301426000001": {
     "first_seen": "2026-11-03",
     "name": "MoFlo Acquisitions, Inc.",
@@ -6449,6 +6459,16 @@
     "name": "Vuelta Holdings LP",
     "source": "Form D"
   },
+  "formd:000216333126000001": {
+    "first_seen": "2026-11-11",
+    "name": "INNOVATIVE POWDERS INC",
+    "source": "Form D"
+  },
+  "formd:000216333326000002": {
+    "first_seen": "2026-11-11",
+    "name": "M&O/Lowcountry Nexton Mob, LLC",
+    "source": "Form D"
+  },
   "formd:000216338626000001": {
     "first_seen": "2026-11-04",
     "name": "Yipio Inc.",
@@ -6496,6 +6516,11 @@
   },
   "formd:000216365326000001": {
     "first_seen": "2026-11-05",
+    "name": "Harmonee AI Inc.",
+    "source": "Form D"
+  },
+  "formd:000216365326000002": {
+    "first_seen": "2026-11-11",
     "name": "Harmonee AI Inc.",
     "source": "Form D"
   },
@@ -6579,6 +6604,11 @@
     "name": "Lumon Solutions Marshfield, LLC",
     "source": "Form D"
   },
+  "formd:000216400126000001": {
+    "first_seen": "2026-11-11",
+    "name": "Spokane Club",
+    "source": "Form D"
+  },
   "formd:000216405626000001": {
     "first_seen": "2026-11-09",
     "name": "GiftBetter Inc.",
@@ -6592,6 +6622,11 @@
   "formd:000216406926000001": {
     "first_seen": "2026-11-07",
     "name": "OH Strongsville Marks Rd, LLC",
+    "source": "Form D"
+  },
+  "formd:000216408226000001": {
+    "first_seen": "2026-11-11",
+    "name": "Savvyn, PBC",
     "source": "Form D"
   },
   "formd:000216408726000001": {
@@ -6627,6 +6662,11 @@
   "formd:000216417626000001": {
     "first_seen": "2026-11-09",
     "name": "Glide Holdings, LLC",
+    "source": "Form D"
+  },
+  "formd:000216419726000001": {
+    "first_seen": "2026-11-11",
+    "name": "Walnut Technology Corp",
     "source": "Form D"
   },
   "formd:000216421026000001": {
@@ -6672,6 +6712,41 @@
   "formd:000216442326000001": {
     "first_seen": "2026-11-10",
     "name": "D'LUX Storage, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216456626000001": {
+    "first_seen": "2026-11-11",
+    "name": "Arcophos, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216456626000002": {
+    "first_seen": "2026-11-11",
+    "name": "Arcophos, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216457226000001": {
+    "first_seen": "2026-11-11",
+    "name": "TENDER LOVING CRAVINGS, INC.",
+    "source": "Form D"
+  },
+  "formd:000216457926000001": {
+    "first_seen": "2026-11-11",
+    "name": "AngioInsight, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216458126000001": {
+    "first_seen": "2026-11-11",
+    "name": "Bloodless Diagnostics Inc.",
+    "source": "Form D"
+  },
+  "formd:000216460226000001": {
+    "first_seen": "2026-11-11",
+    "name": "SUTOL BIO, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216465826000001": {
+    "first_seen": "2026-11-11",
+    "name": "PA Flax Project Cooperative, Inc.",
     "source": "Form D"
   },
   "yc:0security": {
@@ -6852,6 +6927,11 @@
   "yc:amorphic-labs": {
     "first_seen": "2026-08-01",
     "name": "Amorphic Labs",
+    "source": "YC"
+  },
+  "yc:ample-computer": {
+    "first_seen": "2026-11-11",
+    "name": "Ample Computer",
     "source": "YC"
   },
   "yc:amulet": {
@@ -8339,6 +8419,11 @@
     "name": "LemonLime",
     "source": "YC"
   },
+  "yc:letter-dev": {
+    "first_seen": "2026-11-11",
+    "name": "Letter",
+    "source": "YC"
+  },
   "yc:levocred-ai": {
     "first_seen": "2026-07-24",
     "name": "Levocred AI",
@@ -9012,6 +9097,11 @@
   "yc:plek": {
     "first_seen": "2026-10-23",
     "name": "Plek",
+    "source": "YC"
+  },
+  "yc:plek-ai": {
+    "first_seen": "2026-11-11",
+    "name": "Plek AI",
     "source": "YC"
   },
   "yc:plena-health": {
@@ -10042,6 +10132,11 @@
   "yc:vernius-systems-inc": {
     "first_seen": "2026-08-16",
     "name": "Vernius Systems, Inc.",
+    "source": "YC"
+  },
+  "yc:verno": {
+    "first_seen": "2026-11-11",
+    "name": "Verno",
     "source": "YC"
   },
   "yc:versine": {

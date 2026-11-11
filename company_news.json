@@ -2,64 +2,14 @@
   "1045810": {
     "ticker": "NVDA",
     "company": "NVIDIA CORP",
-    "articles": [
-      {
-        "title": "Who is Alice Huang ? Megaspeed executive accused of being a  Chinese spy  amid claims of a close relationship with Nvidia CEO Jensen Huang",
-        "url": "https://www.indiatimes.com/trending/who-is-alice-huang-megaspeed-executive-accused-of-being-a-chinese-spy-amid-claims-of-a-close-relationship-with-nvidia-ceo-jensen-huang/articleshow/135654253.html",
-        "domain": "indiatimes.com",
-        "date": "2026-11-08",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "Nvidia Stock Has More Than 60 % Upside According to Analyst Average Price Target . Should You Buy While the AI Trade Wobbles ? ",
-        "url": "https://www.aol.com/articles/nvidia-stock-more-60-upside-182000000.html",
-        "domain": "aol.com",
-        "date": "2026-11-07",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "Reports Show Chinese Spy Agency Recruited Woman Close to Nvidia CEO",
-        "url": "https://redstate.com/joesquire/2026/11/07/reports-show-chinese-spy-agency-recruited-woman-close-to-nvidias-ceo-n2209143",
-        "domain": "redstate.com",
-        "date": "2026-11-07",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "China reportedly recruited an executive to spy on Nvidia CEO Jensen Huang · Digg",
-        "url": "https://digg.com/tech/fjfuky00",
-        "domain": "digg.com",
-        "date": "2026-11-07",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "US approved Nvidia chip sales to China - linked firms",
-        "url": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-914132",
-        "domain": "jpost.com",
-        "date": "2026-11-07",
-        "sentiment_label": "позитив",
-        "sentiment_score": 1
-      }
-    ],
-    "source": "gdelt"
+    "articles": [],
+    "source": "no-data"
   },
   "1321655": {
     "ticker": "PLTR",
     "company": "Palantir Technologies Inc.",
-    "articles": [
-      {
-        "title": "Palantir Technologies Inc . $PLTR Shares Acquired by Pictet Asset Management Holding SA",
-        "url": "https://www.dailypolitical.com/2026/11/08/palantir-technologies-inc-pltr-shares-acquired-by-pictet-asset-management-holding-sa.html",
-        "domain": "dailypolitical.com",
-        "date": "2026-11-08",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      }
-    ],
-    "source": "gdelt"
+    "articles": [],
+    "source": "no-data"
   },
   "789019": {
     "ticker": "MSFT",
@@ -72,18 +22,34 @@
     "company": "Apple Inc.",
     "articles": [
       {
-        "title": "Early Black Friday Apple deals have low prices and high stocks",
-        "url": "https://nypost.com/shopping/apple-early-black-friday-sale-deals-2026/",
-        "domain": "nypost.com",
-        "date": "2026-11-08",
+        "title": "For Sale ( 20 Pieces ) New Apple iPhone Duo Original 256GB Unlocked $35 , 989CAD",
+        "url": "http://www.dhal3.com/vb/showthread.php?s=22bc7795e00d86c4808633101e8a3af2&p=1672308",
+        "domain": "dhal3.com",
+        "date": "2026-11-11",
         "sentiment_label": "нейтрально",
         "sentiment_score": 0
       },
       {
-        "title": "Apple £749  smooth  iPad Air M4 now 66p a day in Sky Mobile cost - split this Black Friday",
-        "url": "https://www.bristolpost.co.uk/whats-on/shopping/apple-smooth-ipad-black-friday-11230590",
-        "domain": "bristolpost.co.uk",
-        "date": "2026-11-08",
+        "title": "For Sale ( 10 Pieces ) New Apple iPhone Duo Original 256GB Unlocked $18 , 990CAD",
+        "url": "http://www.dhal3.com/vb/showthread.php?s=f9b8735286891b1d0b349ac5b087ce02&p=1672307",
+        "domain": "dhal3.com",
+        "date": "2026-11-11",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "For Sale ( 50 Pieces ) New Apple iPhone Duo Original 256GB Unlocked $69 , 950CAD",
+        "url": "http://www.dhal3.com/vb/showthread.php?s=4e690a3093e7566429ba108540cc2104&t=307240",
+        "domain": "dhal3.com",
+        "date": "2026-11-11",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "For Sale ( 5 Pieces ) New Apple iPhone Duo Original 256GB Unlocked $9 , 995CAD",
+        "url": "http://www.dhal3.com/vb/showthread.php?s=4e690a3093e7566429ba108540cc2104&t=307235",
+        "domain": "dhal3.com",
+        "date": "2026-11-11",
         "sentiment_label": "нейтрально",
         "sentiment_score": 0
       }
