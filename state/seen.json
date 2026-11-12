@@ -769,6 +769,11 @@
     "name": "Disputed, Inc.",
     "source": "Form D"
   },
+  "formd:000206835926000002": {
+    "first_seen": "2026-11-12",
+    "name": "FLB Partners T, L.P.",
+    "source": "Form D"
+  },
   "formd:000206874226000001": {
     "first_seen": "2026-11-10",
     "name": "American AI Logistics, Inc.",
@@ -802,6 +807,11 @@
   "formd:000208100826000002": {
     "first_seen": "2026-10-19",
     "name": "Precision IO Group Inc.",
+    "source": "Form D"
+  },
+  "formd:000208175426000003": {
+    "first_seen": "2026-11-12",
+    "name": "OPERATING ROOM INNOVATIONS, INC.",
     "source": "Form D"
   },
   "formd:000208285026000007": {
@@ -944,6 +954,16 @@
     "name": "Embold Therapeutics, Inc.",
     "source": "Form D"
   },
+  "formd:000210971326000002": {
+    "first_seen": "2026-11-12",
+    "name": "Remember App, LLC",
+    "source": "Form D"
+  },
+  "formd:000211087926000002": {
+    "first_seen": "2026-11-12",
+    "name": "SlidemeAPP, Inc.",
+    "source": "Form D"
+  },
   "formd:000211212526000003": {
     "first_seen": "2026-07-27",
     "name": "MedServ Marketplace Inc.",
@@ -1047,6 +1067,11 @@
   "formd:000213374826000001": {
     "first_seen": "2026-10-07",
     "name": "Reltek, Inc.",
+    "source": "Form D"
+  },
+  "formd:000213421226000001": {
+    "first_seen": "2026-11-12",
+    "name": "Electra Vehicles, Inc.",
     "source": "Form D"
   },
   "formd:000213441226000001": {
@@ -2866,6 +2891,11 @@
   },
   "formd:000215006126000001": {
     "first_seen": "2026-08-13",
+    "name": "Skin Union Group Inc.",
+    "source": "Form D"
+  },
+  "formd:000215006126000002": {
+    "first_seen": "2026-11-12",
     "name": "Skin Union Group Inc.",
     "source": "Form D"
   },
@@ -5244,6 +5274,11 @@
     "name": "SafeGifts.world Inc.",
     "source": "Form D"
   },
+  "formd:000215885226000001": {
+    "first_seen": "2026-11-12",
+    "name": "NicheX Marketing, LLC",
+    "source": "Form D"
+  },
   "formd:000215885526000001": {
     "first_seen": "2026-10-07",
     "name": "Dajji Tractian Investment LLC",
@@ -6404,6 +6439,16 @@
     "name": "Redwagon Systems Inc.",
     "source": "Form D"
   },
+  "formd:000216306026000003": {
+    "first_seen": "2026-11-12",
+    "name": "Redwagon Systems Inc.",
+    "source": "Form D"
+  },
+  "formd:000216306026000004": {
+    "first_seen": "2026-11-12",
+    "name": "Redwagon Systems Inc.",
+    "source": "Form D"
+  },
   "formd:000216307726000001": {
     "first_seen": "2026-11-07",
     "name": "Envex AI, Inc.",
@@ -6659,6 +6704,11 @@
     "name": "GiftWellSoon, LLC",
     "source": "Form D"
   },
+  "formd:000216416226000001": {
+    "first_seen": "2026-11-12",
+    "name": "Maverick McKenna Racing LLC",
+    "source": "Form D"
+  },
   "formd:000216417626000001": {
     "first_seen": "2026-11-09",
     "name": "Glide Holdings, LLC",
@@ -6724,6 +6774,11 @@
     "name": "Arcophos, Inc.",
     "source": "Form D"
   },
+  "formd:000216456726000001": {
+    "first_seen": "2026-11-12",
+    "name": "9 NIGHTS GmbH",
+    "source": "Form D"
+  },
   "formd:000216457226000001": {
     "first_seen": "2026-11-11",
     "name": "TENDER LOVING CRAVINGS, INC.",
@@ -6747,6 +6802,11 @@
   "formd:000216465826000001": {
     "first_seen": "2026-11-11",
     "name": "PA Flax Project Cooperative, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216474526000001": {
+    "first_seen": "2026-11-12",
+    "name": "Tiger Diagnostics Laboratory, Inc.",
     "source": "Form D"
   },
   "yc:0security": {
@@ -7879,6 +7939,11 @@
     "name": "Gamgee",
     "source": "YC"
   },
+  "yc:gatherhq": {
+    "first_seen": "2026-11-12",
+    "name": "GatherHQ",
+    "source": "YC"
+  },
   "yc:general-aviation": {
     "first_seen": "2026-07-24",
     "name": "General Aviation",
@@ -8162,6 +8227,11 @@
   "yc:incandor": {
     "first_seen": "2026-07-24",
     "name": "Incandor",
+    "source": "YC"
+  },
+  "yc:index-law": {
+    "first_seen": "2026-11-12",
+    "name": "Index Law",
     "source": "YC"
   },
   "yc:induction-labs": {
@@ -8639,6 +8709,11 @@
     "name": "Miso Labs",
     "source": "YC"
   },
+  "yc:mnemonic-labs": {
+    "first_seen": "2026-11-12",
+    "name": "Mnemonic Labs",
+    "source": "YC"
+  },
   "yc:mochatrade": {
     "first_seen": "2026-07-24",
     "name": "Mochatrade",
@@ -8752,6 +8827,11 @@
   "yc:nine-fives": {
     "first_seen": "2026-07-24",
     "name": "Nine Fives",
+    "source": "YC"
+  },
+  "yc:nines": {
+    "first_seen": "2026-11-12",
+    "name": "Nines",
     "source": "YC"
   },
   "yc:nitroduck": {
@@ -10152,6 +10232,11 @@
   "yc:vexo": {
     "first_seen": "2026-09-29",
     "name": "Vexo",
+    "source": "YC"
+  },
+  "yc:vibe-robotics": {
+    "first_seen": "2026-11-12",
+    "name": "Vibe Robotics",
     "source": "YC"
   },
   "yc:viraj-aero": {
