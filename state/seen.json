@@ -439,6 +439,11 @@
     "name": "Mivium, Inc.",
     "source": "Form D"
   },
+  "formd:000195292726000002": {
+    "first_seen": "2026-11-13",
+    "name": "Mercury Bio, Inc.",
+    "source": "Form D"
+  },
   "formd:000195297426000004": {
     "first_seen": "2026-09-10",
     "name": "Praeventix, Inc.",
@@ -832,6 +837,11 @@
   "formd:000208519826000001": {
     "first_seen": "2026-07-24",
     "name": "Brimstone Grill Inc.",
+    "source": "Form D"
+  },
+  "formd:000208625926000002": {
+    "first_seen": "2026-11-13",
+    "name": "ANDROMEDA ROBOTICS, INC.",
     "source": "Form D"
   },
   "formd:000208784626000003": {
@@ -5724,6 +5734,11 @@
     "name": "Altoona Development Ltd Liability Co",
     "source": "Form D"
   },
+  "formd:000216066926000001": {
+    "first_seen": "2026-11-13",
+    "name": "Mobile Hydration LLC",
+    "source": "Form D"
+  },
   "formd:000216067226000001": {
     "first_seen": "2026-10-31",
     "name": "CreateOne Inc.",
@@ -5829,6 +5844,11 @@
     "name": "LOGOSFI, Inc.",
     "source": "Form D"
   },
+  "formd:000216111826000001": {
+    "first_seen": "2026-11-13",
+    "name": "THIRD EYE MECHATRONICS LLC",
+    "source": "Form D"
+  },
   "formd:000216115326000001": {
     "first_seen": "2026-10-22",
     "name": "Arkaea Media Group Inc.",
@@ -5872,6 +5892,11 @@
   "formd:000216129226000001": {
     "first_seen": "2026-10-22",
     "name": "Gwaihir Robotics, Corp.",
+    "source": "Form D"
+  },
+  "formd:000216129526000001": {
+    "first_seen": "2026-11-13",
+    "name": "Gaingels Odyssey LLC",
     "source": "Form D"
   },
   "formd:000216133626000001": {
@@ -6154,6 +6179,11 @@
     "name": "Hirostar USA, Inc.",
     "source": "Form D"
   },
+  "formd:000216222926000001": {
+    "first_seen": "2026-11-13",
+    "name": "AEGISDATA.AI INC.",
+    "source": "Form D"
+  },
   "formd:000216223826000001": {
     "first_seen": "2026-11-06",
     "name": "Skroot Laboratory Inc.",
@@ -6334,6 +6364,11 @@
     "name": "Soliton ID, Inc.",
     "source": "Form D"
   },
+  "formd:000216291026000002": {
+    "first_seen": "2026-11-13",
+    "name": "Soliton ID, Inc.",
+    "source": "Form D"
+  },
   "formd:000216291526000001": {
     "first_seen": "2026-11-04",
     "name": "H. PLUM PRODUCTIONS, LLC",
@@ -6452,6 +6487,11 @@
   "formd:000216307726000001": {
     "first_seen": "2026-11-07",
     "name": "Envex AI, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216308426000001": {
+    "first_seen": "2026-11-13",
+    "name": "Clearwood, PBC",
     "source": "Form D"
   },
   "formd:000216310926000001": {
@@ -6579,6 +6619,11 @@
     "name": "Film Number 1, LLC",
     "source": "Form D"
   },
+  "formd:000216370926000004": {
+    "first_seen": "2026-11-13",
+    "name": "HORIZON SI, INC.",
+    "source": "Form D"
+  },
   "formd:000216372426000001": {
     "first_seen": "2026-11-05",
     "name": "PulsePoint Lake Norman ASC, LLC",
@@ -6634,6 +6679,16 @@
     "name": "Sunshine Buns, Inc.",
     "source": "Form D"
   },
+  "formd:000216393326000001": {
+    "first_seen": "2026-11-13",
+    "name": "Imagen Flores Dental Support Services, LLC",
+    "source": "Form D"
+  },
+  "formd:000216394126000001": {
+    "first_seen": "2026-11-13",
+    "name": "Imagen R&R Dental Care Support Services, LLC",
+    "source": "Form D"
+  },
   "formd:000216396326000001": {
     "first_seen": "2026-11-07",
     "name": "1DER, Inc.",
@@ -6652,6 +6707,11 @@
   "formd:000216400126000001": {
     "first_seen": "2026-11-11",
     "name": "Spokane Club",
+    "source": "Form D"
+  },
+  "formd:000216405226000001": {
+    "first_seen": "2026-11-13",
+    "name": "NterpriseIQ, Inc.",
     "source": "Form D"
   },
   "formd:000216405626000001": {
@@ -6764,6 +6824,11 @@
     "name": "D'LUX Storage, Inc.",
     "source": "Form D"
   },
+  "formd:000216453426000001": {
+    "first_seen": "2026-11-13",
+    "name": "Parallel Distribution, Inc.",
+    "source": "Form D"
+  },
   "formd:000216456626000001": {
     "first_seen": "2026-11-11",
     "name": "Arcophos, Inc.",
@@ -6777,6 +6842,11 @@
   "formd:000216456726000001": {
     "first_seen": "2026-11-12",
     "name": "9 NIGHTS GmbH",
+    "source": "Form D"
+  },
+  "formd:000216456926000001": {
+    "first_seen": "2026-11-13",
+    "name": "FKTea, Inc.",
     "source": "Form D"
   },
   "formd:000216457226000001": {
@@ -6804,9 +6874,34 @@
     "name": "PA Flax Project Cooperative, Inc.",
     "source": "Form D"
   },
+  "formd:000216468426000001": {
+    "first_seen": "2026-11-13",
+    "name": "TrackSync, Inc.",
+    "source": "Form D"
+  },
   "formd:000216474526000001": {
     "first_seen": "2026-11-12",
     "name": "Tiger Diagnostics Laboratory, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216476726000001": {
+    "first_seen": "2026-11-13",
+    "name": "Care Nimble, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216480426000001": {
+    "first_seen": "2026-11-13",
+    "name": "C3 Arts, LLC",
+    "source": "Form D"
+  },
+  "formd:000216483026000001": {
+    "first_seen": "2026-11-13",
+    "name": "CDS Investment LLC",
+    "source": "Form D"
+  },
+  "formd:000216483726000001": {
+    "first_seen": "2026-11-13",
+    "name": "Stormy Season, Inc.",
     "source": "Form D"
   },
   "yc:0security": {
@@ -9049,6 +9144,11 @@
     "name": "Osseus",
     "source": "YC"
   },
+  "yc:outworld-labs": {
+    "first_seen": "2026-11-13",
+    "name": "Outworld Labs",
+    "source": "YC"
+  },
   "yc:pacific": {
     "first_seen": "2026-08-10",
     "name": "Pacific",
@@ -9407,6 +9507,11 @@
   "yc:rekursivai": {
     "first_seen": "2026-07-24",
     "name": "rekursiv.ai",
+    "source": "YC"
+  },
+  "yc:render": {
+    "first_seen": "2026-11-13",
+    "name": "Render",
     "source": "YC"
   },
   "yc:rentahuman": {
