@@ -6304,6 +6304,11 @@
     "name": "Drink Mockly, Inc.",
     "source": "Form D"
   },
+  "formd:000216279726000001": {
+    "first_seen": "2026-11-14",
+    "name": "Shoot Out the Lights Musical LLC",
+    "source": "Form D"
+  },
   "formd:000216281426000001": {
     "first_seen": "2026-11-03",
     "name": "Sarah247, Inc.",
@@ -6539,6 +6544,11 @@
     "name": "Energetic Events, Inc.",
     "source": "Form D"
   },
+  "formd:000216319626000002": {
+    "first_seen": "2026-11-14",
+    "name": "Energetic Events, Inc.",
+    "source": "Form D"
+  },
   "formd:000216322226000001": {
     "first_seen": "2026-11-05",
     "name": "Vuelta Holdings LP",
@@ -6567,6 +6577,11 @@
   "formd:000216347326000002": {
     "first_seen": "2026-11-07",
     "name": "PHASES OF THE MOON LLC",
+    "source": "Form D"
+  },
+  "formd:000216348626000001": {
+    "first_seen": "2026-11-14",
+    "name": "Eco, Inc.",
     "source": "Form D"
   },
   "formd:000216349726000001": {
@@ -6784,6 +6799,16 @@
     "name": "RABKDO LTH LLC",
     "source": "Form D"
   },
+  "formd:000216426226000001": {
+    "first_seen": "2026-11-14",
+    "name": "SSM Exchange Inc.",
+    "source": "Form D"
+  },
+  "formd:000216426426000002": {
+    "first_seen": "2026-11-14",
+    "name": "CipherSonic Labs Inc.",
+    "source": "Form D"
+  },
   "formd:000216429826000001": {
     "first_seen": "2026-11-10",
     "name": "Talent Shares, Inc.",
@@ -6797,6 +6822,21 @@
   "formd:000216431526000001": {
     "first_seen": "2026-11-09",
     "name": "Intelligent Wellness Solutions Inc.",
+    "source": "Form D"
+  },
+  "formd:000216433226000001": {
+    "first_seen": "2026-11-14",
+    "name": "SmartCharts Inc.",
+    "source": "Form D"
+  },
+  "formd:000216433226000002": {
+    "first_seen": "2026-11-14",
+    "name": "SmartCharts Inc.",
+    "source": "Form D"
+  },
+  "formd:000216433226000003": {
+    "first_seen": "2026-11-14",
+    "name": "SmartCharts Inc.",
     "source": "Form D"
   },
   "formd:000216434026000001": {
@@ -6824,9 +6864,19 @@
     "name": "D'LUX Storage, Inc.",
     "source": "Form D"
   },
+  "formd:000216452226000001": {
+    "first_seen": "2026-11-14",
+    "name": "Arterra Pet Science, Inc.",
+    "source": "Form D"
+  },
   "formd:000216453426000001": {
     "first_seen": "2026-11-13",
     "name": "Parallel Distribution, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216453926000001": {
+    "first_seen": "2026-11-14",
+    "name": "Golden Hour LLC",
     "source": "Form D"
   },
   "formd:000216456626000001": {
@@ -6869,6 +6919,11 @@
     "name": "SUTOL BIO, Inc.",
     "source": "Form D"
   },
+  "formd:000216460826000001": {
+    "first_seen": "2026-11-14",
+    "name": "St. Rose Inc.",
+    "source": "Form D"
+  },
   "formd:000216465826000001": {
     "first_seen": "2026-11-11",
     "name": "PA Flax Project Cooperative, Inc.",
@@ -6902,6 +6957,31 @@
   "formd:000216483726000001": {
     "first_seen": "2026-11-13",
     "name": "Stormy Season, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216490126000001": {
+    "first_seen": "2026-11-14",
+    "name": "Knowledge Transfer, LLC",
+    "source": "Form D"
+  },
+  "formd:000216494426000001": {
+    "first_seen": "2026-11-14",
+    "name": "Tausret LRF LLC",
+    "source": "Form D"
+  },
+  "formd:000216505526000001": {
+    "first_seen": "2026-11-14",
+    "name": "WHE Inc.",
+    "source": "Form D"
+  },
+  "formd:000216509826000001": {
+    "first_seen": "2026-11-14",
+    "name": "226 LAS FLORES, LLC",
+    "source": "Form D"
+  },
+  "formd:000216524026000001": {
+    "first_seen": "2026-11-14",
+    "name": "Philo Film LLC",
     "source": "Form D"
   },
   "yc:0security": {
@@ -7802,6 +7882,11 @@
   "yc:drippay": {
     "first_seen": "2026-07-24",
     "name": "Drip",
+    "source": "YC"
+  },
+  "yc:dualizer": {
+    "first_seen": "2026-11-14",
+    "name": "Dualizer",
     "source": "YC"
   },
   "yc:dydema": {
@@ -9522,6 +9607,11 @@
   "yc:replicas": {
     "first_seen": "2026-07-24",
     "name": "Replicas",
+    "source": "YC"
+  },
+  "yc:repovive": {
+    "first_seen": "2026-11-14",
+    "name": "Repovive",
     "source": "YC"
   },
   "yc:resin-technologies": {

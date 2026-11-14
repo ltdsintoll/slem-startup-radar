@@ -8,8 +8,25 @@
   "1321655": {
     "ticker": "PLTR",
     "company": "Palantir Technologies Inc.",
-    "articles": [],
-    "source": "no-data"
+    "articles": [
+      {
+        "title": "Palantir Technologies Inc . $PLTR Position Boosted by Verus Capital Partners LLC",
+        "url": "https://www.dailypolitical.com/2026/11/08/palantir-technologies-inc-pltr-position-boosted-by-verus-capital-partners-llc.html",
+        "domain": "dailypolitical.com",
+        "date": "2026-11-08",
+        "sentiment_label": "позитив",
+        "sentiment_score": 1
+      },
+      {
+        "title": "Palantir Technologies Inc . $PLTR Shares Acquired by Pictet Asset Management Holding SA",
+        "url": "https://www.dailypolitical.com/2026/11/08/palantir-technologies-inc-pltr-shares-acquired-by-pictet-asset-management-holding-sa.html",
+        "domain": "dailypolitical.com",
+        "date": "2026-11-08",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      }
+    ],
+    "source": "gdelt"
   },
   "789019": {
     "ticker": "MSFT",
@@ -22,34 +39,10 @@
     "company": "Apple Inc.",
     "articles": [
       {
-        "title": "For Sale ( 20 Pieces ) New Apple iPhone Duo Original 256GB Unlocked $35 , 989CAD",
-        "url": "http://www.dhal3.com/vb/showthread.php?s=22bc7795e00d86c4808633101e8a3af2&p=1672308",
-        "domain": "dhal3.com",
-        "date": "2026-11-11",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "For Sale ( 10 Pieces ) New Apple iPhone Duo Original 256GB Unlocked $18 , 990CAD",
-        "url": "http://www.dhal3.com/vb/showthread.php?s=f9b8735286891b1d0b349ac5b087ce02&p=1672307",
-        "domain": "dhal3.com",
-        "date": "2026-11-11",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "For Sale ( 50 Pieces ) New Apple iPhone Duo Original 256GB Unlocked $69 , 950CAD",
-        "url": "http://www.dhal3.com/vb/showthread.php?s=4e690a3093e7566429ba108540cc2104&t=307240",
-        "domain": "dhal3.com",
-        "date": "2026-11-11",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "For Sale ( 5 Pieces ) New Apple iPhone Duo Original 256GB Unlocked $9 , 995CAD",
-        "url": "http://www.dhal3.com/vb/showthread.php?s=4e690a3093e7566429ba108540cc2104&t=307235",
-        "domain": "dhal3.com",
-        "date": "2026-11-11",
+        "title": "Google Brings Gemini Live To Apple CarPlay",
+        "url": "https://www.ubergizmo.com/2026/11/google-gemini-live-carplay/",
+        "domain": "ubergizmo.com",
+        "date": "2026-11-13",
         "sentiment_label": "нейтрально",
         "sentiment_score": 0
       }

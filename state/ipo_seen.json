@@ -1079,6 +1079,11 @@
     "name": "Zhibao Technology Inc.",
     "stage": "Filed"
   },
+  "1967822": {
+    "first_seen": "2026-11-14",
+    "name": "Creative Global Technology Holdings Ltd",
+    "stage": "Filed"
+  },
   "1971387": {
     "first_seen": "2026-07-24",
     "name": "Liminatus Pharma, Inc.",
@@ -1267,7 +1272,7 @@
   "2018222": {
     "first_seen": "2026-07-24",
     "name": "707 Cayman Holdings Ltd.",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "2018269": {
     "first_seen": "2026-07-24",
@@ -1322,7 +1327,7 @@
   "2023153": {
     "first_seen": "2026-08-26",
     "name": "HomesToLife Ltd",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "2023796": {
     "first_seen": "2026-11-04",
@@ -1839,6 +1844,11 @@
     "name": "Electra Therapeutics, Inc.",
     "stage": "Priced/IPO"
   },
+  "2088223": {
+    "first_seen": "2026-11-14",
+    "name": "ELT Design Holdings Ltd",
+    "stage": "Filed"
+  },
   "2088286": {
     "first_seen": "2026-08-08",
     "name": "Danneskjold & Galt Acquisition Co",
@@ -2113,6 +2123,11 @@
     "first_seen": "2026-09-09",
     "name": "Rothe Development, Inc.",
     "stage": "Amending"
+  },
+  "2108686": {
+    "first_seen": "2026-11-14",
+    "name": "CloudDepots Holdings Inc.",
+    "stage": "Filed"
   },
   "2109616": {
     "first_seen": "2026-08-13",
@@ -2912,7 +2927,7 @@
   "2153476": {
     "first_seen": "2026-10-15",
     "name": "Tattvance Corp",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2153598": {
     "first_seen": "2026-09-24",
@@ -2947,6 +2962,11 @@
   "2156779": {
     "first_seen": "2026-10-14",
     "name": "EuroSPAC Acquisition Corp.",
+    "stage": "Filed"
+  },
+  "2158099": {
+    "first_seen": "2026-11-14",
+    "name": "Compute AI Acquisition Corp.",
     "stage": "Filed"
   },
   "2158471": {
@@ -3032,6 +3052,11 @@
   "832489": {
     "first_seen": "2026-09-18",
     "name": "GeoVax Labs, Inc.",
+    "stage": "Filed"
+  },
+  "839470": {
+    "first_seen": "2026-11-14",
+    "name": "WESTWATER RESOURCES, INC.",
     "stage": "Filed"
   },
   "840715": {
