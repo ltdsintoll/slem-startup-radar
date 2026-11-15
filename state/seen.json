@@ -7464,6 +7464,11 @@
     "name": "BioDelivera",
     "source": "YC"
   },
+  "yc:biomes": {
+    "first_seen": "2026-11-15",
+    "name": "Biomes",
+    "source": "YC"
+  },
   "yc:biostack-platforms": {
     "first_seen": "2026-07-24",
     "name": "BioStack Platforms",
