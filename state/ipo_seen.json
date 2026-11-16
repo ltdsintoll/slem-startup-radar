@@ -157,7 +157,7 @@
   "1378140": {
     "first_seen": "2026-08-26",
     "name": "Ocean Power Technologies, Inc.",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "1401914": {
     "first_seen": "2026-08-27",
@@ -922,7 +922,7 @@
   "1907709": {
     "first_seen": "2026-10-10",
     "name": "vVARDIS Holding AG",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "1911545": {
     "first_seen": "2026-07-30",
@@ -1463,6 +1463,11 @@
     "first_seen": "2026-10-24",
     "name": "Uptrend Holdings Ltd",
     "stage": "Amending"
+  },
+  "2046386": {
+    "first_seen": "2026-11-16",
+    "name": "Medline Inc.",
+    "stage": "Filed"
   },
   "2048271": {
     "first_seen": "2026-09-04",
@@ -2782,7 +2787,7 @@
   "2145089": {
     "first_seen": "2026-10-24",
     "name": "WINDWARD BIO GROUP AG",
-    "stage": "Amending"
+    "stage": "Priced/IPO"
   },
   "2145351": {
     "first_seen": "2026-07-24",
@@ -2952,6 +2957,11 @@
   "2155673": {
     "first_seen": "2026-10-16",
     "name": "Cashlin",
+    "stage": "Filed"
+  },
+  "2156248": {
+    "first_seen": "2026-11-16",
+    "name": "B & T Global Holding Ltd.",
     "stage": "Filed"
   },
   "2156369": {

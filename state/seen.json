@@ -299,6 +299,16 @@
     "name": "Tru, Inc.",
     "source": "Form D"
   },
+  "formd:000176129926000001": {
+    "first_seen": "2026-11-16",
+    "name": "FitOn Inc.",
+    "source": "Form D"
+  },
+  "formd:000176129926000002": {
+    "first_seen": "2026-11-16",
+    "name": "FitOn Inc.",
+    "source": "Form D"
+  },
   "formd:000177088826000003": {
     "first_seen": "2026-11-02",
     "name": "ECFX, Inc.",
@@ -344,6 +354,11 @@
     "name": "Twin Health, Inc.",
     "source": "Form D"
   },
+  "formd:000182014426000046": {
+    "first_seen": "2026-11-16",
+    "name": "Grindr Inc.",
+    "source": "Form D"
+  },
   "formd:000182083226000002": {
     "first_seen": "2026-10-15",
     "name": "AeroShield Materials, Inc.",
@@ -352,6 +367,11 @@
   "formd:000182330326000001": {
     "first_seen": "2026-11-06",
     "name": "Callpod, Inc.",
+    "source": "Form D"
+  },
+  "formd:000184704826000004": {
+    "first_seen": "2026-11-16",
+    "name": "Graviton BioScience Corp",
     "source": "Form D"
   },
   "formd:000185317526000003": {
@@ -6799,6 +6819,11 @@
     "name": "RABKDO LTH LLC",
     "source": "Form D"
   },
+  "formd:000216425826000002": {
+    "first_seen": "2026-11-16",
+    "name": "Levering Holdings, Inc.",
+    "source": "Form D"
+  },
   "formd:000216426226000001": {
     "first_seen": "2026-11-14",
     "name": "SSM Exchange Inc.",
@@ -6807,6 +6832,11 @@
   "formd:000216426426000002": {
     "first_seen": "2026-11-14",
     "name": "CipherSonic Labs Inc.",
+    "source": "Form D"
+  },
+  "formd:000216426626000002": {
+    "first_seen": "2026-11-16",
+    "name": "Potentiam Biosciences, Inc.",
     "source": "Form D"
   },
   "formd:000216429826000001": {
@@ -6847,6 +6877,16 @@
   "formd:000216436326000001": {
     "first_seen": "2026-11-10",
     "name": "BetterStory, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216437526000001": {
+    "first_seen": "2026-11-16",
+    "name": "JoyWork Inc.",
+    "source": "Form D"
+  },
+  "formd:000216437526000002": {
+    "first_seen": "2026-11-16",
+    "name": "JoyWork Inc.",
     "source": "Form D"
   },
   "formd:000216440626000001": {
@@ -6934,6 +6974,11 @@
     "name": "TrackSync, Inc.",
     "source": "Form D"
   },
+  "formd:000216471126000001": {
+    "first_seen": "2026-11-16",
+    "name": "JDI Pacific",
+    "source": "Form D"
+  },
   "formd:000216474526000001": {
     "first_seen": "2026-11-12",
     "name": "Tiger Diagnostics Laboratory, Inc.",
@@ -6942,6 +6987,11 @@
   "formd:000216476726000001": {
     "first_seen": "2026-11-13",
     "name": "Care Nimble, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216478926000001": {
+    "first_seen": "2026-11-16",
+    "name": "Araico Corp",
     "source": "Form D"
   },
   "formd:000216480426000001": {
@@ -6979,9 +7029,39 @@
     "name": "226 LAS FLORES, LLC",
     "source": "Form D"
   },
+  "formd:000216510026000001": {
+    "first_seen": "2026-11-16",
+    "name": "Novo Navis, Inc.",
+    "source": "Form D"
+  },
   "formd:000216524026000001": {
     "first_seen": "2026-11-14",
     "name": "Philo Film LLC",
+    "source": "Form D"
+  },
+  "formd:000216524326000001": {
+    "first_seen": "2026-11-16",
+    "name": "Life Impact Partners 13 LLC",
+    "source": "Form D"
+  },
+  "formd:000216524426000001": {
+    "first_seen": "2026-11-16",
+    "name": "Life Impact Partners 12 LLC",
+    "source": "Form D"
+  },
+  "formd:000216524526000001": {
+    "first_seen": "2026-11-16",
+    "name": "Life Impact Partners 11 LLC",
+    "source": "Form D"
+  },
+  "formd:000216524626000001": {
+    "first_seen": "2026-11-16",
+    "name": "Life Impact Partners 10 LLC",
+    "source": "Form D"
+  },
+  "formd:000216524726000001": {
+    "first_seen": "2026-11-16",
+    "name": "Life Imapct Partners 9 LLC",
     "source": "Form D"
   },
   "yc:0security": {
@@ -7339,6 +7419,11 @@
     "name": "Aster",
     "source": "YC"
   },
+  "yc:asterline": {
+    "first_seen": "2026-11-16",
+    "name": "Asterline",
+    "source": "YC"
+  },
   "yc:astraea": {
     "first_seen": "2026-07-24",
     "name": "Astraea",
@@ -7574,6 +7659,11 @@
     "name": "Caveman",
     "source": "YC"
   },
+  "yc:central-blue": {
+    "first_seen": "2026-11-16",
+    "name": "Central Blue",
+    "source": "YC"
+  },
   "yc:centralcoms": {
     "first_seen": "2026-07-24",
     "name": "CentralComs",
@@ -7717,6 +7807,11 @@
   "yc:contextdev": {
     "first_seen": "2026-07-24",
     "name": "Context.dev",
+    "source": "YC"
+  },
+  "yc:contourholdings": {
+    "first_seen": "2026-11-16",
+    "name": "Contour",
     "source": "YC"
   },
   "yc:control-seat": {
