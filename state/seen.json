@@ -234,6 +234,11 @@
     "name": "Edgewater Wireless Systems Inc.",
     "source": "Form D"
   },
+  "formd:000165844826000002": {
+    "first_seen": "2026-11-17",
+    "name": "Ursa Space Systems Inc.",
+    "source": "Form D"
+  },
   "formd:000166350926000003": {
     "first_seen": "2026-09-02",
     "name": "Sift Media, Inc.",
@@ -287,6 +292,11 @@
   "formd:000174903626000002": {
     "first_seen": "2026-10-21",
     "name": "Cognixion Corp",
+    "source": "Form D"
+  },
+  "formd:000175205226000003": {
+    "first_seen": "2026-11-17",
+    "name": "CEGA Innovations, Inc.",
     "source": "Form D"
   },
   "formd:000175335126000001": {
@@ -384,6 +394,11 @@
     "name": "ASCENDIA PHARMACEUTICALS, INC.",
     "source": "Form D"
   },
+  "formd:000186450426000002": {
+    "first_seen": "2026-11-17",
+    "name": "SZNS Labs, Inc.",
+    "source": "Form D"
+  },
   "formd:000187166126000001": {
     "first_seen": "2026-09-01",
     "name": "CivicPlus Holdings, LLC",
@@ -407,6 +422,11 @@
   "formd:000190427026000002": {
     "first_seen": "2026-09-01",
     "name": "Language IO, Inc.",
+    "source": "Form D"
+  },
+  "formd:000190932026000008": {
+    "first_seen": "2026-11-17",
+    "name": "Navierre Holdings, LLC",
     "source": "Form D"
   },
   "formd:000191551926000003": {
@@ -754,6 +774,11 @@
     "name": "Conexeu Sciences Inc.",
     "source": "Form D"
   },
+  "formd:000206075526000068": {
+    "first_seen": "2026-11-17",
+    "name": "Balanced Body Organics, Inc.",
+    "source": "Form D"
+  },
   "formd:000206162826000003": {
     "first_seen": "2026-11-04",
     "name": "SIMSALASIM INC.",
@@ -787,6 +812,11 @@
   "formd:000206721426000001": {
     "first_seen": "2026-09-04",
     "name": "IWF Productions LLC",
+    "source": "Form D"
+  },
+  "formd:000206740526000004": {
+    "first_seen": "2026-11-17",
+    "name": "EV Life, Inc.",
     "source": "Form D"
   },
   "formd:000206816726000001": {
@@ -1307,6 +1337,11 @@
   "formd:000214323526000001": {
     "first_seen": "2026-08-04",
     "name": "AZJAH41 LLC",
+    "source": "Form D"
+  },
+  "formd:000214327826000004": {
+    "first_seen": "2026-11-17",
+    "name": "Fanaty, Inc",
     "source": "Form D"
   },
   "formd:000214335926000001": {
@@ -5279,6 +5314,11 @@
     "name": "Big Blue Technologies, Inc.",
     "source": "Form D"
   },
+  "formd:000215878326000002": {
+    "first_seen": "2026-11-17",
+    "name": "Standel Auto Holdings, LLC",
+    "source": "Form D"
+  },
   "formd:000215880726000001": {
     "first_seen": "2026-10-07",
     "name": "Gallery Haus Investors, LLC",
@@ -5372,6 +5412,11 @@
   "formd:000215909326000001": {
     "first_seen": "2026-10-08",
     "name": "AERSTREAM INC",
+    "source": "Form D"
+  },
+  "formd:000215912226000001": {
+    "first_seen": "2026-11-17",
+    "name": "Azotera, Inc.",
     "source": "Form D"
   },
   "formd:000215913426000001": {
@@ -6407,6 +6452,11 @@
   "formd:000216292426000001": {
     "first_seen": "2026-11-02",
     "name": "MOTHER EARTH FATHER GOD FILM LLC",
+    "source": "Form D"
+  },
+  "formd:000216293326000001": {
+    "first_seen": "2026-11-17",
+    "name": "OnDutch, Inc.",
     "source": "Form D"
   },
   "formd:000216294826000001": {
@@ -9297,6 +9347,11 @@
   "yc:orgo": {
     "first_seen": "2026-10-21",
     "name": "Orgo",
+    "source": "YC"
+  },
+  "yc:orikata-bio-pbc": {
+    "first_seen": "2026-11-17",
+    "name": "Orikata Bio PBC",
     "source": "YC"
   },
   "yc:ornadyne": {

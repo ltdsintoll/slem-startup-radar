@@ -684,6 +684,11 @@
     "name": "Aveanna Healthcare Holdings, Inc.",
     "stage": "Priced/IPO"
   },
+  "1834261": {
+    "first_seen": "2026-11-17",
+    "name": "Core Specialty Insurance Holdings, Inc.",
+    "stage": "Filed"
+  },
   "1834376": {
     "first_seen": "2026-09-24",
     "name": "InnovAge Holding Corp.",
@@ -893,6 +898,11 @@
     "first_seen": "2026-08-18",
     "name": "Rubber Leaf Inc",
     "stage": "Amending"
+  },
+  "1894954": {
+    "first_seen": "2026-11-17",
+    "name": "Expion Energy, Inc.",
+    "stage": "Filed"
   },
   "1895249": {
     "first_seen": "2026-09-22",
@@ -1662,7 +1672,7 @@
   "2074973": {
     "first_seen": "2026-11-12",
     "name": "Agility Robotics, Inc.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2075036": {
     "first_seen": "2026-09-16",
