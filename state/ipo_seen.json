@@ -794,6 +794,11 @@
     "name": "reAlpha Tech Corp.",
     "stage": "Priced/IPO"
   },
+  "1859836": {
+    "first_seen": "2026-11-18",
+    "name": "Yesway, Inc.",
+    "stage": "Filed"
+  },
   "1862463": {
     "first_seen": "2026-07-24",
     "name": "ALPHA MODUS HOLDINGS, INC.",
@@ -2857,7 +2862,7 @@
   "2147831": {
     "first_seen": "2026-10-31",
     "name": "UCSB Acquisition Corp.",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2148196": {
     "first_seen": "2026-08-05",
@@ -2937,6 +2942,11 @@
   "2152921": {
     "first_seen": "2026-09-12",
     "name": "Rafex Gold Corp.",
+    "stage": "Filed"
+  },
+  "2152975": {
+    "first_seen": "2026-11-18",
+    "name": "Bitwise Zcash ETF",
     "stage": "Filed"
   },
   "2153476": {

@@ -129,6 +129,11 @@
     "name": "SAXON CAPITAL GROUP INC",
     "source": "Form D"
   },
+  "formd:000129660426000004": {
+    "first_seen": "2026-11-18",
+    "name": "IOTUM INC",
+    "source": "Form D"
+  },
   "formd:000132914726000003": {
     "first_seen": "2026-09-01",
     "name": "Orthobond Corp",
@@ -237,6 +242,11 @@
   "formd:000165844826000002": {
     "first_seen": "2026-11-17",
     "name": "Ursa Space Systems Inc.",
+    "source": "Form D"
+  },
+  "formd:000166269526000002": {
+    "first_seen": "2026-11-18",
+    "name": "nPhase, Inc.",
     "source": "Form D"
   },
   "formd:000166350926000003": {
@@ -829,6 +839,11 @@
     "name": "FLB Partners T, L.P.",
     "source": "Form D"
   },
+  "formd:000206852326000001": {
+    "first_seen": "2026-11-18",
+    "name": "SUBVERT INCORPORATED, PBC",
+    "source": "Form D"
+  },
   "formd:000206874226000001": {
     "first_seen": "2026-11-10",
     "name": "American AI Logistics, Inc.",
@@ -1049,6 +1064,11 @@
     "name": "DoneCast, Inc.",
     "source": "Form D"
   },
+  "formd:000211399826000002": {
+    "first_seen": "2026-11-18",
+    "name": "Instant Offer Furniture, Inc.",
+    "source": "Form D"
+  },
   "formd:000211541426000002": {
     "first_seen": "2026-10-19",
     "name": "Mikri Inc.",
@@ -1056,6 +1076,11 @@
   },
   "formd:000211626426000003": {
     "first_seen": "2026-10-20",
+    "name": "SecondAppraisal Inc",
+    "source": "Form D"
+  },
+  "formd:000211626426000004": {
+    "first_seen": "2026-11-18",
     "name": "SecondAppraisal Inc",
     "source": "Form D"
   },
@@ -1099,9 +1124,19 @@
     "name": "Blue Arbor Technologies, Inc.",
     "source": "Form D"
   },
+  "formd:000213071826000004": {
+    "first_seen": "2026-11-18",
+    "name": "Rifstone Capital LLC",
+    "source": "Form D"
+  },
   "formd:000213137826000002": {
     "first_seen": "2026-08-04",
     "name": "orgn.dev Inc",
+    "source": "Form D"
+  },
+  "formd:000213142426000002": {
+    "first_seen": "2026-11-18",
+    "name": "CoverX AI, Inc.",
     "source": "Form D"
   },
   "formd:000213168426000002": {
@@ -7014,6 +7049,11 @@
     "name": "St. Rose Inc.",
     "source": "Form D"
   },
+  "formd:000216462126000001": {
+    "first_seen": "2026-11-18",
+    "name": "Amperage Infrastructure Corp",
+    "source": "Form D"
+  },
   "formd:000216465826000001": {
     "first_seen": "2026-11-11",
     "name": "PA Flax Project Cooperative, Inc.",
@@ -7112,6 +7152,46 @@
   "formd:000216524726000001": {
     "first_seen": "2026-11-16",
     "name": "Life Imapct Partners 9 LLC",
+    "source": "Form D"
+  },
+  "formd:000216539126000001": {
+    "first_seen": "2026-11-18",
+    "name": "North Iron Mitten Non-Participating Preferred II LLC",
+    "source": "Form D"
+  },
+  "formd:000216541926000001": {
+    "first_seen": "2026-11-18",
+    "name": "Pickup Health, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216545926000001": {
+    "first_seen": "2026-11-18",
+    "name": "OnRails Technologies Inc.",
+    "source": "Form D"
+  },
+  "formd:000216545926000002": {
+    "first_seen": "2026-11-18",
+    "name": "OnRails Technologies Inc.",
+    "source": "Form D"
+  },
+  "formd:000216545926000003": {
+    "first_seen": "2026-11-18",
+    "name": "OnRails Technologies Inc.",
+    "source": "Form D"
+  },
+  "formd:000216547426000001": {
+    "first_seen": "2026-11-18",
+    "name": "HoneyHive Inc.",
+    "source": "Form D"
+  },
+  "formd:000216550026000001": {
+    "first_seen": "2026-11-18",
+    "name": "Ace Padel Holdings Inc.",
+    "source": "Form D"
+  },
+  "formd:000216551026000001": {
+    "first_seen": "2026-11-18",
+    "name": "North Iron Mitten Subordinated Debt I LLC",
     "source": "Form D"
   },
   "yc:0security": {
@@ -8207,6 +8287,11 @@
   "yc:fire-wallet": {
     "first_seen": "2026-10-16",
     "name": "Fire Wallet",
+    "source": "YC"
+  },
+  "yc:flashdrive": {
+    "first_seen": "2026-11-18",
+    "name": "FlashDrive",
     "source": "YC"
   },
   "yc:fleety": {
