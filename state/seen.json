@@ -224,6 +224,11 @@
     "name": "Quarterhill Inc.",
     "source": "Form D"
   },
+  "formd:000152013826000499": {
+    "first_seen": "2026-11-19",
+    "name": "BIOVIE INC.",
+    "source": "Form D"
+  },
   "formd:000159521526000002": {
     "first_seen": "2026-10-06",
     "name": "Rakuten Medical, Inc.",
@@ -524,6 +529,11 @@
     "name": "Right-Hand Cyber Security, Inc.",
     "source": "Form D"
   },
+  "formd:000196785426000002": {
+    "first_seen": "2026-11-19",
+    "name": "Pathos AI, Inc.",
+    "source": "Form D"
+  },
   "formd:000196821226000005": {
     "first_seen": "2026-10-08",
     "name": "Fenix Space, Inc.",
@@ -629,6 +639,11 @@
     "name": "Ascertain Systems, Inc.",
     "source": "Form D"
   },
+  "formd:000202010426000001": {
+    "first_seen": "2026-11-19",
+    "name": "BANIQL CORP.",
+    "source": "Form D"
+  },
   "formd:000202062826000004": {
     "first_seen": "2026-10-28",
     "name": "Agape-1 Technology Inc.",
@@ -682,6 +697,11 @@
   "formd:000203729726000001": {
     "first_seen": "2026-11-03",
     "name": "RadioClash Inc.",
+    "source": "Form D"
+  },
+  "formd:000203819926000001": {
+    "first_seen": "2026-11-19",
+    "name": "Airobes, LLC",
     "source": "Form D"
   },
   "formd:000204180626000021": {
@@ -817,6 +837,11 @@
   "formd:000206497726000001": {
     "first_seen": "2026-09-04",
     "name": "Labs Companies, Inc.",
+    "source": "Form D"
+  },
+  "formd:000206622826000001": {
+    "first_seen": "2026-11-19",
+    "name": "Linework USA INC.",
     "source": "Form D"
   },
   "formd:000206721426000001": {
@@ -1022,6 +1047,11 @@
   "formd:000210531326000002": {
     "first_seen": "2026-10-28",
     "name": "Eye Level Mobile Inc.",
+    "source": "Form D"
+  },
+  "formd:000210630226000002": {
+    "first_seen": "2026-11-19",
+    "name": "EARTHX Ltd",
     "source": "Form D"
   },
   "formd:000210964326000003": {
@@ -4709,6 +4739,11 @@
     "name": "Twenty Technologies, Inc.",
     "source": "Form D"
   },
+  "formd:000215637426000001": {
+    "first_seen": "2026-11-19",
+    "name": "Talos Biotech",
+    "source": "Form D"
+  },
   "formd:000215639026000001": {
     "first_seen": "2026-09-22",
     "name": "Typewriter Therapeutics, Inc.",
@@ -5627,6 +5662,11 @@
   "formd:000215970426000002": {
     "first_seen": "2026-10-17",
     "name": "VisiCX, Inc",
+    "source": "Form D"
+  },
+  "formd:000215976226000001": {
+    "first_seen": "2026-11-19",
+    "name": "Spencer Investco, Inc.",
     "source": "Form D"
   },
   "formd:000215978626000001": {
@@ -7194,6 +7234,26 @@
     "name": "North Iron Mitten Subordinated Debt I LLC",
     "source": "Form D"
   },
+  "formd:000216573226000001": {
+    "first_seen": "2026-11-19",
+    "name": "Transit Fortress, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216587526000001": {
+    "first_seen": "2026-11-19",
+    "name": "ClubHaz LLC",
+    "source": "Form D"
+  },
+  "formd:000216596226000001": {
+    "first_seen": "2026-11-19",
+    "name": "Elements of the Sea HI LLC",
+    "source": "Form D"
+  },
+  "formd:000216596526000001": {
+    "first_seen": "2026-11-19",
+    "name": "Alkify Inc.",
+    "source": "Form D"
+  },
   "yc:0security": {
     "first_seen": "2026-10-27",
     "name": "0.security",
@@ -7622,6 +7682,11 @@
   "yc:avoca-systems": {
     "first_seen": "2026-07-24",
     "name": "Avoca Systems",
+    "source": "YC"
+  },
+  "yc:avout": {
+    "first_seen": "2026-11-19",
+    "name": "Avout",
     "source": "YC"
   },
   "yc:axelrod": {
@@ -8554,6 +8619,11 @@
     "name": "Hilstart",
     "source": "YC"
   },
+  "yc:hiro-industries": {
+    "first_seen": "2026-11-19",
+    "name": "HIRO Industries",
+    "source": "YC"
+  },
   "yc:hop-aero": {
     "first_seen": "2026-07-24",
     "name": "Hop Aero",
@@ -8982,6 +9052,11 @@
   "yc:lumeria": {
     "first_seen": "2026-07-26",
     "name": "Lumeria",
+    "source": "YC"
+  },
+  "yc:luminary": {
+    "first_seen": "2026-11-19",
+    "name": "Luminary",
     "source": "YC"
   },
   "yc:lumius": {
