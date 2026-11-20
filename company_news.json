@@ -4,42 +4,26 @@
     "company": "NVIDIA CORP",
     "articles": [
       {
-        "title": "Jensen Huang departure from Nvidia may cause a  minor slowdown ; wont impact AI investment cycle : IBM Arvind Krishna",
-        "url": "https://www.businesstoday.in/latest/corporate/story/jensen-huangs-departure-from-nvidia-may-cause-a-minor-slowdown-wont-impact-ai-investment-cycle-ibms-arvind-krishna-567597-2026-11-16",
+        "title": "  Bring Jensen back : Uber co founder says hell show up to Nvidia HQ as 200 , 000 sign petition for Huang return",
+        "url": "https://www.businesstoday.in/technology/news/story/bring-jensen-back-uber-co-founder-says-hell-show-up-to-nvidia-hq-as-200000-sign-petition-for-huangs-return-568689-2026-11-20",
         "domain": "businesstoday.in",
-        "date": "2026-11-16",
+        "date": "2026-11-20",
         "sentiment_label": "нейтрально",
         "sentiment_score": 0
       },
       {
-        "title": "Megaspeed International : Megaspeed Investigates Alice Huang Exit Amid Nvidia Scandal , ETTelecom",
-        "url": "https://telecom.economictimes.indiatimes.com/news/devices/megaspeed-says-alice-huang-left-in-2025-as-company-conducts-internal-probe-over-nvidia-fallout/135871334",
-        "domain": "telecom.economictimes.indiatimes.com",
-        "date": "2026-11-16",
+        "title": "Asian American women feel the impact of Nvidia CEO affair scandal and  spy  accusations",
+        "url": "https://www.niagarafallsreview.ca/business/asian-american-women-feel-the-impact-of-nvidia-ceo-affair-scandal-and-spy-accusations/article_3731e9a9-3a86-5e76-9f23-b3841d029006.html",
+        "domain": "niagarafallsreview.ca",
+        "date": "2026-11-20",
         "sentiment_label": "негатив",
         "sentiment_score": -1
       },
       {
-        "title": "Former Nvidia CEO Jensen Huang Says U . S .- China Dialogue Matters for AI Safety",
-        "url": "https://econotimes.com/Former-Nvidia-CEO-Jensen-Huang-Says-U-S-China-Dialogue-Matters-for-AI-Safety-1777155",
-        "domain": "econotimes.com",
-        "date": "2026-11-15",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "I hope you die : Inside Jensen Huang reported tirades at Nvidia board meetings",
-        "url": "https://article.wn.com/view/2026/11/15/I_hope_you_die_Inside_Jensen_Huangs_reported_tirades_at_Nvid/",
-        "domain": "article.wn.com",
-        "date": "2026-11-15",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "Saturday Night Live mocks Nvidia boss Chinese spy affair scandal as Bowen Yang makes surprise return as Jensen Huang",
-        "url": "https://www.dailymail.com/news/article-16293845/Saturday-Night-Live-Nvidia-boss-Chinese-spy-affair.html",
-        "domain": "dailymail.com",
-        "date": "2026-11-15",
+        "title": "After Jensen , Nvidia China Scandal Just Reached Its Former No . 3",
+        "url": "http://www.zerohedge.com/political/after-jensen-nvidias-china-scandal-just-reached-its-former-no-3",
+        "domain": "zerohedge.com",
+        "date": "2026-11-20",
         "sentiment_label": "негатив",
         "sentiment_score": -1
       }
@@ -57,18 +41,10 @@
     "company": "MICROSOFT CORP",
     "articles": [
       {
-        "title": "Could everything be broken ? Grounded jets , Microsoft outage , AI chaos make some wonder",
-        "url": "https://www.timesleaderonline.com/news/local-news/2026/11/could-everything-be-broken-grounded-jets-microsoft-outage-ai-chaos-make-some-wonder/",
-        "domain": "timesleaderonline.com",
-        "date": "2026-11-16",
-        "sentiment_label": "нейтрально",
-        "sentiment_score": 0
-      },
-      {
-        "title": "Services restored after hourslong global outage : Microsoft",
-        "url": "https://www.thehitavada.com/Encyc/2026/11/15/services-restored-after-hourslong-global-outage-microsoft.html",
-        "domain": "thehitavada.com",
-        "date": "2026-11-15",
+        "title": "Microsoft staff wrote open letter that they fear being replaced by AI , then 60 , 000 got exit offers ; Satya Nadella now says : Why do we need software engineers ? To ... ",
+        "url": "https://timesofindia.indiatimes.com/technology/tech-news/microsoft-staff-wrote-open-letter-that-they-fear-being-replaced-by-ai-then-60000-got-exit-offers-satya-nadella-now-says-why-do-we-need-software-engineers-to-/articleshow/136014881.cms",
+        "domain": "timesofindia.indiatimes.com",
+        "date": "2026-11-20",
         "sentiment_label": "нейтрально",
         "sentiment_score": 0
       }
@@ -78,7 +54,48 @@
   "320193": {
     "ticker": "AAPL",
     "company": "Apple Inc.",
-    "articles": [],
-    "source": "no-data"
+    "articles": [
+      {
+        "title": "Apple developing computer - controlling AI agent for Mac , targets late - 2027 debut",
+        "url": "https://www.adgully.com/post/24098/apple-developing-computer-controlling-ai-agent-for-mac-targets-late-2027-debut",
+        "domain": "adgully.com",
+        "date": "2026-11-20",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "RNZ podcast named as one of Apple best shows of 2026",
+        "url": "https://www.rnz.co.nz/life/wellbeing/rnz-podcast-named-as-one-of-apple-s-best-shows-of-2026",
+        "domain": "rnz.co.nz",
+        "date": "2026-11-20",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "Apple Iphone 20 leak points to bezel - free iPhone 20 Pro",
+        "url": "https://www.el-balad.com/17068372",
+        "domain": "el-balad.com",
+        "date": "2026-11-20",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "Apple Is Reportedly Building Its Own Full - Featured AI Agent",
+        "url": "https://gizmodo.com/apple-is-reportedly-building-its-own-full-featured-ai-agent-2000842954",
+        "domain": "gizmodo.com",
+        "date": "2026-11-20",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      },
+      {
+        "title": "From Apple to Anthropic : World 10 most valuable companies after blockbuster IPO",
+        "url": "https://timesofindia.indiatimes.com/business/from-apple-to-anthropic-worlds-10-most-valuable-companies-after-blockbuster-ipo/articleshow/136014713.cms",
+        "domain": "timesofindia.indiatimes.com",
+        "date": "2026-11-20",
+        "sentiment_label": "нейтрально",
+        "sentiment_score": 0
+      }
+    ],
+    "source": "gdelt"
   }
 }

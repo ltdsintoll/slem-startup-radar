@@ -359,6 +359,11 @@
     "name": "AMIRA LEARNING INC",
     "source": "Form D"
   },
+  "formd:000179424026000001": {
+    "first_seen": "2026-11-20",
+    "name": "Compact Medical Inc.",
+    "source": "Form D"
+  },
   "formd:000180569826000001": {
     "first_seen": "2026-10-06",
     "name": "EIKONOKLASTES THERAPEUTICS, INC.",
@@ -417,6 +422,11 @@
   "formd:000187166126000001": {
     "first_seen": "2026-09-01",
     "name": "CivicPlus Holdings, LLC",
+    "source": "Form D"
+  },
+  "formd:000188667026000001": {
+    "first_seen": "2026-11-20",
+    "name": "Ennabl, Inc.",
     "source": "Form D"
   },
   "formd:000189025426000003": {
@@ -657,6 +667,11 @@
   "formd:000202440626000002": {
     "first_seen": "2026-10-02",
     "name": "Shoreline Bespoke Vehicles Inc.",
+    "source": "Form D"
+  },
+  "formd:000202892726000006": {
+    "first_seen": "2026-11-20",
+    "name": "Fairly Inc./WY",
     "source": "Form D"
   },
   "formd:000203243426000003": {
@@ -1292,6 +1307,11 @@
   "formd:000213821826000002": {
     "first_seen": "2026-10-19",
     "name": "Solfera Inc",
+    "source": "Form D"
+  },
+  "formd:000213835926000002": {
+    "first_seen": "2026-11-20",
+    "name": "PLENTI LLC",
     "source": "Form D"
   },
   "formd:000213904226000002": {
@@ -7154,6 +7174,11 @@
     "name": "WHE Inc.",
     "source": "Form D"
   },
+  "formd:000216509126000001": {
+    "first_seen": "2026-11-20",
+    "name": "General Inference Inc.",
+    "source": "Form D"
+  },
   "formd:000216509826000001": {
     "first_seen": "2026-11-14",
     "name": "226 LAS FLORES, LLC",
@@ -7234,6 +7259,31 @@
     "name": "North Iron Mitten Subordinated Debt I LLC",
     "source": "Form D"
   },
+  "formd:000216552026000001": {
+    "first_seen": "2026-11-20",
+    "name": "Life Impact Partners 30 LLC",
+    "source": "Form D"
+  },
+  "formd:000216552126000001": {
+    "first_seen": "2026-11-20",
+    "name": "Life Impact Partners 29 LLC",
+    "source": "Form D"
+  },
+  "formd:000216552226000001": {
+    "first_seen": "2026-11-20",
+    "name": "Life Impact Partners 28 LLC",
+    "source": "Form D"
+  },
+  "formd:000216552326000001": {
+    "first_seen": "2026-11-20",
+    "name": "Life Impact Partners 27 LLC",
+    "source": "Form D"
+  },
+  "formd:000216552426000001": {
+    "first_seen": "2026-11-20",
+    "name": "Life Impact Partners 26 LLC",
+    "source": "Form D"
+  },
   "formd:000216573226000001": {
     "first_seen": "2026-11-19",
     "name": "Transit Fortress, Inc.",
@@ -7252,6 +7302,31 @@
   "formd:000216596526000001": {
     "first_seen": "2026-11-19",
     "name": "Alkify Inc.",
+    "source": "Form D"
+  },
+  "formd:000216597126000001": {
+    "first_seen": "2026-11-20",
+    "name": "Strategic AI Private Opportunities LLC",
+    "source": "Form D"
+  },
+  "formd:000216600226000001": {
+    "first_seen": "2026-11-20",
+    "name": "UIELD Inc",
+    "source": "Form D"
+  },
+  "formd:000216601326000001": {
+    "first_seen": "2026-11-20",
+    "name": "TIS Invesco, LP",
+    "source": "Form D"
+  },
+  "formd:000216612326000001": {
+    "first_seen": "2026-11-20",
+    "name": "Altum Autonomy Inc.",
+    "source": "Form D"
+  },
+  "formd:000216614826000001": {
+    "first_seen": "2026-11-20",
+    "name": "Wisconsin Home & Auto LLC",
     "source": "Form D"
   },
   "yc:0security": {
@@ -8389,6 +8464,11 @@
     "name": "Foaster",
     "source": "YC"
   },
+  "yc:foreshadow-industries": {
+    "first_seen": "2026-11-20",
+    "name": "Foreshadow Industries",
+    "source": "YC"
+  },
   "yc:foresight": {
     "first_seen": "2026-07-24",
     "name": "Foresight",
@@ -9107,6 +9187,11 @@
   "yc:mantle-2": {
     "first_seen": "2026-09-24",
     "name": "Mantle",
+    "source": "YC"
+  },
+  "yc:mantle-machines": {
+    "first_seen": "2026-11-20",
+    "name": "Mantle Machines",
     "source": "YC"
   },
   "yc:manufacturingintelligence": {
@@ -10012,6 +10097,11 @@
   "yc:ronanrx-inc": {
     "first_seen": "2026-07-25",
     "name": "RonanRx Inc.",
+    "source": "YC"
+  },
+  "yc:rook-space": {
+    "first_seen": "2026-11-20",
+    "name": "Rook Space",
     "source": "YC"
   },
   "yc:rote": {
