@@ -474,6 +474,16 @@
     "name": "Leef Brands Inc.",
     "stage": "Filed"
   },
+  "1711754": {
+    "first_seen": "2026-11-21",
+    "name": "Inmune Bio Inc.",
+    "stage": "Filed"
+  },
+  "1712762": {
+    "first_seen": "2026-11-21",
+    "name": "bioAffinity Technologies, Inc.",
+    "stage": "Filed"
+  },
   "1713210": {
     "first_seen": "2026-07-24",
     "name": "Agape ATP Corp",
@@ -783,6 +793,11 @@
     "first_seen": "2026-07-24",
     "name": "MOBIX LABS, INC",
     "stage": "Amending"
+  },
+  "1857086": {
+    "first_seen": "2026-11-21",
+    "name": "TruGolf Holdings, Inc.",
+    "stage": "Filed"
   },
   "1858939": {
     "first_seen": "2026-08-29",
@@ -1149,6 +1164,11 @@
     "name": "KNOREX LTD.",
     "stage": "Filed"
   },
+  "1985554": {
+    "first_seen": "2026-11-21",
+    "name": "ALPHA DIGITAL VOLTZ INC.",
+    "stage": "Filed"
+  },
   "1987240": {
     "first_seen": "2026-07-24",
     "name": "SCHMID Group N.V.",
@@ -1198,6 +1218,11 @@
     "first_seen": "2026-09-08",
     "name": "Jingrui Wang Pu Holdings Group Ltd.",
     "stage": "Amending"
+  },
+  "1998560": {
+    "first_seen": "2026-11-21",
+    "name": "Axonex AI Group Ltd",
+    "stage": "Filed"
   },
   "2000208": {
     "first_seen": "2026-07-24",
@@ -1267,7 +1292,7 @@
   "2013320": {
     "first_seen": "2026-11-03",
     "name": "Eastern International Ltd.",
-    "stage": "Filed"
+    "stage": "Priced/IPO"
   },
   "2015691": {
     "first_seen": "2026-07-24",
@@ -1352,7 +1377,7 @@
   "2023796": {
     "first_seen": "2026-11-04",
     "name": "Fitness Champs Holdings Ltd",
-    "stage": "Filed"
+    "stage": "Priced/IPO"
   },
   "2024114": {
     "first_seen": "2026-11-12",
@@ -1464,6 +1489,11 @@
     "name": "Robin Energy Ltd.",
     "stage": "Filed"
   },
+  "2041208": {
+    "first_seen": "2026-11-21",
+    "name": "Tactical Resources Corp.",
+    "stage": "Filed"
+  },
   "2044950": {
     "first_seen": "2026-10-10",
     "name": "Bambusa Therapeutics, Inc.",
@@ -1492,7 +1522,7 @@
   "2046386": {
     "first_seen": "2026-11-16",
     "name": "Medline Inc.",
-    "stage": "Filed"
+    "stage": "Priced/IPO"
   },
   "2048271": {
     "first_seen": "2026-09-04",
@@ -1589,6 +1619,11 @@
     "name": "Smart Pointer Group Holdings Ltd",
     "stage": "Filed"
   },
+  "2064307": {
+    "first_seen": "2026-11-21",
+    "name": "ContextLogic Holdings Inc.",
+    "stage": "Filed"
+  },
   "2064551": {
     "first_seen": "2026-07-28",
     "name": "Ga Sai Tong Enterprise Ltd",
@@ -1623,6 +1658,11 @@
     "first_seen": "2026-09-16",
     "name": "Canary Staked SEI ETF",
     "stage": "Amending"
+  },
+  "2066836": {
+    "first_seen": "2026-11-21",
+    "name": "Conexeu Sciences Inc.",
+    "stage": "Filed"
   },
   "2067111": {
     "first_seen": "2026-07-24",
@@ -2004,6 +2044,11 @@
     "name": "Gold Stone Technical Inc.",
     "stage": "Amending"
   },
+  "2095898": {
+    "first_seen": "2026-11-21",
+    "name": "Tongda International Group Co., Ltd",
+    "stage": "Filed"
+  },
   "2096362": {
     "first_seen": "2026-10-20",
     "name": "AIAI Holdings Corp",
@@ -2073,6 +2118,11 @@
     "first_seen": "2026-07-24",
     "name": "SunScout Holding Ltd",
     "stage": "Priced/IPO"
+  },
+  "2101833": {
+    "first_seen": "2026-11-21",
+    "name": "Forge Nano Holdings, Inc.",
+    "stage": "Filed"
   },
   "2101996": {
     "first_seen": "2026-07-24",
@@ -2467,7 +2517,7 @@
   "2128185": {
     "first_seen": "2026-09-26",
     "name": "TFP Group Ltd",
-    "stage": "Filed"
+    "stage": "Amending"
   },
   "2128462": {
     "first_seen": "2026-07-24",
