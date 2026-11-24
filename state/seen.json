@@ -239,6 +239,11 @@
     "name": "1World Online, Inc.",
     "source": "Form D"
   },
+  "formd:000162287226000002": {
+    "first_seen": "2026-11-24",
+    "name": "AKADEUM LIFE SCIENCES, INC.",
+    "source": "Form D"
+  },
   "formd:000164962826000003": {
     "first_seen": "2026-09-22",
     "name": "Edgewater Wireless Systems Inc.",
@@ -289,6 +294,16 @@
     "name": "DynamiCare Health, Inc.",
     "source": "Form D"
   },
+  "formd:000170712726000001": {
+    "first_seen": "2026-11-24",
+    "name": "DocToMe, Inc.",
+    "source": "Form D"
+  },
+  "formd:000171135026000004": {
+    "first_seen": "2026-11-24",
+    "name": "Claria Medical, Inc.",
+    "source": "Form D"
+  },
   "formd:000171773126000004": {
     "first_seen": "2026-10-27",
     "name": "Commure, Inc.",
@@ -317,6 +332,11 @@
   "formd:000175335126000001": {
     "first_seen": "2026-10-13",
     "name": "EpiVario Inc.",
+    "source": "Form D"
+  },
+  "formd:000175535926000005": {
+    "first_seen": "2026-11-24",
+    "name": "Standard Cognition, Corp.",
     "source": "Form D"
   },
   "formd:000175824126000003": {
@@ -399,6 +419,11 @@
     "name": "Callpod, Inc.",
     "source": "Form D"
   },
+  "formd:000182837726000004": {
+    "first_seen": "2026-11-24",
+    "name": "Fortitude Gold Corp",
+    "source": "Form D"
+  },
   "formd:000184704826000004": {
     "first_seen": "2026-11-16",
     "name": "Graviton BioScience Corp",
@@ -442,6 +467,11 @@
   "formd:000189317126000003": {
     "first_seen": "2026-09-10",
     "name": "South 40 Snacks, Inc.",
+    "source": "Form D"
+  },
+  "formd:000190350426000001": {
+    "first_seen": "2026-11-24",
+    "name": "After Services, Inc.",
     "source": "Form D"
   },
   "formd:000190427026000002": {
@@ -1047,6 +1077,11 @@
   "formd:000210271426000001": {
     "first_seen": "2026-08-18",
     "name": "SelectDr, Inc.",
+    "source": "Form D"
+  },
+  "formd:000210472726000004": {
+    "first_seen": "2026-11-24",
+    "name": "Orchestra Health Technologies, Inc.",
     "source": "Form D"
   },
   "formd:000210510426000001": {
@@ -5199,6 +5234,11 @@
     "name": "REGENERATUS, Inc.",
     "source": "Form D"
   },
+  "formd:000215786526000001": {
+    "first_seen": "2026-11-24",
+    "name": "Cognitive Reach Labs, Inc.",
+    "source": "Form D"
+  },
   "formd:000215788626000001": {
     "first_seen": "2026-10-15",
     "name": "ADA Payments Technologies, Inc.",
@@ -6146,6 +6186,11 @@
   },
   "formd:000216166026000001": {
     "first_seen": "2026-10-23",
+    "name": "Precision Exchange, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216166026000002": {
+    "first_seen": "2026-11-24",
     "name": "Precision Exchange, Inc.",
     "source": "Form D"
   },
@@ -7319,6 +7364,11 @@
     "name": "Life Impact Partners 26 LLC",
     "source": "Form D"
   },
+  "formd:000216558926000001": {
+    "first_seen": "2026-11-24",
+    "name": "From the Farm Inc.",
+    "source": "Form D"
+  },
   "formd:000216563226000001": {
     "first_seen": "2026-11-21",
     "name": "Engineered Arts Holding Company, Inc.",
@@ -7374,6 +7424,11 @@
     "name": "InferenceMD, Inc.",
     "source": "Form D"
   },
+  "formd:000216607426000001": {
+    "first_seen": "2026-11-24",
+    "name": "US Strategic Resources, Inc.",
+    "source": "Form D"
+  },
   "formd:000216612326000001": {
     "first_seen": "2026-11-20",
     "name": "Altum Autonomy Inc.",
@@ -7407,6 +7462,11 @@
   "formd:000216643426000001": {
     "first_seen": "2026-11-21",
     "name": "Blue Spruce Management, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216649326000001": {
+    "first_seen": "2026-11-24",
+    "name": "Estadia Technologies, Inc.",
     "source": "Form D"
   },
   "yc:0security": {
@@ -9649,6 +9709,11 @@
     "name": "Operon",
     "source": "YC"
   },
+  "yc:opsis": {
+    "first_seen": "2026-11-24",
+    "name": "Opsis",
+    "source": "YC"
+  },
   "yc:orca-aerospace": {
     "first_seen": "2026-09-02",
     "name": "Orca Aerospace",
@@ -10214,6 +10279,11 @@
     "name": "Runtime",
     "source": "YC"
   },
+  "yc:runtime-si": {
+    "first_seen": "2026-11-24",
+    "name": "Runtime",
+    "source": "YC"
+  },
   "yc:runtimesi": {
     "first_seen": "2026-10-14",
     "name": "Runtime.si",
@@ -10422,6 +10492,11 @@
   "yc:spine": {
     "first_seen": "2026-09-26",
     "name": "Spine",
+    "source": "YC"
+  },
+  "yc:spita-labs": {
+    "first_seen": "2026-11-24",
+    "name": "SPITA Labs",
     "source": "YC"
   },
   "yc:stablebrowse": {
