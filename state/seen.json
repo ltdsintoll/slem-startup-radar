@@ -764,6 +764,11 @@
     "name": "Receipts Depositary Corp",
     "source": "Form D"
   },
+  "formd:000204518726000001": {
+    "first_seen": "2026-11-25",
+    "name": "Esque Collective, Inc.",
+    "source": "Form D"
+  },
   "formd:000204625626000005": {
     "first_seen": "2026-09-01",
     "name": "Thermolic Corp",
@@ -792,6 +797,11 @@
   "formd:000205288626000001": {
     "first_seen": "2026-09-10",
     "name": "Prosper Health, Inc.",
+    "source": "Form D"
+  },
+  "formd:000205366026000004": {
+    "first_seen": "2026-11-25",
+    "name": "TurboPermit Corp",
     "source": "Form D"
   },
   "formd:000205524626000003": {
@@ -902,6 +912,11 @@
   "formd:000206816726000001": {
     "first_seen": "2026-09-21",
     "name": "Disputed, Inc.",
+    "source": "Form D"
+  },
+  "formd:000206828726000002": {
+    "first_seen": "2026-11-25",
+    "name": "OneBalance",
     "source": "Form D"
   },
   "formd:000206835926000002": {
@@ -5784,6 +5799,11 @@
     "name": "Factored, Inc.",
     "source": "Form D"
   },
+  "formd:000215994626000001": {
+    "first_seen": "2026-11-25",
+    "name": "Visaic, Inc.",
+    "source": "Form D"
+  },
   "formd:000216001826000001": {
     "first_seen": "2026-10-14",
     "name": "LEVEL ONE LABS, Inc.",
@@ -7459,6 +7479,11 @@
     "name": "LumaStryke, Inc.",
     "source": "Form D"
   },
+  "formd:000216633126000001": {
+    "first_seen": "2026-11-25",
+    "name": "Same Train Home Ltd Liability Co",
+    "source": "Form D"
+  },
   "formd:000216643426000001": {
     "first_seen": "2026-11-21",
     "name": "Blue Spruce Management, Inc.",
@@ -7467,6 +7492,101 @@
   "formd:000216649326000001": {
     "first_seen": "2026-11-24",
     "name": "Estadia Technologies, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216657426000001": {
+    "first_seen": "2026-11-25",
+    "name": "Life Impact Partners 43 LLC",
+    "source": "Form D"
+  },
+  "formd:000216657526000001": {
+    "first_seen": "2026-11-25",
+    "name": "Life Impact Partners 42 LLC",
+    "source": "Form D"
+  },
+  "formd:000216657626000001": {
+    "first_seen": "2026-11-25",
+    "name": "Life Impact Partners 41 LLC",
+    "source": "Form D"
+  },
+  "formd:000216657726000001": {
+    "first_seen": "2026-11-25",
+    "name": "Life Impact Partners 40 LLC",
+    "source": "Form D"
+  },
+  "formd:000216657826000001": {
+    "first_seen": "2026-11-25",
+    "name": "Life Impact Partners 39 LLC",
+    "source": "Form D"
+  },
+  "formd:000216657926000001": {
+    "first_seen": "2026-11-25",
+    "name": "Life Impact Partners 38 LLC",
+    "source": "Form D"
+  },
+  "formd:000216658026000001": {
+    "first_seen": "2026-11-25",
+    "name": "Life Impact Partners 37 LLC",
+    "source": "Form D"
+  },
+  "formd:000216658126000001": {
+    "first_seen": "2026-11-25",
+    "name": "Life Impact Partners 36 LLC",
+    "source": "Form D"
+  },
+  "formd:000216658226000001": {
+    "first_seen": "2026-11-25",
+    "name": "Life Impact Partners 35 LLC",
+    "source": "Form D"
+  },
+  "formd:000216658326000001": {
+    "first_seen": "2026-11-25",
+    "name": "Life Impact Partners 34 LLC",
+    "source": "Form D"
+  },
+  "formd:000216658426000001": {
+    "first_seen": "2026-11-25",
+    "name": "Life Impact Partners 33 LLC",
+    "source": "Form D"
+  },
+  "formd:000216658526000001": {
+    "first_seen": "2026-11-25",
+    "name": "Life Impact Partners 32 LLC",
+    "source": "Form D"
+  },
+  "formd:000216658626000001": {
+    "first_seen": "2026-11-25",
+    "name": "Life Impact Partners 31 LLC",
+    "source": "Form D"
+  },
+  "formd:000216659526000003": {
+    "first_seen": "2026-11-25",
+    "name": "Beingness Inc",
+    "source": "Form D"
+  },
+  "formd:000216660126000001": {
+    "first_seen": "2026-11-25",
+    "name": "Bear Creek Ai, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216663126000001": {
+    "first_seen": "2026-11-25",
+    "name": "Gradies, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216674526000001": {
+    "first_seen": "2026-11-25",
+    "name": "Clasp Legal Technologies, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216680026000001": {
+    "first_seen": "2026-11-25",
+    "name": "Cutting Edge Safety, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216692726000001": {
+    "first_seen": "2026-11-25",
+    "name": "Bebemos Inc.",
     "source": "Form D"
   },
   "yc:0security": {
