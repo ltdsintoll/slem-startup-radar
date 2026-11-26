@@ -7429,6 +7429,11 @@
     "name": "Strategic AI Private Opportunities LLC",
     "source": "Form D"
   },
+  "formd:000216597726000001": {
+    "first_seen": "2026-11-26",
+    "name": "Valor Scientific, Inc.",
+    "source": "Form D"
+  },
   "formd:000216600226000001": {
     "first_seen": "2026-11-20",
     "name": "UIELD Inc",
@@ -7487,6 +7492,16 @@
   "formd:000216643426000001": {
     "first_seen": "2026-11-21",
     "name": "Blue Spruce Management, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216644326000001": {
+    "first_seen": "2026-11-26",
+    "name": "Bellwether Biotech, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216645426000001": {
+    "first_seen": "2026-11-26",
+    "name": "Project Charlie Holdco, LLC",
     "source": "Form D"
   },
   "formd:000216649326000001": {
@@ -7574,6 +7589,16 @@
     "name": "Gradies, Inc.",
     "source": "Form D"
   },
+  "formd:000216665526000001": {
+    "first_seen": "2026-11-26",
+    "name": "Cleanslate Robotics, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216666626000001": {
+    "first_seen": "2026-11-26",
+    "name": "Bloom Surgical, Inc.",
+    "source": "Form D"
+  },
   "formd:000216674526000001": {
     "first_seen": "2026-11-25",
     "name": "Clasp Legal Technologies, Inc.",
@@ -7584,9 +7609,69 @@
     "name": "Cutting Edge Safety, Inc.",
     "source": "Form D"
   },
+  "formd:000216680126000001": {
+    "first_seen": "2026-11-26",
+    "name": "MJ 1000 MONNAIES GROUPE",
+    "source": "Form D"
+  },
+  "formd:000216683126000001": {
+    "first_seen": "2026-11-26",
+    "name": "Ocreda, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216691326000001": {
+    "first_seen": "2026-11-26",
+    "name": "Companionary Inc",
+    "source": "Form D"
+  },
+  "formd:000216692526000001": {
+    "first_seen": "2026-11-26",
+    "name": "Tatonka Ventures, Inc.",
+    "source": "Form D"
+  },
   "formd:000216692726000001": {
     "first_seen": "2026-11-25",
     "name": "Bebemos Inc.",
+    "source": "Form D"
+  },
+  "formd:000216692826000001": {
+    "first_seen": "2026-11-26",
+    "name": "Jerico Music LLC",
+    "source": "Form D"
+  },
+  "formd:000216698926000001": {
+    "first_seen": "2026-11-26",
+    "name": "Fynancial, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216700126000001": {
+    "first_seen": "2026-11-26",
+    "name": "AgnitioAI Technologies, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216701926000001": {
+    "first_seen": "2026-11-26",
+    "name": "Exponential Platform Inc.",
+    "source": "Form D"
+  },
+  "formd:000216710726000001": {
+    "first_seen": "2026-11-26",
+    "name": "DeepSigma Inc.",
+    "source": "Form D"
+  },
+  "formd:000216711626000001": {
+    "first_seen": "2026-11-26",
+    "name": "ARC HEALTH PBC",
+    "source": "Form D"
+  },
+  "formd:000216711726000001": {
+    "first_seen": "2026-11-26",
+    "name": "Counterfact Labs, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216717626000001": {
+    "first_seen": "2026-11-26",
+    "name": "GrittGene Therapeutics Inc.",
     "source": "Form D"
   },
   "yc:0security": {
@@ -8602,6 +8687,11 @@
   "yc:epsilab-com": {
     "first_seen": "2026-10-24",
     "name": "Epsilab",
+    "source": "YC"
+  },
+  "yc:ergodex-ai": {
+    "first_seen": "2026-11-26",
+    "name": "Ergodex AI",
     "source": "YC"
   },
   "yc:erinys": {
