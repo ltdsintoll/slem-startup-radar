@@ -1214,6 +1214,11 @@
     "name": "Agen Genomics, Inc.",
     "source": "Form D"
   },
+  "formd:000212817726000002": {
+    "first_seen": "2026-11-27",
+    "name": "Platform Golf, Ltd.",
+    "source": "Form D"
+  },
   "formd:000212858526000002": {
     "first_seen": "2026-07-27",
     "name": "Blue Arbor Technologies, Inc.",
@@ -6239,6 +6244,11 @@
     "name": "Caplens Corp",
     "source": "Form D"
   },
+  "formd:000216180026000001": {
+    "first_seen": "2026-11-27",
+    "name": "Ube, Inc. /DE",
+    "source": "Form D"
+  },
   "formd:000216180226000001": {
     "first_seen": "2026-10-23",
     "name": "Cedar Lodge Ventures, LLC",
@@ -6432,6 +6442,11 @@
   "formd:000216233426000001": {
     "first_seen": "2026-10-29",
     "name": "J&A Capital Management Holdings, LLC",
+    "source": "Form D"
+  },
+  "formd:000216234626000001": {
+    "first_seen": "2026-11-27",
+    "name": "Evon Medics, Inc.",
     "source": "Form D"
   },
   "formd:000216234726000001": {
@@ -7409,6 +7424,11 @@
     "name": "Transit Fortress, Inc.",
     "source": "Form D"
   },
+  "formd:000216574626000001": {
+    "first_seen": "2026-11-27",
+    "name": "Maclin Capital VI LLC",
+    "source": "Form D"
+  },
   "formd:000216587526000001": {
     "first_seen": "2026-11-19",
     "name": "ClubHaz LLC",
@@ -7437,6 +7457,11 @@
   "formd:000216600226000001": {
     "first_seen": "2026-11-20",
     "name": "UIELD Inc",
+    "source": "Form D"
+  },
+  "formd:000216600626000001": {
+    "first_seen": "2026-11-27",
+    "name": "Ascend Parent Management Aggregator, L.P.",
     "source": "Form D"
   },
   "formd:000216601326000001": {
@@ -7487,6 +7512,16 @@
   "formd:000216633126000001": {
     "first_seen": "2026-11-25",
     "name": "Same Train Home Ltd Liability Co",
+    "source": "Form D"
+  },
+  "formd:000216635526000001": {
+    "first_seen": "2026-11-27",
+    "name": "Nahlia Inc.",
+    "source": "Form D"
+  },
+  "formd:000216641126000001": {
+    "first_seen": "2026-11-27",
+    "name": "Avectic Corp",
     "source": "Form D"
   },
   "formd:000216643426000001": {
@@ -7599,6 +7634,16 @@
     "name": "Bloom Surgical, Inc.",
     "source": "Form D"
   },
+  "formd:000216668826000001": {
+    "first_seen": "2026-11-27",
+    "name": "PODGO, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216673826000001": {
+    "first_seen": "2026-11-27",
+    "name": "RightHoldings Group Inc.",
+    "source": "Form D"
+  },
   "formd:000216674526000001": {
     "first_seen": "2026-11-25",
     "name": "Clasp Legal Technologies, Inc.",
@@ -7617,6 +7662,11 @@
   "formd:000216683126000001": {
     "first_seen": "2026-11-26",
     "name": "Ocreda, Inc.",
+    "source": "Form D"
+  },
+  "formd:000216690526000001": {
+    "first_seen": "2026-11-27",
+    "name": "Bible Bricks Studios LLC",
     "source": "Form D"
   },
   "formd:000216691326000001": {
